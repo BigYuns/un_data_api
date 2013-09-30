@@ -13,6 +13,10 @@ group :development, :test do
   gem 'rspec-rails', '~> 2.0'
 end
 
+group :test do
+	gem 'database_cleaner'
+end
+
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

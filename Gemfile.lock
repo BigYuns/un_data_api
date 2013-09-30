@@ -1,3 +1,14 @@
+GIT
+  remote: git://github.com/mongomapper/mongomapper.git
+  revision: 9b87dee507802a8cb96f2d316802c9fd241448c8
+  tag: v0.13.0.beta2
+  specs:
+    mongo_mapper (0.13.0.beta2)
+      activemodel (>= 3.0.0)
+      activesupport (>= 3.0)
+      mongo (~> 1.8)
+      plucky (~> 0.6.5)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -27,6 +38,7 @@ GEM
       tzinfo (~> 0.3.37)
     arel (4.0.0)
     atomic (1.1.14)
+    bson (1.9.2)
     builder (3.1.4)
     erubis (2.7.0)
     hike (1.2.3)
@@ -36,7 +48,11 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.25)
     minitest (4.7.5)
+    mongo (1.9.2)
+      bson (~> 1.9.2)
     multi_json (1.8.0)
+    plucky (0.6.6)
+      mongo (~> 1.5)
     polyglot (0.3.3)
     rack (1.5.2)
     rack-test (0.6.2)
@@ -81,5 +97,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  mongo_mapper!
   rails (= 4.0.0)
   rails-api

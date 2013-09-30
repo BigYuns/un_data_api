@@ -11,11 +11,11 @@ gem 'bson_ext'
 
 group :development, :test do
   gem 'rspec-rails', '~> 2.0'
+  gem 'factory_girl_rails'
 end
 
 group :test do
 	gem 'database_cleaner'
-	gem 'factory_girl_rails'
 end
 
 

@@ -2,5 +2,7 @@
 
 FactoryGirl.define do
   factory :country do
+  	name "USA"
+  	organization
   end
 end

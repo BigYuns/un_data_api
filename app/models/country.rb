@@ -4,7 +4,10 @@ class Country
   key :name, String
   validates_presence_of :name
 
-  belongs_to :organization
-  validates_presence_of :organization
+  key :organization_ids, Array
+  many :organizations, in: :organization_ids
+
+  key :category_ids, Array
+  many :categories, in: :category_ids
 
 end

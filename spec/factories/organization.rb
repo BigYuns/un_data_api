@@ -10,5 +10,13 @@ FactoryGirl.define do
 		  end
 		end	
 	end
-	
+
+	factory :organization_with_countries, :parent => :organization do
+		after(:create) do |organization|
+			3.times do
+				country = create :country
+				organization.countries << country
+			end
+		end
+	end	
 end

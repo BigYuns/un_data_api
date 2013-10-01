@@ -2,6 +2,8 @@ require 'spec_helper'
 
 describe Country do
   let(:country) {build(:country)}
+  let(:country_with_organizations) {create(:country_with_organizations)}
+  let(:country_with_categories) {create(:country_with_categories)}
 
 	describe "can create a new country" do
 
@@ -10,10 +12,6 @@ describe Country do
 			it "should create a new country" do
 				country.should be_valid
 			end
-
-			it "should have an organization" do
-				country.organization.class.should eq(Organization)
-			end
 		end
 
 		context "with invalid input" do
@@ -21,11 +19,19 @@ describe Country do
 			it "should not create a category without a name" do
 				build(:country, name: nil).should_not be_valid
 			end
+		end
+	end
 
-			it "should not create a category without an organization" do
-				build(:country, organization: nil).should_not be_valid
-			end
+	describe "a country has many" do
 
+		it "should have many organizations" do
+			organizations = country_with_organizations.organizations
+			expect(organizations.first).to be_an_instance_of Organization
+		end
+
+		it "should have many categories" do
+			categories = country_with_categories.categories
+			expect(categories.first).to be_an_instance_of Category
 		end
 	end
 end

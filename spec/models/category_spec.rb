@@ -2,6 +2,7 @@ require 'spec_helper'
 
 describe Category do
 	let(:category) {build(:category )}
+	let(:category_with_countries) {create(:category_with_countries)}
 
 	describe "can create a new category" do
 
@@ -27,5 +28,13 @@ describe Category do
 			end
 
 		end
+	end
+
+	describe "a category has many" do
+		it "should have many countries" do
+			countries = category_with_countries.countries
+			expect(countries.first).to be_an_instance_of Country
+		end
+		it "should have many records"
 	end
 end

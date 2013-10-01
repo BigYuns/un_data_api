@@ -1,8 +1,10 @@
-class Organization
+class Category
   include MongoMapper::Document
-
+  
   key :name, String
   validates_presence_of :name
 
-  many :categories
+  belongs_to :organization
+  validates_presence_of :organization
+
 end

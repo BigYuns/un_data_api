@@ -9,4 +9,6 @@ class Category
 
   key :country_ids, Array
   many :countries, in: :country_ids
+
+  many :records
 end

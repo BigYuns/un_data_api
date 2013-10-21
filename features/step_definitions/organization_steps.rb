@@ -3,7 +3,7 @@ Given(/^I send JSON$/) do
 end
 
 When(/^I send a GET request to "(.*?)"$/) do |path|
-	get path
+	path_to(path)
 end
 
 Then(/^the response status should be "(.*?)"$/) do |status|

@@ -1,6 +1,7 @@
 UnDataApi::Application.routes.draw do
 
-  get "/organizations" => 'organizations#index'
+  get "/organizations" => 'organizations#index', as: 'organizations'
+  get "/:organization/categories" => 'categories#index', as: 'categories'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

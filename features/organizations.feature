@@ -4,6 +4,9 @@ Feature: Get all organizations
 
 	Scenario: Gets all organizations
 		Given I send JSON
+		Given the following organizations:
+		| name |
+		| WHO  |
 		When I send a GET request to "/organizations"
 		Then the response status should be "200"
 		And the response body should be a JSON representation of the Organization

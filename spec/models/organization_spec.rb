@@ -1,6 +1,7 @@
 require 'spec_helper'
 
 describe Organization do
+
 	let(:organization) {build(:organization)}
 	let(:organization_with_categories) {create(:organization_with_categories)}
 	let(:organization_with_countries) {create(:organization_with_countries)}
@@ -12,6 +13,7 @@ describe Organization do
 			it "should create a new organization" do
 				organization.should be_valid
 			end
+
 		end
 
 		context "with invalid input" do
@@ -21,9 +23,11 @@ describe Organization do
 			end
 
 		end
+		
 	end
 
 	describe "organizations should have many" do
+
 		it "should have many categories" do
 			categories = organization_with_categories.categories
 			expect(categories.first).to be_an_instance_of Category
@@ -33,5 +37,7 @@ describe Organization do
 			countries = organization_with_countries.countries
 			expect(countries.first).to be_an_instance_of Country			
 		end
+
 	end
+
 end

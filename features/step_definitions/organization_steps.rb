@@ -14,3 +14,9 @@ Then(/^the response body should be a JSON representation of the (\w+)$/) do |mod
 	last_response.body.should
 	eq(model.constantize.last.to_json)
 end
+
+Given(/^the following organizations:$/) do |table|
+   table.hashes.each do |hash|
+     organization = FactoryGirl.create(:organization_with_categories, hash)
+  end
+end

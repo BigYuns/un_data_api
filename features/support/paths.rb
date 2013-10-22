@@ -10,5 +10,8 @@ def path_to(page_name)
 	when /\/organization\/category\/countries/
 		get countries_path("WHO", "Health", :json)
 
+	when /\/organization\/category\/country\/records/
+		get records_path("WHO", "Health", "USA", :json)
+
 	end
 end

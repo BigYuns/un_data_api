@@ -20,4 +20,13 @@ FactoryGirl.define do
   		end
   	end
   end
+
+  factory :country_with_records, parent: :country do
+    after(:create) do |country|
+      3.times do
+        category = create(:category)
+        create :record, country: country, category: category
+      end
+    end
+  end
 end

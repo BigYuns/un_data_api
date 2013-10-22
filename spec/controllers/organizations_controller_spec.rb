@@ -5,7 +5,7 @@ describe OrganizationsController do
 	describe "GET #index" do
 		it "populates and array of organizations" do
 			organization = create(:organization)
-			get :index
+			get :index, :format => :json
 			assigns(:organizations).should eq([organization])
 		end
 

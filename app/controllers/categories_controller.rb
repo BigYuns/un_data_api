@@ -6,6 +6,7 @@ class CategoriesController < ApplicationController
 
 		render json: categories
 
+
 	rescue
   	error(404, 404, "record does not exist")			
 	end

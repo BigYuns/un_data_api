@@ -3,12 +3,6 @@ class RecordsController < ApplicationController
 		country = Country.find_by_name(params[:country]) || not_found
 		category = Category.find_by_name(params[:category]) || not_found
 
-		# if country == nil || category == nil
-		# 	return 404 
-		# else
-		# 	records = Record.where(category_id: category.id, country_id: country.id).all
-  #   end
-
   	records = Record.where(category_id: category.id, country_id: country.id).all
 
 		render json: records

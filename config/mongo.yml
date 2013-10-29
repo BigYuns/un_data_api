@@ -20,5 +20,6 @@ test:
 production:
   <<: *defaults
   database: un_data_api
+  uri: <%= ENV['MONGOHQ_URL'] %>
   username: <%= ENV['MONGO_USERNAME'] %>
   password: <%= ENV['MONGO_PASSWORD'] %>

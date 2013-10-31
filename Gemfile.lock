@@ -12,6 +12,8 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
+    3scale_client (2.3.3)
+      nokogiri
     actionmailer (4.0.0)
       actionpack (= 4.0.0)
       mail (~> 2.5.3)
@@ -142,6 +144,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  3scale_client
   bson_ext
   cucumber-rails
   database_cleaner

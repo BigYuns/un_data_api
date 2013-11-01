@@ -15,7 +15,6 @@ describe Record do
 		context "attributes" do
 
 			it "should have a year" do
-				puts record.year.class
 				expect(record.year).to be_an_instance_of Fixnum
 			end
 

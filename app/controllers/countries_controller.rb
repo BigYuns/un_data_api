@@ -1,11 +1,8 @@
 class CountriesController < ApplicationController
 
 	def index
-		organization = Organization.find_by_name(params[:organization])
-		countries = organization.categories.where(name: params[:category]).first.countries.all
-
-		render json: countries
-		
+		countries = Category.find_by_name(params[:category]).countries
+		render json: countries.map {|country| country.as_json(only: :name)}
 	rescue
   	error(404, 404, "record does not exist")
 	end

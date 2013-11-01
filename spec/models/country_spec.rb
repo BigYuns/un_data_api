@@ -4,6 +4,7 @@ describe Country do
   let(:country) {build(:country)}
   let(:country_with_organizations) {create(:country_with_organizations)}
   let(:country_with_categories) {create(:country_with_categories)}
+  let(:country_with_records) {create(:country_with_records)}
 
 	describe "can create a new country" do
 
@@ -32,6 +33,11 @@ describe Country do
 		it "should have many categories" do
 			categories = country_with_categories.categories
 			expect(categories.first).to be_an_instance_of Category
+		end
+
+		it "should have many records" do
+			records = country_with_records.records
+			expect(records.first).to be_an_instance_of Record
 		end
 	end
 end

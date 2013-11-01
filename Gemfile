@@ -3,6 +3,8 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
 
+ruby '2.0.0'
+
 gem 'rails-api'
 
 gem 'mongo_mapper', :git => "git://github.com/mongomapper/mongomapper.git", :tag => "v0.13.0.beta2"
@@ -15,6 +17,8 @@ group :development, :test do
   gem 'database_cleaner'
   gem 'cucumber-rails', require: false
 end
+
+gem '3scale_client'
 
 
 # To use ActiveModel has_secure_password

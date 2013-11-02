@@ -1,0 +1,245 @@
+<ROOT>
+    <data>
+        <record>
+            <field name="Country or Area">Bolivia (Plurinational State of)</field>
+            <field name="Year(s)">2008</field>
+            <field name="Value">86.7</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Chad</field>
+            <field name="Year(s)">2004</field>
+            <field name="Value">13.6</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">China</field>
+            <field name="Year(s)">2006</field>
+            <field name="Value">10.0</field>
+            <field name="Value Footnotes">1</field>
+        </record>
+        <record>
+            <field name="Country or Area">Colombia</field>
+            <field name="Year(s)">2008</field>
+            <field name="Value">90.7</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">El Salvador</field>
+            <field name="Year(s)">2006</field>
+            <field name="Value">69.2</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Ethiopia</field>
+            <field name="Year(s)">2004</field>
+            <field name="Value">88.0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Fiji</field>
+            <field name="Year(s)">2004</field>
+            <field name="Value">75.0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Ghana</field>
+            <field name="Year(s)">2004</field>
+            <field name="Value">44.6</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">India</field>
+            <field name="Year(s)">2005</field>
+            <field name="Value">75.4</field>
+            <field name="Value Footnotes">2</field>
+        </record>
+        <record>
+            <field name="Country or Area">Indonesia</field>
+            <field name="Year(s)">2004</field>
+            <field name="Value">62.1</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Iran (Islamic Republic of)</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">92.8</field>
+            <field name="Value Footnotes">3</field>
+        </record>
+        <record>
+            <field name="Country or Area">Jordan</field>
+            <field name="Year(s)">2004</field>
+            <field name="Value">80.0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Kazakhstan</field>
+            <field name="Year(s)">2004</field>
+            <field name="Value">70.0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Kenya</field>
+            <field name="Year(s)">2004</field>
+            <field name="Value">72.4</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Kuwait</field>
+            <field name="Year(s)">2004</field>
+            <field name="Value">4.0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Kyrgyzstan</field>
+            <field name="Year(s)">2005</field>
+            <field name="Value">80.0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Lebanon</field>
+            <field name="Year(s)">2004</field>
+            <field name="Value">83.8</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Malaysia</field>
+            <field name="Year(s)">2004</field>
+            <field name="Value">43.8</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Mali</field>
+            <field name="Year(s)">2004</field>
+            <field name="Value">70.0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Mongolia</field>
+            <field name="Year(s)">2004</field>
+            <field name="Value">80.0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Morocco</field>
+            <field name="Year(s)">2004</field>
+            <field name="Value">52.5</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Nicaragua</field>
+            <field name="Year(s)">2008</field>
+            <field name="Value">87.1</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Nigeria</field>
+            <field name="Year(s)">2004</field>
+            <field name="Value">36.4</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Pakistan</field>
+            <field name="Year(s)">2004</field>
+            <field name="Value">31.3</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Peru</field>
+            <field name="Year(s)">2005</field>
+            <field name="Value">60.9</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Philippines</field>
+            <field name="Year(s)">2005</field>
+            <field name="Value">26.5</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Sao Tome and Principe</field>
+            <field name="Year(s)">2008</field>
+            <field name="Value">22.2</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">South Africa</field>
+            <field name="Year(s)">2004</field>
+            <field name="Value">71.7</field>
+            <field name="Value Footnotes">4</field>
+        </record>
+        <record>
+            <field name="Country or Area">Sudan</field>
+            <field name="Year(s)">2006</field>
+            <field name="Value">77.2</field>
+            <field name="Value Footnotes">5</field>
+        </record>
+        <record>
+            <field name="Country or Area">Syrian Arab Republic</field>
+            <field name="Year(s)">2003</field>
+            <field name="Value">98.2</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Tajikistan</field>
+            <field name="Year(s)">2005</field>
+            <field name="Value">85.0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Thailand</field>
+            <field name="Year(s)">2006</field>
+            <field name="Value">28.6</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Tunisia</field>
+            <field name="Year(s)">2004</field>
+            <field name="Value">95.1</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Uganda</field>
+            <field name="Year(s)">2004</field>
+            <field name="Value">80.0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Ukraine</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">90.7</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">United Arab Emirates</field>
+            <field name="Year(s)">2006</field>
+            <field name="Value">73.9</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">United Republic of Tanzania</field>
+            <field name="Year(s)">2004</field>
+            <field name="Value">47.9</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Uzbekistan</field>
+            <field name="Year(s)">2004</field>
+            <field name="Value">82.5</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Yemen</field>
+            <field name="Year(s)">2006</field>
+            <field name="Value">90.0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+    </data>
+    <footnotes>
+        <footnote footnoteSeqID="1">Simple average of two surveys of medicine prices and availability in Shandong and Shanghai provinces, China.Data from years 2004 and 2006</footnote>
+        <footnote footnoteSeqID="2">Simple average of 7 surveys of medicine prices and availability in India (Chennai, Haryana, Karnataka, Maharashtra (12 districts), Maharashtra (4 regions), Rajasthan, and West Bengal). Data from years 2003, 2004, 2005</footnote>
+        <footnote footnoteSeqID="3">Survey of medicine prices and availability in Iran using WHO/HAI standard methodology. Available from http://www.haiweb.org/medicineprices/. Median availability of generic equivalents for a total of 49 survey medicines.</footnote>
+        <footnote footnoteSeqID="4">Based on a survey of medicine prices and availability in Gauteng province, South Africa.</footnote>
+        <footnote footnoteSeqID="5">Simple average of three surveys of medicine prices and availability in Sudan (Gadarif, Khartoum and Kordofan states). Data from years 2005 and 2006</footnote>
+    </footnotes>
+</ROOT>

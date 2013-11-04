@@ -23,3 +23,5 @@ production:
   uri: <%= ENV['MONGOHQ_URL'] %>
   username: <%= ENV['MONGO_USERNAME'] %>
   password: <%= ENV['MONGO_PASSWORD'] %>
+
+

@@ -1,6 +1,7 @@
 class OrganizationsController < ApplicationController
 
 	def index
+		super
 		@organizations = Organization.all
 		render json: @organizations.map {|organization| organization.as_json(only: :name)}
 	rescue

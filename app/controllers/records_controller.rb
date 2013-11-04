@@ -1,6 +1,7 @@
 class RecordsController < ApplicationController
 
 	def index
+		super
 		country = Country.find_by_name(params[:country]) 
 		category = Category.find_by_name(params[:category]) 
   	records = Record.where(category_id: category.id, country_id: country.id).all

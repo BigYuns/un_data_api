@@ -1,9 +1,7 @@
-require 'rubygems'
-require '3scale_client'
 class CountriesController < ApplicationController
+	before_filter :authenticate_app
 
 	def index
-		super
 		countries = Category.find_by_name(params[:category]).countries
 
 		render json: countries.map {|country| country.as_json(only: :name)}

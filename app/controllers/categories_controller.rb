@@ -1,7 +1,7 @@
 class CategoriesController < ApplicationController
+	before_filter :authenticate_app
 
 	def index
-		super
 		organization = Organization.find_by_name(params[:organization])
 		categories = organization.categories
 		render json: categories.map { |category| category.as_json(only: :name)}

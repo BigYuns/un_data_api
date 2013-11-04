@@ -10,8 +10,8 @@ class ApplicationController < ActionController::API
 		client = ThreeScale::Client.new(:provider_key => ENV['PROVDER_KEY'] )
 
 		# you will usually obtain app_id and app_key from request params
-		response = client.authrep( :app_id => 'ccd7fc7e' ,
-                           		 :app_key => 'a7ca9748c291f43f54c53af38afa6a65',
+		response = client.authrep( :app_id => '#' ,
+                           		 :app_key => '#',
                                :usage => { :hits => 1 })
 
 		if response.success?

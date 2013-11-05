@@ -1,0 +1,156 @@
+{
+  "basePath": "http://peaceful-hamlet-8964.herokuapp.com/",
+  "apiVersion": "v1",
+  "apis": [
+    {
+      "path": "/organizations.json",
+      "operations": [
+        {
+          "httpMethod": "GET",
+          "summary": "Returns all of the organizations",
+          "description": "<p>Returns an array of organizations in JSON format<p>",
+          "group": "organizations",
+          "parameters": [
+            {
+              "name": "app_id",
+              "description": "Your access application id",
+              "dataType": "string",
+              "paramType": "query",
+              "threescale_name": "app_ids"
+            },
+            {
+              "name": "app_key",
+              "description": "Your access application key",
+              "dataType": "string",
+              "paramType": "query",
+              "threescale_name": "app_keys"
+            }
+          ]
+        }  
+      ]
+    },
+    {
+      "path": "/{organization}/categories.json",
+      "operations": [
+        {
+          "httpMethod": "GET",
+          "summary": "Returns the categories that belong to the organization specified",
+          "description": "<p>When you specify the organization you are interested in it will return an array of categories that belong to the organization. The categories will be in JSON format.<p>",
+          "group": "sentence",
+          "parameters": [
+            {
+              "name": "organization",
+              "description": "The organization you are interested in.",
+              "dataType": "string",
+              "required": true,
+              "paramType": "path"
+            },
+            {
+              "name": "app_id",
+              "description": "Your access application id",
+              "dataType": "string",
+              "paramType": "query",
+              "threescale_name": "app_ids"
+            },
+            {
+              "name": "app_key",
+              "description": "Your access application key",
+              "dataType": "string",
+              "paramType": "query",
+              "threescale_name": "app_keys"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/{organization}/{category}/countries.json",
+      "operations": [
+        {
+          "httpMethod": "GET",
+          "summary": "Returns the countries that belong to the organization and category specified",
+          "description": "<p>When you specify the organization and category you are interested in it will return an array of countries that belong to the organization and category. The countries will be in JSON format.<p>",
+          "group": "sentence",
+          "parameters": [
+            {
+              "name": "organization",
+              "description": "The organization you are interested in.",
+              "dataType": "string",
+              "required": true,
+              "paramType": "path"
+            },
+            {
+              "name": "category",
+              "description": "The category you are interested in.",
+              "dataType": "string",
+              "required": true,
+              "paramType": "path"
+            },
+            {
+              "name": "app_id",
+              "description": "Your access application id",
+              "dataType": "string",
+              "paramType": "query",
+              "threescale_name": "app_ids"
+            },
+            {
+              "name": "app_key",
+              "description": "Your access application key",
+              "dataType": "string",
+              "paramType": "query",
+              "threescale_name": "app_keys"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/{organization}/{category}/{country}/records.json",
+      "operations": [
+        {
+          "httpMethod": "GET",
+          "summary": "Returns the records that belong to the organization, category, and country specified",
+          "description": "<p>When you specify the organization, category, country you are interested in it will return an array of records that belong to the organization, category, and country. The records will be in JSON format.<p>",
+          "group": "sentence",
+          "parameters": [
+            {
+              "name": "organization",
+              "description": "The organization you are interested in.",
+              "dataType": "string",
+              "required": true,
+              "paramType": "path"
+            },
+            {
+              "name": "category",
+              "description": "The category you are interested in.",
+              "dataType": "string",
+              "required": true,
+              "paramType": "path"
+            },
+            {
+              "name": "country",
+              "description": "The country you are interested in.",
+              "dataType": "string",
+              "required": true,
+              "paramType": "path"
+            },
+            {
+              "name": "app_id",
+              "description": "Your access application id",
+              "dataType": "string",
+              "paramType": "query",
+              "threescale_name": "app_ids"
+            },
+            {
+              "name": "app_key",
+              "description": "Your access application key",
+              "dataType": "string",
+              "paramType": "query",
+              "threescale_name": "app_keys"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

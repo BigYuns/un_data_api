@@ -7,7 +7,7 @@ Feature: Get all records
 		Given the following organizations:	
 			| name |
  			| WHO  |
- 		Given the following categories:
+ 		Given the following datasets:
  			| name   | 
  			| Health | 
  		Given the following countries:
@@ -17,6 +17,6 @@ Feature: Get all records
  			| year | value | gender |
  			| 2001 |    30 | Female |
  			
- 		When I send a GET request to "/organization/category/country/records"
+ 		When I send a GET request to "/organization/dataset/country/records"
 		Then the response status should be "200"
 		And the response body should be a JSON representation of the Record

@@ -7,6 +7,6 @@ FactoryGirl.define do
   	gender "female"
   	measurement "percent"
   	country
-  	category
+  	dataset
   end
 end

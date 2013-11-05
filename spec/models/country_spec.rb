@@ -3,7 +3,7 @@ require 'spec_helper'
 describe Country do
   let(:country) {build(:country)}
   let(:country_with_organizations) {create(:country_with_organizations)}
-  let(:country_with_categories) {create(:country_with_categories)}
+  let(:country_with_datasets) {create(:country_with_datasets)}
   let(:country_with_records) {create(:country_with_records)}
 
 	describe "can create a new country" do
@@ -17,7 +17,7 @@ describe Country do
 
 		context "with invalid input" do
 
-			it "should not create a category without a name" do
+			it "should not create a dataset without a name" do
 				build(:country, name: nil).should_not be_valid
 			end
 		end
@@ -30,9 +30,9 @@ describe Country do
 			expect(organizations.first).to be_an_instance_of Organization
 		end
 
-		it "should have many categories" do
-			categories = country_with_categories.categories
-			expect(categories.first).to be_an_instance_of Category
+		it "should have many datasets" do
+			datasets = country_with_datasets.datasets
+			expect(datasets.first).to be_an_instance_of Dataset
 		end
 
 		it "should have many records" do

@@ -7,8 +7,8 @@ class Country
   key :organization_ids, Array
   many :organizations, in: :organization_ids
 
-  key :category_ids, Array
-  many :categories, in: :category_ids
+  key :dataset_ids, Array
+  many :datasets, in: :dataset_ids
 
   many :records
 

@@ -12,8 +12,8 @@ class Record
 
   key :gender, String
 
-  belongs_to :category
-  validates_presence_of :category
+  belongs_to :dataset
+  validates_presence_of :dataset
 
   belongs_to :country
   validates_presence_of :country

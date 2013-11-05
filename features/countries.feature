@@ -1,4 +1,4 @@
-Feature: Get all countries that are in the category
+Feature: Get all countries that are in the dataset
   In order to retrieve all countries
   A request should be sent
 
@@ -7,12 +7,12 @@ Feature: Get all countries that are in the category
 		Given the following organizations:	
 			| name |
  			| WHO  |
- 		Given the following categories:
+ 		Given the following datasets:
  			| name   | 
  			| Health | 
  		Given the following countries:
  			| name | 
  			| USA	 |
- 		When I send a GET request to "/organization/category/countries"
+ 		When I send a GET request to "/organization/dataset/countries"
 		Then the response status should be "200"
 		And the response body should be a JSON representation of the Country

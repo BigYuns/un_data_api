@@ -30,12 +30,12 @@
       ]
     },
     {
-      "path": "/{organization}/categories.json",
+      "path": "/{organization}/datasets.json",
       "operations": [
         {
           "httpMethod": "GET",
-          "summary": "Returns the categories that belong to the organization specified",
-          "description": "<p>When you specify the organization you are interested in it will return an array of categories that belong to the organization. The categories will be in JSON format.<p>",
+          "summary": "Returns the datasets that belong to the organization specified",
+          "description": "<p>When you specify the organization you are interested in it will return an array of datasets that belong to the organization. The datasets will be in JSON format.<p>",
           "group": "sentence",
           "parameters": [
             {
@@ -64,12 +64,12 @@
       ]
     },
     {
-      "path": "/{organization}/{category}/countries.json",
+      "path": "/{organization}/{dataset}/countries.json",
       "operations": [
         {
           "httpMethod": "GET",
-          "summary": "Returns the countries that belong to the organization and category specified",
-          "description": "<p>When you specify the organization and category you are interested in it will return an array of countries that belong to the organization and category. The countries will be in JSON format.<p>",
+          "summary": "Returns the countries that belong to the organization and dataset specified",
+          "description": "<p>When you specify the organization and dataset you are interested in it will return an array of countries that belong to the organization and dataset. The countries will be in JSON format.<p>",
           "group": "sentence",
           "parameters": [
             {
@@ -80,8 +80,8 @@
               "paramType": "path"
             },
             {
-              "name": "category",
-              "description": "The category you are interested in.",
+              "name": "dataset",
+              "description": "The dataset you are interested in.",
               "dataType": "string",
               "required": true,
               "paramType": "path"
@@ -105,12 +105,12 @@
       ]
     },
     {
-      "path": "/{organization}/{category}/{country}/records.json",
+      "path": "/{organization}/{dataset}/{country}/records.json",
       "operations": [
         {
           "httpMethod": "GET",
-          "summary": "Returns the records that belong to the organization, category, and country specified",
-          "description": "<p>When you specify the organization, category, country you are interested in it will return an array of records that belong to the organization, category, and country. The records will be in JSON format.<p>",
+          "summary": "Returns the records that belong to the organization, dataset, and country specified",
+          "description": "<p>When you specify the organization, dataset, country you are interested in it will return an array of records that belong to the organization, dataset, and country. The records will be in JSON format.<p>",
           "group": "sentence",
           "parameters": [
             {
@@ -121,8 +121,8 @@
               "paramType": "path"
             },
             {
-              "name": "category",
-              "description": "The category you are interested in.",
+              "name": "dataset",
+              "description": "The dataset you are interested in.",
               "dataType": "string",
               "required": true,
               "paramType": "path"

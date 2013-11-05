@@ -9,12 +9,12 @@
 require "rexml/document"
 include REXML
 
-def xml_parser(file, organization_name, category_name, measurement)
+def xml_parser(file, organization_name, dataset_name, measurement)
 
 	@organization = Organization.find_or_create_by_name(organization_name)
-	@category = Category.find_or_create_by_name(category_name)
-	@organization.categories << @category
-	@category.organization = @organization
+	@dataset = Dataset.find_or_create_by_name(dataset_name)
+	@organization.datasets << @dataset
+	@dataset.organization = @organization
 
 	doc = Document.new File.new(file)
 	doc.elements.each("ROOT/data/record/field") do |element|
@@ -23,18 +23,18 @@ def xml_parser(file, organization_name, category_name, measurement)
 			@country_name = element.text
 			country = Country.find_or_create_by_name(@country_name)
 			country.organizations << @organization
-			if country.categories.include?(@category)
+			if country.datasets.include?(@dataset)
 				country.save
 			else
-			  country.categories << @category
+			  country.datasets << @dataset
 			  country.save
 			end
-			@category.countries << country
-			@category.save
+			@dataset.countries << country
+			@dataset.save
 		elsif element.attributes["name"] == "Year(s)"
 			year = element.text.to_i
 			record_country = Country.find_by_name(@country_name)
-			record = Record.create(year: year, category_id: Category.last.id, country_id: record_country.id, measurement: measurement, value: 0)
+			record = Record.create(year: year, dataset_id: Dataset.last.id, country_id: record_country.id, measurement: measurement, value: 0)
 		elsif element.attributes["name"] == "Value"
 			record = Record.last
 			value = element.text.to_f

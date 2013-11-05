@@ -27,4 +27,15 @@ Given(/^the following organizations:$/) do |table|
   end
 end
 
+When(/^I have an provider key$/) do
+  ENV['PROVIDER_ID']
+end
+
+When(/^an application id$/) do
+	ENV['APP_ID']
+end
+
+When(/^an application key$/) do
+	ENV['APP_KEY']
+end
 

@@ -8,6 +8,11 @@ Feature: Get all organizations
 		  | name |
 		  | WHO  |
 		When I send a GET request to "/organizations"
+		And I have an provider key
+		And an application id
+		And an application key
 		Then the response status should be "200"
 		And the response body should be a JSON representation of the Organization
+
+
 

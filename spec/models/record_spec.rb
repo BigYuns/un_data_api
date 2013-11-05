@@ -15,7 +15,6 @@ describe Record do
 		context "attributes" do
 
 			it "should have a year" do
-				puts record.year.class
 				expect(record.year).to be_an_instance_of Fixnum
 			end
 
@@ -27,8 +26,8 @@ describe Record do
 				expect(record.measurement).to be_an_instance_of String
 			end
 
-			it "should belong to a category" do
-				expect(record.category).to be_an_instance_of Category
+			it "should belong to a dataset" do
+				expect(record.dataset).to be_an_instance_of Dataset
 			end
 
 			it "should belong to a country" do

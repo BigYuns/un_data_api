@@ -23,8 +23,19 @@ end
 
 Given(/^the following organizations:$/) do |table|
    table.hashes.each do |hash|
-     organization = FactoryGirl.create(:organization_with_categories, hash)
+     organization = FactoryGirl.create(:organization_with_datasets, hash)
   end
 end
 
+When(/^I have an provider key$/) do
+  ENV['PROVIDER_ID']
+end
+
+When(/^an application id$/) do
+	ENV['APP_ID']
+end
+
+When(/^an application key$/) do
+	ENV['APP_KEY']
+end
 

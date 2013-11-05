@@ -1,9 +1,9 @@
 UnDataApi::Application.routes.draw do
 
   get "/organizations" => 'organizations#index', as: 'organizations', format: true
-  get "/:organization/categories" => 'categories#index', as: 'categories', format: true
-  get "/:organization/:category/countries" => 'countries#index', as: 'countries', format: true
-  get "/:organization/:category/:country/records" => 'records#index', as: 'records', format: true
+  get "/:organization/datasets" => 'datasets#index', as: 'datasets', format: true
+  get "/:organization/:dataset/countries" => 'countries#index', as: 'countries', format: true
+  get "/:organization/:dataset/:country/records" => 'records#index', as: 'records', format: true
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

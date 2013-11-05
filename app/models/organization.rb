@@ -4,7 +4,7 @@ class Organization
   key :name, String
   validates_presence_of :name
 
-  many :categories
+  many :datasets
 
   key :country_ids, Array
   many :countries, in: :country_ids

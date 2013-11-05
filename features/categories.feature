@@ -7,6 +7,6 @@ Feature: Get all categories that belong to an organization
 		Given the following organizations:	
 			| name |
  			| WHO  |
- 		When I send a GET request to "/organization/categories"
+ 		When I send a GET request to "/organization/datasets"
 		Then the response status should be "200"
-		And the response body should be a JSON representation of the Category
+		And the response body should be a JSON representation of the Dataset

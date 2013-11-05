@@ -12,11 +12,11 @@ FactoryGirl.define do
 	  end
   end
 
-  factory :country_with_categories, parent: :country do
+  factory :country_with_datasets, parent: :country do
   	after(:create) do |country|
   	  3.times do
-  		  category = create(:category)
-  		  country.categories << category
+  		  dataset = create(:dataset)
+  		  country.datasets << dataset
   		end
   	end
   end
@@ -24,8 +24,8 @@ FactoryGirl.define do
   factory :country_with_records, parent: :country do
     after(:create) do |country|
       3.times do
-        category = create(:category)
-        create :record, country: country, category: category
+        dataset = create(:dataset)
+        create :record, country: country, dataset: dataset
       end
     end
   end

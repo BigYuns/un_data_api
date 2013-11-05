@@ -1,8 +1,8 @@
-Feature: Get all categories that belong to an organization
-	In order to get all the categories
+Feature: Get all datasets that belong to an organization
+	In order to get all the datasets
 	A request should be sent
 
-	Scenario: Gets all categories 
+	Scenario: Gets all datasets
 		Given I send JSON 
 		Given the following organizations:	
 			| name |

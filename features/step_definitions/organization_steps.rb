@@ -27,15 +27,11 @@ Given(/^the following organizations:$/) do |table|
   end
 end
 
-When(/^I have an provider key$/) do
-  ENV['PROVIDER_ID']
+Given(/^I send xml$/) do
+	header 'Content-Type', 'application/xml'
 end
 
-When(/^an application id$/) do
-	ENV['APP_ID']
+Then(/^the response body should be a xml representation of the (\w+)$/) do |model|
+	last_response.body.should
+	eq(model.constantize.last.to_xml)
 end
-
-When(/^an application key$/) do
-	ENV['APP_KEY']
-end
-

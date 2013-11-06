@@ -5,8 +5,8 @@ class CountriesController < ApplicationController
 		countries = Dataset.find_by_name(params[:dataset]).countries
 
 		respond_to do |format|
-			format.json { render json: countries.map { |country| country.as_json(except: [:id, :category_ids, :organization_ids]) } }
-			format.xml { render xml: countries.to_xml(except: [:id, :category_ids, :organization_ids]) }
+			format.json { render json: countries.map { |country| country.as_json(except: [:id, :dataset_ids, :organization_ids]) } }
+			format.xml { render xml: countries.to_xml(except: [:id, :dataset_ids, :organization_ids]) }
 		end
 
 	rescue

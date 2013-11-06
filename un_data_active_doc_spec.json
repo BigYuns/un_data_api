@@ -3,7 +3,7 @@
   "apiVersion": "v1",
   "apis": [
     {
-      "path": "/organizations.{format}",
+      "path": "/v1/organizations.{format}",
       "operations": [
         {
           "httpMethod": "GET",
@@ -37,7 +37,7 @@
       ]
     },
     {
-      "path": "/{organization}/datasets.{format}",
+      "path": "/v1/{organization}/datasets.{format}",
       "operations": [
         {
           "httpMethod": "GET",
@@ -78,7 +78,7 @@
       ]
     },
     {
-      "path": "/{organization}/{dataset}/countries.{format}",
+      "path": "/v1/{organization}/{dataset}/countries.{format}",
       "operations": [
         {
           "httpMethod": "GET",
@@ -126,7 +126,7 @@
       ]
     },
     {
-      "path": "/{organization}/{dataset}/{country}/records.{format}",
+      "path": "/v1/{organization}/{dataset}/{country}/records.{format}",
       "operations": [
         {
           "httpMethod": "GET",

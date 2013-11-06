@@ -30,7 +30,7 @@
       ]
     },
     {
-      "path": "/organizations.xml",
+      "path": "/v1/organizations.xml",
       "operations": [
         {
           "httpMethod": "GET",
@@ -57,7 +57,7 @@
       ]
     },
     {
-      "path": "/{organization}/datasets.json",
+      "path": "/v1/{organization}/datasets.json",
       "operations": [
         {
           "httpMethod": "GET",
@@ -91,7 +91,7 @@
       ]
     },
     {
-      "path": "/{organization}/datasets.xml",
+      "path": "v1/{organization}/datasets.xml",
       "operations": [
         {
           "httpMethod": "GET",
@@ -125,7 +125,7 @@
       ]
     },
     {
-      "path": "/{organization}/{dataset}/countries.json",
+      "path": "/v1/{organization}/{dataset}/countries.json",
       "operations": [
         {
           "httpMethod": "GET",
@@ -166,7 +166,7 @@
       ]
     },
     {
-      "path": "/{organization}/{dataset}/countries.xml",
+      "path": "v1/{organization}/{dataset}/countries.xml",
       "operations": [
         {
           "httpMethod": "GET",
@@ -207,7 +207,7 @@
       ]
     },
     {
-      "path": "/{organization}/{dataset}/{country}/records.json",
+      "path": "v1/{organization}/{dataset}/{country}/records.json",
       "operations": [
         {
           "httpMethod": "GET",
@@ -255,7 +255,7 @@
       ]
     },
     {
-      "path": "/{organization}/{dataset}/{country}/records.xml",
+      "path": "/v1/{organization}/{dataset}/{country}/records.xml",
       "operations": [
         {
           "httpMethod": "GET",

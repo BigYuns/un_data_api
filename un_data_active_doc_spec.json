@@ -7,8 +7,35 @@
       "operations": [
         {
           "httpMethod": "GET",
-          "summary": "Returns all of the organizations",
+          "summary": "Returns all of the organizations in JSON",
           "description": "<p>Returns an array of organizations in JSON format<p>",
+          "group": "organizations",
+          "parameters": [
+            {
+              "name": "app_id",
+              "description": "Your access application id",
+              "dataType": "string",
+              "paramType": "query",
+              "threescale_name": "app_ids"
+            },
+            {
+              "name": "app_key",
+              "description": "Your access application key",
+              "dataType": "string",
+              "paramType": "query",
+              "threescale_name": "app_keys"
+            }
+          ]
+        }  
+      ]
+    },
+    {
+      "path": "/organizations.xml",
+      "operations": [
+        {
+          "httpMethod": "GET",
+          "summary": "Returns all of the organizations in xml",
+          "description": "<p>Returns an array of organizations in xml format<p>",
           "group": "organizations",
           "parameters": [
             {
@@ -34,8 +61,42 @@
       "operations": [
         {
           "httpMethod": "GET",
-          "summary": "Returns the datasets that belong to the organization specified",
+          "summary": "Returns the datasets that belong to the organization specified in JSON",
           "description": "<p>When you specify the organization you are interested in it will return an array of datasets that belong to the organization. The datasets will be in JSON format.<p>",
+          "group": "sentence",
+          "parameters": [
+            {
+              "name": "organization",
+              "description": "The organization you are interested in.",
+              "dataType": "string",
+              "required": true,
+              "paramType": "path"
+            },
+            {
+              "name": "app_id",
+              "description": "Your access application id",
+              "dataType": "string",
+              "paramType": "query",
+              "threescale_name": "app_ids"
+            },
+            {
+              "name": "app_key",
+              "description": "Your access application key",
+              "dataType": "string",
+              "paramType": "query",
+              "threescale_name": "app_keys"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/{organization}/datasets.xml",
+      "operations": [
+        {
+          "httpMethod": "GET",
+          "summary": "Returns the datasets that belong to the organization specified xml",
+          "description": "<p>When you specify the organization you are interested in it will return an array of datasets that belong to the organization. The datasets will be in xml format.<p>",
           "group": "sentence",
           "parameters": [
             {
@@ -68,8 +129,49 @@
       "operations": [
         {
           "httpMethod": "GET",
-          "summary": "Returns the countries that belong to the organization and dataset specified",
+          "summary": "Returns the countries that belong to the organization and dataset specified in JSON",
           "description": "<p>When you specify the organization and dataset you are interested in it will return an array of countries that belong to the organization and dataset. The countries will be in JSON format.<p>",
+          "group": "sentence",
+          "parameters": [
+            {
+              "name": "organization",
+              "description": "The organization you are interested in.",
+              "dataType": "string",
+              "required": true,
+              "paramType": "path"
+            },
+            {
+              "name": "dataset",
+              "description": "The dataset you are interested in.",
+              "dataType": "string",
+              "required": true,
+              "paramType": "path"
+            },
+            {
+              "name": "app_id",
+              "description": "Your access application id",
+              "dataType": "string",
+              "paramType": "query",
+              "threescale_name": "app_ids"
+            },
+            {
+              "name": "app_key",
+              "description": "Your access application key",
+              "dataType": "string",
+              "paramType": "query",
+              "threescale_name": "app_keys"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/{organization}/{dataset}/countries.xml",
+      "operations": [
+        {
+          "httpMethod": "GET",
+          "summary": "Returns the countries that belong to the organization and dataset specified in xml",
+          "description": "<p>When you specify the organization and dataset you are interested in it will return an array of countries that belong to the organization and dataset. The countries will be in xml format.<p>",
           "group": "sentence",
           "parameters": [
             {
@@ -109,8 +211,56 @@
       "operations": [
         {
           "httpMethod": "GET",
-          "summary": "Returns the records that belong to the organization, dataset, and country specified",
+          "summary": "Returns the records that belong to the organization, dataset, and country specified in JSON",
           "description": "<p>When you specify the organization, dataset, country you are interested in it will return an array of records that belong to the organization, dataset, and country. The records will be in JSON format.<p>",
+          "group": "sentence",
+          "parameters": [
+            {
+              "name": "organization",
+              "description": "The organization you are interested in.",
+              "dataType": "string",
+              "required": true,
+              "paramType": "path"
+            },
+            {
+              "name": "dataset",
+              "description": "The dataset you are interested in.",
+              "dataType": "string",
+              "required": true,
+              "paramType": "path"
+            },
+            {
+              "name": "country",
+              "description": "The country you are interested in.",
+              "dataType": "string",
+              "required": true,
+              "paramType": "path"
+            },
+            {
+              "name": "app_id",
+              "description": "Your access application id",
+              "dataType": "string",
+              "paramType": "query",
+              "threescale_name": "app_ids"
+            },
+            {
+              "name": "app_key",
+              "description": "Your access application key",
+              "dataType": "string",
+              "paramType": "query",
+              "threescale_name": "app_keys"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/{organization}/{dataset}/{country}/records.xml",
+      "operations": [
+        {
+          "httpMethod": "GET",
+          "summary": "Returns the records that belong to the organization, dataset, and country specified in xml",
+          "description": "<p>When you specify the organization, dataset, country you are interested in it will return an array of records that belong to the organization, dataset, and country. The records will be in xml format.<p>",
           "group": "sentence",
           "parameters": [
             {

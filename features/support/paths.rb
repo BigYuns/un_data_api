@@ -25,5 +25,11 @@ def path_to(page_name)
 	when /\/organization\/dataset\/country\/records.xml/
 		get v1_records_path("WHO", "Health", "USA", :xml, "app_id" => ENV['APP_ID'], "app_key" => ENV['APP_KEY'])
 
+	when /\/organization\/country\/datasets.json/
+		get v1_country_datasets_path("WHO", "USA", :json, "app_id" => ENV['APP_ID'], "app_key" => ENV['APP_KEY'])
+
+	when /\/organization\/country\/datasets.xml/
+		get v1_country_datasets_path("WHO", "USA", :xml, "app_id" => ENV['APP_ID'], "app_key" => ENV['APP_KEY'])
+
 	end
 end

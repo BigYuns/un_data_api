@@ -126,6 +126,54 @@
       ]
     },
     {
+      "path": "/v1/{organization}/{country}/datasets.{format}",
+      "operations": [
+        {
+          "httpMethod": "GET",
+          "summary": "Returns the datasets that belong to the organization and country in specified format",
+          "description": "<p>When you specify the organization and country you are interested in it will return an array of datasets that belong to the organization and country. The datasets will be in JSON or xml depending on the specified format.<p>",
+          "group": "sentence",
+          "parameters": [
+            {
+              "name": "format",
+              "description": "either json or xml",
+              "dataType": "string",
+              "required": true,
+              "paramType": "path"
+            },
+            {
+              "name": "organization",
+              "description": "The organization you are interested in.",
+              "dataType": "string",
+              "required": true,
+              "paramType": "path"
+            },
+            {
+              "name": "country",
+              "description": "The country you are interested in.",
+              "dataType": "string",
+              "required": true,
+              "paramType": "path"
+            },
+            {
+              "name": "app_id",
+              "description": "Your access application id",
+              "dataType": "string",
+              "paramType": "query",
+              "threescale_name": "app_ids"
+            },
+            {
+              "name": "app_key",
+              "description": "Your access application key",
+              "dataType": "string",
+              "paramType": "query",
+              "threescale_name": "app_keys"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "path": "/v1/{organization}/{dataset}/{country}/records.{format}",
       "operations": [
         {

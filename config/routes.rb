@@ -7,6 +7,7 @@ UnDataApi::Application.routes.draw do
     get "/:organization/datasets" => 'datasets#index', as: 'datasets', format: true
     get "/:organization/:dataset/countries" => 'countries#index', as: 'countries', format: true
     get "/:organization/:dataset/:country/records" => 'records#index', as: 'records', format: true
+    get "/:organization/:country/datasets" => 'datasets#country_datasets', as: 'country_datasets', format: true
   end
 
   # The priority is based upon order of creation: first created -> highest priority.

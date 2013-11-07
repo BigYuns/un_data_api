@@ -1,16 +1,23 @@
 {
-  "basePath": "http://peaceful-hamlet-8964.herokuapp.com/",
+  "basePath": "http://secure-temple-2418.herokuapp.com/",
   "apiVersion": "v1",
   "apis": [
     {
-      "path": "/organizations.json",
+      "path": "/v1/organizations.{format}",
       "operations": [
         {
           "httpMethod": "GET",
-          "summary": "Returns all of the organizations in JSON",
-          "description": "<p>Returns an array of organizations in JSON format<p>",
+          "summary": "Returns all of the organizations in the specifed format",
+          "description": "<p>Returns an array of organizations in either JSON or xml depending on the specified format<p>",
           "group": "organizations",
           "parameters": [
+            {
+              "name": "format",
+              "description": "either json or xml",
+              "dataType": "string",
+              "required": true,
+              "paramType": "path"
+            },
             {
               "name": "app_id",
               "description": "Your access application id",
@@ -30,41 +37,21 @@
       ]
     },
     {
-      "path": "/organizations.xml",
+      "path": "/v1/{organization}/datasets.{format}",
       "operations": [
         {
           "httpMethod": "GET",
-          "summary": "Returns all of the organizations in xml",
-          "description": "<p>Returns an array of organizations in xml format<p>",
-          "group": "organizations",
-          "parameters": [
-            {
-              "name": "app_id",
-              "description": "Your access application id",
-              "dataType": "string",
-              "paramType": "query",
-              "threescale_name": "app_ids"
-            },
-            {
-              "name": "app_key",
-              "description": "Your access application key",
-              "dataType": "string",
-              "paramType": "query",
-              "threescale_name": "app_keys"
-            }
-          ]
-        }  
-      ]
-    },
-    {
-      "path": "/{organization}/datasets.json",
-      "operations": [
-        {
-          "httpMethod": "GET",
-          "summary": "Returns the datasets that belong to the organization specified in JSON",
-          "description": "<p>When you specify the organization you are interested in it will return an array of datasets that belong to the organization. The datasets will be in JSON format.<p>",
+          "summary": "Returns the datasets that belong to the organization in specified format",
+          "description": "<p>When you specify the organization you are interested in it will return an array of datasets that belong to the organization. The datasets will be in JSON or xml depending on specified format.<p>",
           "group": "sentence",
           "parameters": [
+            {
+              "name": "format",
+              "description": "either json or xml",
+              "dataType": "string",
+              "required": true,
+              "paramType": "path"
+            },
             {
               "name": "organization",
               "description": "The organization you are interested in.",
@@ -91,48 +78,21 @@
       ]
     },
     {
-      "path": "/{organization}/datasets.xml",
+      "path": "/v1/{organization}/{dataset}/countries.{format}",
       "operations": [
         {
           "httpMethod": "GET",
-          "summary": "Returns the datasets that belong to the organization specified xml",
-          "description": "<p>When you specify the organization you are interested in it will return an array of datasets that belong to the organization. The datasets will be in xml format.<p>",
+          "summary": "Returns the countries that belong to the organization and dataset in specified format",
+          "description": "<p>When you specify the organization and dataset you are interested in it will return an array of countries that belong to the organization and dataset. The countries will be in JSON or xml depending on the specified format.<p>",
           "group": "sentence",
           "parameters": [
             {
-              "name": "organization",
-              "description": "The organization you are interested in.",
+              "name": "format",
+              "description": "either json or xml",
               "dataType": "string",
               "required": true,
               "paramType": "path"
             },
-            {
-              "name": "app_id",
-              "description": "Your access application id",
-              "dataType": "string",
-              "paramType": "query",
-              "threescale_name": "app_ids"
-            },
-            {
-              "name": "app_key",
-              "description": "Your access application key",
-              "dataType": "string",
-              "paramType": "query",
-              "threescale_name": "app_keys"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "path": "/{organization}/{dataset}/countries.json",
-      "operations": [
-        {
-          "httpMethod": "GET",
-          "summary": "Returns the countries that belong to the organization and dataset specified in JSON",
-          "description": "<p>When you specify the organization and dataset you are interested in it will return an array of countries that belong to the organization and dataset. The countries will be in JSON format.<p>",
-          "group": "sentence",
-          "parameters": [
             {
               "name": "organization",
               "description": "The organization you are interested in.",
@@ -166,103 +126,21 @@
       ]
     },
     {
-      "path": "/{organization}/{dataset}/countries.xml",
+      "path": "/v1/{organization}/{dataset}/{country}/records.{format}",
       "operations": [
         {
           "httpMethod": "GET",
-          "summary": "Returns the countries that belong to the organization and dataset specified in xml",
-          "description": "<p>When you specify the organization and dataset you are interested in it will return an array of countries that belong to the organization and dataset. The countries will be in xml format.<p>",
+          "summary": "Returns the records that belong to the organization, dataset, and country specified in the specified format",
+          "description": "<p>When you specify the organization, dataset, country you are interested in it will return an array of records that belong to the organization, dataset, and country. The records will be in JSON or xml depending on the specified format.<p>",
           "group": "sentence",
           "parameters": [
             {
-              "name": "organization",
-              "description": "The organization you are interested in.",
+              "name": "format",
+              "description": "either json or xml",
               "dataType": "string",
               "required": true,
               "paramType": "path"
             },
-            {
-              "name": "dataset",
-              "description": "The dataset you are interested in.",
-              "dataType": "string",
-              "required": true,
-              "paramType": "path"
-            },
-            {
-              "name": "app_id",
-              "description": "Your access application id",
-              "dataType": "string",
-              "paramType": "query",
-              "threescale_name": "app_ids"
-            },
-            {
-              "name": "app_key",
-              "description": "Your access application key",
-              "dataType": "string",
-              "paramType": "query",
-              "threescale_name": "app_keys"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "path": "/{organization}/{dataset}/{country}/records.json",
-      "operations": [
-        {
-          "httpMethod": "GET",
-          "summary": "Returns the records that belong to the organization, dataset, and country specified in JSON",
-          "description": "<p>When you specify the organization, dataset, country you are interested in it will return an array of records that belong to the organization, dataset, and country. The records will be in JSON format.<p>",
-          "group": "sentence",
-          "parameters": [
-            {
-              "name": "organization",
-              "description": "The organization you are interested in.",
-              "dataType": "string",
-              "required": true,
-              "paramType": "path"
-            },
-            {
-              "name": "dataset",
-              "description": "The dataset you are interested in.",
-              "dataType": "string",
-              "required": true,
-              "paramType": "path"
-            },
-            {
-              "name": "country",
-              "description": "The country you are interested in.",
-              "dataType": "string",
-              "required": true,
-              "paramType": "path"
-            },
-            {
-              "name": "app_id",
-              "description": "Your access application id",
-              "dataType": "string",
-              "paramType": "query",
-              "threescale_name": "app_ids"
-            },
-            {
-              "name": "app_key",
-              "description": "Your access application key",
-              "dataType": "string",
-              "paramType": "query",
-              "threescale_name": "app_keys"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "path": "/{organization}/{dataset}/{country}/records.xml",
-      "operations": [
-        {
-          "httpMethod": "GET",
-          "summary": "Returns the records that belong to the organization, dataset, and country specified in xml",
-          "description": "<p>When you specify the organization, dataset, country you are interested in it will return an array of records that belong to the organization, dataset, and country. The records will be in xml format.<p>",
-          "group": "sentence",
-          "parameters": [
             {
               "name": "organization",
               "description": "The organization you are interested in.",

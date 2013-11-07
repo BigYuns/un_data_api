@@ -11,7 +11,7 @@ module V1
 			end
 
 		rescue
-	  	error(404, 404, "record does not exist")
+	  	head :not_found
 		end
 		
 	end

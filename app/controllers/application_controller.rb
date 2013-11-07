@@ -4,7 +4,10 @@ class ApplicationController < ActionController::API
   helper_method :authenticate_app
 
   def error(status, code, message)
-  	render :json => {:response_type => "ERROR", :response_code => code, :message => message}, :status => status
+  	respond_to do |format|
+  	  format.json { render :json => {:response_type => "ERROR", :response_code => code, :message => message}, :status => status }
+  	  format.xml { render :xml => {:response_type => "ERROR", :response_code => code, :message => message}, :status => status }
+  	end
 	end
 
 	def create_client
@@ -16,7 +19,7 @@ class ApplicationController < ActionController::API
   		puts "Application authorized and hit reported!"
 		else
   		puts "Error: #{response.error_message}"
-  		head :unauthorized
+  		error(401, 401, "app_id or app_key invalid, action requires authentication")
 		end
 	end
 

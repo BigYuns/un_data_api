@@ -12,7 +12,7 @@ module V1
 			end
 
 		rescue
-	  	error(404, 404, "record does not exist")			
+			error(404, 404, "record does not exist")	
 		end
 
 		def country_datasets
@@ -25,6 +25,8 @@ module V1
 				format.xml { render xml: datasets.to_xml(except: [:id, :country_ids, :organization_id]) }
 			end
 
+		rescue
+			error(404, 404, "record does not exist")	
 		end
 		
 	end

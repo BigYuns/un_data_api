@@ -22,6 +22,7 @@
               "name": "app_id",
               "description": "Your access application id",
               "dataType": "string",
+              "required": true,
               "paramType": "query",
               "threescale_name": "app_ids"
             },
@@ -29,6 +30,7 @@
               "name": "app_key",
               "description": "Your access application key",
               "dataType": "string",
+              "required": true,
               "paramType": "query",
               "threescale_name": "app_keys"
             }
@@ -63,6 +65,7 @@
               "name": "app_id",
               "description": "Your access application id",
               "dataType": "string",
+              "required": true,
               "paramType": "query",
               "threescale_name": "app_ids"
             },
@@ -70,6 +73,7 @@
               "name": "app_key",
               "description": "Your access application key",
               "dataType": "string",
+              "required": true,
               "paramType": "query",
               "threescale_name": "app_keys"
             }
@@ -111,6 +115,7 @@
               "name": "app_id",
               "description": "Your access application id",
               "dataType": "string",
+              "required": true,
               "paramType": "query",
               "threescale_name": "app_ids"
             },
@@ -118,6 +123,7 @@
               "name": "app_key",
               "description": "Your access application key",
               "dataType": "string",
+              "required": true,
               "paramType": "query",
               "threescale_name": "app_keys"
             }
@@ -159,6 +165,7 @@
               "name": "app_id",
               "description": "Your access application id",
               "dataType": "string",
+              "required": true,
               "paramType": "query",
               "threescale_name": "app_ids"
             },
@@ -166,6 +173,7 @@
               "name": "app_key",
               "description": "Your access application key",
               "dataType": "string",
+              "required": true,
               "paramType": "query",
               "threescale_name": "app_keys"
             }
@@ -214,6 +222,7 @@
               "name": "app_id",
               "description": "Your access application id",
               "dataType": "string",
+              "required": true,
               "paramType": "query",
               "threescale_name": "app_ids"
             },
@@ -221,6 +230,7 @@
               "name": "app_key",
               "description": "Your access application key",
               "dataType": "string",
+              "required": true,
               "paramType": "query",
               "threescale_name": "app_keys"
             }

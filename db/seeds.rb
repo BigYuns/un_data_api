@@ -23,6 +23,8 @@ def xml_parser(file, organization_name, dataset_name, measurement)
 			@country_name = element.text.strip
 			country = Country.find_or_create_by_name(@country_name)
 			country.organizations << @organization
+			@organization.countries << country
+			@organization.save
 			if country.datasets.include?(@dataset)
 				country.save
 			else

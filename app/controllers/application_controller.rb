@@ -19,7 +19,7 @@ class ApplicationController < ActionController::API
   		puts "Application authorized and hit reported!"
 		else
   		puts "Error: #{response.error_message}"
-  		error(401, 401, "app_id or app_key invalid, action requires authentication")
+  		error(401, 401, "app_id or app_key invalid, action requires authentication or you have exceeded your rate limit")
 		end
 	end
 

@@ -1,13 +1,13 @@
+require 'api_constraints.rb'
+
 UnDataApi::Application.routes.draw do
 
-
-
-  namespace :v1 do
-    get "/organizations" => 'organizations#index', as: 'organizations', format: true
-    get "/:organization/datasets" => 'datasets#index', as: 'datasets', format: true
-    get "/:organization/:dataset/countries" => 'countries#index', as: 'countries', format: true
-    get "/:organization/:dataset/:country/records" => 'records#index', as: 'records', format: true
-    get "/:organization/:country/datasets" => 'datasets#country_datasets', as: 'country_datasets', format: true
+  scope module: :v1, constraints: ApiConstraints.new(version: 1, default: true) do
+    get "/organizations" => 'organizations#index'
+    get "/:organization/datasets" => 'datasets#index'
+    get "/:organization/:dataset/countries" => 'countries#index'
+    get "/:organization/:dataset/:country/records" => 'records#index'
+    get "/:organization/:country/datasets" => 'datasets#country_datasets'
   end
 
   # The priority is based upon order of creation: first created -> highest priority.

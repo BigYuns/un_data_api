@@ -17,7 +17,7 @@ Feature: Get all records
  			| year | value | gender |
  			| 2001 |    30 | Female |
  			
- 		When I send a GET request to "/organization/dataset/country/records.json"
+ 		When I send a GET request to "/organization/dataset/country/records"
 		Then the response status should be "200"
 		And the response body should be a JSON representation of the Record
 
@@ -36,6 +36,6 @@ Feature: Get all records
  			| year | value | gender |
  			| 2001 |    30 | Female |
  			
- 		When I send a GET request to "/organization/dataset/country/records.xml"
+ 		When I send a GET request to "/organization/dataset/country/records"
 		Then the response status should be "200"
 		And the response body should be a xml representation of the Record

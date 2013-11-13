@@ -10,7 +10,7 @@ Feature: Get all datasets
  		Given the following datasets:
  			| name   | 
  			| Health | 
- 		When I send a GET request to "/organization/datasets.json"
+ 		When I send a GET request to "/organization/datasets"
 		Then the response status should be "200"
 		And the response body should be a JSON representation of the Dataset
 
@@ -22,7 +22,7 @@ Feature: Get all datasets
  		Given the following datasets:
  			| name   | 
  			| Health | 
- 		When I send a GET request to "/organization/datasets.xml"
+ 		When I send a GET request to "/organization/datasets"
 		Then the response status should be "200"
 		And the response body should be a xml representation of the Dataset
 
@@ -37,7 +37,7 @@ Feature: Get all datasets
  		Given the following countries:
  			| name | 
  			| USA	 |
- 		When I send a GET request to "/organization/country/datasets.json"
+ 		When I send a GET request to "/organization/country/datasets"
 		Then the response status should be "200"
 		And the response body should be a JSON representation of the Dataset
 
@@ -52,6 +52,9 @@ Feature: Get all datasets
  		Given the following countries:
  			| name | 
  			| USA	 |
- 		When I send a GET request to "/organization/country/datasets.xml"
+ 		When I send a GET request to "/organization/country/datasets"
 		Then the response status should be "200"
 		And the response body should be a xml representation of the Dataset
+
+
+		

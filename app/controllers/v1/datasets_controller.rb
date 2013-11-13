@@ -1,6 +1,6 @@
 module V1
 	class DatasetsController < ApplicationController
-		before_filter :authenticate_app
+		before_filter :authenticate_app, :default_format_json
 
 		def index
 			organization = Organization.find_by_name(params[:organization])

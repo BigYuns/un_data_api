@@ -33,5 +33,6 @@ end
 
 Then(/^the response body should be a xml representation of the (\w+)$/) do |model|
 	last_response.body.should
+	puts last_response.body
 	eq(model.constantize.last.to_xml)
 end

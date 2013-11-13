@@ -1,6 +1,6 @@
 module V1
 	class RecordsController < ApplicationController
-	  before_filter :authenticate_app
+	  before_filter :authenticate_app, :default_format_json
 	  
 		def index
 			country = Country.find_by_name(params[:country]) 

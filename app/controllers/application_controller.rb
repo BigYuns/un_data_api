@@ -5,6 +5,7 @@ class ApplicationController < ActionController::API
   helper_method :default_format_json
 
   def error(status, code, message)
+  	default_format_json
   	respond_to do |format|
   	  format.json { render :json => {:response_type => "ERROR", :response_code => code, :message => message}, :status => status }
   	  format.xml { render :xml => {:response_type => "ERROR", :response_code => code, :message => message}, :status => status }
@@ -19,7 +20,7 @@ class ApplicationController < ActionController::API
 		if response.success?
   		puts "Application authorized and hit reported!"
 		else
-  		puts "Error: #{response.error_message}"
+  		# puts "Error: #{response.error_message}"
   		error(401, 401, "app_id or app_key invalid, action requires authentication or you have exceeded your rate limit")
 		end
 	end

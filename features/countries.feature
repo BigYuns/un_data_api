@@ -28,6 +28,6 @@ Feature: Get all countries that are in the dataset
  		Given the following countries:
  			| name | 
  			| USA	 |
- 		When I send a GET request to "/organization/dataset/countries"
+ 		When I send a GET request to "/organization/dataset/countries?format=xml"
 		Then the response status should be "200"
 		And the response body should be a xml representation of the Country

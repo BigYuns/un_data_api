@@ -22,7 +22,7 @@ Feature: Get all datasets
  		Given the following datasets:
  			| name   | 
  			| Health | 
- 		When I send a GET request to "/organization/datasets"
+ 		When I send a GET request to "/organization/datasets?format=xml"
 		Then the response status should be "200"
 		And the response body should be a xml representation of the Dataset
 
@@ -52,7 +52,7 @@ Feature: Get all datasets
  		Given the following countries:
  			| name | 
  			| USA	 |
- 		When I send a GET request to "/organization/country/datasets"
+ 		When I send a GET request to "/organization/country/datasets?format=xml"
 		Then the response status should be "200"
 		And the response body should be a xml representation of the Dataset
 

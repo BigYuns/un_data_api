@@ -3,7 +3,7 @@
   "apiVersion": "v1",
   "apis": [
     {
-      "path": "/v1/organizations.{format}",
+      "path": "/organizations",
       "operations": [
         {
           "httpMethod": "GET",
@@ -13,9 +13,9 @@
           "parameters": [
             {
               "name": "format",
-              "description": "either json or xml",
+              "description": "If you want xml you will need to specify it in a parameter. The response defaults to JSON",
               "dataType": "string",
-              "required": true,
+              "required": false,
               "paramType": "path"
             },
             {
@@ -39,7 +39,7 @@
       ]
     },
     {
-      "path": "/v1/{organization}/datasets.{format}",
+      "path": "/{organization}/datasets",
       "operations": [
         {
           "httpMethod": "GET",
@@ -49,9 +49,9 @@
           "parameters": [
             {
               "name": "format",
-              "description": "either json or xml",
+              "description": "If you want xml you will need to specify it in a parameter. The response defaults to JSON",
               "dataType": "string",
-              "required": true,
+              "required": false,
               "paramType": "path"
             },
             {
@@ -82,7 +82,7 @@
       ]
     },
     {
-      "path": "/v1/{organization}/{dataset}/countries.{format}",
+      "path": "/{organization}/{dataset}/countries",
       "operations": [
         {
           "httpMethod": "GET",
@@ -92,9 +92,9 @@
           "parameters": [
             {
               "name": "format",
-              "description": "either json or xml",
+              "description": "If you want xml you will need to specify it in a parameter. The response defaults to JSON",
               "dataType": "string",
-              "required": true,
+              "required": false,
               "paramType": "path"
             },
             {
@@ -132,7 +132,7 @@
       ]
     },
     {
-      "path": "/v1/{organization}/{country}/datasets.{format}",
+      "path": "/{organization}/{country}/datasets",
       "operations": [
         {
           "httpMethod": "GET",
@@ -142,9 +142,9 @@
           "parameters": [
             {
               "name": "format",
-              "description": "either json or xml",
+              "description": "If you want xml you will need to specify it in a parameter. The response defaults to JSON",
               "dataType": "string",
-              "required": true,
+              "required": false,
               "paramType": "path"
             },
             {
@@ -182,7 +182,7 @@
       ]
     },
     {
-      "path": "/v1/{organization}/{dataset}/{country}/records.{format}",
+      "path": "/{organization}/{dataset}/{country}/records",
       "operations": [
         {
           "httpMethod": "GET",
@@ -192,9 +192,9 @@
           "parameters": [
             {
               "name": "format",
-              "description": "either json or xml",
+              "description": "If you want xml you will need to specify it in a parameter. The response defaults to JSON",
               "dataType": "string",
-              "required": true,
+              "required": false,
               "paramType": "path"
             },
             {

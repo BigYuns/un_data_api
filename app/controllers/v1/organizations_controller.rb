@@ -3,7 +3,7 @@ module V1
 	  before_filter :authenticate_app, :default_format_json
 
 		def index
-			puts params[:format]
+			puts params
 			@organizations = Organization.all
 
 			respond_to do |format|

@@ -4,10 +4,10 @@ UnDataApi::Application.routes.draw do
 
   scope module: :v1, constraints: ApiConstraints.new(version: 1, default: true) do
     get "/organizations" => 'organizations#index'
-    get "/:organization/datasets" => 'datasets#index'
-    get "/:organization/:dataset/countries" => 'countries#index'
-    get "/:organization/:dataset/:country/records" => 'records#index'
-    get "/:organization/:country/datasets" => 'datasets#country_datasets'
+    get "/:organization/datasets" => 'datasets#index', as: :organization_datasets
+    get "/:organization/:dataset/countries" => 'countries#index', as: :dataset_countries
+    get "/:organization/:dataset/:country/records" => 'records#index', as: :country_records
+    get "/:organization/:country/datasets" => 'datasets#country_datasets', as: :country_datasets
   end
 
   # The priority is based upon order of creation: first created -> highest priority.

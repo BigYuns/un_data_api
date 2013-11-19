@@ -2,6 +2,7 @@ class ApplicationController < ActionController::API
   include ActionController::MimeResponds
 
   helper_method :default_format_json
+  helper_method :authenticate_app
 
   def error(status, code, message)
   	default_format_json
@@ -19,16 +20,14 @@ class ApplicationController < ActionController::API
 		if response.success?
   		puts "Application authorized and hit reported!"
 		else
-  		# puts "Error: #{response.error_message}"
-  		error(401, 401, "app_id or app_key invalid, action requires authentication or you have exceeded your rate limit")
+  		error(response.error_code, 401, response.error_message)
 		end
 	end
 
-	def authenticate_app(metric)
+	def authenticate_app
 	  response = create_client.authrep(:app_id => params["app_id"], 
                      		      :app_key => params["app_key"],
-                              :usage => { metric.to_sym => 1})
-
+                              :usage => { params[:metric].to_sym => 1})
 	  response_success(response)
 	end
 

@@ -1,9 +1,8 @@
 module V1
 	class RecordsController < ApplicationController
-	  before_filter :default_format_json
+	  before_filter :authenticate_app, :default_format_json
 	  
 		def index
-			authenticate_app("records")
 			country = Country.find_by_name(params[:country]) 
 			dataset = Dataset.find_by_name(params[:dataset]) 
 	  	records = Record.where(dataset_id: dataset.id, country_id: country.id).all

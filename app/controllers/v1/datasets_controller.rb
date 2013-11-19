@@ -1,9 +1,8 @@
 module V1
 	class DatasetsController < ApplicationController
-		before_filter :default_format_json
+		before_filter :authenticate_app, :default_format_json
 
 		def organization_datasets
-			authenticate_app("organization_datasets")
 			organization = Organization.find_by_name(params[:organization])
 			datasets = organization.datasets
 			
@@ -17,7 +16,6 @@ module V1
 		end
 
 		def country_datasets
-			authenticate_app("country_datasets")
 			organization = Organization.find_by_name(params[:organization])
 			country = Country.find_by_name(params[:country])
 			datasets = organization.datasets.where(country_ids: country.id).all

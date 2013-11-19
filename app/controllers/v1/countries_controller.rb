@@ -1,8 +1,9 @@
 module V1
 	class CountriesController < ApplicationController
-		before_filter :authenticate_app, :default_format_json
+		before_filter :default_format_json
 
 		def index
+			authenticate_app("countries")
 			countries = Dataset.find_by_name(params[:dataset]).countries
 
 			respond_to do |format|

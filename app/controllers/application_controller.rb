@@ -1,7 +1,6 @@
 class ApplicationController < ActionController::API
   include ActionController::MimeResponds
 
-  helper_method :authenticate_app
   helper_method :default_format_json
 
   def error(status, code, message)
@@ -25,10 +24,11 @@ class ApplicationController < ActionController::API
 		end
 	end
 
-	def authenticate_app
+	def authenticate_app(metric)
 	  response = create_client.authrep(:app_id => params["app_id"], 
                      		      :app_key => params["app_key"],
-                              :usage => { :hits => 1 })
+                              :usage => { metric.to_sym => 1})
+
 	  response_success(response)
 	end
 

@@ -1,14 +1,15 @@
 module V1
 	class OrganizationsController < ApplicationController
-	  before_filter :authenticate_app, :default_format_json
+	  before_filter :default_format_json
 
 		def index
+			authenticate_app("organizations")
 			@organizations = Organization.all
 
 			respond_to do |format|
 				format.json { render json: @organizations.map {|organization| organization.as_json(except: [:id, :country_ids]) }}
 				format.xml { render xml: @organizations.to_xml(except: [:id, :country_ids]) }
-			end
+			end 
 
 		rescue
 			error(404, 404, "record does not exist")	

@@ -1,6 +1,5 @@
 module V1
 	class OrganizationsController < ApplicationController
-	  before_filter :authenticate_app, :default_format_json
 
 		def index
 			@organizations = Organization.all

@@ -1,6 +1,5 @@
 module V1
 	class CountriesController < ApplicationController
-		before_filter :authenticate_app, :default_format_json
 
 		def index
 			countries = Dataset.find_by_name(params[:dataset]).countries
@@ -11,7 +10,7 @@ module V1
 			end
 
 		rescue
-			error(404, 404, "record does not exist")	
+	  	error(404, 404, "record does not exist")	
 		end
 		
 	end

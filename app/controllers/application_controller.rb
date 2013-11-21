@@ -1,8 +1,8 @@
 class ApplicationController < ActionController::API
   include ActionController::MimeResponds
 
-  helper_method :default_format_json
-  helper_method :authenticate_app
+  before_filter :authenticate_app, :default_format_json
+  respond_to :json, :xml
 
   def error(status, code, message)
   	default_format_json

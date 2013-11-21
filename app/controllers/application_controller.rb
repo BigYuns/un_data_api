@@ -1,15 +1,14 @@
 class ApplicationController < ActionController::API
   include ActionController::MimeResponds
+  include ActionController::ImplicitRender
 
   before_filter :authenticate_app, :default_format_json
   respond_to :json, :xml
 
   def error(status, code, message)
-  	default_format_json
-  	respond_to do |format|
-  	  format.json { render :json => {:response_type => "ERROR", :response_code => code, :message => message}, :status => status }
-  	  format.xml { render :xml => {:response_type => "ERROR", :response_code => code, :message => message}, :status => status }
-  	end
+    default_format_json
+    response = { :response_type => "ERROR", :response_code => code, :message => message, :status => status} 
+    respond_with(response)
 	end
 
 	def create_client

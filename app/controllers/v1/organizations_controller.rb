@@ -2,12 +2,10 @@ module V1
 	class OrganizationsController < ApplicationController
 
 		def index
-			@organizations = Organization.all
+			organizations = Organization.all
 
-			respond_to do |format|
-				format.json { render json: @organizations.map {|organization| organization.as_json(except: [:id, :country_ids]) }}
-				format.xml { render xml: @organizations.to_xml(except: [:id, :country_ids]) }
-			end 
+      organizations.map! {|organization| organization.serializable_hash(except: [:id, :country_ids]) }
+			respond_with(organizations)
 
 		rescue
 			error(404, 404, "record does not exist")	

@@ -4,10 +4,8 @@ module V1
 		def index
 			countries = Dataset.find_by_name(params[:dataset]).countries
 
-			respond_to do |format|
-				format.json { render json: countries.map { |country| country.as_json(except: [:id, :dataset_ids, :organization_ids]) } }
-				format.xml { render xml: countries.to_xml(except: [:id, :dataset_ids, :organization_ids]) }
-			end
+			countries.map! { |country| country.serializable_hash(except: [:id, :dataset_ids, :organization_ids]) } 
+			respond_with(countries)
 
 		rescue
 	  	error(404, 404, "record does not exist")	

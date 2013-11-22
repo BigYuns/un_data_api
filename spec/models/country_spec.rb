@@ -9,14 +9,12 @@ describe Country do
   describe "can create a new country" do
 
     context "with valid input" do
-
       it "should create a new country" do
         country.should be_valid
       end
     end
 
     context "with invalid input" do
-
       it "should not create a dataset without a name" do
         build(:country, name: nil).should_not be_valid
       end 
@@ -39,5 +37,6 @@ describe Country do
       records = country_with_records.records
       expect(records.first).to be_an_instance_of Record
     end
+    
   end
 end

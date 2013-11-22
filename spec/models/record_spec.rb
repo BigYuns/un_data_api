@@ -45,5 +45,6 @@ describe Record do
         build(:record, measurement: nil).should_not be_valid
       end
     end
+    
   end
 end

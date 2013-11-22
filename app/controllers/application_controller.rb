@@ -8,7 +8,7 @@ class ApplicationController < ActionController::API
   respond_to :json, :xml
 
 	def create_client
-	  ThreeScale::Client.new(:provider_key => ENV['PROVIDER_KEY'])		
+	  @@threescale_client ||= ThreeScale::Client.new(:provider_key => ENV['PROVIDER_KEY'])		
 	end
 
 	def response_success(response)

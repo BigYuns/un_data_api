@@ -18,8 +18,8 @@ class Record
   belongs_to :country
   validates_presence_of :country
 
-  # def serializable_hash(options = {})
-  #   super({ except: [:id, :country_id, :dataset_id] }.merge(options)) 
-  # end
+  def serializable_hash(options = {})
+    super({ except: [:id, :country_id, :dataset_id] }.merge(options)) 
+  end
 
 end

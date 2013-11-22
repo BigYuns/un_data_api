@@ -5,10 +5,8 @@ module V1
 			organizations = Organization.all
 
       organizations.map! { |organization| organization.serializable_hash }
-			respond_with(organizations)
 
-		rescue
-			error(404, 404, "record does not exist")	
+			respond_with(organizations)
 		end
 		
 	end

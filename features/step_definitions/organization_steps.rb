@@ -1,9 +1,9 @@
-Given(/^I send JSON$/) do
-  header 'Content-Type', 'application/json'
+Given(/^I ask for JSON$/) do
+  header 'Accept', 'application/json'
 end
 
-Given(/^I send xml$/) do
-  header 'Content-Type', 'application/xml'
+Given(/^I ask for xml$/) do
+  header 'Accept', 'application/xml'
 end
 
 Given(/^the following organizations:$/) do |table|

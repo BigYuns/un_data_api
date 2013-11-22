@@ -9,8 +9,12 @@ class Organization
   key :country_ids, Array
   many :countries, in: :country_ids
 
-  def serialize_hash
-    self.serializable_hash(except: [:id, :country_ids]) 
+  # def serialize_hash
+  #   self.serializable_hash(except: [:id, :country_ids]) 
+  # end
+
+  def serializable_hash(options = {})
+    super({ except: [:id, :country_ids] }.merge(options))
   end
 
 end

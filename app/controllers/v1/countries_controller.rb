@@ -1,13 +1,13 @@
 module V1
-	class CountriesController < ApplicationController
+  class CountriesController < ApplicationController
 
-		def index
-			countries = Dataset.find_by_name!(params[:dataset]).countries
+    def index
+      countries = Dataset.find_by_name!(params[:dataset]).countries
 
-			countries.map! { |country| country.serializable_hash } 
+      countries.map! { |country| country.serializable_hash } 
 
-			respond_with(countries)
-		end
-		
-	end
+      respond_with(countries)
+    end
+
+  end
 end

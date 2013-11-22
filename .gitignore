@@ -16,4 +16,5 @@
 /tmp
 
 #ignore env variables
-/config/local_env.yml
+/config/local_env_keys.yml
+/config/mongo.yml

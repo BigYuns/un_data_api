@@ -11,4 +11,9 @@ class Dataset
   many :countries, in: :country_ids
 
   many :records
+
+  def serialize_hash
+    self.serializable_hash(except: [:id, :country_ids, :organization_id]) 
+  end
+  
 end

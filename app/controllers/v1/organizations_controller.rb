@@ -4,7 +4,7 @@ module V1
 		def index
 			organizations = Organization.all
 
-      organizations.map! {|organization| organization.serializable_hash(except: [:id, :country_ids]) }
+      organizations.map! { |organization| organization.serialize_hash }
 			respond_with(organizations)
 
 		rescue

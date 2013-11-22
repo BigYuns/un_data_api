@@ -12,4 +12,8 @@ class Country
 
   many :records
 
+  def serialize_hash
+    self.serializable_hash(except: [:id, :dataset_ids, :organization_ids]) 
+  end
+
 end

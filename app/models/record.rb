@@ -17,4 +17,9 @@ class Record
 
   belongs_to :country
   validates_presence_of :country
+
+  def serialize_hash
+    self.serializable_hash(except: [:id, :country_id, :dataset_id]) 
+  end
+  
 end

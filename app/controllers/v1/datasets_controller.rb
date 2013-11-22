@@ -5,7 +5,7 @@ module V1
 			organization = Organization.find_by_name(params[:organization])
 			datasets = organization.datasets
 			
-			datasets.map! { |dataset| dataset.serializable_hash(except: [:id, :country_ids, :organization_id]) } 
+			datasets.map! { |dataset| dataset.serialize_hash } 
 			respond_with(datasets)
 
 		rescue
@@ -17,7 +17,7 @@ module V1
 			country = Country.find_by_name(params[:country])
 			datasets = organization.datasets.where(country_ids: country.id).all
 
-			datasets.map! { |dataset| dataset.serializable_hash(except: [:id, :country_ids, :organization_id]) }
+			datasets.map! { |dataset| dataset.serialize_hash }
 			respond_with(datasets)
 
 		rescue

@@ -4,7 +4,7 @@ module V1
 		def index
 			countries = Dataset.find_by_name(params[:dataset]).countries
 
-			countries.map! { |country| country.serializable_hash(except: [:id, :dataset_ids, :organization_ids]) } 
+			countries.map! { |country| country.serialize_hash } 
 			respond_with(countries)
 
 		rescue

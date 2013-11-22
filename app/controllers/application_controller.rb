@@ -7,7 +7,7 @@ class ApplicationController < ActionController::API
 
   def error(status, code, message)
     default_format_json
-    response = { :response_type => "ERROR", :response_code => code, :message => message, :status => status} 
+    response = { :response_type => "ERROR", :response_code => code, :message => message, :status => status } 
     respond_with(response)
 	end
 
@@ -26,7 +26,7 @@ class ApplicationController < ActionController::API
 	def authenticate_app
 	  response = create_client.authrep(:app_id => params["app_id"], 
                      		      :app_key => params["app_key"],
-                              :usage => { params[:metric].to_sym => 1})
+                              :usage => { params[:metric].to_sym => 1 })
 	  response_success(response)
 	end
 

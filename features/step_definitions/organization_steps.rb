@@ -2,14 +2,12 @@ Given(/^I ask for JSON$/) do
   header 'Accept', 'application/json'
 end
 
-Given(/^I ask for xml$/) do
+Given(/^I ask for XML$/) do
   header 'Accept', 'application/xml'
 end
 
-Given(/^the following organizations:$/) do |table|
-  table.hashes.each do |hash|
-    organization = FactoryGirl.create(:organization_with_datasets, hash)
-  end
+Given(/^the WHO USA Health data exists$/) do
+  FactoryGirl.create(:record)
 end
 
 When(/^I send a GET request to "(.*?)"$/) do |path|

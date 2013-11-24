@@ -2,11 +2,11 @@
 
 FactoryGirl.define do
   factory :record do
-  	year 2000
-  	value 20.5
-  	gender "female"
-  	measurement "percent"
-  	country
-  	dataset
+    year 2000
+    value 20.5
+    gender "female"
+    measurement "percent"
+    country
+    dataset
   end
 end

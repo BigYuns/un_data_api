@@ -16,6 +16,6 @@
 /tmp
 
 #ignore env variables
-/config/local_env.ymls
-
 .DS_STORE
+/config/local_env_keys.yml
+/config/mongo.yml

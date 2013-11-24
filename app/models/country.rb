@@ -12,4 +12,8 @@ class Country
 
   many :records
 
+  def serializable_hash(options = {})
+    super({ except: [:id, :dataset_ids, :organization_ids] }.merge(options)) 
+  end
+
 end

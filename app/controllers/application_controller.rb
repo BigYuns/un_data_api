@@ -2,7 +2,7 @@ class ApplicationController < ActionController::API
   include ActionController::MimeResponds
   include ActionController::ImplicitRender
   rescue_from MongoMapper::DocumentNotFound, with: :document_not_found
-  rescue_from NoMethodError, with: :document_not_found
+  rescue_from NoMethodError, with: :invalid_request
 
   before_filter :authenticate_app, :default_format_json
   respond_to :json, :xml
@@ -30,11 +30,14 @@ class ApplicationController < ActionController::API
       request.format = "json" unless params[:format]
     end
 
+    def invalid_request
+      error(404, 404, "Invalid URL")
+    end
 
     private
 
     def document_not_found
-      error(404, 404, "Record does not exist or invalid request")
+      error(404, 404, "Record does not exist")
     end
 
     def error(status, code, message)

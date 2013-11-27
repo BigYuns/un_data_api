@@ -30,14 +30,20 @@ class ApplicationController < ActionController::API
     request.format = "json" unless params[:format]
   end
 
+  def error_report(error)
+    create_client.report({:app_id => params["app_id"], :usage => {error.to_sym => 1}})
+  end
+
   def invalid_request
     error(404, 404, "Invalid URL")
+    error_report("invalid_url")
   end
 
   private
 
   def document_not_found
     error(404, 404, "Record does not exist")
+    error_report("no_record_found")
   end
 
   def error(status, code, message)

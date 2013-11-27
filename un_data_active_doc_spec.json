@@ -1,5 +1,5 @@
 {
-  "basePath": "http://secure-temple-2418.herokuapp.com/",
+  "basePath": "http://api.undata-api.org/",
   "apiVersion": "v1",
   "apis": [
     {
@@ -16,7 +16,7 @@
               "description": "If you want xml you will need to specify it in a parameter. The response defaults to JSON",
               "dataType": "string",
               "required": false,
-              "paramType": "path"
+              "paramType": "query"
             },
             {
               "name": "app_id",
@@ -48,18 +48,18 @@
           "group": "sentence",
           "parameters": [
             {
-              "name": "format",
-              "description": "If you want xml you will need to specify it in a parameter. The response defaults to JSON",
-              "dataType": "string",
-              "required": false,
-              "paramType": "path"
-            },
-            {
               "name": "organization",
               "description": "The organization you are interested in.",
               "dataType": "string",
               "required": true,
               "paramType": "path"
+            },
+            {
+              "name": "format",
+              "description": "If you want xml you will need to specify it in a parameter. The response defaults to JSON",
+              "dataType": "string",
+              "required": false,
+              "paramType": "query"
             },
             {
               "name": "app_id",
@@ -91,13 +91,6 @@
           "group": "sentence",
           "parameters": [
             {
-              "name": "format",
-              "description": "If you want xml you will need to specify it in a parameter. The response defaults to JSON",
-              "dataType": "string",
-              "required": false,
-              "paramType": "path"
-            },
-            {
               "name": "organization",
               "description": "The organization you are interested in.",
               "dataType": "string",
@@ -110,6 +103,13 @@
               "dataType": "string",
               "required": true,
               "paramType": "path"
+            },
+            {
+              "name": "format",
+              "description": "If you want xml you will need to specify it in a parameter. The response defaults to JSON",
+              "dataType": "string",
+              "required": false,
+              "paramType": "query"
             },
             {
               "name": "app_id",
@@ -141,13 +141,6 @@
           "group": "sentence",
           "parameters": [
             {
-              "name": "format",
-              "description": "If you want xml you will need to specify it in a parameter. The response defaults to JSON",
-              "dataType": "string",
-              "required": false,
-              "paramType": "path"
-            },
-            {
               "name": "organization",
               "description": "The organization you are interested in.",
               "dataType": "string",
@@ -160,6 +153,13 @@
               "dataType": "string",
               "required": true,
               "paramType": "path"
+            },
+            {
+              "name": "format",
+              "description": "If you want xml you will need to specify it in a parameter. The response defaults to JSON",
+              "dataType": "string",
+              "required": false,
+              "paramType": "query"
             },
             {
               "name": "app_id",
@@ -191,13 +191,6 @@
           "group": "sentence",
           "parameters": [
             {
-              "name": "format",
-              "description": "If you want xml you will need to specify it in a parameter. The response defaults to JSON",
-              "dataType": "string",
-              "required": false,
-              "paramType": "path"
-            },
-            {
               "name": "organization",
               "description": "The organization you are interested in.",
               "dataType": "string",
@@ -217,6 +210,13 @@
               "dataType": "string",
               "required": true,
               "paramType": "path"
+            },
+            {
+              "name": "format",
+              "description": "If you want xml you will need to specify it in a parameter. The response defaults to JSON",
+              "dataType": "string",
+              "required": false,
+              "paramType": "query"
             },
             {
               "name": "app_id",

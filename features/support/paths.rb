@@ -1,29 +1,35 @@
 def path_to(page_name)
 	case page_name
 
-	when /\/organizations.json/
-		get v1_organizations_path(:json, "app_id" => ENV['APP_ID'], "app_key" => ENV['APP_KEY'])
+	when /^\/organizations$/
+		get organizations_path("app_id" => ENV['APP_ID'], "app_key" => ENV['APP_KEY'])
 
-	when /\/organizations.xml/
-		get v1_organizations_path(:xml, "app_id" => ENV['APP_ID'], "app_key" => ENV['APP_KEY'])
+	when /^\/organizations\?format=xml$/
+		get organizations_path(:xml, "app_id" => ENV['APP_ID'], "app_key" => ENV['APP_KEY'])
 
-	when /\/organization\/datasets.json/
-		get v1_datasets_path("WHO", :json, "app_id" => ENV['APP_ID'], "app_key" => ENV['APP_KEY'])
+	when /^\/WHO\/datasets$/
+		get organization_datasets_path("WHO", "app_id" => ENV['APP_ID'], "app_key" => ENV['APP_KEY'])
 
-	when /\/organization\/datasets.xml/
-		get v1_datasets_path("WHO", :xml, "app_id" => ENV['APP_ID'], "app_key" => ENV['APP_KEY'])
+	when /^\/WHO\/datasets\?format=xml$/
+		get organization_datasets_path("WHO", :xml, "app_id" => ENV['APP_ID'], "app_key" => ENV['APP_KEY'])
 
-	when /\/organization\/dataset\/countries.json/
-		get v1_countries_path("WHO", "Health", :json, "app_id" => ENV['APP_ID'], "app_key" => ENV['APP_KEY'])
+	when /^\/WHO\/Health\/countries$/
+		get dataset_countries_path("WHO", "Health", "app_id" => ENV['APP_ID'], "app_key" => ENV['APP_KEY'])
 
-	when /\/organization\/dataset\/countries.xml/
-		get v1_countries_path("WHO", "Health", :xml, "app_id" => ENV['APP_ID'], "app_key" => ENV['APP_KEY'])
+	when /^\/WHO\/Health\/countries\?format=xml$/
+		get dataset_countries_path("WHO", "Health", :xml, "app_id" => ENV['APP_ID'], "app_key" => ENV['APP_KEY'])
 
-	when /\/organization\/dataset\/country\/records.json/
-		get v1_records_path("WHO", "Health", "USA", :json, "app_id" => ENV['APP_ID'], "app_key" => ENV['APP_KEY'])
+	when /^\/WHO\/Health\/USA\/records$/
+		get country_records_path("WHO", "Health", "USA", "app_id" => ENV['APP_ID'], "app_key" => ENV['APP_KEY'])
 
-	when /\/organization\/dataset\/country\/records.xml/
-		get v1_records_path("WHO", "Health", "USA", :xml, "app_id" => ENV['APP_ID'], "app_key" => ENV['APP_KEY'])
+	when /^\/WHO\/Health\/USA\/records\?format=xml$/
+		get country_records_path("WHO", "Health", "USA", :xml, "app_id" => ENV['APP_ID'], "app_key" => ENV['APP_KEY'])
+
+	when /^\/WHO\/USA\/datasets$/
+		get country_datasets_path("WHO", "USA", "app_id" => ENV['APP_ID'], "app_key" => ENV['APP_KEY'])
+
+	when /^\/WHO\/USA\/datasets\?format=xml$/
+		get country_datasets_path("WHO", "USA", :xml, "app_id" => ENV['APP_ID'], "app_key" => ENV['APP_KEY'])
 
 	end
 end

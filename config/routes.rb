@@ -1,13 +1,16 @@
+require 'api_constraints.rb'
+
 UnDataApi::Application.routes.draw do
 
-
-
-  namespace :v1 do
-    get "/organizations" => 'organizations#index', as: 'organizations', format: true
-    get "/:organization/datasets" => 'datasets#index', as: 'datasets', format: true
-    get "/:organization/:dataset/countries" => 'countries#index', as: 'countries', format: true
-    get "/:organization/:dataset/:country/records" => 'records#index', as: 'records', format: true
+  scope module: :v1, constraints: ApiConstraints.new(version: 1, default: true) do
+    get "/organizations" => 'organizations#index', metric: "organizations"
+    get "/:organization/datasets" => 'datasets#organization_datasets', as: :organization_datasets, metric: "organization_datasets"
+    get "/:organization/:dataset/countries" => 'countries#index', as: :dataset_countries, metric: "countries"
+    get "/:organization/:dataset/:country/records" => 'records#index', as: :country_records, metric: "records"
+    get "/:organization/:country/datasets" => 'datasets#country_datasets', as: :country_datasets, metric: "country_datasets"
   end
+
+  get '*a' => 'application#invalid_request'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

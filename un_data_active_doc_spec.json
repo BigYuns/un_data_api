@@ -1,9 +1,9 @@
 {
-  "basePath": "http://secure-temple-2418.herokuapp.com/",
+  "basePath": "http://api.undata-api.org/",
   "apiVersion": "v1",
   "apis": [
     {
-      "path": "/v1/organizations.{format}",
+      "path": "/organizations",
       "operations": [
         {
           "httpMethod": "GET",
@@ -13,15 +13,16 @@
           "parameters": [
             {
               "name": "format",
-              "description": "either json or xml",
+              "description": "If you want xml you will need to specify it in a parameter. The response defaults to JSON",
               "dataType": "string",
-              "required": true,
-              "paramType": "path"
+              "required": false,
+              "paramType": "query"
             },
             {
               "name": "app_id",
               "description": "Your access application id",
               "dataType": "string",
+              "required": true,
               "paramType": "query",
               "threescale_name": "app_ids"
             },
@@ -29,6 +30,7 @@
               "name": "app_key",
               "description": "Your access application key",
               "dataType": "string",
+              "required": true,
               "paramType": "query",
               "threescale_name": "app_keys"
             }
@@ -37,7 +39,7 @@
       ]
     },
     {
-      "path": "/v1/{organization}/datasets.{format}",
+      "path": "/{organization}/datasets",
       "operations": [
         {
           "httpMethod": "GET",
@@ -46,13 +48,6 @@
           "group": "sentence",
           "parameters": [
             {
-              "name": "format",
-              "description": "either json or xml",
-              "dataType": "string",
-              "required": true,
-              "paramType": "path"
-            },
-            {
               "name": "organization",
               "description": "The organization you are interested in.",
               "dataType": "string",
@@ -60,9 +55,17 @@
               "paramType": "path"
             },
             {
+              "name": "format",
+              "description": "If you want xml you will need to specify it in a parameter. The response defaults to JSON",
+              "dataType": "string",
+              "required": false,
+              "paramType": "query"
+            },
+            {
               "name": "app_id",
               "description": "Your access application id",
               "dataType": "string",
+              "required": true,
               "paramType": "query",
               "threescale_name": "app_ids"
             },
@@ -70,6 +73,7 @@
               "name": "app_key",
               "description": "Your access application key",
               "dataType": "string",
+              "required": true,
               "paramType": "query",
               "threescale_name": "app_keys"
             }
@@ -78,7 +82,7 @@
       ]
     },
     {
-      "path": "/v1/{organization}/{dataset}/countries.{format}",
+      "path": "/{organization}/{dataset}/countries",
       "operations": [
         {
           "httpMethod": "GET",
@@ -86,13 +90,6 @@
           "description": "<p>When you specify the organization and dataset you are interested in it will return an array of countries that belong to the organization and dataset. The countries will be in JSON or xml depending on the specified format.<p>",
           "group": "sentence",
           "parameters": [
-            {
-              "name": "format",
-              "description": "either json or xml",
-              "dataType": "string",
-              "required": true,
-              "paramType": "path"
-            },
             {
               "name": "organization",
               "description": "The organization you are interested in.",
@@ -108,9 +105,17 @@
               "paramType": "path"
             },
             {
+              "name": "format",
+              "description": "If you want xml you will need to specify it in a parameter. The response defaults to JSON",
+              "dataType": "string",
+              "required": false,
+              "paramType": "query"
+            },
+            {
               "name": "app_id",
               "description": "Your access application id",
               "dataType": "string",
+              "required": true,
               "paramType": "query",
               "threescale_name": "app_ids"
             },
@@ -118,6 +123,7 @@
               "name": "app_key",
               "description": "Your access application key",
               "dataType": "string",
+              "required": true,
               "paramType": "query",
               "threescale_name": "app_keys"
             }
@@ -126,7 +132,57 @@
       ]
     },
     {
-      "path": "/v1/{organization}/{dataset}/{country}/records.{format}",
+      "path": "/{organization}/{country}/datasets",
+      "operations": [
+        {
+          "httpMethod": "GET",
+          "summary": "Returns the datasets that belong to the organization and country in specified format",
+          "description": "<p>When you specify the organization and country you are interested in it will return an array of datasets that belong to the organization and country. The datasets will be in JSON or xml depending on the specified format.<p>",
+          "group": "sentence",
+          "parameters": [
+            {
+              "name": "organization",
+              "description": "The organization you are interested in.",
+              "dataType": "string",
+              "required": true,
+              "paramType": "path"
+            },
+            {
+              "name": "country",
+              "description": "The country you are interested in.",
+              "dataType": "string",
+              "required": true,
+              "paramType": "path"
+            },
+            {
+              "name": "format",
+              "description": "If you want xml you will need to specify it in a parameter. The response defaults to JSON",
+              "dataType": "string",
+              "required": false,
+              "paramType": "query"
+            },
+            {
+              "name": "app_id",
+              "description": "Your access application id",
+              "dataType": "string",
+              "required": true,
+              "paramType": "query",
+              "threescale_name": "app_ids"
+            },
+            {
+              "name": "app_key",
+              "description": "Your access application key",
+              "dataType": "string",
+              "required": true,
+              "paramType": "query",
+              "threescale_name": "app_keys"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/{organization}/{dataset}/{country}/records",
       "operations": [
         {
           "httpMethod": "GET",
@@ -134,13 +190,6 @@
           "description": "<p>When you specify the organization, dataset, country you are interested in it will return an array of records that belong to the organization, dataset, and country. The records will be in JSON or xml depending on the specified format.<p>",
           "group": "sentence",
           "parameters": [
-            {
-              "name": "format",
-              "description": "either json or xml",
-              "dataType": "string",
-              "required": true,
-              "paramType": "path"
-            },
             {
               "name": "organization",
               "description": "The organization you are interested in.",
@@ -163,9 +212,17 @@
               "paramType": "path"
             },
             {
+              "name": "format",
+              "description": "If you want xml you will need to specify it in a parameter. The response defaults to JSON",
+              "dataType": "string",
+              "required": false,
+              "paramType": "query"
+            },
+            {
               "name": "app_id",
               "description": "Your access application id",
               "dataType": "string",
+              "required": true,
               "paramType": "query",
               "threescale_name": "app_ids"
             },
@@ -173,6 +230,7 @@
               "name": "app_key",
               "description": "Your access application key",
               "dataType": "string",
+              "required": true,
               "paramType": "query",
               "threescale_name": "app_keys"
             }

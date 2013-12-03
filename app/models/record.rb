@@ -18,8 +18,11 @@ class Record
   belongs_to :country
   validates_presence_of :country
 
+  key :footnote_ids, Array
+  many :footnotes, in: :footnote_ids
+
   def serializable_hash(options = {})
-    super({ except: [:id, :country_id, :dataset_id] }.merge(options)) 
+    super({ except: [:id, :country_id, :dataset_id, :footnote_ids], include: [:footnotes] }.merge(options)) 
   end
 
 end

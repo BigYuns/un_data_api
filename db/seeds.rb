@@ -17,6 +17,13 @@ def xml_parser(file, organization_name, dataset_name, measurement)
 	@dataset.organization = @organization
 
 	doc = Document.new File.new(file)
+	doc.elements.each("ROOT/footnotes/footnote") do |footnote|
+		number = footnote.attributes["fnSeqID"]
+		text = footnote.text
+		footnote = Footnote.create(number: number, dataset_id: @dataset.id, text: text)
+		puts footnote.text
+	end
+
 	doc.elements.each("ROOT/data/record/field") do |element|
 
 		if element.attributes["name"] == "Country or Area"
@@ -47,6 +54,20 @@ def xml_parser(file, organization_name, dataset_name, measurement)
 			gender = element.text
 			record.set(gender: gender)
 			record.reload
+		elsif element.attributes["name"] == "Value Footnotes" && element.text != nil && !element.text.include?(",")
+			record = Record.last
+			footnote_number = element.text
+			footnote = Footnote.where(number: footnote_number.to_i, dataset_id: @dataset.id).first 
+			record.footnotes << footnote
+			record.save
+		elsif element.attributes["name"] == "Value Footnotes" && element.text != nil && element.text.include?(",")
+			record = Record.last
+			footnote_numbers = element.text.split(",")
+			footnote_numbers.each do |footnote_number|
+				footnote = Footnote.where(number: footnote_number.to_i, dataset_id: @dataset.id).first
+				record.footnotes << footnote
+				record.save
+			end
 		end	
 	end
 end

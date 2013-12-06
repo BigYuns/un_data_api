@@ -5,7 +5,7 @@ class ApplicationController < ActionController::API
   rescue_from NoMethodError, with: :invalid_request
 
   before_filter :authenticate_app, :default_format_json
-  respond_to :json, :xml
+  respond_to :json, :xml, :js
 
   def create_client
     @@threescale_client ||= ThreeScale::Client.new(:provider_key => ENV['PROVIDER_KEY'])		
@@ -52,4 +52,11 @@ class ApplicationController < ActionController::API
     respond_with(response)
   end
 
+  def undata_respond_with(item)
+    respond_with do |format|
+      format.js   { render :json => item, :callback => params[:callback] }
+      format.json { render :json => item }
+      format.xml  { render :xml => item }
+    end
+  end
 end

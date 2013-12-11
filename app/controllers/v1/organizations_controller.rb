@@ -6,7 +6,7 @@ module V1
 
       organizations.map! { |organization| organization.serializable_hash }
 
-      respond_with(organizations)
+      undata_respond_with(organizations)
     end
 
   end

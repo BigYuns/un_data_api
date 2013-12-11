@@ -7,7 +7,7 @@ module V1
 
       datasets.map! { |dataset| dataset.serializable_hash } 
 
-      respond_with(datasets)
+      undata_respond_with(datasets)
     end
 
     def country_datasets
@@ -17,7 +17,7 @@ module V1
 
       datasets.map! { |dataset| dataset.serializable_hash }
 
-      respond_with(datasets)
+      undata_respond_with(datasets)
     end
 
   end

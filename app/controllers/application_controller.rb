@@ -4,8 +4,12 @@ class ApplicationController < ActionController::API
   rescue_from MongoMapper::DocumentNotFound, with: :document_not_found
   rescue_from NoMethodError, with: :invalid_request
 
-  before_filter :authenticate_app, :default_format_json
+  before_filter :authenticate_app, :default_format_json, :set_access_control_headers
   respond_to :json, :xml
+
+  def  set_access_control_headers
+    headers['Access-Control-Allow-Origin'] = '*'
+  end
 
   def create_client
     @@threescale_client ||= ThreeScale::Client.new(:provider_key => ENV['PROVIDER_KEY'])		
@@ -49,7 +53,13 @@ class ApplicationController < ActionController::API
   def error(status, code, message)
     default_format_json
     response = { :response_type => "ERROR", :response_code => code, :message => message, :status => status } 
-    respond_with(response)
+    undata_respond_with(response)
   end
 
+  def undata_respond_with(item)
+    respond_with do |format|
+      format.json { render :json => item, :callback => params[:callback] }
+      format.xml  { render :xml => item }
+    end
+  end
 end

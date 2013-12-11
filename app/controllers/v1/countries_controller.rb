@@ -6,7 +6,7 @@ module V1
 
       countries.map! { |country| country.serializable_hash } 
 
-      respond_with(countries)
+      undata_respond_with(countries)
     end
 
   end

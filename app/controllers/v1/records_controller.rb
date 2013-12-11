@@ -8,7 +8,7 @@ module V1
 
       records.map! { |record| record.serializable_hash }
 
-      respond_with(records)
+      undata_respond_with(records)
     end
 
   end

@@ -7,10 +7,6 @@ defaults: &defaults
     slave_ok: false
     ssl: false
 
-staging:
-  <<: *defaults
-  database: un_data_api_staging
-
 development:
   <<: *defaults
   database: un_data_api_development

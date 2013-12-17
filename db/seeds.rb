@@ -1,90 +1,132 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
-#
-# Examples:
-#
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
-
 require "rexml/document"
 include REXML
 
-def xml_parser(file, organization_name, dataset_name, measurement)
+def get_file_names(organization_name, footnote_id_name)
+	@organization_name = organization_name
+	@footnote_id_name = footnote_id_name
 
-	@organization = Organization.find_or_create_by_name(organization_name)
-	@dataset = Dataset.find_or_create_by_name(dataset_name)
-	@organization.datasets << @dataset
-	@dataset.organization = @organization
+  filenames_array = []
+  Dir.foreach("un_data_xml_files/") do |files|
+    unless files == "." || files == ".." || files == ".DS_Store"
+      filenames_array << files
+    end
+  end
+  parse_filenames(filenames_array)
+end		
 
-	doc = Document.new File.new(file)
-	doc.elements.each("ROOT/footnotes/footnote") do |footnote|
-		number = footnote.attributes["fnSeqID"]
-		text = footnote.text
-		footnote = Footnote.create(number: number, dataset_id: @dataset.id, text: text)
-		puts footnote.text
-	end
+def parse_filenames(filenames_array)
+  filenames_array.each do |filename|
+    xml_parser(filename)
+  end
+end
 
-	doc.elements.each("ROOT/data/record/field") do |element|
+def xml_parser(filename)
+  @doc = Document.new File.new("un_data_xml_files/" + filename)
 
-		if element.attributes["name"] == "Country or Area"
-			@country_name = element.text.strip
-			country = Country.find_or_create_by_name(@country_name)
-			country.organizations << @organization
-			@organization.countries << country
-			@organization.save
-			if country.datasets.include?(@dataset)
-				country.save
-			else
-			  country.datasets << @dataset
-			  country.save
-			end
-			@dataset.countries << country
-			@dataset.save
-		elsif element.attributes["name"] == "Year"
-			year = element.text.to_i
-			record_country = Country.find_by_name(@country_name)
-			record = Record.create(year: year, dataset_id: Dataset.last.id, country_id: record_country.id, measurement: measurement, value: 0)
-		elsif element.attributes["name"] == "Value"
-			record = Record.last
-			value = element.text.to_f
-			record.set(value: value)
-			record.reload
-		elsif element.attributes["name"] == "GENDER"
-			record = Record.last
-			gender = element.text
-			record.set(gender: gender)
-			record.reload
-		elsif element.attributes["name"] == "Value Footnotes" && element.text != nil && !element.text.include?(",")
-			record = Record.last
-			footnote_number = element.text
-			footnote = Footnote.where(number: footnote_number.to_i, dataset_id: @dataset.id).first 
-			record.footnotes << footnote
-			record.save
-		elsif element.attributes["name"] == "Value Footnotes" && element.text != nil && element.text.include?(",")
-			record = Record.last
-			footnote_numbers = element.text.split(",")
-			footnote_numbers.each do |footnote_number|
-				footnote = Footnote.where(number: footnote_number.to_i, dataset_id: @dataset.id).first
-				record.footnotes << footnote
-				record.save
-			end
-		end	
+  @dataset = get_dataset_name(filename)
+  @dataset_id = @dataset.id
+  @organization = Organization.find_or_create_by_name(@organization_name)
+  @organization.datasets << @dataset
+  @dataset.organization = @organization
+
+  get_footnotes
+
+  record_attributes
+end
+
+def get_footnotes
+  @doc.elements.each("ROOT/footnotes/footnote") do |footnote|
+    number = footnote.attributes[@footnote_id_name]
+    text = footnote.text
+    footnote = Footnote.create(number: number, dataset_id: @dataset_id, text: text)
+  end
+end
+
+def get_dataset_name(filename)
+  dataset_name = filename.chomp(".xml")
+  Dataset.find_or_create_by_name(dataset_name)
+end
+
+def record_attributes
+  @doc.elements.each("ROOT/data/record") do |record|
+  	record.elements.each do |element|
+	    element_name = element.attributes["name"]
+
+	    case element_name
+	    when "Country or Area"
+	      @country_name = element.text.strip
+	      set_country
+	    when "Year"
+	      year = element.text.to_i
+	      set_year(year)
+	    when "Unit"
+	      measurement = element.text
+	      set_record("measurement", measurement)
+	    when "Value"
+	      value = element.text.to_f
+	      set_record("value", value)
+	    when "GENDER"
+	      gender = element.text
+	      set_record("gender", gender)
+	    when "Value Footnotes" 
+	    	if element.text != nil 
+	    		clean_footnotes(element.text)
+	      end
+	    else
+	      name = element_name.downcase.gsub("/ /", "_")
+	      set_record(name, element.text)
+	    end
+	  end
+	  new_record = Record.new(@record)
+	  new_record.save
+	  p new_record
 	end
 end
 
-xml_parser("un_data_xml_files/Precipitation.xml", "Environment Statistics Database", "Precipitation", "million cubic metres")
-xml_parser("un_data_xml_files/actual_evapotranspiration.xml", "Environment Statistics Database", "Actual Evapotranspiration", "million cubic metres")
-xml_parser("un_data_xml_files/freshwater_internal_flow.xml", "Environment Statistics Database", "Freshwater internal flow ", "million cubic metres")
-xml_parser("un_data_xml_files/inflow_of_surface_and_groundwaters.xml", "Environment Statistics Database", "Inflow of surface and groundwaters", "million cubic metres")
-xml_parser("un_data_xml_files/renewable_freshwater_resources.xml", "Environment Statistics Database", "Renewable freshwater resources", "million cubic metres")
-xml_parser("un_data_xml_files/gross_freshwater_abstracted.xml", "Environment Statistics Database", "Gross freshwater abstracted", "million cubic metres")
-xml_parser("un_data_xml_files/gross_fresh_surface_water_abstracted.xml", "Environment Statistics Database", "Gross fresh surface water abstracted", "million cubic metres")
-xml_parser("un_data_xml_files/gross_fresh_groundwater_abstracted.xml", "Environment Statistics Database", "Gross fresh groundwater abstracted", "million cubic metres")
-xml_parser("un_data_xml_files/net_freshwater_supplied_by_water_supply_industry.xml", "Environment Statistics Database", "Net freshwater supplied by water supply industry", "million cubic metres")
-xml_parser("un_data_xml_files/net_freshwater_supplied_by_water_supply_industry_to_households.xml", "Environment Statistics Database", "Net freshwater supplied by water supply industry to: Households", "million cubic metres")
-xml_parser("un_data_xml_files/total_population_supplied_by_water_supply_industry.xml", "Environment Statistics Database", "Total population supplied by water supply industry", "percent")
-xml_parser("un_data_xml_files/population_connected_to_wastewater_collecting_system.xml", "Environment Statistics Database", "Population connected to wastewater collecting system", "percent")
-xml_parser("un_data_xml_files/population_connected_to_wastewater_treatment.xml", "Environment Statistics Database", "Population connected to wastewater treatment", "percent")
-xml_parser("un_data_xml_files/municipal_waste_collected.xml", "Environment Statistics Database", "Municipal waste collected", "1000 tonnes")
-xml_parser("un_data_xml_files/total_population_served_by_municipal_waste_collection.xml", "Environment Statistics Database", "Total population served by municipal waste collection", "percent")
-xml_parser("un_data_xml_files/hazardous_waste_generated.xml", "Environment Statistics Database", "Hazardous waste generated", "tonnes")
+def set_country
+  @country = Country.find_or_create_by_name(@country_name)
+
+  @country.organizations << @organization
+  @organization.countries << @country
+  @organization.save
+
+  @country.datasets << @dataset
+  @country.save
+
+  @dataset.countries << @country
+  @dataset.save
+end
+
+def set_year(year)
+  @record = { year: year, 
+              dataset_id: @dataset_id, 
+              country_id: @country.id 
+            }
+end
+
+def clean_footnotes(element_text)
+	if element_text.include?(",")
+		footnote_numbers = element_text.split(",")
+		footnote_numbers.each do |footnote_number|
+		  set_record_footnote(footnote_number)
+		end
+	else
+		set_record_footnote(element_text)
+	end
+end
+
+def set_record_footnote(footnote_number)
+  footnote = Footnote.where(number: footnote_number.to_i, dataset_id: @dataset_id).first
+  p footnote
+  if @record[:footnote_ids]    
+  	@record[:footnote_ids] << footnote.id
+  else
+  	@record[:footnote_ids] = [footnote.id]
+  end
+end
+
+def set_record(attribute_name, attribute)
+  @record[attribute_name.to_sym] = attribute
+end
+
+get_file_names("Environment Statistics Database", "fnSeqID")

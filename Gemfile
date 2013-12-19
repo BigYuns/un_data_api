@@ -24,7 +24,6 @@ gem 'heroku-mongo-backup'
 
 gem 'aws-s3', :require => 'aws/s3' 
 
-
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 

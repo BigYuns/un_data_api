@@ -24,6 +24,14 @@ module UnDataApi
         ENV[key.to_s] = value
       end if File.exists?(env_file)
     end
+
+    AWS::S3::Base.establish_connection!(  
+      :access_key_id     => ENV['S3_ACCESS_KEY_ID'],  
+      :secret_access_key => ENV['S3_SECRET_ACCESS_KEY']  
+    )  
+    
+    BUCKET = ENV['S3_BUCKET_NAME']
+
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.

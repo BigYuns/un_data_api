@@ -22,7 +22,7 @@ gem '3scale_client'
 
 gem 'heroku-mongo-backup'
 
-gem 'aws-s3'
+gem 'aws-s3', :require => 'aws/s3' 
 
 
 # To use ActiveModel has_secure_password

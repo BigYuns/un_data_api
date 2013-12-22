@@ -2,7 +2,6 @@ require 'spec_helper'
 
 describe Record do
   let(:record) {create(:record)}
-  let(:record_with_footnotes) {create(:record_with_footnotes)}
   let(:footnote) {create(:footnote)}
 
   describe "creating a new record" do

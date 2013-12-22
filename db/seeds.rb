@@ -61,6 +61,9 @@ def record_attributes
 	      set_year(year)
 	    when "Unit"
 	      measurement = element.text
+	      if measurement == "%"
+	      	measurement = "percent"
+	      end
 	      set_record("measurement", measurement)
 	    when "Value"
 	      value = element.text.to_f

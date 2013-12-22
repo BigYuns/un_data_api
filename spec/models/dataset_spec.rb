@@ -12,9 +12,14 @@ describe Dataset do
         dataset.should be_valid
       end 
 
-      it "should have an organization" do
-        dataset.organization.class.should eq(Organization)
+      it "should belong to an organization" do
+        expect(dataset.organization).to be_an_instance_of Organization
       end
+
+      it "should belong to a database" do
+        expect(dataset.database).to be_an_instance_of Database
+      end
+
     end
 
     context "with invalid input" do

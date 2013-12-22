@@ -7,6 +7,9 @@ class Dataset
   belongs_to :organization
   validates_presence_of :organization
 
+  belongs_to :database
+  validates_presence_of :database
+
   key :country_ids, Array
   many :countries, in: :country_ids
 

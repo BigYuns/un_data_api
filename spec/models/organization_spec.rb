@@ -4,6 +4,7 @@ describe Organization do
   let(:organization) {build(:organization)}
   let(:organization_with_datasets) {create(:organization_with_datasets)}
   let(:organization_with_countries) {create(:organization_with_countries)}
+  let(:organization_with_databases) {create(:organization_with_databases)}
 
   describe "can create a new organization" do
 
@@ -31,6 +32,11 @@ describe Organization do
     it "should have many countries" do
       countries = organization_with_countries.countries
       expect(countries.first).to be_an_instance_of Country			
+    end
+
+    it "should have many databases" do
+      databases = organization_with_databases.databases
+      expect(databases.last).to be_an_instance_of Database
     end
 
   end

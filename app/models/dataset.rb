@@ -18,7 +18,7 @@ class Dataset
   many :footnotes
 
   def serializable_hash(options = {})
-    super({ except: [:id, :country_ids, :organization_id] }.merge(options)) 
+    super({ except: [:id, :country_ids, :organization_id, :database_id] }.merge(options)) 
   end
 
 end

@@ -31,5 +31,37 @@ def path_to(page_name)
 	when /^\/WHO\/USA\/datasets\?format=xml$/
 		get country_datasets_path("WHO", "USA", :xml, "app_id" => ENV['APP_ID'], "app_key" => ENV['APP_KEY'])
 
+	###Database Paths
+
+	when /^\/WHO\/databases$/
+		get databases_path("WHO", "app_id" => ENV['APP_ID'], "app_key" => ENV['APP_KEY'])
+
+	when /^\/WHO\/databases\?format=xml$/
+		get databases_path("WHO", :xml, "app_id" => ENV['APP_ID'], "app_key" => ENV['APP_KEY'])
+
+	when /^\/WHO\/Environment Statistics Database\/database_datasets$/
+		get db_datasets_path("WHO", "Environment Statistics Database", "app_id" => ENV['APP_ID'], "app_key" => ENV['APP_KEY'])
+
+	when /^\/WHO\/Environment Statistics Database\/database_datasets\?format=xml$/
+		get db_datasets_path("WHO", "Environment Statistics Database", :xml, "app_id" => ENV['APP_ID'], "app_key" => ENV['APP_KEY'])
+
+	when /^\/WHO\/Environment Statistics Database\/Health\/countries$/
+		get db_dataset_countries_path("WHO", "Environment Statistics Database", "Health", "app_id" => ENV['APP_ID'], "app_key" => ENV['APP_KEY'])
+
+	when /^\/WHO\/Environment Statistics Database\/Health\/countries\?format=xml$/
+		get db_dataset_countries_path("WHO", "Environment Statistics Database", "Health", :xml, "app_id" => ENV['APP_ID'], "app_key" => ENV['APP_KEY'])
+
+	when /^\/WHO\/Environment Statistics Database\/Health\/USA\/records$/
+		get db_country_records_path("WHO", "Environment Statistics Database", "Health", "USA", "app_id" => ENV['APP_ID'], "app_key" => ENV['APP_KEY'])
+
+	when /^\/WHO\/Environment Statistics Database\/Health\/USA\/records\?format=xml$/
+		get db_country_records_path("WHO", "Environment Statistics Database", "Health", "USA", :xml, "app_id" => ENV['APP_ID'], "app_key" => ENV['APP_KEY'])
+
+	when /^\/WHO\/Environment Statistics Database\/USA\/datasets$/
+		get db_country_datasets_path("WHO", "Environment Statistics Database", "USA", "app_id" => ENV['APP_ID'], "app_key" => ENV['APP_KEY'])
+
+	when /^\/WHO\/Environment Statistics Database\/USA\/datasets\?format=xml$/
+		get db_country_datasets_path("WHO", "Environment Statistics Database", "USA", :xml, "app_id" => ENV['APP_ID'], "app_key" => ENV['APP_KEY'])
+
 	end
 end

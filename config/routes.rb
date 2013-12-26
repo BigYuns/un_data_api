@@ -3,11 +3,19 @@ require 'api_constraints.rb'
 UnDataApi::Application.routes.draw do
 
   scope module: :v1, constraints: ApiConstraints.new(version: 1, default: true) do
-    get "/organizations" => 'organizations#index', metric: "organizations"
-    get "/:organization/datasets" => 'datasets#organization_datasets', as: :organization_datasets, metric: "organization_datasets"
-    get "/:organization/:dataset/countries" => 'countries#index', as: :dataset_countries, metric: "countries"
-    get "/:organization/:dataset/:country/records" => 'records#index', as: :country_records, metric: "records"
-    get "/:organization/:country/datasets" => 'datasets#country_datasets', as: :country_datasets, metric: "country_datasets"
+    ### Organization Routes
+    get "/organizations" => "organizations#index", metric: "organizations"
+    get "/:organization/datasets" => "datasets#organization_datasets", as: :organization_datasets, metric: "organization_datasets"
+    get "/:organization/:dataset/countries" => "countries#index", as: :dataset_countries, metric: "countries"
+    get "/:organization/:dataset/:country/records" => "records#index", as: :country_records, metric: "records"
+    get "/:organization/:country/datasets" => "datasets#country_datasets", as: :country_datasets, metric: "country_datasets"
+
+    ### Organization with Databases Routes
+    get "/:organization/databases" => "databases#organization_databases", as: :databases, metric: "databases"
+    get "/:organization/:database/database_datasets" => "datasets#database_datasets", as: :db_datasets, metric: "db_datasets"
+    get "/:organization/:database/:dataset/countries" => "countries#index", as: :db_dataset_countries, metric: "db_countries"
+    get "/:organization/:database/:dataset/:country/records" => "records#index", as: :db_country_records, metric: "db_records"
+    get "/:organization/:database/:country/datasets" => "datasets#database_country_datasets", as: :db_country_datasets, metric: "db_country_datasets"
   end
 
   get '*a' => 'application#invalid_request'

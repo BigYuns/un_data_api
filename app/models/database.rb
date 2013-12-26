@@ -11,4 +11,8 @@ class Database
 
   many :datasets
 
+  def serializable_hash(options = {})
+    super({ except: [:id, :country_ids, :organization_id] }.merge(options))
+  end
+
 end

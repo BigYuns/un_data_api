@@ -9,8 +9,5 @@ module V1
       undata_respond_with(countries)
     end
 
-    def database_countries
-    end
-
   end
 end

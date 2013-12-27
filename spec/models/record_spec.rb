@@ -2,6 +2,7 @@ require 'spec_helper'
 
 describe Record do
   let(:record) {create(:record)}
+  let(:footnote) {create(:footnote)}
 
   describe "creating a new record" do
     context "with valid input" do
@@ -30,6 +31,10 @@ describe Record do
       it "should belong to a country" do
         expect(record.country).to be_an_instance_of Country
       end
+
+      it "should have an array of footnote ids" do
+        expect(record.footnotes).to be_an_instance_of Array
+      end
     end
 
     context "with invalid input" do
@@ -43,6 +48,13 @@ describe Record do
 
       it "should not create without a measurement" do
         build(:record, measurement: nil).should_not be_valid
+      end
+    end
+
+    context "add footnotes to record" do
+      it "should be able to add a footnote to the record" do
+        record.footnotes << footnote
+        expect(record.footnotes.last).to eq(footnote)
       end
     end
     

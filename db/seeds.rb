@@ -82,7 +82,6 @@ def record_attributes
 	  end
 	  new_record = Record.new(@record)
 	  new_record.save
-	  p new_record
 	end
 end
 
@@ -120,7 +119,6 @@ end
 
 def set_record_footnote(footnote_number)
   footnote = Footnote.where(number: footnote_number.to_i, dataset_id: @dataset_id).first
-  p footnote
   if @record[:footnote_ids]    
   	@record[:footnote_ids] << footnote.id
   else
@@ -132,5 +130,5 @@ def set_record(attribute_name, attribute)
   @record[attribute_name.to_sym] = attribute
 end
 
-get_file_names("Environment Statistics Database", "fnSeqID")
+# get_file_names("Environment Statistics Database", "fnSeqID")
 

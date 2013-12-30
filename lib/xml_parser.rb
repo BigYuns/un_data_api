@@ -7,6 +7,7 @@ class XmlParser
     @database_name = database_name
     @organization = Organization.find_or_create_by_name(@organization_name)
     @database = Database.find_or_create_by_name(@database_name)
+    @database.organization = @organization
     @footnote_id_name = footnote_id_name
 
     @directory_name = "un_data_xml_files/#{@organization_name}/#{@database_name}/"
@@ -35,6 +36,9 @@ class XmlParser
 
     @organization.datasets << @dataset
     @dataset.organization = @organization
+    @dataset.save
+    p @dataset.database
+    p @organization.datasets.last.name
 
     get_footnotes
 
@@ -89,7 +93,7 @@ class XmlParser
       end
       new_record = Record.new(@record)
       new_record.save
-      p new_record
+
     end
   end
 
@@ -127,7 +131,6 @@ class XmlParser
 
   def set_record_footnote(footnote_number)
     footnote = Footnote.where(number: footnote_number.to_i, dataset_id: @dataset_id).first
-    p footnote
     if @record[:footnote_ids]    
       @record[:footnote_ids] << footnote.id
     else

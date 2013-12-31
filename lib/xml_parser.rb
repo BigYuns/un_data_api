@@ -12,13 +12,20 @@ class XmlParser
 
     @directory_name = "un_data_xml_files/#{@organization_name}/#{@database_name}/"
 
-    filenames_array = []
-    Dir.foreach(@directory_name) do |files|
-      unless files == "." || files == ".." || files == ".DS_Store"
-        filenames_array << files
+    Dir.foreach(@directory_name) do |dir|
+      unless dir == "." || dir == ".." || dir == ".DS_Store"
+        @full_directory_name = @directory_name + dir + "/"
+        @topic = dir
+        Dir.foreach(@full_directory_name) do |files|
+          filenames_array = []
+          unless files == "." || files == ".." || files == ".DS_Store"
+            p files
+            filenames_array << files
+          end
+          parse_filenames(filenames_array)
+        end
       end
     end
-    parse_filenames(filenames_array)
   end   
 
   def parse_filenames(filenames_array)
@@ -28,17 +35,16 @@ class XmlParser
   end
 
   def xml_parser(filename)
-    @doc = Document.new File.new(@directory_name + filename)
+    @doc = Document.new File.new(@full_directory_name + filename)
 
     @dataset = get_dataset_name(filename)
+    @dataset[:topics] = [@topic]
     @dataset.database = @database
     @dataset_id = @dataset.id
 
     @organization.datasets << @dataset
     @dataset.organization = @organization
     @dataset.save
-    p @dataset.database
-    p @organization.datasets.last.name
 
     get_footnotes
 

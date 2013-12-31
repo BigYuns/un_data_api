@@ -4,6 +4,7 @@ FactoryGirl.define do
   factory :dataset do
     name "Health"
     organization
+    database
   end
 
   factory :dataset_with_countries, parent: :dataset do 

@@ -10,6 +10,11 @@ Given(/^the WHO USA Health data exists$/) do
   FactoryGirl.create(:record)
 end
 
+Given(/^the WHO USA Health and Environment Statistics Database data exists$/) do
+  FactoryGirl.create(:organization_with_databases)
+  FactoryGirl.create(:record)
+end
+
 When(/^I send a GET request to "(.*?)"$/) do |path|
   path_to(path)
 end

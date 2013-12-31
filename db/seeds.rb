@@ -1,11 +1,3 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
-#
-# Examples:
-#
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
-
 require "rexml/document"
 include REXML
 
@@ -197,5 +189,4 @@ end
 	xml_parser("un_data_xml_files/adults_aged_<||=15_years_who_are_obese_percent.xml", "WHO", "Adults 15 years or older who are obese", "percent") 
 	xml_parser("un_data_xml_files/adult_15-60_mortality_rate_per_1000.xml", "WHO", "Adult 15-60 years mortality rate", "per 1,000")
 	xml_parser("un_data_xml_files/adult_literacy_rate_percent.xml", "WHO", "Adult literacy rate", "percent")
-
 

@@ -1,0 +1,4491 @@
+<ROOT>
+    <data>
+        <record>
+            <field name="Country or Area">Albania</field>
+            <field name="Year">2009</field>
+            <field name="Value">7.30000019073486</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Albania</field>
+            <field name="Year">2008</field>
+            <field name="Value">7.30000019073486</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Albania</field>
+            <field name="Year">2007</field>
+            <field name="Value">5.59999990463257</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Albania</field>
+            <field name="Year">2006</field>
+            <field name="Value">0.800000011920929</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Albania</field>
+            <field name="Year">2005</field>
+            <field name="Value">0.800000011920929</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Algeria</field>
+            <field name="Year">2008</field>
+            <field name="Value">53</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Algeria</field>
+            <field name="Year">2007</field>
+            <field name="Value">48</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Algeria</field>
+            <field name="Year">2006</field>
+            <field name="Value">45</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Algeria</field>
+            <field name="Year">2005</field>
+            <field name="Value">39</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Algeria</field>
+            <field name="Year">2004</field>
+            <field name="Value">39</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Algeria</field>
+            <field name="Year">2003</field>
+            <field name="Value">32</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Algeria</field>
+            <field name="Year">2002</field>
+            <field name="Value">32</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Algeria</field>
+            <field name="Year">2001</field>
+            <field name="Value">30</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Algeria</field>
+            <field name="Year">2000</field>
+            <field name="Value">30</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Andorra</field>
+            <field name="Year">2007</field>
+            <field name="Value">98</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Andorra</field>
+            <field name="Year">2006</field>
+            <field name="Value">86.4000015258789</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Andorra</field>
+            <field name="Year">2005</field>
+            <field name="Value">47.7000007629395</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Andorra</field>
+            <field name="Year">2004</field>
+            <field name="Value">31.1000003814697</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Andorra</field>
+            <field name="Year">2003</field>
+            <field name="Value">19.6000003814697</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Andorra</field>
+            <field name="Year">2002</field>
+            <field name="Value">17.0799999237061</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Andorra</field>
+            <field name="Year">2001</field>
+            <field name="Value">3.5</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Andorra</field>
+            <field name="Year">2000</field>
+            <field name="Value">3.61999988555908</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Andorra</field>
+            <field name="Year">1999</field>
+            <field name="Value">3.74000000953674</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Argentina</field>
+            <field name="Year">2001</field>
+            <field name="Value">42.5</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Armenia</field>
+            <field name="Year">2009</field>
+            <field name="Value">34.2999992370605</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Armenia</field>
+            <field name="Year">2008</field>
+            <field name="Value">34.2999992370605</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Armenia</field>
+            <field name="Year">2007</field>
+            <field name="Value">34.2999992370605</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Armenia</field>
+            <field name="Year">2006</field>
+            <field name="Value">34.2999992370605</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Armenia</field>
+            <field name="Year">2005</field>
+            <field name="Value">34.2999992370605</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Armenia</field>
+            <field name="Year">2004</field>
+            <field name="Value">34.2999992370605</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Armenia</field>
+            <field name="Year">2003</field>
+            <field name="Value">34.2999992370605</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Armenia</field>
+            <field name="Year">2002</field>
+            <field name="Value">34.2999992370605</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Armenia</field>
+            <field name="Year">2001</field>
+            <field name="Value">32.7999992370605</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Armenia</field>
+            <field name="Year">2000</field>
+            <field name="Value">32.7999992370605</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Armenia</field>
+            <field name="Year">1995</field>
+            <field name="Value">32.7000007629395</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Armenia</field>
+            <field name="Year">1990</field>
+            <field name="Value">32.5999984741211</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Austria</field>
+            <field name="Year">2008</field>
+            <field name="Value">93</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Austria</field>
+            <field name="Year">2006</field>
+            <field name="Value">92</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Austria</field>
+            <field name="Year">2004</field>
+            <field name="Value">89</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Austria</field>
+            <field name="Year">2003</field>
+            <field name="Value">89</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Austria</field>
+            <field name="Year">2002</field>
+            <field name="Value">86</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Austria</field>
+            <field name="Year">2001</field>
+            <field name="Value">86</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Austria</field>
+            <field name="Year">2000</field>
+            <field name="Value">85</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Austria</field>
+            <field name="Year">1998</field>
+            <field name="Value">81</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Austria</field>
+            <field name="Year">1995</field>
+            <field name="Value">75</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Austria</field>
+            <field name="Year">1990</field>
+            <field name="Value">72</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Azerbaijan</field>
+            <field name="Year">2009</field>
+            <field name="Value">31.3999996185303</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Azerbaijan</field>
+            <field name="Year">2008</field>
+            <field name="Value">31.2000007629395</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Azerbaijan</field>
+            <field name="Year">2005</field>
+            <field name="Value">30</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Azerbaijan</field>
+            <field name="Year">2004</field>
+            <field name="Value">30</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Azerbaijan</field>
+            <field name="Year">2003</field>
+            <field name="Value">30</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Bahrain</field>
+            <field name="Year">2007</field>
+            <field name="Value">88</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Bahrain</field>
+            <field name="Year">2006</field>
+            <field name="Value">87</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Bahrain</field>
+            <field name="Year">2005</field>
+            <field name="Value">86</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Bahrain</field>
+            <field name="Year">2004</field>
+            <field name="Value">83</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Bahrain</field>
+            <field name="Year">2003</field>
+            <field name="Value">79</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Bahrain</field>
+            <field name="Year">2002</field>
+            <field name="Value">77</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Bahrain</field>
+            <field name="Year">2001</field>
+            <field name="Value">75</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Bahrain</field>
+            <field name="Year">2000</field>
+            <field name="Value">74</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Bahrain</field>
+            <field name="Year">1999</field>
+            <field name="Value">71</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Bahrain</field>
+            <field name="Year">1998</field>
+            <field name="Value">69</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Bahrain</field>
+            <field name="Year">1997</field>
+            <field name="Value">66</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Bahrain</field>
+            <field name="Year">1996</field>
+            <field name="Value">65</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Bahrain</field>
+            <field name="Year">1995</field>
+            <field name="Value">64</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Bahrain</field>
+            <field name="Year">1990</field>
+            <field name="Value">58</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Belarus</field>
+            <field name="Year">2007</field>
+            <field name="Value">94.9000015258789</field>
+            <field name="Value Footnotes">1</field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Belarus</field>
+            <field name="Year">2006</field>
+            <field name="Value">96.0999984741211</field>
+            <field name="Value Footnotes">1</field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Belarus</field>
+            <field name="Year">2005</field>
+            <field name="Value">98.3000030517578</field>
+            <field name="Value Footnotes">1</field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Belarus</field>
+            <field name="Year">2004</field>
+            <field name="Value">90.8000030517578</field>
+            <field name="Value Footnotes">1</field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Belarus</field>
+            <field name="Year">2003</field>
+            <field name="Value">92.8000030517578</field>
+            <field name="Value Footnotes">1</field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Belarus</field>
+            <field name="Year">2002</field>
+            <field name="Value">94</field>
+            <field name="Value Footnotes">1</field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Belarus</field>
+            <field name="Year">2001</field>
+            <field name="Value">90.0999984741211</field>
+            <field name="Value Footnotes">1</field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Belarus</field>
+            <field name="Year">2000</field>
+            <field name="Value">90.0999984741211</field>
+            <field name="Value Footnotes">1</field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Belarus</field>
+            <field name="Year">1999</field>
+            <field name="Value">92.9000015258789</field>
+            <field name="Value Footnotes">1</field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Belarus</field>
+            <field name="Year">1998</field>
+            <field name="Value">91</field>
+            <field name="Value Footnotes">1</field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Belarus</field>
+            <field name="Year">1997</field>
+            <field name="Value">90.1999969482422</field>
+            <field name="Value Footnotes">1</field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Belarus</field>
+            <field name="Year">1996</field>
+            <field name="Value">94.0999984741211</field>
+            <field name="Value Footnotes">1</field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Belgium</field>
+            <field name="Year">2007</field>
+            <field name="Value">69</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Belgium</field>
+            <field name="Year">2006</field>
+            <field name="Value">57</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Belgium</field>
+            <field name="Year">2005</field>
+            <field name="Value">54</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Belgium</field>
+            <field name="Year">2004</field>
+            <field name="Value">53</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Belgium</field>
+            <field name="Year">2003</field>
+            <field name="Value">51</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Belgium</field>
+            <field name="Year">2002</field>
+            <field name="Value">48</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Belgium</field>
+            <field name="Year">2001</field>
+            <field name="Value">46</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Belgium</field>
+            <field name="Year">2000</field>
+            <field name="Value">41</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Belgium</field>
+            <field name="Year">1999</field>
+            <field name="Value">39</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Belgium</field>
+            <field name="Year">1998</field>
+            <field name="Value">38</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Belgium</field>
+            <field name="Year">1997</field>
+            <field name="Value">35</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Belgium</field>
+            <field name="Year">1996</field>
+            <field name="Value">30</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Belgium</field>
+            <field name="Year">1995</field>
+            <field name="Value">29</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Belize</field>
+            <field name="Year">2000</field>
+            <field name="Value">15.1000003814697</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Bermuda</field>
+            <field name="Year">2009</field>
+            <field name="Value">5</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Bermuda</field>
+            <field name="Year">2008</field>
+            <field name="Value">5</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Bermuda</field>
+            <field name="Year">2007</field>
+            <field name="Value">5</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Bermuda</field>
+            <field name="Year">2006</field>
+            <field name="Value">5</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Bermuda</field>
+            <field name="Year">2005</field>
+            <field name="Value">5</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Brazil</field>
+            <field name="Year">2006</field>
+            <field name="Value">26</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">British Virgin Islands</field>
+            <field name="Year">2001</field>
+            <field name="Value">24.5</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Bulgaria</field>
+            <field name="Year">2009</field>
+            <field name="Value">45</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Bulgaria</field>
+            <field name="Year">2008</field>
+            <field name="Value">44</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Bulgaria</field>
+            <field name="Year">2007</field>
+            <field name="Value">42</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Bulgaria</field>
+            <field name="Year">2006</field>
+            <field name="Value">41</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Bulgaria</field>
+            <field name="Year">2005</field>
+            <field name="Value">41</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Bulgaria</field>
+            <field name="Year">2004</field>
+            <field name="Value">40</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Bulgaria</field>
+            <field name="Year">2003</field>
+            <field name="Value">40</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Bulgaria</field>
+            <field name="Year">2002</field>
+            <field name="Value">39</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Bulgaria</field>
+            <field name="Year">2001</field>
+            <field name="Value">38</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Bulgaria</field>
+            <field name="Year">2000</field>
+            <field name="Value">37</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Bulgaria</field>
+            <field name="Year">1999</field>
+            <field name="Value">36</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Bulgaria</field>
+            <field name="Year">1998</field>
+            <field name="Value">36</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Bulgaria</field>
+            <field name="Year">1997</field>
+            <field name="Value">36</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Bulgaria</field>
+            <field name="Year">1996</field>
+            <field name="Value">36</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Bulgaria</field>
+            <field name="Year">1995</field>
+            <field name="Value">36</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Canada</field>
+            <field name="Year">1999</field>
+            <field name="Value">71.6999969482422</field>
+            <field name="Value Footnotes">2</field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Canada</field>
+            <field name="Year">1996</field>
+            <field name="Value">69.8000030517578</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Canada</field>
+            <field name="Year">1990</field>
+            <field name="Value">62.4000015258789</field>
+            <field name="Value Footnotes">3</field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Chile</field>
+            <field name="Year">2009</field>
+            <field name="Value">83.3000030517578</field>
+            <field name="Value Footnotes">4</field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Chile</field>
+            <field name="Year">2008</field>
+            <field name="Value">82.5999984741211</field>
+            <field name="Value Footnotes">4</field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Chile</field>
+            <field name="Year">2007</field>
+            <field name="Value">82.1999969482422</field>
+            <field name="Value Footnotes">4</field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Chile</field>
+            <field name="Year">2006</field>
+            <field name="Value">81.9000015258789</field>
+            <field name="Value Footnotes">4</field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Chile</field>
+            <field name="Year">2005</field>
+            <field name="Value">73.3000030517578</field>
+            <field name="Value Footnotes">4</field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Chile</field>
+            <field name="Year">2004</field>
+            <field name="Value">71.5</field>
+            <field name="Value Footnotes">4</field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Chile</field>
+            <field name="Year">2003</field>
+            <field name="Value">65.6999969482422</field>
+            <field name="Value Footnotes">4</field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Chile</field>
+            <field name="Year">2002</field>
+            <field name="Value">42.2000007629395</field>
+            <field name="Value Footnotes">4</field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Chile</field>
+            <field name="Year">2001</field>
+            <field name="Value">39.4000015258789</field>
+            <field name="Value Footnotes">4</field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Chile</field>
+            <field name="Year">2000</field>
+            <field name="Value">20.8999996185303</field>
+            <field name="Value Footnotes">4</field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Chile</field>
+            <field name="Year">1999</field>
+            <field name="Value">22.6000003814697</field>
+            <field name="Value Footnotes">4</field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Chile</field>
+            <field name="Year">1998</field>
+            <field name="Value">16.7099990844727</field>
+            <field name="Value Footnotes">4</field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Chile</field>
+            <field name="Year">1997</field>
+            <field name="Value">11.6700000762939</field>
+            <field name="Value Footnotes">4</field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Chile</field>
+            <field name="Year">1996</field>
+            <field name="Value">11.5100002288818</field>
+            <field name="Value Footnotes">4</field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Chile</field>
+            <field name="Year">1995</field>
+            <field name="Value">14</field>
+            <field name="Value Footnotes">4</field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Chile</field>
+            <field name="Year">1990</field>
+            <field name="Value">10</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">China</field>
+            <field name="Year">2004</field>
+            <field name="Value">32.5499992370605</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">China</field>
+            <field name="Year">2003</field>
+            <field name="Value">27.4799995422363</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">China</field>
+            <field name="Year">2002</field>
+            <field name="Value">24.2800006866455</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">China</field>
+            <field name="Year">2001</field>
+            <field name="Value">20.8099994659424</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">China, Hong Kong SAR</field>
+            <field name="Year">2009</field>
+            <field name="Value">93.2300033569336</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">China, Hong Kong SAR</field>
+            <field name="Year">2008</field>
+            <field name="Value">93.2600021362305</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">China, Hong Kong SAR</field>
+            <field name="Year">2007</field>
+            <field name="Value">93.2200012207031</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">China, Hong Kong SAR</field>
+            <field name="Year">2006</field>
+            <field name="Value">93.1699981689453</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">China, Hong Kong SAR</field>
+            <field name="Year">2005</field>
+            <field name="Value">92.9300003051758</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">China, Hong Kong SAR</field>
+            <field name="Year">2004</field>
+            <field name="Value">92.3300018310547</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">China, Hong Kong SAR</field>
+            <field name="Year">2003</field>
+            <field name="Value">94.6100006103516</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">China, Hong Kong SAR</field>
+            <field name="Year">2002</field>
+            <field name="Value">94.1999969482422</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">China, Hong Kong SAR</field>
+            <field name="Year">2001</field>
+            <field name="Value">94.8300018310547</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">China, Hong Kong SAR</field>
+            <field name="Year">2000</field>
+            <field name="Value">92.7200012207031</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">China, Hong Kong SAR</field>
+            <field name="Year">1999</field>
+            <field name="Value">91.2600021362305</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Costa Rica</field>
+            <field name="Year">2000</field>
+            <field name="Value">2.35999989509583</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Croatia</field>
+            <field name="Year">2008</field>
+            <field name="Value">27.2999992370605</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Croatia</field>
+            <field name="Year">2007</field>
+            <field name="Value">28.1000003814697</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Croatia</field>
+            <field name="Year">2006</field>
+            <field name="Value">28.3999996185303</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Croatia</field>
+            <field name="Year">2005</field>
+            <field name="Value">28.2000007629395</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Croatia</field>
+            <field name="Year">2004</field>
+            <field name="Value">14.6000003814697</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Croatia</field>
+            <field name="Year">2000</field>
+            <field name="Value">8.80000019073486</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Cuba</field>
+            <field name="Year">2009</field>
+            <field name="Value">24</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Cuba</field>
+            <field name="Year">2008</field>
+            <field name="Value">24</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Cuba</field>
+            <field name="Year">2007</field>
+            <field name="Value">24</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Cuba</field>
+            <field name="Year">2006</field>
+            <field name="Value">24</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Cuba</field>
+            <field name="Year">2005</field>
+            <field name="Value">24</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Cuba</field>
+            <field name="Year">2004</field>
+            <field name="Value">24</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Cuba</field>
+            <field name="Year">2003</field>
+            <field name="Value">24</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Cuba</field>
+            <field name="Year">2002</field>
+            <field name="Value">24</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Cuba</field>
+            <field name="Year">2001</field>
+            <field name="Value">24</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Cuba</field>
+            <field name="Year">2000</field>
+            <field name="Value">23.3999996185303</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Cuba</field>
+            <field name="Year">1999</field>
+            <field name="Value">23.3999996185303</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Cuba</field>
+            <field name="Year">1998</field>
+            <field name="Value">23.3999996185303</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Cuba</field>
+            <field name="Year">1997</field>
+            <field name="Value">23.3999996185303</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Cuba</field>
+            <field name="Year">1996</field>
+            <field name="Value">23.2999992370605</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Cuba</field>
+            <field name="Year">1995</field>
+            <field name="Value">23.2000007629395</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Cuba</field>
+            <field name="Year">1990</field>
+            <field name="Value">23.1000003814697</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Cyprus</field>
+            <field name="Year">2005</field>
+            <field name="Value">30</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Cyprus</field>
+            <field name="Year">2004</field>
+            <field name="Value">28</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Cyprus</field>
+            <field name="Year">2003</field>
+            <field name="Value">23</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Cyprus</field>
+            <field name="Year">2002</field>
+            <field name="Value">18</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Cyprus</field>
+            <field name="Year">2001</field>
+            <field name="Value">16</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Cyprus</field>
+            <field name="Year">2000</field>
+            <field name="Value">14</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Cyprus</field>
+            <field name="Year">1999</field>
+            <field name="Value">13</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Cyprus</field>
+            <field name="Year">1998</field>
+            <field name="Value">13</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Cyprus</field>
+            <field name="Year">1997</field>
+            <field name="Value">12</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Cyprus</field>
+            <field name="Year">1996</field>
+            <field name="Value">11</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Cyprus</field>
+            <field name="Year">1995</field>
+            <field name="Value">8</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Czech Republic</field>
+            <field name="Year">2008</field>
+            <field name="Value">76</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Czech Republic</field>
+            <field name="Year">2007</field>
+            <field name="Value">75</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Czech Republic</field>
+            <field name="Year">2006</field>
+            <field name="Value">74</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Czech Republic</field>
+            <field name="Year">2005</field>
+            <field name="Value">73</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Czech Republic</field>
+            <field name="Year">2004</field>
+            <field name="Value">71</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Czech Republic</field>
+            <field name="Year">2003</field>
+            <field name="Value">71</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Czech Republic</field>
+            <field name="Year">2002</field>
+            <field name="Value">70</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Czech Republic</field>
+            <field name="Year">2001</field>
+            <field name="Value">65</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Czech Republic</field>
+            <field name="Year">2000</field>
+            <field name="Value">64</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Czech Republic</field>
+            <field name="Year">1999</field>
+            <field name="Value">62</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Czech Republic</field>
+            <field name="Year">1998</field>
+            <field name="Value">62</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Czech Republic</field>
+            <field name="Year">1997</field>
+            <field name="Value">62</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Czech Republic</field>
+            <field name="Year">1996</field>
+            <field name="Value">60</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Czech Republic</field>
+            <field name="Year">1995</field>
+            <field name="Value">56</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Czech Republic</field>
+            <field name="Year">1990</field>
+            <field name="Value">50</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Denmark</field>
+            <field name="Year">2002</field>
+            <field name="Value">87.9</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Denmark</field>
+            <field name="Year">1998</field>
+            <field name="Value">89</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Denmark</field>
+            <field name="Year">1997</field>
+            <field name="Value">88</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Denmark</field>
+            <field name="Year">1996</field>
+            <field name="Value">87</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Denmark</field>
+            <field name="Year">1995</field>
+            <field name="Value">87</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Denmark</field>
+            <field name="Year">1990</field>
+            <field name="Value">85</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Dominica</field>
+            <field name="Year">2005</field>
+            <field name="Value">13</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Dominican Republic</field>
+            <field name="Year">2005</field>
+            <field name="Value">12</field>
+            <field name="Value Footnotes">5</field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Estonia</field>
+            <field name="Year">2009</field>
+            <field name="Value">80</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Estonia</field>
+            <field name="Year">2008</field>
+            <field name="Value">80</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Estonia</field>
+            <field name="Year">2007</field>
+            <field name="Value">74</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Estonia</field>
+            <field name="Year">2006</field>
+            <field name="Value">74</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Estonia</field>
+            <field name="Year">2005</field>
+            <field name="Value">74</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Estonia</field>
+            <field name="Year">2004</field>
+            <field name="Value">72</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Estonia</field>
+            <field name="Year">2003</field>
+            <field name="Value">70</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Estonia</field>
+            <field name="Year">2002</field>
+            <field name="Value">70</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Estonia</field>
+            <field name="Year">2001</field>
+            <field name="Value">69</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Estonia</field>
+            <field name="Year">2000</field>
+            <field name="Value">69</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Estonia</field>
+            <field name="Year">1999</field>
+            <field name="Value">69</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Estonia</field>
+            <field name="Year">1998</field>
+            <field name="Value">69</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Estonia</field>
+            <field name="Year">1997</field>
+            <field name="Value">72</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Estonia</field>
+            <field name="Year">1996</field>
+            <field name="Value">72</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Estonia</field>
+            <field name="Year">1995</field>
+            <field name="Value">72</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Estonia</field>
+            <field name="Year">1990</field>
+            <field name="Value">68</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Finland</field>
+            <field name="Year">2002</field>
+            <field name="Value">81</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Finland</field>
+            <field name="Year">2001</field>
+            <field name="Value">81</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Finland</field>
+            <field name="Year">2000</field>
+            <field name="Value">80</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Finland</field>
+            <field name="Year">1999</field>
+            <field name="Value">80</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Finland</field>
+            <field name="Year">1998</field>
+            <field name="Value">79</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Finland</field>
+            <field name="Year">1997</field>
+            <field name="Value">78</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Finland</field>
+            <field name="Year">1996</field>
+            <field name="Value">78</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Finland</field>
+            <field name="Year">1995</field>
+            <field name="Value">77</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Finland</field>
+            <field name="Year">1990</field>
+            <field name="Value">76</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">France</field>
+            <field name="Year">2004</field>
+            <field name="Value">80</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">France</field>
+            <field name="Year">2001</field>
+            <field name="Value">79</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">France</field>
+            <field name="Year">1998</field>
+            <field name="Value">77</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">France</field>
+            <field name="Year">1995</field>
+            <field name="Value">77</field>
+            <field name="Value Footnotes">6</field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">France</field>
+            <field name="Year">1990</field>
+            <field name="Value">69</field>
+            <field name="Value Footnotes">6</field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">French Guiana</field>
+            <field name="Year">2004</field>
+            <field name="Value">44</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">French Guiana</field>
+            <field name="Year">2001</field>
+            <field name="Value">27.7999992370605</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">French Guiana</field>
+            <field name="Year">1998</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">2007</field>
+            <field name="Value">95</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">2004</field>
+            <field name="Value">94</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">2001</field>
+            <field name="Value">93</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">1998</field>
+            <field name="Value">91</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">1995</field>
+            <field name="Value">88</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Greece</field>
+            <field name="Year">2009</field>
+            <field name="Value">87</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Greece</field>
+            <field name="Year">2007</field>
+            <field name="Value">85</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Greece</field>
+            <field name="Year">1997</field>
+            <field name="Value">56</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Greece</field>
+            <field name="Year">1995</field>
+            <field name="Value">55</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Guadeloupe</field>
+            <field name="Year">2004</field>
+            <field name="Value">38.9000015258789</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Guadeloupe</field>
+            <field name="Year">2001</field>
+            <field name="Value">40.0999984741211</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Guinea</field>
+            <field name="Year">2009</field>
+            <field name="Value">11</field>
+            <field name="Value Footnotes">7</field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Guinea</field>
+            <field name="Year">2008</field>
+            <field name="Value">11</field>
+            <field name="Value Footnotes">7</field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Guinea</field>
+            <field name="Year">2007</field>
+            <field name="Value">10</field>
+            <field name="Value Footnotes">7</field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Guinea</field>
+            <field name="Year">2006</field>
+            <field name="Value">10</field>
+            <field name="Value Footnotes">7</field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Guinea</field>
+            <field name="Year">2005</field>
+            <field name="Value">10</field>
+            <field name="Value Footnotes">7</field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Guyana</field>
+            <field name="Year">2009</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Guyana</field>
+            <field name="Year">2008</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Guyana</field>
+            <field name="Year">2007</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Guyana</field>
+            <field name="Year">2006</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Guyana</field>
+            <field name="Year">2005</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Guyana</field>
+            <field name="Year">2004</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Guyana</field>
+            <field name="Year">2003</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Guyana</field>
+            <field name="Year">2002</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Guyana</field>
+            <field name="Year">2001</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Guyana</field>
+            <field name="Year">2000</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Guyana</field>
+            <field name="Year">1995</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Guyana</field>
+            <field name="Year">1990</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Hungary</field>
+            <field name="Year">2006</field>
+            <field name="Value">57</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Hungary</field>
+            <field name="Year">2005</field>
+            <field name="Value">54</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Hungary</field>
+            <field name="Year">2004</field>
+            <field name="Value">62</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Hungary</field>
+            <field name="Year">2003</field>
+            <field name="Value">59</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Hungary</field>
+            <field name="Year">2002</field>
+            <field name="Value">57</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Hungary</field>
+            <field name="Year">2001</field>
+            <field name="Value">50</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Hungary</field>
+            <field name="Year">2000</field>
+            <field name="Value">46</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Hungary</field>
+            <field name="Year">1999</field>
+            <field name="Value">29</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Hungary</field>
+            <field name="Year">1998</field>
+            <field name="Value">26</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Hungary</field>
+            <field name="Year">1997</field>
+            <field name="Value">24</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Hungary</field>
+            <field name="Year">1996</field>
+            <field name="Value">22</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Hungary</field>
+            <field name="Year">1995</field>
+            <field name="Value">21</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Hungary</field>
+            <field name="Year">1990</field>
+            <field name="Value">20</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Iceland</field>
+            <field name="Year">2005</field>
+            <field name="Value">57</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Iceland</field>
+            <field name="Year">2004</field>
+            <field name="Value">50</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Iceland</field>
+            <field name="Year">2003</field>
+            <field name="Value">50</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Iceland</field>
+            <field name="Year">2002</field>
+            <field name="Value">50</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Iceland</field>
+            <field name="Year">2001</field>
+            <field name="Value">33</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Iceland</field>
+            <field name="Year">2000</field>
+            <field name="Value">33</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Iceland</field>
+            <field name="Year">1999</field>
+            <field name="Value">16</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Iceland</field>
+            <field name="Year">1998</field>
+            <field name="Value">8</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Iceland</field>
+            <field name="Year">1997</field>
+            <field name="Value">4</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Iceland</field>
+            <field name="Year">1996</field>
+            <field name="Value">4</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Iceland</field>
+            <field name="Year">1995</field>
+            <field name="Value">4</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Iceland</field>
+            <field name="Year">1990</field>
+            <field name="Value">2</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Iraq</field>
+            <field name="Year">2005</field>
+            <field name="Value">25.7000007629395</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ireland</field>
+            <field name="Year">2005</field>
+            <field name="Value">84</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ireland</field>
+            <field name="Year">2001</field>
+            <field name="Value">70</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ireland</field>
+            <field name="Year">2000</field>
+            <field name="Value">73</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ireland</field>
+            <field name="Year">1999</field>
+            <field name="Value">66</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ireland</field>
+            <field name="Year">1997</field>
+            <field name="Value">61</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ireland</field>
+            <field name="Year">1995</field>
+            <field name="Value">58</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ireland</field>
+            <field name="Year">1990</field>
+            <field name="Value">44</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Israel</field>
+            <field name="Year">2007</field>
+            <field name="Value">90.9599990844727</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Israel</field>
+            <field name="Year">2006</field>
+            <field name="Value">89.5699996948242</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Israel</field>
+            <field name="Year">2005</field>
+            <field name="Value">88.7200012207031</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Israel</field>
+            <field name="Year">2000</field>
+            <field name="Value">84.5999984741211</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Italy</field>
+            <field name="Year">1999</field>
+            <field name="Value">69</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Italy</field>
+            <field name="Year">1995</field>
+            <field name="Value">63</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Italy</field>
+            <field name="Year">1990</field>
+            <field name="Value">61</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Japan</field>
+            <field name="Year">2003</field>
+            <field name="Value">67</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Japan</field>
+            <field name="Year">2001</field>
+            <field name="Value">64</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Japan</field>
+            <field name="Year">1995</field>
+            <field name="Value">54</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Japan</field>
+            <field name="Year">1990</field>
+            <field name="Value">44</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Jordan</field>
+            <field name="Year">2006</field>
+            <field name="Value">61</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Kenya</field>
+            <field name="Year">2007</field>
+            <field name="Value">4.90000009536743</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Kenya</field>
+            <field name="Year">2006</field>
+            <field name="Value">4.90000009536743</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Kenya</field>
+            <field name="Year">2005</field>
+            <field name="Value">4.90000009536743</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Kenya</field>
+            <field name="Year">2004</field>
+            <field name="Value">4.90000009536743</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Kenya</field>
+            <field name="Year">2003</field>
+            <field name="Value">4.90000009536743</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Kenya</field>
+            <field name="Year">2002</field>
+            <field name="Value">4.90000009536743</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Kenya</field>
+            <field name="Year">2001</field>
+            <field name="Value">4.90000009536743</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Kenya</field>
+            <field name="Year">2000</field>
+            <field name="Value">4.90000009536743</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Kenya</field>
+            <field name="Year">1999</field>
+            <field name="Value">4.90000009536743</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Kenya</field>
+            <field name="Year">1998</field>
+            <field name="Value">4.90000009536743</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Kenya</field>
+            <field name="Year">1997</field>
+            <field name="Value">4.90000009536743</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Kenya</field>
+            <field name="Year">1996</field>
+            <field name="Value">4.90000009536743</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Kenya</field>
+            <field name="Year">1995</field>
+            <field name="Value">4.90000009536743</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Kenya</field>
+            <field name="Year">1990</field>
+            <field name="Value">4.90000009536743</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Korea, Republic of</field>
+            <field name="Year">2003</field>
+            <field name="Value">78.8</field>
+            <field name="Value Footnotes">8</field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Korea, Republic of</field>
+            <field name="Year">2000</field>
+            <field name="Value">69.9000015258789</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Latvia</field>
+            <field name="Year">2007</field>
+            <field name="Value">65</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Latvia</field>
+            <field name="Year">2006</field>
+            <field name="Value">65</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Latvia</field>
+            <field name="Year">2005</field>
+            <field name="Value">66</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Latvia</field>
+            <field name="Year">2004</field>
+            <field name="Value">66</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Latvia</field>
+            <field name="Year">2003</field>
+            <field name="Value">70</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Latvia</field>
+            <field name="Year">2002</field>
+            <field name="Value">65</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Lithuania</field>
+            <field name="Year">2009</field>
+            <field name="Value">71</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Lithuania</field>
+            <field name="Year">2008</field>
+            <field name="Value">70</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Lithuania</field>
+            <field name="Year">2007</field>
+            <field name="Value">69</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Lithuania</field>
+            <field name="Year">2006</field>
+            <field name="Value">69</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Lithuania</field>
+            <field name="Year">2005</field>
+            <field name="Value">69</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Lithuania</field>
+            <field name="Year">2003</field>
+            <field name="Value">59</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Lithuania</field>
+            <field name="Year">2002</field>
+            <field name="Value">57</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Luxembourg</field>
+            <field name="Year">2003</field>
+            <field name="Value">95</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Luxembourg</field>
+            <field name="Year">1999</field>
+            <field name="Value">93</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Luxembourg</field>
+            <field name="Year">1995</field>
+            <field name="Value">88</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Luxembourg</field>
+            <field name="Year">1990</field>
+            <field name="Value">90</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Madagascar</field>
+            <field name="Year">2005</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes">9</field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Madagascar</field>
+            <field name="Year">2004</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes">9</field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Madagascar</field>
+            <field name="Year">2003</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes">9</field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Madagascar</field>
+            <field name="Year">2002</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes">9</field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Madagascar</field>
+            <field name="Year">2001</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes">9</field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Madagascar</field>
+            <field name="Year">2000</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes">9</field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Madagascar</field>
+            <field name="Year">1999</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes">9</field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Madagascar</field>
+            <field name="Year">1995</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes">9</field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Madagascar</field>
+            <field name="Year">1990</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes">9</field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Malta</field>
+            <field name="Year">2009</field>
+            <field name="Value">48</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Malta</field>
+            <field name="Year">2008</field>
+            <field name="Value">42</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Malta</field>
+            <field name="Year">2007</field>
+            <field name="Value">35</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Malta</field>
+            <field name="Year">2006</field>
+            <field name="Value">36</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Malta</field>
+            <field name="Year">2005</field>
+            <field name="Value">36</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Malta</field>
+            <field name="Year">2004</field>
+            <field name="Value">36</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Malta</field>
+            <field name="Year">2003</field>
+            <field name="Value">36</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Malta</field>
+            <field name="Year">2002</field>
+            <field name="Value">36</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Malta</field>
+            <field name="Year">2001</field>
+            <field name="Value">36</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Malta</field>
+            <field name="Year">2000</field>
+            <field name="Value">36</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Malta</field>
+            <field name="Year">1999</field>
+            <field name="Value">13</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Malta</field>
+            <field name="Year">1998</field>
+            <field name="Value">13</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Malta</field>
+            <field name="Year">1997</field>
+            <field name="Value">13</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Malta</field>
+            <field name="Year">1996</field>
+            <field name="Value">13</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Malta</field>
+            <field name="Year">1995</field>
+            <field name="Value">13</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Malta</field>
+            <field name="Year">1990</field>
+            <field name="Value">13</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Marshall Islands</field>
+            <field name="Year">2007</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Marshall Islands</field>
+            <field name="Year">2006</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Marshall Islands</field>
+            <field name="Year">2005</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Marshall Islands</field>
+            <field name="Year">2004</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Marshall Islands</field>
+            <field name="Year">2003</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Marshall Islands</field>
+            <field name="Year">2002</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Marshall Islands</field>
+            <field name="Year">2001</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Marshall Islands</field>
+            <field name="Year">2000</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Marshall Islands</field>
+            <field name="Year">1999</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Marshall Islands</field>
+            <field name="Year">1998</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Marshall Islands</field>
+            <field name="Year">1997</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Marshall Islands</field>
+            <field name="Year">1996</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Marshall Islands</field>
+            <field name="Year">1995</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Marshall Islands</field>
+            <field name="Year">1990</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Martinique</field>
+            <field name="Year">2004</field>
+            <field name="Value">48.2000007629395</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Martinique</field>
+            <field name="Year">2001</field>
+            <field name="Value">44.3199996948242</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Mauritius</field>
+            <field name="Year">2007</field>
+            <field name="Value">25</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Mauritius</field>
+            <field name="Year">2006</field>
+            <field name="Value">25</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Mauritius</field>
+            <field name="Year">2005</field>
+            <field name="Value">23</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Mauritius</field>
+            <field name="Year">2004</field>
+            <field name="Value">23</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Mauritius</field>
+            <field name="Year">2003</field>
+            <field name="Value">22</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Mauritius</field>
+            <field name="Year">2002</field>
+            <field name="Value">20</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Mauritius</field>
+            <field name="Year">2001</field>
+            <field name="Value">20</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Mauritius</field>
+            <field name="Year">2000</field>
+            <field name="Value">20</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Mauritius</field>
+            <field name="Year">1999</field>
+            <field name="Value">15</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Mauritius</field>
+            <field name="Year">1998</field>
+            <field name="Value">10</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Mauritius</field>
+            <field name="Year">1997</field>
+            <field name="Value">10</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Mauritius</field>
+            <field name="Year">1996</field>
+            <field name="Value">10</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Mauritius</field>
+            <field name="Year">1995</field>
+            <field name="Value">10</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Mauritius</field>
+            <field name="Year">1990</field>
+            <field name="Value">10</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Mexico</field>
+            <field name="Year">2005</field>
+            <field name="Value">35</field>
+            <field name="Value Footnotes">10,11</field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Mexico</field>
+            <field name="Year">2000</field>
+            <field name="Value">25.1000003814697</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Monaco</field>
+            <field name="Year">2009</field>
+            <field name="Value">100</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Monaco</field>
+            <field name="Year">2008</field>
+            <field name="Value">100</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Monaco</field>
+            <field name="Year">2007</field>
+            <field name="Value">100</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Monaco</field>
+            <field name="Year">2006</field>
+            <field name="Value">100</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Monaco</field>
+            <field name="Year">2005</field>
+            <field name="Value">100</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Monaco</field>
+            <field name="Year">2004</field>
+            <field name="Value">100</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Monaco</field>
+            <field name="Year">2003</field>
+            <field name="Value">100</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Monaco</field>
+            <field name="Year">2002</field>
+            <field name="Value">100</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Monaco</field>
+            <field name="Year">2001</field>
+            <field name="Value">100</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Monaco</field>
+            <field name="Year">2000</field>
+            <field name="Value">100</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Monaco</field>
+            <field name="Year">1999</field>
+            <field name="Value">100</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Monaco</field>
+            <field name="Year">1998</field>
+            <field name="Value">100</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Monaco</field>
+            <field name="Year">1997</field>
+            <field name="Value">100</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Monaco</field>
+            <field name="Year">1996</field>
+            <field name="Value">100</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Monaco</field>
+            <field name="Year">1995</field>
+            <field name="Value">100</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Monaco</field>
+            <field name="Year">1990</field>
+            <field name="Value">100</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Morocco</field>
+            <field name="Year">2000</field>
+            <field name="Value">80</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Netherlands</field>
+            <field name="Year">2009</field>
+            <field name="Value">99</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Netherlands</field>
+            <field name="Year">2008</field>
+            <field name="Value">99</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Netherlands</field>
+            <field name="Year">2007</field>
+            <field name="Value">99</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Netherlands</field>
+            <field name="Year">2006</field>
+            <field name="Value">99</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Netherlands</field>
+            <field name="Year">2005</field>
+            <field name="Value">99</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Netherlands</field>
+            <field name="Year">2004</field>
+            <field name="Value">99</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Netherlands</field>
+            <field name="Year">2003</field>
+            <field name="Value">99</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Netherlands</field>
+            <field name="Year">2002</field>
+            <field name="Value">99</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Netherlands</field>
+            <field name="Year">2001</field>
+            <field name="Value">98</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Netherlands</field>
+            <field name="Year">2000</field>
+            <field name="Value">98</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Netherlands</field>
+            <field name="Year">1999</field>
+            <field name="Value">98</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Netherlands</field>
+            <field name="Year">1998</field>
+            <field name="Value">98</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Netherlands</field>
+            <field name="Year">1997</field>
+            <field name="Value">98</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Netherlands</field>
+            <field name="Year">1996</field>
+            <field name="Value">97</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Netherlands</field>
+            <field name="Year">1995</field>
+            <field name="Value">97</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Netherlands</field>
+            <field name="Year">1990</field>
+            <field name="Value">94</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">New Zealand</field>
+            <field name="Year">1999</field>
+            <field name="Value">80</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Norway</field>
+            <field name="Year">2009</field>
+            <field name="Value">79</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Norway</field>
+            <field name="Year">2008</field>
+            <field name="Value">77</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Norway</field>
+            <field name="Year">2007</field>
+            <field name="Value">78</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Norway</field>
+            <field name="Year">2006</field>
+            <field name="Value">78</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Norway</field>
+            <field name="Year">2005</field>
+            <field name="Value">77</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Norway</field>
+            <field name="Year">2004</field>
+            <field name="Value">76</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Norway</field>
+            <field name="Year">2003</field>
+            <field name="Value">75</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Norway</field>
+            <field name="Year">2002</field>
+            <field name="Value">74</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Norway</field>
+            <field name="Year">2001</field>
+            <field name="Value">74</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Norway</field>
+            <field name="Year">2000</field>
+            <field name="Value">73</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Norway</field>
+            <field name="Year">1999</field>
+            <field name="Value">73</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Norway</field>
+            <field name="Year">1998</field>
+            <field name="Value">73</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Norway</field>
+            <field name="Year">1997</field>
+            <field name="Value">70</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Norway</field>
+            <field name="Year">1996</field>
+            <field name="Value">67</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Norway</field>
+            <field name="Year">1995</field>
+            <field name="Value">67</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Norway</field>
+            <field name="Year">1990</field>
+            <field name="Value">57</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Panama</field>
+            <field name="Year">2007</field>
+            <field name="Value">55</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Panama</field>
+            <field name="Year">2006</field>
+            <field name="Value">48</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Panama</field>
+            <field name="Year">2005</field>
+            <field name="Value">46</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Panama</field>
+            <field name="Year">2004</field>
+            <field name="Value">36</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Panama</field>
+            <field name="Year">2003</field>
+            <field name="Value">34</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Panama</field>
+            <field name="Year">2002</field>
+            <field name="Value">33</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Panama</field>
+            <field name="Year">2001</field>
+            <field name="Value">31</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Panama</field>
+            <field name="Year">2000</field>
+            <field name="Value">30</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Poland</field>
+            <field name="Year">2009</field>
+            <field name="Value">64</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Poland</field>
+            <field name="Year">2008</field>
+            <field name="Value">63</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Poland</field>
+            <field name="Year">2007</field>
+            <field name="Value">62</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Poland</field>
+            <field name="Year">2006</field>
+            <field name="Value">61</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Poland</field>
+            <field name="Year">2005</field>
+            <field name="Value">60</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Poland</field>
+            <field name="Year">2004</field>
+            <field name="Value">59</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Poland</field>
+            <field name="Year">2003</field>
+            <field name="Value">58</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Poland</field>
+            <field name="Year">2002</field>
+            <field name="Value">57</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Poland</field>
+            <field name="Year">2001</field>
+            <field name="Value">55</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Poland</field>
+            <field name="Year">2000</field>
+            <field name="Value">54</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Poland</field>
+            <field name="Year">1999</field>
+            <field name="Value">52</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Poland</field>
+            <field name="Year">1998</field>
+            <field name="Value">50</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Poland</field>
+            <field name="Year">1997</field>
+            <field name="Value">47</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Poland</field>
+            <field name="Year">1996</field>
+            <field name="Value">43</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Poland</field>
+            <field name="Year">1995</field>
+            <field name="Value">42</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Portugal</field>
+            <field name="Year">2008</field>
+            <field name="Value">70</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Portugal</field>
+            <field name="Year">2007</field>
+            <field name="Value">69</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Portugal</field>
+            <field name="Year">2006</field>
+            <field name="Value">72</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Portugal</field>
+            <field name="Year">2005</field>
+            <field name="Value">65</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Portugal</field>
+            <field name="Year">2003</field>
+            <field name="Value">60</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Portugal</field>
+            <field name="Year">2002</field>
+            <field name="Value">57</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Portugal</field>
+            <field name="Year">1998</field>
+            <field name="Value">42</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Portugal</field>
+            <field name="Year">1990</field>
+            <field name="Value">21</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Republic of Moldova</field>
+            <field name="Year">2004</field>
+            <field name="Value">60</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Republic of Moldova</field>
+            <field name="Year">2003</field>
+            <field name="Value">57</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Republic of Moldova</field>
+            <field name="Year">2002</field>
+            <field name="Value">59</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Republic of Moldova</field>
+            <field name="Year">2001</field>
+            <field name="Value">57</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Republic of Moldova</field>
+            <field name="Year">2000</field>
+            <field name="Value">54</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Republic of Moldova</field>
+            <field name="Year">1999</field>
+            <field name="Value">53</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Réunion</field>
+            <field name="Year">2004</field>
+            <field name="Value">35.9000015258789</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Réunion</field>
+            <field name="Year">2001</field>
+            <field name="Value">32.2000007629395</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Réunion</field>
+            <field name="Year">1998</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Romania</field>
+            <field name="Year">2009</field>
+            <field name="Value">29</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Romania</field>
+            <field name="Year">2008</field>
+            <field name="Value">29</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Romania</field>
+            <field name="Year">2007</field>
+            <field name="Value">28</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Romania</field>
+            <field name="Year">2006</field>
+            <field name="Value">28</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Romania</field>
+            <field name="Year">2005</field>
+            <field name="Value">27</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Romania</field>
+            <field name="Year">2004</field>
+            <field name="Value">27</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Serbia</field>
+            <field name="Year">2009</field>
+            <field name="Value">19</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Serbia</field>
+            <field name="Year">2008</field>
+            <field name="Value">17</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Serbia</field>
+            <field name="Year">2007</field>
+            <field name="Value">14</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Serbia</field>
+            <field name="Year">2002</field>
+            <field name="Value">13</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Singapore</field>
+            <field name="Year">2009</field>
+            <field name="Value">100</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Singapore</field>
+            <field name="Year">2008</field>
+            <field name="Value">100</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Singapore</field>
+            <field name="Year">2007</field>
+            <field name="Value">99.9000015258789</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Singapore</field>
+            <field name="Year">2006</field>
+            <field name="Value">99.9000015258789</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Singapore</field>
+            <field name="Year">2005</field>
+            <field name="Value">99.9000015258789</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Singapore</field>
+            <field name="Year">2004</field>
+            <field name="Value">99.9000015258789</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Singapore</field>
+            <field name="Year">2003</field>
+            <field name="Value">99.9000015258789</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Singapore</field>
+            <field name="Year">2002</field>
+            <field name="Value">99</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Singapore</field>
+            <field name="Year">2001</field>
+            <field name="Value">99</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Singapore</field>
+            <field name="Year">2000</field>
+            <field name="Value">99</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Singapore</field>
+            <field name="Year">1999</field>
+            <field name="Value">99</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Singapore</field>
+            <field name="Year">1998</field>
+            <field name="Value">99</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Singapore</field>
+            <field name="Year">1997</field>
+            <field name="Value">99</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Singapore</field>
+            <field name="Year">1996</field>
+            <field name="Value">99</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Singapore</field>
+            <field name="Year">1995</field>
+            <field name="Value">99</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Singapore</field>
+            <field name="Year">1990</field>
+            <field name="Value">97.5</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Slovakia</field>
+            <field name="Year">2007</field>
+            <field name="Value">57</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Slovakia</field>
+            <field name="Year">2006</field>
+            <field name="Value">55</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Slovakia</field>
+            <field name="Year">2005</field>
+            <field name="Value">55</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Slovakia</field>
+            <field name="Year">2004</field>
+            <field name="Value">54</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Slovakia</field>
+            <field name="Year">2003</field>
+            <field name="Value">53</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Slovakia</field>
+            <field name="Year">2002</field>
+            <field name="Value">52</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Slovakia</field>
+            <field name="Year">2001</field>
+            <field name="Value">51</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Slovakia</field>
+            <field name="Year">2000</field>
+            <field name="Value">51</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Slovakia</field>
+            <field name="Year">1999</field>
+            <field name="Value">50</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Slovakia</field>
+            <field name="Year">1998</field>
+            <field name="Value">49</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Slovakia</field>
+            <field name="Year">1997</field>
+            <field name="Value">49</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Slovakia</field>
+            <field name="Year">1996</field>
+            <field name="Value">49</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Slovakia</field>
+            <field name="Year">1995</field>
+            <field name="Value">48</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Slovakia</field>
+            <field name="Year">1990</field>
+            <field name="Value">43</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Slovenia</field>
+            <field name="Year">2009</field>
+            <field name="Value">52</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Slovenia</field>
+            <field name="Year">2008</field>
+            <field name="Value">52</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Slovenia</field>
+            <field name="Year">2007</field>
+            <field name="Value">51</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Slovenia</field>
+            <field name="Year">2006</field>
+            <field name="Value">52</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Slovenia</field>
+            <field name="Year">2005</field>
+            <field name="Value">37</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Slovenia</field>
+            <field name="Year">2004</field>
+            <field name="Value">34</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Slovenia</field>
+            <field name="Year">2003</field>
+            <field name="Value">26</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Slovenia</field>
+            <field name="Year">2002</field>
+            <field name="Value">25</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Slovenia</field>
+            <field name="Year">2001</field>
+            <field name="Value">25</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Slovenia</field>
+            <field name="Year">2000</field>
+            <field name="Value">23</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Slovenia</field>
+            <field name="Year">1999</field>
+            <field name="Value">21</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Slovenia</field>
+            <field name="Year">1998</field>
+            <field name="Value">19</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">South Africa</field>
+            <field name="Year">2007</field>
+            <field name="Value">57</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">South Africa</field>
+            <field name="Year">2006</field>
+            <field name="Value">55</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">South Africa</field>
+            <field name="Year">2005</field>
+            <field name="Value">54</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">South Africa</field>
+            <field name="Year">2004</field>
+            <field name="Value">52</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">South Africa</field>
+            <field name="Year">2003</field>
+            <field name="Value">50</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">South Africa</field>
+            <field name="Year">2002</field>
+            <field name="Value">50</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">South Africa</field>
+            <field name="Year">2001</field>
+            <field name="Value">48</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">South Africa</field>
+            <field name="Year">2000</field>
+            <field name="Value">46</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">South Africa</field>
+            <field name="Year">1999</field>
+            <field name="Value">45</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">South Africa</field>
+            <field name="Year">1998</field>
+            <field name="Value">43</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">South Africa</field>
+            <field name="Year">1997</field>
+            <field name="Value">41</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">South Africa</field>
+            <field name="Year">1996</field>
+            <field name="Value">39</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">South Africa</field>
+            <field name="Year">1995</field>
+            <field name="Value">39</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Spain</field>
+            <field name="Year">2008</field>
+            <field name="Value">92</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Spain</field>
+            <field name="Year">2007</field>
+            <field name="Value">100</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Spain</field>
+            <field name="Year">2006</field>
+            <field name="Value">91</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Spain</field>
+            <field name="Year">2005</field>
+            <field name="Value">92</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Spain</field>
+            <field name="Year">2002</field>
+            <field name="Value">89</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Spain</field>
+            <field name="Year">2000</field>
+            <field name="Value">88</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Spain</field>
+            <field name="Year">1995</field>
+            <field name="Value">48</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Spain</field>
+            <field name="Year">1990</field>
+            <field name="Value">48</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Sweden</field>
+            <field name="Year">2006</field>
+            <field name="Value">86</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Sweden</field>
+            <field name="Year">2005</field>
+            <field name="Value">86</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Sweden</field>
+            <field name="Year">2004</field>
+            <field name="Value">86</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Sweden</field>
+            <field name="Year">2003</field>
+            <field name="Value">86</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Sweden</field>
+            <field name="Year">2002</field>
+            <field name="Value">85</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Sweden</field>
+            <field name="Year">2000</field>
+            <field name="Value">86</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Sweden</field>
+            <field name="Year">1998</field>
+            <field name="Value">93</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Sweden</field>
+            <field name="Year">1995</field>
+            <field name="Value">93</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Sweden</field>
+            <field name="Year">1990</field>
+            <field name="Value">94</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Switzerland</field>
+            <field name="Year">2005</field>
+            <field name="Value">97</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Switzerland</field>
+            <field name="Year">2004</field>
+            <field name="Value">96.7</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Switzerland</field>
+            <field name="Year">2002</field>
+            <field name="Value">96</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Switzerland</field>
+            <field name="Year">2001</field>
+            <field name="Value">96</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Switzerland</field>
+            <field name="Year">2000</field>
+            <field name="Value">96</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Switzerland</field>
+            <field name="Year">1999</field>
+            <field name="Value">96</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Switzerland</field>
+            <field name="Year">1998</field>
+            <field name="Value">96</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Switzerland</field>
+            <field name="Year">1997</field>
+            <field name="Value">95</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Switzerland</field>
+            <field name="Year">1995</field>
+            <field name="Value">94</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Switzerland</field>
+            <field name="Year">1990</field>
+            <field name="Value">90</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">The Former Yugoslav Rep. of  Macedonia</field>
+            <field name="Year">2008</field>
+            <field name="Value">7</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">The Former Yugoslav Rep. of  Macedonia</field>
+            <field name="Year">2007</field>
+            <field name="Value">7</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">The Former Yugoslav Rep. of  Macedonia</field>
+            <field name="Year">2006</field>
+            <field name="Value">7</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">The Former Yugoslav Rep. of  Macedonia</field>
+            <field name="Year">2005</field>
+            <field name="Value">6.5</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">The Former Yugoslav Rep. of  Macedonia</field>
+            <field name="Year">2004</field>
+            <field name="Value">6</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">The Former Yugoslav Rep. of  Macedonia</field>
+            <field name="Year">2003</field>
+            <field name="Value">6</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">The Former Yugoslav Rep. of  Macedonia</field>
+            <field name="Year">2002</field>
+            <field name="Value">6</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">The Former Yugoslav Rep. of  Macedonia</field>
+            <field name="Year">2001</field>
+            <field name="Value">6</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">The Former Yugoslav Rep. of  Macedonia</field>
+            <field name="Year">2000</field>
+            <field name="Value">5</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">The Former Yugoslav Rep. of  Macedonia</field>
+            <field name="Year">1999</field>
+            <field name="Value">5</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">The Former Yugoslav Rep. of  Macedonia</field>
+            <field name="Year">1995</field>
+            <field name="Value">5</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">The Former Yugoslav Rep. of  Macedonia</field>
+            <field name="Year">1990</field>
+            <field name="Value">5</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Trinidad and Tobago</field>
+            <field name="Year">2007</field>
+            <field name="Value">25.2000007629395</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Trinidad and Tobago</field>
+            <field name="Year">2006</field>
+            <field name="Value">25.2000007629395</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Trinidad and Tobago</field>
+            <field name="Year">2005</field>
+            <field name="Value">20</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Trinidad and Tobago</field>
+            <field name="Year">2004</field>
+            <field name="Value">30</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Trinidad and Tobago</field>
+            <field name="Year">2003</field>
+            <field name="Value">20</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Trinidad and Tobago</field>
+            <field name="Year">2002</field>
+            <field name="Value">20</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Trinidad and Tobago</field>
+            <field name="Year">2001</field>
+            <field name="Value">20</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Tunisia</field>
+            <field name="Year">2008</field>
+            <field name="Value">52.5499992370605</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Tunisia</field>
+            <field name="Year">2007</field>
+            <field name="Value">51.8499984741211</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Tunisia</field>
+            <field name="Year">2006</field>
+            <field name="Value">51.2200012207031</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Tunisia</field>
+            <field name="Year">2005</field>
+            <field name="Value">48.4000015258789</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Tunisia</field>
+            <field name="Year">2004</field>
+            <field name="Value">46.7999992370605</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Tunisia</field>
+            <field name="Year">2003</field>
+            <field name="Value">44.9000015258789</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Tunisia</field>
+            <field name="Year">2002</field>
+            <field name="Value">41.9000015258789</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Tunisia</field>
+            <field name="Year">2001</field>
+            <field name="Value">38.7000007629395</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Tunisia</field>
+            <field name="Year">2000</field>
+            <field name="Value">36.7000007629395</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Tunisia</field>
+            <field name="Year">1999</field>
+            <field name="Value">34.0999984741211</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Tunisia</field>
+            <field name="Year">1995</field>
+            <field name="Value">20</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Tunisia</field>
+            <field name="Year">1990</field>
+            <field name="Value">9.10000038146973</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Turkey</field>
+            <field name="Year">2008</field>
+            <field name="Value">46</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Turkey</field>
+            <field name="Year">2006</field>
+            <field name="Value">42</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Turkey</field>
+            <field name="Year">2005</field>
+            <field name="Value">36</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Turkey</field>
+            <field name="Year">2004</field>
+            <field name="Value">36</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Turkey</field>
+            <field name="Year">2003</field>
+            <field name="Value">30</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Turkey</field>
+            <field name="Year">2002</field>
+            <field name="Value">28</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Turkey</field>
+            <field name="Year">2001</field>
+            <field name="Value">27</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Turkey</field>
+            <field name="Year">2000</field>
+            <field name="Value">26</field>
+            <field name="Value Footnotes">6</field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Turkey</field>
+            <field name="Year">1999</field>
+            <field name="Value">23</field>
+            <field name="Value Footnotes">6</field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Turkey</field>
+            <field name="Year">1998</field>
+            <field name="Value">17</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Turkey</field>
+            <field name="Year">1997</field>
+            <field name="Value">14</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Turkey</field>
+            <field name="Year">1996</field>
+            <field name="Value">10</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Turkey</field>
+            <field name="Year">1995</field>
+            <field name="Value">9</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">United Arab Emirates</field>
+            <field name="Year">2007</field>
+            <field name="Value">78.3000030517578</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">United Kingdom</field>
+            <field name="Year">2002</field>
+            <field name="Value">97.5</field>
+            <field name="Value Footnotes">12</field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Venezuela</field>
+            <field name="Year">2009</field>
+            <field name="Value">23.7800006866455</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Venezuela</field>
+            <field name="Year">2008</field>
+            <field name="Value">22.2999992370605</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Venezuela</field>
+            <field name="Year">2007</field>
+            <field name="Value">22</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Venezuela</field>
+            <field name="Year">2006</field>
+            <field name="Value">21.8999996185303</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Venezuela</field>
+            <field name="Year">2005</field>
+            <field name="Value">21.7000007629395</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Venezuela</field>
+            <field name="Year">2004</field>
+            <field name="Value">21.2999992370605</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Venezuela</field>
+            <field name="Year">2003</field>
+            <field name="Value">21.1000003814697</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Venezuela</field>
+            <field name="Year">2002</field>
+            <field name="Value">20.8999996185303</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Venezuela</field>
+            <field name="Year">2001</field>
+            <field name="Value">20.6000003814697</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Venezuela</field>
+            <field name="Year">2000</field>
+            <field name="Value">20.1666660308838</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+        <record>
+            <field name="Country or Area">Yemen</field>
+            <field name="Year">1999</field>
+            <field name="Value">3.29999995231628</field>
+            <field name="Value Footnotes"></field>
+            <field name="Unit">%</field>
+        </record>
+    </data>
+    <footnotes>
+        <footnote fnSeqID="1">Data refer to urban population only.</footnote>
+        <footnote fnSeqID="2">OECD secretariat estimates based on MUD Municipal Waste Water Database.</footnote>
+        <footnote fnSeqID="3">1991 data.</footnote>
+        <footnote fnSeqID="4">Information provided by the sanitary industry that operates in urban sectors to the Supervision of Sanitation Services with respect to the percentage of connected residential buildings to the sewage system whose collected water receives treatment.</footnote>
+        <footnote fnSeqID="5">It corresponds to the city of Santo Domingo and represents 350,063 inhabitants.</footnote>
+        <footnote fnSeqID="6">Estimated value.</footnote>
+        <footnote fnSeqID="7">The values relate only to the population of Conakry. There are no statistics for the cities of the interior of the country. However, in all cities almost all of the people are served by either septic tanks or latrines. In rural areas, latrines exist in all large villages (more than 500 inhabitants). In the city of Conakry, despite the weakness of the single system of purification, the entire population is served by septic tanks or by family latrines.</footnote>
+        <footnote fnSeqID="8">Population connected may include population not connected by pipe.</footnote>
+        <footnote fnSeqID="9">No urban wastewater treatment plant.</footnote>
+        <footnote fnSeqID="10">Percentages based on population living in individual housing.</footnote>
+        <footnote fnSeqID="11">Estimates based on treated waste water.</footnote>
+        <footnote fnSeqID="12">Data refer to England and Wales and to the financial year (April to March).</footnote>
+    </footnotes>
+</ROOT>

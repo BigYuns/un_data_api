@@ -6,7 +6,9 @@ FactoryGirl.define do
     value 20.5
     gender "female"
     measurement "percent"
+    area_name "Zimbabwe"
     country
     dataset
+
   end
 end

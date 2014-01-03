@@ -21,6 +21,9 @@ class Record
   key :footnote_ids, Array
   many :footnotes, in: :footnote_ids
 
+  key :area_name, String
+  validates_presence_of :area_name
+
   def serializable_hash(options = {})
     super({ except: [:id, :country_id, :dataset_id, :footnote_ids], include: [:footnotes] }.merge(options)) 
   end

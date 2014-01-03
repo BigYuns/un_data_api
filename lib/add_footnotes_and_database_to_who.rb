@@ -20,6 +20,8 @@ class AddFootnotesandDatabasetoWho
     @dataset_id = @dataset.id
     @database = Database.find_or_create_by_name_and_organization_id("WHO Data", @organization.id)
     @organization.databases << @database
+    @organization.save
+    @dataset.push(topics: "Health")
     @dataset.set(database_id: @database.id)
     @dataset.save
 
@@ -41,21 +43,24 @@ class AddFootnotesandDatabasetoWho
           @value = element.text.to_f
         elsif element.attributes["name"] == "GENDER"
           @gender = element.text
-        elsif element.attributes["name"] == "Value Footnotes" && element.text != nil && !element.text.include?(",")
-          record = Record.find_by_country_id_and_dataset_id_and_year_and_value_and_gender(@country.id, @dataset_id, @year, @value, @gender)
-          footnote_number = element.text
-          footnote = Footnote.where(number: footnote_number.to_i, dataset_id: @dataset.id).first 
-          record.footnotes << footnote
-          record.save
-        elsif element.attributes["name"] == "Value Footnotes" && element.text != nil && element.text.include?(",")
-          record = Record.find_by_country_id_and_dataset_id_and_year_and_value_and_gender(@country.id, @dataset_id, @year, @value, @gender)
-          footnote_numbers = element2.text.split(",")
-          footnote_numbers.each do |footnote_number|
-            footnote = Footnote.where(number: footnote_number.to_i, dataset_id: @dataset.id).first
+        elsif element.attributes["name"] == "Value Footnotes"
+          record = Record.find_by_country_id_and_dataset_id_and_year_and_value_and_gender(@country.id, @dataset_id, @year, @value, @gender) 
+          record[:area_name] = @country_name
+          if element.text != nil && !element.text.include?(",")
+            footnote_number = element.text
+            footnote = Footnote.where(number: footnote_number.to_i, dataset_id: @dataset.id).first 
             record.footnotes << footnote
             record.save
+          elsif element.text != nil && element.text.include?(",")
+            footnote_numbers = element.text.split(",")
+            footnote_numbers.each do |footnote_number|
+              footnote = Footnote.where(number: footnote_number.to_i, dataset_id: @dataset.id).first
+              record.footnotes << footnote
+              record.save
+            end
           end
-        end 
+          record.save 
+        end
       end
     else
       doc.elements.each("ROOT/data/record/field") do |element|
@@ -66,20 +71,23 @@ class AddFootnotesandDatabasetoWho
           @year = element.text.to_i
         elsif element.attributes["name"] == "Value"
           @value = element.text.to_f
-        elsif element.attributes["name"] == "Value Footnotes" && element.text != nil && !element.text.include?(",")
+        elsif element.attributes["name"] == "Value Footnotes"
           record = Record.find_by_country_id_and_dataset_id_and_year_and_value(@country.id, @dataset_id, @year, @value)
-          footnote_number = element.text
-          footnote = Footnote.where(number: footnote_number.to_i, dataset_id: @dataset.id).first
-          record.footnotes << footnote
-          record.save
-        elsif element.attributes["name"] == "Value Footnotes" && element.text != nil && element.text.include?(",")
-          record = Record.find_by_country_id_and_dataset_id_and_year_and_value(@country.id, @dataset_id, @year, @value)
-          footnote_numbers = element.text.split(",")
-          footnote_numbers.each do |footnote_number|
+          record[:area_name] = @country_name
+          if element.text != nil && !element.text.include?(",")
+            footnote_number = element.text
             footnote = Footnote.where(number: footnote_number.to_i, dataset_id: @dataset.id).first
-            record.footnote << footnote
+            record.footnotes << footnote
             record.save
+          elsif element.text != nil && element.text.include?(",")
+            footnote_numbers = element.text.split(",")
+            footnote_numbers.each do |footnote_number|
+              footnote = Footnote.where(number: footnote_number.to_i, dataset_id: @dataset.id).first
+              record.footnote << footnote
+              record.save
+            end
           end
+          record.save
         end
       end 
     end

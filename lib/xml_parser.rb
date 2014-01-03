@@ -38,7 +38,7 @@ class XmlParser
     @doc = Document.new File.new(@full_directory_name + filename)
 
     @dataset = get_dataset_name(filename)
-    @dataset[:topics] = [@topic]
+    @dataset.topics << @topic
     @dataset.database = @database
     @dataset_id = @dataset.id
 
@@ -71,8 +71,9 @@ class XmlParser
 
         case element_name
         when "Country or Area"
-          @country_name = element.text.strip
-          set_country
+          @original_country_name = element.text.strip
+          @country_name = @original_country_name
+          normalize_country_name(@country_name)
         when "Year"
           year = element.text.to_i
           set_year(year)
@@ -103,6 +104,34 @@ class XmlParser
     end
   end
 
+  def normalize_country_name(country_name)
+    case country_name
+    when /United States/
+      @country_name = "United States of America"
+    when /Bolivia/
+      @country_name = "Bolivia (Plurinational State of)"
+    when /Libya/
+      @country_name = "Libya Republic of Jamahiriya"
+    when /Macedonia/
+      @country_name = "The former Yugoslav Republic of Macedonia"
+    when /Korea/
+      if country_name.include?("Democratic")
+        @country_name = "Democratic People's Republic of Korea"
+        set_country
+      else
+        @country_name = "Republic of Korea"
+        set_country
+      end
+    when /Grenadines/
+      @country_name = "Saint Vincent and the Grenadines"
+    when /d'Ivoire/
+      @country_name = "Côte d'Ivoire"
+    when /Venezuela/
+      @country_name = "Venezuela (Bolivarian Republic of)"
+    end
+    set_country
+  end
+
   def set_country
     @country = Country.find_or_create_by_name(@country_name)
 
@@ -120,7 +149,8 @@ class XmlParser
   def set_year(year)
     @record = { year: year, 
                 dataset_id: @dataset_id, 
-                country_id: @country.id 
+                country_id: @country.id,
+                area_name: @original_country_name 
               }
   end
 

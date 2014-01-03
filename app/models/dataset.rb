@@ -13,9 +13,11 @@ class Dataset
   key :country_ids, Array
   many :countries, in: :country_ids
 
+  key :topics, Array
+
   many :records
 
-  many :footnotes
+  # many :footnotes 
 
   def serializable_hash(options = {})
     super({ except: [:id, :country_ids, :organization_id, :database_id] }.merge(options)) 

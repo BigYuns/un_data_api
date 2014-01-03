@@ -33,7 +33,6 @@ class WhoParser
         value = element.text.to_f
         record.set(value: value)
         record.reload
-        p record.value
       elsif element.attributes["name"] == "GENDER"
         record = Record.last
         gender = element.text

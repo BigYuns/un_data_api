@@ -1,4 +1,4 @@
-require "xml_parser.rb"
+require "#{Rails.root}/lib/modules/xml_parser.rb"
 
 namespace :xml_parser do
   desc "TODO"

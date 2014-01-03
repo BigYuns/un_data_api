@@ -14,6 +14,8 @@ Bundler.require(:default, Rails.env)
 module UnDataApi
   class Application < Rails::Application
 
+    config.autoload_paths += Dir["#{config.root}/lib/**/"]
+
     config.generators do |g|
       g.orm :mongo_mapper
     end

@@ -1,4 +1,4 @@
-# require "#{Rails.root}/lib/modules/who_parser.rb"
+require "#{Rails.root}/lib/modules/who_parser.rb"
 require "#{Rails.root}/lib/modules/add_footnotes_and_database_to_who.rb"
 
 namespace :who do

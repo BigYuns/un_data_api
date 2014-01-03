@@ -19,7 +19,6 @@ class XmlParser
         Dir.foreach(@full_directory_name) do |files|
           filenames_array = []
           unless files == "." || files == ".." || files == ".DS_Store"
-            p files
             filenames_array << files
           end
           parse_filenames(filenames_array)

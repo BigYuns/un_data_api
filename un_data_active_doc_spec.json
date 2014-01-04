@@ -237,6 +237,277 @@
           ]
         }
       ]
+    },
+    {
+      "path": "/{organization}/databases",
+      "operations": [
+        {
+          "httpMethod": "GET",
+          "summary": "Returns all of the databases in an organization in the specifed format",
+          "description": "<p>Returns an array of databases that belong to the specifed organization in either JSON or xml depending on the specified format<p>",
+          "group": "organizations",
+          "parameters": [
+            {
+              "name": "organization",
+              "description": "The organization you are interested in.",
+              "dataType": "string",
+              "required": true,
+              "paramType": "path"
+            },
+            {
+              "name": "format",
+              "description": "If you want xml you will need to specify it in a parameter. The response defaults to JSON",
+              "dataType": "string",
+              "required": false,
+              "paramType": "query"
+            },
+            {
+              "name": "app_id",
+              "description": "Your access application id",
+              "dataType": "string",
+              "required": true,
+              "paramType": "query",
+              "threescale_name": "app_ids"
+            },
+            {
+              "name": "app_key",
+              "description": "Your access application key",
+              "dataType": "string",
+              "required": true,
+              "paramType": "query",
+              "threescale_name": "app_keys"
+            }
+          ]
+        }  
+      ]
+    },
+    {
+      "path": "/{organization}/{database}/database_datasets",
+      "operations": [
+        {
+          "httpMethod": "GET",
+          "summary": "Returns the datasets that belong to the organization and database in the specified format",
+          "description": "<p>When you specify the organization you are interested in it will return an array of datasets that belong to the organization and database. The datasets will be in JSON or xml depending on specified format.<p>",
+          "group": "sentence",
+          "parameters": [
+            {
+              "name": "organization",
+              "description": "The organization you are interested in.",
+              "dataType": "string",
+              "required": true,
+              "paramType": "path"
+            },
+            {
+              "name": "database",
+              "description": "The database you are interested in.",
+              "dataType": "string",
+              "required": true,
+              "paramType": "path"
+            },
+            {
+              "name": "format",
+              "description": "If you want xml you will need to specify it in a parameter. The response defaults to JSON",
+              "dataType": "string",
+              "required": false,
+              "paramType": "query"
+            },
+            {
+              "name": "app_id",
+              "description": "Your access application id",
+              "dataType": "string",
+              "required": true,
+              "paramType": "query",
+              "threescale_name": "app_ids"
+            },
+            {
+              "name": "app_key",
+              "description": "Your access application key",
+              "dataType": "string",
+              "required": true,
+              "paramType": "query",
+              "threescale_name": "app_keys"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/{organization}/{database}/{dataset}/countries",
+      "operations": [
+        {
+          "httpMethod": "GET",
+          "summary": "Returns the countries that belong to the organization, database, and dataset in specified format",
+          "description": "<p>When you specify the organization, database and dataset you are interested in it will return an array of countries that belong to the organization, database, and dataset. The countries will be in JSON or xml depending on the specified format.<p>",
+          "group": "sentence",
+          "parameters": [
+            {
+              "name": "organization",
+              "description": "The organization you are interested in.",
+              "dataType": "string",
+              "required": true,
+              "paramType": "path"
+            },
+            {
+              "name": "database",
+              "description": "The database you are interested in.",
+              "dataType": "string",
+              "required": true,
+              "paramType": "path"
+            },
+            {
+              "name": "dataset",
+              "description": "The dataset you are interested in.",
+              "dataType": "string",
+              "required": true,
+              "paramType": "path"
+            },
+            {
+              "name": "format",
+              "description": "If you want xml you will need to specify it in a parameter. The response defaults to JSON",
+              "dataType": "string",
+              "required": false,
+              "paramType": "query"
+            },
+            {
+              "name": "app_id",
+              "description": "Your access application id",
+              "dataType": "string",
+              "required": true,
+              "paramType": "query",
+              "threescale_name": "app_ids"
+            },
+            {
+              "name": "app_key",
+              "description": "Your access application key",
+              "dataType": "string",
+              "required": true,
+              "paramType": "query",
+              "threescale_name": "app_keys"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/{organization}/{database}/{country}/datasets",
+      "operations": [
+        {
+          "httpMethod": "GET",
+          "summary": "Returns the datasets that belong to the organization, database ,and country in specified format",
+          "description": "<p>When you specify the organization, database, and country you are interested in it will return an array of datasets that belong to the organization, database, and country. The datasets will be in JSON or xml depending on the specified format.<p>",
+          "group": "sentence",
+          "parameters": [
+            {
+              "name": "organization",
+              "description": "The organization you are interested in.",
+              "dataType": "string",
+              "required": true,
+              "paramType": "path"
+            },
+            {
+              "name": "database",
+              "description": "The database you are interested in.",
+              "dataType": "string",
+              "required": true,
+              "paramType": "path"
+            },
+            {
+              "name": "country",
+              "description": "The country you are interested in.",
+              "dataType": "string",
+              "required": true,
+              "paramType": "path"
+            },
+            {
+              "name": "format",
+              "description": "If you want xml you will need to specify it in a parameter. The response defaults to JSON",
+              "dataType": "string",
+              "required": false,
+              "paramType": "query"
+            },
+            {
+              "name": "app_id",
+              "description": "Your access application id",
+              "dataType": "string",
+              "required": true,
+              "paramType": "query",
+              "threescale_name": "app_ids"
+            },
+            {
+              "name": "app_key",
+              "description": "Your access application key",
+              "dataType": "string",
+              "required": true,
+              "paramType": "query",
+              "threescale_name": "app_keys"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/{organization}/{database}/{dataset}/{country}/records",
+      "operations": [
+        {
+          "httpMethod": "GET",
+          "summary": "Returns the records that belong to the organization, dataset, database and country specified in the specified format",
+          "description": "<p>When you specify the organization,database, dataset, and country you are interested in it will return an array of records that belong to the organization, dataset, and country. The records will be in JSON or xml depending on the specified format.<p>",
+          "group": "sentence",
+          "parameters": [
+            {
+              "name": "organization",
+              "description": "The organization you are interested in.",
+              "dataType": "string",
+              "required": true,
+              "paramType": "path"
+            },
+            {
+              "name": "database",
+              "description": "The database you are interested in.",
+              "dataType": "string",
+              "required": true,
+              "paramType": "path"
+            },
+            {
+              "name": "dataset",
+              "description": "The dataset you are interested in.",
+              "dataType": "string",
+              "required": true,
+              "paramType": "path"
+            },
+            {
+              "name": "country",
+              "description": "The country you are interested in.",
+              "dataType": "string",
+              "required": true,
+              "paramType": "path"
+            },
+            {
+              "name": "format",
+              "description": "If you want xml you will need to specify it in a parameter. The response defaults to JSON",
+              "dataType": "string",
+              "required": false,
+              "paramType": "query"
+            },
+            {
+              "name": "app_id",
+              "description": "Your access application id",
+              "dataType": "string",
+              "required": true,
+              "paramType": "query",
+              "threescale_name": "app_ids"
+            },
+            {
+              "name": "app_key",
+              "description": "Your access application key",
+              "dataType": "string",
+              "required": true,
+              "paramType": "query",
+              "threescale_name": "app_keys"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

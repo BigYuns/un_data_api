@@ -7,7 +7,12 @@ namespace :xml_parser do
 
   task unsd: :environment do
     parser = XmlParser.new
-    parser.get_file_names("UNSD", "Environment Statistics Database", "fnSeqID")
+    parser.get_file_names_mult_dir("UNSD", "Environment Statistics Database", "fnSeqID")
+  end
+
+  task wb: :environment do
+    parser = XmlParser.new
+    parser.get_file_names("WB", "World Development Indicators", "footnoteSeqID")
   end
 
 end

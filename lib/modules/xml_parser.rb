@@ -2,7 +2,7 @@ class XmlParser
   require "rexml/document"
   include REXML
 
-  def get_file_names(organization_name, database_name, footnote_id_name)
+  def get_file_names_mult_dir(organization_name, database_name, footnote_id_name)
     @organization_name = organization_name
     @database_name = database_name
     @organization = Organization.find_or_create_by_name(@organization_name)
@@ -27,10 +27,31 @@ class XmlParser
     end
   end   
 
-  def parse_filenames(filenames_array)
-    filenames_array.each do |filename|
-      xml_parser(filename)
+  def get_file_names(organization_name, database_name, footnote_id_name)
+    @organization_name = organization_name
+    @database_name = database_name
+    @organization = Organization.find_or_create_by_name(@organization_name)
+    @database = Database.find_or_create_by_name(@database_name)
+    @database.organization = @organization
+    @footnote_id_name = footnote_id_name
+
+    @full_directory_name = "lib/un_data_xml_files/#{@organization_name}/#{@database_name}/"
+      
+    filenames_array = []
+    Dir.foreach(@full_directory_name) do |files|
+      unless files == "." || files == ".." || files == ".DS_Store"
+        filenames_array << files
+      end
     end
+    parse_filenames(filenames_array)
+  end
+
+  def parse_filenames(filenames_array)
+    # filenames_array.each do |filename|
+    p filenames_array
+    filename = filenames_array.pop
+      xml_parser(filename)
+    # end
   end
 
   def xml_parser(filename)
@@ -59,8 +80,8 @@ class XmlParser
   end
 
   def get_dataset_name(filename)
-    dataset_name = filename.chomp(".xml")
-    Dataset.find_or_create_by_name(dataset_name)
+    @dataset_name = filename.chomp(".xml")
+    Dataset.find_or_create_by_name(@dataset_name)
   end
 
   def record_attributes
@@ -71,6 +92,7 @@ class XmlParser
         case element_name
         when "Country or Area"
           @original_country_name = element.text.strip
+          p @original_country_name
           @country_name = @original_country_name
           normalize_country_name(@country_name)
         when "Year"
@@ -97,9 +119,11 @@ class XmlParser
           set_record(name, element.text)
         end
       end
+      if @record[:measurement] == nil
+        get_measurement
+      end
       new_record = Record.new(@record)
       new_record.save
-
     end
   end
 
@@ -131,6 +155,11 @@ class XmlParser
     set_country
   end
 
+  def get_measurement
+    set_measurement = @dataset_name[/\(([^)]+)\)/]
+    set_record("measurement", set_measurement)    
+  end
+
   def set_country
     @country = Country.find_or_create_by_name(@country_name)
 
@@ -149,7 +178,8 @@ class XmlParser
     @record = { year: year, 
                 dataset_id: @dataset_id, 
                 country_id: @country.id,
-                area_name: @original_country_name 
+                area_name: @original_country_name,
+                measurement: nil 
               }
   end
 

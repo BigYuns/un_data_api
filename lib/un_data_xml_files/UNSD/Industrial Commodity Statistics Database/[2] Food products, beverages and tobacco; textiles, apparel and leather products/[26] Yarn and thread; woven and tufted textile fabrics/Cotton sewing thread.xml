@@ -1,0 +1,2836 @@
+<ROOT>
+    <data>
+        <record>
+            <field name="Country or Area">Algeria</field>
+            <field name="Year">2004</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">511.4</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Algeria</field>
+            <field name="Year">2003</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">482.2</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Algeria</field>
+            <field name="Year">2002</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">491.8</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Algeria</field>
+            <field name="Year">2001</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">359.6</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Algeria</field>
+            <field name="Year">2000</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">408.1</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Algeria</field>
+            <field name="Year">1999</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">357.5</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Belarus</field>
+            <field name="Year">2009</field>
+            <field name="Unit">THOUSAND UNITS</field>
+            <field name="Value">5202</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Belarus</field>
+            <field name="Year">2008</field>
+            <field name="Unit">THOUSAND UNITS</field>
+            <field name="Value">4313</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Belarus</field>
+            <field name="Year">2007</field>
+            <field name="Unit">THOUSAND UNITS</field>
+            <field name="Value">4708</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Belarus</field>
+            <field name="Year">2006</field>
+            <field name="Unit">THOUSAND UNITS</field>
+            <field name="Value">2095</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Belarus</field>
+            <field name="Year">2005</field>
+            <field name="Unit">THOUSAND UNITS</field>
+            <field name="Value">4108</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Belarus</field>
+            <field name="Year">2004</field>
+            <field name="Unit">THOUSAND UNITS</field>
+            <field name="Value">2390</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Belarus</field>
+            <field name="Year">2003</field>
+            <field name="Unit">THOUSAND UNITS</field>
+            <field name="Value">5740</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Belarus</field>
+            <field name="Year">2002</field>
+            <field name="Unit">THOUSAND UNITS</field>
+            <field name="Value">7450</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Belarus</field>
+            <field name="Year">2001</field>
+            <field name="Unit">THOUSAND UNITS</field>
+            <field name="Value">15656</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Belarus</field>
+            <field name="Year">2000</field>
+            <field name="Unit">THOUSAND UNITS</field>
+            <field name="Value">26967</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Belarus</field>
+            <field name="Year">1999</field>
+            <field name="Unit">THOUSAND UNITS</field>
+            <field name="Value">35822</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Belarus</field>
+            <field name="Year">1998</field>
+            <field name="Unit">THOUSAND UNITS</field>
+            <field name="Value">34808</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Belarus</field>
+            <field name="Year">1997</field>
+            <field name="Unit">THOUSAND UNITS</field>
+            <field name="Value">29411</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Belarus</field>
+            <field name="Year">1996</field>
+            <field name="Unit">THOUSAND UNITS</field>
+            <field name="Value">12878</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Belarus</field>
+            <field name="Year">1995</field>
+            <field name="Unit">THOUSAND UNITS</field>
+            <field name="Value">26433</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Bolivia</field>
+            <field name="Year">1999</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">2752.73158429739</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Bolivia</field>
+            <field name="Year">1999</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">1266</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Bolivia</field>
+            <field name="Year">1998</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">181.483811644001</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Bolivia</field>
+            <field name="Year">1998</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">62</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Bolivia</field>
+            <field name="Year">1997</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">190.321818334653</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Bolivia</field>
+            <field name="Year">1997</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">62</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Bolivia</field>
+            <field name="Year">1996</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">197.059381381337</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Bolivia</field>
+            <field name="Year">1996</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">55</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Bolivia</field>
+            <field name="Year">1995</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">208.318505106407</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Bolivia</field>
+            <field name="Year">1995</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">37</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Brazil</field>
+            <field name="Year">2009</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">56934.1912497832</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Brazil</field>
+            <field name="Year">2009</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">8404.905</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Brazil</field>
+            <field name="Year">2008</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">68617.9584825404</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Brazil</field>
+            <field name="Year">2008</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">9919.577</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Brazil</field>
+            <field name="Year">2007</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">72722.3764054323</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Brazil</field>
+            <field name="Year">2007</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">21570.93</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Brazil</field>
+            <field name="Year">2006</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">66704.367773116</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Brazil</field>
+            <field name="Year">2006</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">12215.544</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Brazil</field>
+            <field name="Year">2005</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">43800.0357639901</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Brazil</field>
+            <field name="Year">2005</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">9670.676</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Brazil</field>
+            <field name="Year">2004</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">38187.6555565921</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Brazil</field>
+            <field name="Year">2004</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">14931.218</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Brazil</field>
+            <field name="Year">2003</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">95294.0357144372</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Brazil</field>
+            <field name="Year">2003</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">14393.775</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Brazil</field>
+            <field name="Year">2002</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">36369.8898991027</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Brazil</field>
+            <field name="Year">2002</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">5698.428</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Brazil</field>
+            <field name="Year">2001</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">68916.5651674473</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Brazil</field>
+            <field name="Year">2001</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">18507.547</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Brazil</field>
+            <field name="Year">2000</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">74348.0089428413</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Brazil</field>
+            <field name="Year">2000</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">7462.289</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Bulgaria</field>
+            <field name="Year">2007</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">349.882789265596</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Bulgaria</field>
+            <field name="Year">2007</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">19</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Bulgaria</field>
+            <field name="Year">2005</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">2541.08080636965</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Bulgaria</field>
+            <field name="Year">2005</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">123</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Canada</field>
+            <field name="Year">2002</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">25934.8273294881</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Canada</field>
+            <field name="Year">2001</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">27699.5641138911</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Chile</field>
+            <field name="Year">2009</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">840.776822050107</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Chile</field>
+            <field name="Year">2009</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">303.824</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Croatia</field>
+            <field name="Year">2009</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Croatia</field>
+            <field name="Year">2008</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">23</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Croatia</field>
+            <field name="Year">2007</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">218</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Croatia</field>
+            <field name="Year">2006</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">381</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Croatia</field>
+            <field name="Year">2005</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">320</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Croatia</field>
+            <field name="Year">2004</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">306</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Ecuador</field>
+            <field name="Year">2008</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">6070</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Ecuador</field>
+            <field name="Year">2008</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">1892</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Ecuador</field>
+            <field name="Year">2007</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">4446.18015</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Ecuador</field>
+            <field name="Year">2007</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">1532.97</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Ecuador</field>
+            <field name="Year">2006</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">3824.82151</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Ecuador</field>
+            <field name="Year">2006</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">1272.017</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Ecuador</field>
+            <field name="Year">2005</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">3118.70147</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Ecuador</field>
+            <field name="Year">2005</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">1022.257</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Ecuador</field>
+            <field name="Year">2004</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">3555.92071</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Ecuador</field>
+            <field name="Year">2004</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">1319.341</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Egypt</field>
+            <field name="Year">2009</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">30300.0062671447</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Egypt</field>
+            <field name="Year">2009</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">11149</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Egypt</field>
+            <field name="Year">2008</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">16019.6409390824</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Egypt</field>
+            <field name="Year">2008</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">7214</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Egypt</field>
+            <field name="Year">2006</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">16026.2216924911</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Egypt</field>
+            <field name="Year">2006</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">4047</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Egypt</field>
+            <field name="Year">2005</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">18482.969457503</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Egypt</field>
+            <field name="Year">2005</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">6803</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Egypt</field>
+            <field name="Year">2004</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">41983.0300356802</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Egypt</field>
+            <field name="Year">2004</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">14907</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Egypt</field>
+            <field name="Year">2003</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">28500.3525113765</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Egypt</field>
+            <field name="Year">2003</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">10379</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Egypt</field>
+            <field name="Year">2002</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">20881.9912586117</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Egypt</field>
+            <field name="Year">2002</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">4788</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Egypt</field>
+            <field name="Year">2001</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">4410.2693178958</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Egypt</field>
+            <field name="Year">2001</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">2747</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Egypt</field>
+            <field name="Year">2000</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">51418.3263489869</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Egypt</field>
+            <field name="Year">2000</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">57520</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Egypt</field>
+            <field name="Year">1999</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">11033.9444812606</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Egypt</field>
+            <field name="Year">1999</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">8711</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">El Salvador</field>
+            <field name="Year">1998</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">50660.11429</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">El Salvador</field>
+            <field name="Year">1997</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">62219.42857</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">El Salvador</field>
+            <field name="Year">1996</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">25014.51429</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Estonia</field>
+            <field name="Year">2008</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">2000</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Finland</field>
+            <field name="Year">2009</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Finland</field>
+            <field name="Year">2008</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Finland</field>
+            <field name="Year">2008</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Finland</field>
+            <field name="Year">2007</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Finland</field>
+            <field name="Year">2007</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Finland</field>
+            <field name="Year">2006</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Finland</field>
+            <field name="Year">2006</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Finland</field>
+            <field name="Year">2005</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Finland</field>
+            <field name="Year">2005</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Finland</field>
+            <field name="Year">2000</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Finland</field>
+            <field name="Year">2000</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Finland</field>
+            <field name="Year">1999</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Finland</field>
+            <field name="Year">1999</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">France</field>
+            <field name="Year">2004</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">3952.4861398248</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">France</field>
+            <field name="Year">2003</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">5061.35786712514</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">France</field>
+            <field name="Year">2002</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">1961.49802911544</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">France</field>
+            <field name="Year">2001</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">4546.3324712978</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">France</field>
+            <field name="Year">2000</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">France</field>
+            <field name="Year">1999</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">3248.3394404803</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">2009</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">2856.93404272352</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">2009</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">117.68</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">2008</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">2597.84633999259</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">2008</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">90.63</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">2007</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">1382.49952952045</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">2007</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">35.46</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">2006</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">1665.7169529851</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">2006</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">38.088</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">2005</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">2841.25628015719</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">2005</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">68.305</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">2004</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">2766.87588857226</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">2004</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">71.64</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">2003</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">1865.28698573512</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">2003</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">43.5</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">2002</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">2269.06989620896</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">2002</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">72.848</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">2001</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">2699.76900609391</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">2001</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">95.772</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">2000</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">2638.48406786741</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">2000</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">92.697</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">1999</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">4429.30190720157</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">1999</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">139.195</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">1998</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">6265.89987771618</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">1998</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">171.347</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">1997</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">9950.62019832718</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">1997</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">464.353</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">1996</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">14422.2039957331</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">1996</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">468.395</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">1995</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">16790.9157033453</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">1995</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">491.12</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Greece</field>
+            <field name="Year">1997</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">17619.2665410246</field>
+            <field name="Value Footnotes">1</field>
+        </record>
+        <record>
+            <field name="Country or Area">Greece</field>
+            <field name="Year">1997</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">3352.632</field>
+            <field name="Value Footnotes">1</field>
+        </record>
+        <record>
+            <field name="Country or Area">Greece</field>
+            <field name="Year">1996</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">17733.3286458417</field>
+            <field name="Value Footnotes">1</field>
+        </record>
+        <record>
+            <field name="Country or Area">Greece</field>
+            <field name="Year">1996</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">2949.919</field>
+            <field name="Value Footnotes">1</field>
+        </record>
+        <record>
+            <field name="Country or Area">Greece</field>
+            <field name="Year">1995</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">20691.4352356115</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Greece</field>
+            <field name="Year">1995</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">1106.501</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Hong Kong SAR</field>
+            <field name="Year">2004</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">19234.7200821777</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Hong Kong SAR</field>
+            <field name="Year">2004</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">5085</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Hong Kong SAR</field>
+            <field name="Year">2003</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">5059.8773557646</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Hong Kong SAR</field>
+            <field name="Year">2003</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">1341</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Hong Kong SAR</field>
+            <field name="Year">2001</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">5693.22006731848</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Hong Kong SAR</field>
+            <field name="Year">2001</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">3215</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Hong Kong SAR</field>
+            <field name="Year">2000</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">6404.68907095642</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Hong Kong SAR</field>
+            <field name="Year">2000</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">633</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Hong Kong SAR</field>
+            <field name="Year">1999</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">3171.12471801482</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Hong Kong SAR</field>
+            <field name="Year">1999</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">553</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Hong Kong SAR</field>
+            <field name="Year">1998</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">438.974005852987</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Hong Kong SAR</field>
+            <field name="Year">1998</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">103</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Hong Kong SAR</field>
+            <field name="Year">1997</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">2738.28103977181</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Hong Kong SAR</field>
+            <field name="Year">1997</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">582</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Hong Kong SAR</field>
+            <field name="Year">1996</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">11558.9684633457</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Hong Kong SAR</field>
+            <field name="Year">1996</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">3902</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Hungary</field>
+            <field name="Year">2004</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">11733.9032861341</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Hungary</field>
+            <field name="Year">2004</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">1263</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Iraq</field>
+            <field name="Year">2009</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">28.4102564102564</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Iraq</field>
+            <field name="Year">2009</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">98.589</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Iraq</field>
+            <field name="Year">2006</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">2.70865075334349</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Iraq</field>
+            <field name="Year">2006</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">3</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Iraq</field>
+            <field name="Year">2004</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">326.128088985723</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Iraq</field>
+            <field name="Year">2004</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">31</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Ireland</field>
+            <field name="Year">2004</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Ireland</field>
+            <field name="Year">2003</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">59.8171063756947</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Ireland</field>
+            <field name="Year">2003</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">6.955</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Ireland</field>
+            <field name="Year">2002</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">50.1999118474237</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Ireland</field>
+            <field name="Year">2002</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">7</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Ireland</field>
+            <field name="Year">2001</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">90.5629479825684</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Ireland</field>
+            <field name="Year">2000</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">89.1246782102774</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Ireland</field>
+            <field name="Year">1999</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">110.14595746561</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Ireland</field>
+            <field name="Year">1999</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Ireland</field>
+            <field name="Year">1998</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">101.454499127959</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Ireland</field>
+            <field name="Year">1998</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Ireland</field>
+            <field name="Year">1997</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">100.446050607425</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Ireland</field>
+            <field name="Year">1997</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Ireland</field>
+            <field name="Year">1996</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">134.579128375083</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Ireland</field>
+            <field name="Year">1996</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Ireland</field>
+            <field name="Year">1995</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">142.972471491912</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Ireland</field>
+            <field name="Year">1995</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Italy</field>
+            <field name="Year">2004</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">12755.7070396652</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Italy</field>
+            <field name="Year">2004</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">827.963</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Italy</field>
+            <field name="Year">2003</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">12147.3870928604</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Italy</field>
+            <field name="Year">2003</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">855.119</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Japan</field>
+            <field name="Year">2009</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">18926.9884989902</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Japan</field>
+            <field name="Year">2009</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">1834</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Japan</field>
+            <field name="Year">2008</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">23500.5020510844</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Japan</field>
+            <field name="Year">2008</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">2505</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Japan</field>
+            <field name="Year">2007</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">18317.9223184641</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Japan</field>
+            <field name="Year">2007</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">2339</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Japan</field>
+            <field name="Year">2006</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">14737.8344328693</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Japan</field>
+            <field name="Year">2006</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">1897</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Japan</field>
+            <field name="Year">2005</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">17075.2180745931</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Japan</field>
+            <field name="Year">2005</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">2044</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Japan</field>
+            <field name="Year">2004</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">15888.3370017024</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Japan</field>
+            <field name="Year">2004</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">1667</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Japan</field>
+            <field name="Year">2003</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">21417.4571410237</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Japan</field>
+            <field name="Year">2003</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">2642</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Japan</field>
+            <field name="Year">2002</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">19172.4856647155</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Japan</field>
+            <field name="Year">2002</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">2222</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Japan</field>
+            <field name="Year">2001</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">47791.082861143</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Japan</field>
+            <field name="Year">2001</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">3983</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Japan</field>
+            <field name="Year">2000</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">48577.6995509959</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Japan</field>
+            <field name="Year">2000</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">4404</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Japan</field>
+            <field name="Year">1999</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">52744.8733199039</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Japan</field>
+            <field name="Year">1999</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">5215</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Japan</field>
+            <field name="Year">1998</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">61143.4369673168</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Japan</field>
+            <field name="Year">1998</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">6275</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Japan</field>
+            <field name="Year">1997</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">72220.3298616869</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Japan</field>
+            <field name="Year">1997</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">6886</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Kazakhstan</field>
+            <field name="Year">2002</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">3</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Kazakhstan</field>
+            <field name="Year">2001</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">2</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Lithuania</field>
+            <field name="Year">2009</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Lithuania</field>
+            <field name="Year">2009</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Lithuania</field>
+            <field name="Year">2008</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Lithuania</field>
+            <field name="Year">2008</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Lithuania</field>
+            <field name="Year">2007</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Lithuania</field>
+            <field name="Year">2007</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Lithuania</field>
+            <field name="Year">2006</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Lithuania</field>
+            <field name="Year">2006</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Lithuania</field>
+            <field name="Year">2005</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Lithuania</field>
+            <field name="Year">2005</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Lithuania</field>
+            <field name="Year">2004</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Lithuania</field>
+            <field name="Year">2004</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Lithuania</field>
+            <field name="Year">2003</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Lithuania</field>
+            <field name="Year">2003</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Lithuania</field>
+            <field name="Year">2002</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Lithuania</field>
+            <field name="Year">2002</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Lithuania</field>
+            <field name="Year">2001</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Lithuania</field>
+            <field name="Year">2001</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Lithuania</field>
+            <field name="Year">2000</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Lithuania</field>
+            <field name="Year">2000</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Lithuania</field>
+            <field name="Year">1999</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Lithuania</field>
+            <field name="Year">1999</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Lithuania</field>
+            <field name="Year">1998</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Lithuania</field>
+            <field name="Year">1998</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Lithuania</field>
+            <field name="Year">1997</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Lithuania</field>
+            <field name="Year">1997</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Mali</field>
+            <field name="Year">2009</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">589.653</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Mali</field>
+            <field name="Year">2008</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">703.357</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Mali</field>
+            <field name="Year">2007</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">443.8</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Mali</field>
+            <field name="Year">2006</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">284.3</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Mali</field>
+            <field name="Year">2005</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">872.9</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Mali</field>
+            <field name="Year">2004</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">882.6</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Mali</field>
+            <field name="Year">2003</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">518.3</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Mali</field>
+            <field name="Year">2002</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">502.4</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Mali</field>
+            <field name="Year">2001</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">389.1</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Mali</field>
+            <field name="Year">2000</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">301.6</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Mali</field>
+            <field name="Year">1999</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">467.2</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Mali</field>
+            <field name="Year">1998</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">482.5</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Mali</field>
+            <field name="Year">1997</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">391.8</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Mali</field>
+            <field name="Year">1996</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">384.6</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Mexico</field>
+            <field name="Year">2006</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">11487.0377067517</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Mexico</field>
+            <field name="Year">2006</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">4206</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Mexico</field>
+            <field name="Year">2005</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">11249.8824313877</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Mexico</field>
+            <field name="Year">2005</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">4176</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Mexico</field>
+            <field name="Year">2004</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">11208.610102812</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Mexico</field>
+            <field name="Year">2004</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">4065</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Mexico</field>
+            <field name="Year">2003</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">10019.4464696088</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Mexico</field>
+            <field name="Year">2003</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">3797</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Mexico</field>
+            <field name="Year">2002</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">10656.6325627959</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Mexico</field>
+            <field name="Year">2002</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">3485</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Mexico</field>
+            <field name="Year">2001</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">15970.300094284</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Mexico</field>
+            <field name="Year">2001</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">4100</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Mexico</field>
+            <field name="Year">2000</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">20908.3369834498</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Mexico</field>
+            <field name="Year">2000</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">4994</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Mexico</field>
+            <field name="Year">1999</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">25741.6075011525</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Mexico</field>
+            <field name="Year">1999</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">5179</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Mexico</field>
+            <field name="Year">1998</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">23423.7108209362</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Mexico</field>
+            <field name="Year">1998</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">5071</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Mexico</field>
+            <field name="Year">1997</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">23830.3912629476</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Mexico</field>
+            <field name="Year">1997</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">4856</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Mexico</field>
+            <field name="Year">1996</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">21212.0658186804</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Mexico</field>
+            <field name="Year">1996</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">4645</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Mexico</field>
+            <field name="Year">1995</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">30376.5524170779</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Mexico</field>
+            <field name="Year">1995</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">7765</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Poland</field>
+            <field name="Year">2006</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">12.2</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Poland</field>
+            <field name="Year">2005</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">13</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Poland</field>
+            <field name="Year">2004</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">90</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Poland</field>
+            <field name="Year">2003</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">79</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Poland</field>
+            <field name="Year">2002</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">69</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Poland</field>
+            <field name="Year">2001</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">69</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Poland</field>
+            <field name="Year">2000</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">68</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Portugal</field>
+            <field name="Year">2003</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">5631.3031570453</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Portugal</field>
+            <field name="Year">2003</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">189</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Portugal</field>
+            <field name="Year">2002</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">5101.9410820807</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Portugal</field>
+            <field name="Year">2002</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">191</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Portugal</field>
+            <field name="Year">2001</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">5250.45771402493</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Portugal</field>
+            <field name="Year">2001</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">209</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Portugal</field>
+            <field name="Year">2000</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">6450.47505491445</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Portugal</field>
+            <field name="Year">2000</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">248</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Portugal</field>
+            <field name="Year">1999</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">11618.7993688098</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Portugal</field>
+            <field name="Year">1999</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">265</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Portugal</field>
+            <field name="Year">1998</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">827.136320251446</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Portugal</field>
+            <field name="Year">1998</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">55</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Portugal</field>
+            <field name="Year">1996</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">31437.1293368219</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Portugal</field>
+            <field name="Year">1996</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">1487</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Portugal</field>
+            <field name="Year">1995</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">30615.9017817714</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Portugal</field>
+            <field name="Year">1995</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">1471</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Romania</field>
+            <field name="Year">2009</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">1867.95438334713</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Romania</field>
+            <field name="Year">2009</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">182</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Romania</field>
+            <field name="Year">2008</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">2427.29014136696</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Romania</field>
+            <field name="Year">2007</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">3288.4240746437</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Romania</field>
+            <field name="Year">2007</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">274</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Romania</field>
+            <field name="Year">2006</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">3361.00249793817</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Romania</field>
+            <field name="Year">2006</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">321</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Romania</field>
+            <field name="Year">2005</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">3664.12863484838</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Romania</field>
+            <field name="Year">2005</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">379</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Romania</field>
+            <field name="Year">2004</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">19986.1699103271</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Romania</field>
+            <field name="Year">2004</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">2160</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Romania</field>
+            <field name="Year">2003</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">5201.19372235276</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Romania</field>
+            <field name="Year">2003</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">634</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Romania</field>
+            <field name="Year">2002</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">3796.04803204799</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Romania</field>
+            <field name="Year">2002</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">643</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Russian Federation</field>
+            <field name="Year">2009</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">114686</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Russian Federation</field>
+            <field name="Year">2008</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">182371</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Russian Federation</field>
+            <field name="Year">2007</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">227869</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Russian Federation</field>
+            <field name="Year">2006</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">186519</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Russian Federation</field>
+            <field name="Year">2005</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">159338</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Russian Federation</field>
+            <field name="Year">2004</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">183046</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Russian Federation</field>
+            <field name="Year">2003</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">202197</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Russian Federation</field>
+            <field name="Year">2002</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">207929</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Russian Federation</field>
+            <field name="Year">2001</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">203429</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Russian Federation</field>
+            <field name="Year">2000</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">144600</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Russian Federation</field>
+            <field name="Year">1999</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">94253</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Russian Federation</field>
+            <field name="Year">1998</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">85765</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Russian Federation</field>
+            <field name="Year">1997</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">83747</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Russian Federation</field>
+            <field name="Year">1996</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">88252</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Russian Federation</field>
+            <field name="Year">1995</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">126121</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Spain</field>
+            <field name="Year">2009</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">4167.57334664234</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Spain</field>
+            <field name="Year">2009</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">140</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Spain</field>
+            <field name="Year">2008</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">4394.47946526597</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Spain</field>
+            <field name="Year">2008</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">164</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Spain</field>
+            <field name="Year">2007</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">6843.33886503225</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Spain</field>
+            <field name="Year">2007</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">259</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Spain</field>
+            <field name="Year">2006</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">6272.4173582878</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Spain</field>
+            <field name="Year">2006</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">273</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Spain</field>
+            <field name="Year">2005</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">8705.16838282843</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Spain</field>
+            <field name="Year">2005</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">274</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Spain</field>
+            <field name="Year">2004</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">8691.71121168663</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Spain</field>
+            <field name="Year">2004</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">233</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Sweden</field>
+            <field name="Year">2009</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Sweden</field>
+            <field name="Year">2009</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Sweden</field>
+            <field name="Year">2008</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Sweden</field>
+            <field name="Year">2008</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Sweden</field>
+            <field name="Year">2007</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Sweden</field>
+            <field name="Year">2007</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Sweden</field>
+            <field name="Year">2006</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Sweden</field>
+            <field name="Year">2006</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Sweden</field>
+            <field name="Year">2005</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Sweden</field>
+            <field name="Year">2005</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">T.F.Yug.Rep. Macedonia</field>
+            <field name="Year">2009</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">246</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">T.F.Yug.Rep. Macedonia</field>
+            <field name="Year">2008</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">226</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">T.F.Yug.Rep. Macedonia</field>
+            <field name="Year">2007</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">224</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">T.F.Yug.Rep. Macedonia</field>
+            <field name="Year">2006</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">168</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">T.F.Yug.Rep. Macedonia</field>
+            <field name="Year">2005</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">210</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">T.F.Yug.Rep. Macedonia</field>
+            <field name="Year">2004</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">259</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">T.F.Yug.Rep. Macedonia</field>
+            <field name="Year">2003</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">287</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">T.F.Yug.Rep. Macedonia</field>
+            <field name="Year">2002</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">229</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">T.F.Yug.Rep. Macedonia</field>
+            <field name="Year">2001</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">248</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Ukraine</field>
+            <field name="Year">2007</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">25</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">United Kingdom</field>
+            <field name="Year">2008</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">290.108590540366</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">United Kingdom</field>
+            <field name="Year">2008</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">3.602</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">United Kingdom</field>
+            <field name="Year">2004</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes">2</field>
+        </record>
+        <record>
+            <field name="Country or Area">United Kingdom</field>
+            <field name="Year">2004</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes">2</field>
+        </record>
+        <record>
+            <field name="Country or Area">United Kingdom</field>
+            <field name="Year">2003</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">163.272636730629</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">United Kingdom</field>
+            <field name="Year">2003</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes">2</field>
+        </record>
+        <record>
+            <field name="Country or Area">United Kingdom</field>
+            <field name="Year">2001</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">431.869057301826</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">United Kingdom</field>
+            <field name="Year">2001</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">78</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">United Kingdom</field>
+            <field name="Year">2000</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">453.905287618347</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">United Kingdom</field>
+            <field name="Year">2000</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">47</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">United Kingdom</field>
+            <field name="Year">1999</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">323.594830504628</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">United Kingdom</field>
+            <field name="Year">1999</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">13</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">United Kingdom</field>
+            <field name="Year">1998</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">496.833848326229</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">United Kingdom</field>
+            <field name="Year">1997</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">982.260193994178</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">United Kingdom</field>
+            <field name="Year">1997</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes">2</field>
+        </record>
+        <record>
+            <field name="Country or Area">Uruguay</field>
+            <field name="Year">1999</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">8.26431816778813</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Uruguay</field>
+            <field name="Year">1998</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">175.270672353835</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Uruguay</field>
+            <field name="Year">1997</field>
+            <field name="Unit">000' USD</field>
+            <field name="Value">1765.79943496143</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Viet Nam</field>
+            <field name="Year">2009</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">20083</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Viet Nam</field>
+            <field name="Year">2008</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">18208</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Viet Nam</field>
+            <field name="Year">2007</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">19376.1</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Viet Nam</field>
+            <field name="Year">2006</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">12695</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Viet Nam</field>
+            <field name="Year">2005</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">15011</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Viet Nam</field>
+            <field name="Year">2004</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">9041</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Viet Nam</field>
+            <field name="Year">2003</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">9738</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Viet Nam</field>
+            <field name="Year">2002</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">6681</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Viet Nam</field>
+            <field name="Year">2001</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">5637</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Viet Nam</field>
+            <field name="Year">2000</field>
+            <field name="Unit">METRIC TONS</field>
+            <field name="Value">3196</field>
+            <field name="Value Footnotes"></field>
+        </record>
+    </data>
+    <footnotes>
+        <footnote fnSeqID="1">Excluding Prodcom code 17.10.45.55.</footnote>
+        <footnote fnSeqID="2">Excluding Prodcom code 17.10.45.53.</footnote>
+    </footnotes>
+</ROOT>

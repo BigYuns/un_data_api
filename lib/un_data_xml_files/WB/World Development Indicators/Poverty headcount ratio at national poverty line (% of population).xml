@@ -1,0 +1,3185 @@
+<ROOT>
+    <data>
+        <record>
+            <field name="Country or Area">Afghanistan</field>
+            <field name="Year">2008</field>
+            <field name="Value">36</field>
+            <field name="Value Footnotes">1</field>
+        </record>
+        <record>
+            <field name="Country or Area">Albania</field>
+            <field name="Year">2008</field>
+            <field name="Value">12.4</field>
+            <field name="Value Footnotes">2</field>
+        </record>
+        <record>
+            <field name="Country or Area">Albania</field>
+            <field name="Year">2005</field>
+            <field name="Value">18.5</field>
+            <field name="Value Footnotes">2</field>
+        </record>
+        <record>
+            <field name="Country or Area">Albania</field>
+            <field name="Year">2002</field>
+            <field name="Value">25.4</field>
+            <field name="Value Footnotes">2</field>
+        </record>
+        <record>
+            <field name="Country or Area">Armenia</field>
+            <field name="Year">2011</field>
+            <field name="Value">35</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Armenia</field>
+            <field name="Year">2010</field>
+            <field name="Value">35.8</field>
+            <field name="Value Footnotes">4</field>
+        </record>
+        <record>
+            <field name="Country or Area">Armenia</field>
+            <field name="Year">2009</field>
+            <field name="Value">34.1</field>
+            <field name="Value Footnotes">5</field>
+        </record>
+        <record>
+            <field name="Country or Area">Armenia</field>
+            <field name="Year">2008</field>
+            <field name="Value">27.6</field>
+            <field name="Value Footnotes">5</field>
+        </record>
+        <record>
+            <field name="Country or Area">Armenia</field>
+            <field name="Year">2001</field>
+            <field name="Value">48.3</field>
+            <field name="Value Footnotes">6</field>
+        </record>
+        <record>
+            <field name="Country or Area">Azerbaijan</field>
+            <field name="Year">2011</field>
+            <field name="Value">7.6</field>
+            <field name="Value Footnotes">7</field>
+        </record>
+        <record>
+            <field name="Country or Area">Azerbaijan</field>
+            <field name="Year">2010</field>
+            <field name="Value">9.1</field>
+            <field name="Value Footnotes">7</field>
+        </record>
+        <record>
+            <field name="Country or Area">Azerbaijan</field>
+            <field name="Year">2009</field>
+            <field name="Value">10.9</field>
+            <field name="Value Footnotes">8</field>
+        </record>
+        <record>
+            <field name="Country or Area">Azerbaijan</field>
+            <field name="Year">2008</field>
+            <field name="Value">13.2</field>
+            <field name="Value Footnotes">8</field>
+        </record>
+        <record>
+            <field name="Country or Area">Azerbaijan</field>
+            <field name="Year">2007</field>
+            <field name="Value">15.8</field>
+            <field name="Value Footnotes">8</field>
+        </record>
+        <record>
+            <field name="Country or Area">Azerbaijan</field>
+            <field name="Year">2001</field>
+            <field name="Value">49.6</field>
+            <field name="Value Footnotes">8</field>
+        </record>
+        <record>
+            <field name="Country or Area">Bangladesh</field>
+            <field name="Year">2010</field>
+            <field name="Value">31.51</field>
+            <field name="Value Footnotes">9</field>
+        </record>
+        <record>
+            <field name="Country or Area">Bangladesh</field>
+            <field name="Year">2005</field>
+            <field name="Value">40</field>
+            <field name="Value Footnotes">10</field>
+        </record>
+        <record>
+            <field name="Country or Area">Bangladesh</field>
+            <field name="Year">2000</field>
+            <field name="Value">48.9</field>
+            <field name="Value Footnotes">10</field>
+        </record>
+        <record>
+            <field name="Country or Area">Bangladesh</field>
+            <field name="Year">1996</field>
+            <field name="Value">50.1</field>
+            <field name="Value Footnotes">10</field>
+        </record>
+        <record>
+            <field name="Country or Area">Bangladesh</field>
+            <field name="Year">1992</field>
+            <field name="Value">56.6</field>
+            <field name="Value Footnotes">10</field>
+        </record>
+        <record>
+            <field name="Country or Area">Belarus</field>
+            <field name="Year">2011</field>
+            <field name="Value">7.3</field>
+            <field name="Value Footnotes">11</field>
+        </record>
+        <record>
+            <field name="Country or Area">Belarus</field>
+            <field name="Year">2010</field>
+            <field name="Value">5.2</field>
+            <field name="Value Footnotes">11</field>
+        </record>
+        <record>
+            <field name="Country or Area">Belarus</field>
+            <field name="Year">2009</field>
+            <field name="Value">5.4</field>
+            <field name="Value Footnotes">11</field>
+        </record>
+        <record>
+            <field name="Country or Area">Belarus</field>
+            <field name="Year">2008</field>
+            <field name="Value">6.1</field>
+            <field name="Value Footnotes">11</field>
+        </record>
+        <record>
+            <field name="Country or Area">Belarus</field>
+            <field name="Year">2007</field>
+            <field name="Value">7.7</field>
+            <field name="Value Footnotes">11</field>
+        </record>
+        <record>
+            <field name="Country or Area">Belarus</field>
+            <field name="Year">2006</field>
+            <field name="Value">11.1</field>
+            <field name="Value Footnotes">11</field>
+        </record>
+        <record>
+            <field name="Country or Area">Belarus</field>
+            <field name="Year">2005</field>
+            <field name="Value">12.7</field>
+            <field name="Value Footnotes">11</field>
+        </record>
+        <record>
+            <field name="Country or Area">Belarus</field>
+            <field name="Year">2004</field>
+            <field name="Value">17.8</field>
+            <field name="Value Footnotes">11</field>
+        </record>
+        <record>
+            <field name="Country or Area">Belarus</field>
+            <field name="Year">2003</field>
+            <field name="Value">27.1</field>
+            <field name="Value Footnotes">11</field>
+        </record>
+        <record>
+            <field name="Country or Area">Belarus</field>
+            <field name="Year">2002</field>
+            <field name="Value">30.5</field>
+            <field name="Value Footnotes">11</field>
+        </record>
+        <record>
+            <field name="Country or Area">Belarus</field>
+            <field name="Year">2001</field>
+            <field name="Value">28.9</field>
+            <field name="Value Footnotes">11</field>
+        </record>
+        <record>
+            <field name="Country or Area">Belarus</field>
+            <field name="Year">2000</field>
+            <field name="Value">41.9</field>
+            <field name="Value Footnotes">11</field>
+        </record>
+        <record>
+            <field name="Country or Area">Belarus</field>
+            <field name="Year">1999</field>
+            <field name="Value">46.7</field>
+            <field name="Value Footnotes">11</field>
+        </record>
+        <record>
+            <field name="Country or Area">Belarus</field>
+            <field name="Year">1998</field>
+            <field name="Value">33</field>
+            <field name="Value Footnotes">11</field>
+        </record>
+        <record>
+            <field name="Country or Area">Benin</field>
+            <field name="Year">2007</field>
+            <field name="Value">33.3</field>
+            <field name="Value Footnotes">12</field>
+        </record>
+        <record>
+            <field name="Country or Area">Bhutan</field>
+            <field name="Year">2007</field>
+            <field name="Value">23.2</field>
+            <field name="Value Footnotes">13</field>
+        </record>
+        <record>
+            <field name="Country or Area">Bolivia</field>
+            <field name="Year">2009</field>
+            <field name="Value">50.6</field>
+            <field name="Value Footnotes">14</field>
+        </record>
+        <record>
+            <field name="Country or Area">Bolivia</field>
+            <field name="Year">2008</field>
+            <field name="Value">56.6</field>
+            <field name="Value Footnotes">14</field>
+        </record>
+        <record>
+            <field name="Country or Area">Bolivia</field>
+            <field name="Year">2007</field>
+            <field name="Value">60.1</field>
+            <field name="Value Footnotes">14</field>
+        </record>
+        <record>
+            <field name="Country or Area">Bolivia</field>
+            <field name="Year">2006</field>
+            <field name="Value">59.9</field>
+            <field name="Value Footnotes">14</field>
+        </record>
+        <record>
+            <field name="Country or Area">Bolivia</field>
+            <field name="Year">2005</field>
+            <field name="Value">60.6</field>
+            <field name="Value Footnotes">14</field>
+        </record>
+        <record>
+            <field name="Country or Area">Bolivia</field>
+            <field name="Year">2004</field>
+            <field name="Value">63.1</field>
+            <field name="Value Footnotes">14</field>
+        </record>
+        <record>
+            <field name="Country or Area">Bolivia</field>
+            <field name="Year">2002</field>
+            <field name="Value">63.3</field>
+            <field name="Value Footnotes">14</field>
+        </record>
+        <record>
+            <field name="Country or Area">Bolivia</field>
+            <field name="Year">2001</field>
+            <field name="Value">63.1</field>
+            <field name="Value Footnotes">14</field>
+        </record>
+        <record>
+            <field name="Country or Area">Bolivia</field>
+            <field name="Year">2000</field>
+            <field name="Value">66.4</field>
+            <field name="Value Footnotes">14</field>
+        </record>
+        <record>
+            <field name="Country or Area">Bolivia</field>
+            <field name="Year">1999</field>
+            <field name="Value">63.5</field>
+            <field name="Value Footnotes">14</field>
+        </record>
+        <record>
+            <field name="Country or Area">Bosnia and Herzegovina</field>
+            <field name="Year">2007</field>
+            <field name="Value">14</field>
+            <field name="Value Footnotes">15</field>
+        </record>
+        <record>
+            <field name="Country or Area">Bosnia and Herzegovina</field>
+            <field name="Year">2004</field>
+            <field name="Value">17.7</field>
+            <field name="Value Footnotes">15</field>
+        </record>
+        <record>
+            <field name="Country or Area">Botswana</field>
+            <field name="Year">2003</field>
+            <field name="Value">30.6</field>
+            <field name="Value Footnotes">16</field>
+        </record>
+        <record>
+            <field name="Country or Area">Botswana</field>
+            <field name="Year">1993</field>
+            <field name="Value">32.9</field>
+            <field name="Value Footnotes">17</field>
+        </record>
+        <record>
+            <field name="Country or Area">Botswana</field>
+            <field name="Year">1986</field>
+            <field name="Value">59</field>
+            <field name="Value Footnotes">17</field>
+        </record>
+        <record>
+            <field name="Country or Area">Brazil</field>
+            <field name="Year">2009</field>
+            <field name="Value">21.4</field>
+            <field name="Value Footnotes">18</field>
+        </record>
+        <record>
+            <field name="Country or Area">Brazil</field>
+            <field name="Year">2008</field>
+            <field name="Value">22.6</field>
+            <field name="Value Footnotes">18</field>
+        </record>
+        <record>
+            <field name="Country or Area">Brazil</field>
+            <field name="Year">2007</field>
+            <field name="Value">24.2</field>
+            <field name="Value Footnotes">18</field>
+        </record>
+        <record>
+            <field name="Country or Area">Brazil</field>
+            <field name="Year">2006</field>
+            <field name="Value">26.8</field>
+            <field name="Value Footnotes">18</field>
+        </record>
+        <record>
+            <field name="Country or Area">Brazil</field>
+            <field name="Year">2005</field>
+            <field name="Value">30.8</field>
+            <field name="Value Footnotes">18</field>
+        </record>
+        <record>
+            <field name="Country or Area">Bulgaria</field>
+            <field name="Year">2007</field>
+            <field name="Value">10.6</field>
+            <field name="Value Footnotes">19</field>
+        </record>
+        <record>
+            <field name="Country or Area">Bulgaria</field>
+            <field name="Year">2001</field>
+            <field name="Value">12.8</field>
+            <field name="Value Footnotes">20</field>
+        </record>
+        <record>
+            <field name="Country or Area">Burkina Faso</field>
+            <field name="Year">2009</field>
+            <field name="Value">46.7</field>
+            <field name="Value Footnotes">21</field>
+        </record>
+        <record>
+            <field name="Country or Area">Burkina Faso</field>
+            <field name="Year">2003</field>
+            <field name="Value">49.2</field>
+            <field name="Value Footnotes">22</field>
+        </record>
+        <record>
+            <field name="Country or Area">Burundi</field>
+            <field name="Year">2006</field>
+            <field name="Value">66.9</field>
+            <field name="Value Footnotes">23</field>
+        </record>
+        <record>
+            <field name="Country or Area">Cambodia</field>
+            <field name="Year">2011</field>
+            <field name="Value">20.5</field>
+            <field name="Value Footnotes">24</field>
+        </record>
+        <record>
+            <field name="Country or Area">Cambodia</field>
+            <field name="Year">2010</field>
+            <field name="Value">22.1</field>
+            <field name="Value Footnotes">25</field>
+        </record>
+        <record>
+            <field name="Country or Area">Cambodia</field>
+            <field name="Year">2009</field>
+            <field name="Value">23.9</field>
+            <field name="Value Footnotes">26</field>
+        </record>
+        <record>
+            <field name="Country or Area">Cambodia</field>
+            <field name="Year">2008</field>
+            <field name="Value">38.8</field>
+            <field name="Value Footnotes">27</field>
+        </record>
+        <record>
+            <field name="Country or Area">Cambodia</field>
+            <field name="Year">2007</field>
+            <field name="Value">50.1</field>
+            <field name="Value Footnotes">28</field>
+        </record>
+        <record>
+            <field name="Country or Area">Cambodia</field>
+            <field name="Year">2004</field>
+            <field name="Value">53.2</field>
+            <field name="Value Footnotes">29</field>
+        </record>
+        <record>
+            <field name="Country or Area">Cameroon</field>
+            <field name="Year">2007</field>
+            <field name="Value">39.9</field>
+            <field name="Value Footnotes">30</field>
+        </record>
+        <record>
+            <field name="Country or Area">Cameroon</field>
+            <field name="Year">2001</field>
+            <field name="Value">40.2</field>
+            <field name="Value Footnotes">30</field>
+        </record>
+        <record>
+            <field name="Country or Area">Cameroon</field>
+            <field name="Year">1996</field>
+            <field name="Value">53.3</field>
+            <field name="Value Footnotes">30</field>
+        </record>
+        <record>
+            <field name="Country or Area">Cape Verde</field>
+            <field name="Year">2007</field>
+            <field name="Value">26.6</field>
+            <field name="Value Footnotes">31</field>
+        </record>
+        <record>
+            <field name="Country or Area">Central African Republic</field>
+            <field name="Year">2008</field>
+            <field name="Value">62</field>
+            <field name="Value Footnotes">32</field>
+        </record>
+        <record>
+            <field name="Country or Area">Chad</field>
+            <field name="Year">2003</field>
+            <field name="Value">55</field>
+            <field name="Value Footnotes">33</field>
+        </record>
+        <record>
+            <field name="Country or Area">Chile</field>
+            <field name="Year">2011</field>
+            <field name="Value">14.4</field>
+            <field name="Value Footnotes">34</field>
+        </record>
+        <record>
+            <field name="Country or Area">Chile</field>
+            <field name="Year">2009</field>
+            <field name="Value">15.1</field>
+            <field name="Value Footnotes">34</field>
+        </record>
+        <record>
+            <field name="Country or Area">Chile</field>
+            <field name="Year">2006</field>
+            <field name="Value">13.7</field>
+            <field name="Value Footnotes">34</field>
+        </record>
+        <record>
+            <field name="Country or Area">Chile</field>
+            <field name="Year">2003</field>
+            <field name="Value">18.7</field>
+            <field name="Value Footnotes">34</field>
+        </record>
+        <record>
+            <field name="Country or Area">Chile</field>
+            <field name="Year">2000</field>
+            <field name="Value">20.2</field>
+            <field name="Value Footnotes">34</field>
+        </record>
+        <record>
+            <field name="Country or Area">Chile</field>
+            <field name="Year">1998</field>
+            <field name="Value">21.6</field>
+            <field name="Value Footnotes">34</field>
+        </record>
+        <record>
+            <field name="Country or Area">Chile</field>
+            <field name="Year">1996</field>
+            <field name="Value">23.2</field>
+            <field name="Value Footnotes">34</field>
+        </record>
+        <record>
+            <field name="Country or Area">Chile</field>
+            <field name="Year">1994</field>
+            <field name="Value">27.7</field>
+            <field name="Value Footnotes">34</field>
+        </record>
+        <record>
+            <field name="Country or Area">Chile</field>
+            <field name="Year">1992</field>
+            <field name="Value">32.8</field>
+            <field name="Value Footnotes">34</field>
+        </record>
+        <record>
+            <field name="Country or Area">Chile</field>
+            <field name="Year">1990</field>
+            <field name="Value">38.6</field>
+            <field name="Value Footnotes">34</field>
+        </record>
+        <record>
+            <field name="Country or Area">Chile</field>
+            <field name="Year">1987</field>
+            <field name="Value">45.1</field>
+            <field name="Value Footnotes">34</field>
+        </record>
+        <record>
+            <field name="Country or Area">China</field>
+            <field name="Year">1998</field>
+            <field name="Value">4.6</field>
+            <field name="Value Footnotes">35</field>
+        </record>
+        <record>
+            <field name="Country or Area">China</field>
+            <field name="Year">1996</field>
+            <field name="Value">6</field>
+            <field name="Value Footnotes">35</field>
+        </record>
+        <record>
+            <field name="Country or Area">Colombia</field>
+            <field name="Year">2011</field>
+            <field name="Value">34.1</field>
+            <field name="Value Footnotes">36</field>
+        </record>
+        <record>
+            <field name="Country or Area">Colombia</field>
+            <field name="Year">2010</field>
+            <field name="Value">37.2</field>
+            <field name="Value Footnotes">36</field>
+        </record>
+        <record>
+            <field name="Country or Area">Colombia</field>
+            <field name="Year">2009</field>
+            <field name="Value">40.3</field>
+            <field name="Value Footnotes">36</field>
+        </record>
+        <record>
+            <field name="Country or Area">Colombia</field>
+            <field name="Year">2008</field>
+            <field name="Value">42</field>
+            <field name="Value Footnotes">36</field>
+        </record>
+        <record>
+            <field name="Country or Area">Colombia</field>
+            <field name="Year">2005</field>
+            <field name="Value">45</field>
+            <field name="Value Footnotes">37</field>
+        </record>
+        <record>
+            <field name="Country or Area">Colombia</field>
+            <field name="Year">2004</field>
+            <field name="Value">47.4</field>
+            <field name="Value Footnotes">37</field>
+        </record>
+        <record>
+            <field name="Country or Area">Colombia</field>
+            <field name="Year">2003</field>
+            <field name="Value">48</field>
+            <field name="Value Footnotes">37</field>
+        </record>
+        <record>
+            <field name="Country or Area">Colombia</field>
+            <field name="Year">2002</field>
+            <field name="Value">49.7</field>
+            <field name="Value Footnotes">37</field>
+        </record>
+        <record>
+            <field name="Country or Area">Comoros</field>
+            <field name="Year">2004</field>
+            <field name="Value">44.8</field>
+            <field name="Value Footnotes">38</field>
+        </record>
+        <record>
+            <field name="Country or Area">Congo, Dem. Rep.</field>
+            <field name="Year">2005</field>
+            <field name="Value">71.3</field>
+            <field name="Value Footnotes">39</field>
+        </record>
+        <record>
+            <field name="Country or Area">Congo, Rep.</field>
+            <field name="Year">2011</field>
+            <field name="Value">46.5</field>
+            <field name="Value Footnotes">40</field>
+        </record>
+        <record>
+            <field name="Country or Area">Congo, Rep.</field>
+            <field name="Year">2005</field>
+            <field name="Value">50.1</field>
+            <field name="Value Footnotes">41</field>
+        </record>
+        <record>
+            <field name="Country or Area">Costa Rica</field>
+            <field name="Year">2012</field>
+            <field name="Value">20.6</field>
+            <field name="Value Footnotes">42</field>
+        </record>
+        <record>
+            <field name="Country or Area">Costa Rica</field>
+            <field name="Year">2011</field>
+            <field name="Value">21.6</field>
+            <field name="Value Footnotes">42</field>
+        </record>
+        <record>
+            <field name="Country or Area">Costa Rica</field>
+            <field name="Year">2010</field>
+            <field name="Value">21.3</field>
+            <field name="Value Footnotes">42</field>
+        </record>
+        <record>
+            <field name="Country or Area">Cote d'Ivoire</field>
+            <field name="Year">2008</field>
+            <field name="Value">42.7</field>
+            <field name="Value Footnotes">43</field>
+        </record>
+        <record>
+            <field name="Country or Area">Cote d'Ivoire</field>
+            <field name="Year">2002</field>
+            <field name="Value">40.2</field>
+            <field name="Value Footnotes">43</field>
+        </record>
+        <record>
+            <field name="Country or Area">Cote d'Ivoire</field>
+            <field name="Year">1998</field>
+            <field name="Value">36.4</field>
+            <field name="Value Footnotes">43</field>
+        </record>
+        <record>
+            <field name="Country or Area">Cote d'Ivoire</field>
+            <field name="Year">1993</field>
+            <field name="Value">34.6</field>
+            <field name="Value Footnotes">43</field>
+        </record>
+        <record>
+            <field name="Country or Area">Cote d'Ivoire</field>
+            <field name="Year">1985</field>
+            <field name="Value">10.1</field>
+            <field name="Value Footnotes">43</field>
+        </record>
+        <record>
+            <field name="Country or Area">Croatia</field>
+            <field name="Year">2004</field>
+            <field name="Value">11.1</field>
+            <field name="Value Footnotes">44</field>
+        </record>
+        <record>
+            <field name="Country or Area">Croatia</field>
+            <field name="Year">2002</field>
+            <field name="Value">11.2</field>
+            <field name="Value Footnotes">44</field>
+        </record>
+        <record>
+            <field name="Country or Area">Dominican Republic</field>
+            <field name="Year">2011</field>
+            <field name="Value">40.4</field>
+            <field name="Value Footnotes">45</field>
+        </record>
+        <record>
+            <field name="Country or Area">Dominican Republic</field>
+            <field name="Year">2010</field>
+            <field name="Value">41.6</field>
+            <field name="Value Footnotes">45</field>
+        </record>
+        <record>
+            <field name="Country or Area">Dominican Republic</field>
+            <field name="Year">2009</field>
+            <field name="Value">42.1</field>
+            <field name="Value Footnotes">45</field>
+        </record>
+        <record>
+            <field name="Country or Area">Dominican Republic</field>
+            <field name="Year">2008</field>
+            <field name="Value">44.2</field>
+            <field name="Value Footnotes">45</field>
+        </record>
+        <record>
+            <field name="Country or Area">Dominican Republic</field>
+            <field name="Year">2007</field>
+            <field name="Value">43.6</field>
+            <field name="Value Footnotes">45</field>
+        </record>
+        <record>
+            <field name="Country or Area">Dominican Republic</field>
+            <field name="Year">2006</field>
+            <field name="Value">44.2</field>
+            <field name="Value Footnotes">45</field>
+        </record>
+        <record>
+            <field name="Country or Area">Dominican Republic</field>
+            <field name="Year">2005</field>
+            <field name="Value">47.8</field>
+            <field name="Value Footnotes">45</field>
+        </record>
+        <record>
+            <field name="Country or Area">Dominican Republic</field>
+            <field name="Year">2004</field>
+            <field name="Value">49.8</field>
+            <field name="Value Footnotes">45</field>
+        </record>
+        <record>
+            <field name="Country or Area">Dominican Republic</field>
+            <field name="Year">2003</field>
+            <field name="Value">41.5</field>
+            <field name="Value Footnotes">45</field>
+        </record>
+        <record>
+            <field name="Country or Area">Dominican Republic</field>
+            <field name="Year">2002</field>
+            <field name="Value">32.7</field>
+            <field name="Value Footnotes">45</field>
+        </record>
+        <record>
+            <field name="Country or Area">Dominican Republic</field>
+            <field name="Year">2001</field>
+            <field name="Value">32.8</field>
+            <field name="Value Footnotes">45</field>
+        </record>
+        <record>
+            <field name="Country or Area">Dominican Republic</field>
+            <field name="Year">2000</field>
+            <field name="Value">32</field>
+            <field name="Value Footnotes">45</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ecuador</field>
+            <field name="Year">2012</field>
+            <field name="Value">27.3</field>
+            <field name="Value Footnotes">46</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ecuador</field>
+            <field name="Year">2011</field>
+            <field name="Value">28.6</field>
+            <field name="Value Footnotes">47</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ecuador</field>
+            <field name="Year">2010</field>
+            <field name="Value">32.8</field>
+            <field name="Value Footnotes">47</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ecuador</field>
+            <field name="Year">2009</field>
+            <field name="Value">36</field>
+            <field name="Value Footnotes">47</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ecuador</field>
+            <field name="Year">2008</field>
+            <field name="Value">35.1</field>
+            <field name="Value Footnotes">47</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ecuador</field>
+            <field name="Year">2007</field>
+            <field name="Value">36.7</field>
+            <field name="Value Footnotes">47</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ecuador</field>
+            <field name="Year">2006</field>
+            <field name="Value">37.6</field>
+            <field name="Value Footnotes">47</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ecuador</field>
+            <field name="Year">2005</field>
+            <field name="Value">42.2</field>
+            <field name="Value Footnotes">48</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ecuador</field>
+            <field name="Year">2004</field>
+            <field name="Value">44.6</field>
+            <field name="Value Footnotes">48</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ecuador</field>
+            <field name="Year">2003</field>
+            <field name="Value">49.9</field>
+            <field name="Value Footnotes">48</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ecuador</field>
+            <field name="Year">2001</field>
+            <field name="Value">55.2</field>
+            <field name="Value Footnotes">48</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ecuador</field>
+            <field name="Year">2000</field>
+            <field name="Value">64.4</field>
+            <field name="Value Footnotes">48</field>
+        </record>
+        <record>
+            <field name="Country or Area">Egypt, Arab Rep.</field>
+            <field name="Year">2011</field>
+            <field name="Value">25.2</field>
+            <field name="Value Footnotes">49</field>
+        </record>
+        <record>
+            <field name="Country or Area">Egypt, Arab Rep.</field>
+            <field name="Year">2009</field>
+            <field name="Value">21.6</field>
+            <field name="Value Footnotes">49</field>
+        </record>
+        <record>
+            <field name="Country or Area">Egypt, Arab Rep.</field>
+            <field name="Year">2005</field>
+            <field name="Value">19.6</field>
+            <field name="Value Footnotes">50</field>
+        </record>
+        <record>
+            <field name="Country or Area">Egypt, Arab Rep.</field>
+            <field name="Year">2000</field>
+            <field name="Value">16.7</field>
+            <field name="Value Footnotes">50</field>
+        </record>
+        <record>
+            <field name="Country or Area">Egypt, Arab Rep.</field>
+            <field name="Year">1996</field>
+            <field name="Value">19.4</field>
+            <field name="Value Footnotes">50</field>
+        </record>
+        <record>
+            <field name="Country or Area">El Salvador</field>
+            <field name="Year">2012</field>
+            <field name="Value">34.5</field>
+            <field name="Value Footnotes">51</field>
+        </record>
+        <record>
+            <field name="Country or Area">El Salvador</field>
+            <field name="Year">2011</field>
+            <field name="Value">40.6</field>
+            <field name="Value Footnotes">51</field>
+        </record>
+        <record>
+            <field name="Country or Area">El Salvador</field>
+            <field name="Year">2010</field>
+            <field name="Value">36.5</field>
+            <field name="Value Footnotes">51</field>
+        </record>
+        <record>
+            <field name="Country or Area">El Salvador</field>
+            <field name="Year">2009</field>
+            <field name="Value">37.8</field>
+            <field name="Value Footnotes">51</field>
+        </record>
+        <record>
+            <field name="Country or Area">El Salvador</field>
+            <field name="Year">2008</field>
+            <field name="Value">40</field>
+            <field name="Value Footnotes">51</field>
+        </record>
+        <record>
+            <field name="Country or Area">El Salvador</field>
+            <field name="Year">2007</field>
+            <field name="Value">34.6</field>
+            <field name="Value Footnotes">51</field>
+        </record>
+        <record>
+            <field name="Country or Area">El Salvador</field>
+            <field name="Year">2006</field>
+            <field name="Value">30.7</field>
+            <field name="Value Footnotes">51</field>
+        </record>
+        <record>
+            <field name="Country or Area">El Salvador</field>
+            <field name="Year">2005</field>
+            <field name="Value">35.2</field>
+            <field name="Value Footnotes">51</field>
+        </record>
+        <record>
+            <field name="Country or Area">Equatorial Guinea</field>
+            <field name="Year">2006</field>
+            <field name="Value">76.8</field>
+            <field name="Value Footnotes">52</field>
+        </record>
+        <record>
+            <field name="Country or Area">Eritrea</field>
+            <field name="Year">1993</field>
+            <field name="Value">69</field>
+            <field name="Value Footnotes">53</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ethiopia</field>
+            <field name="Year">2011</field>
+            <field name="Value">29.6</field>
+            <field name="Value Footnotes">54</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ethiopia</field>
+            <field name="Year">2004</field>
+            <field name="Value">38.9</field>
+            <field name="Value Footnotes">55</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ethiopia</field>
+            <field name="Year">1999</field>
+            <field name="Value">44.2</field>
+            <field name="Value Footnotes">55</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ethiopia</field>
+            <field name="Year">1995</field>
+            <field name="Value">45.5</field>
+            <field name="Value Footnotes">55</field>
+        </record>
+        <record>
+            <field name="Country or Area">Fiji</field>
+            <field name="Year">2009</field>
+            <field name="Value">31</field>
+            <field name="Value Footnotes">56</field>
+        </record>
+        <record>
+            <field name="Country or Area">Fiji</field>
+            <field name="Year">2003</field>
+            <field name="Value">35</field>
+            <field name="Value Footnotes">56</field>
+        </record>
+        <record>
+            <field name="Country or Area">Gabon</field>
+            <field name="Year">2005</field>
+            <field name="Value">32.7</field>
+            <field name="Value Footnotes">57</field>
+        </record>
+        <record>
+            <field name="Country or Area">Gambia, The</field>
+            <field name="Year">2010</field>
+            <field name="Value">48.4</field>
+            <field name="Value Footnotes">58</field>
+        </record>
+        <record>
+            <field name="Country or Area">Georgia</field>
+            <field name="Year">2009</field>
+            <field name="Value">24.7</field>
+            <field name="Value Footnotes">59</field>
+        </record>
+        <record>
+            <field name="Country or Area">Georgia</field>
+            <field name="Year">2008</field>
+            <field name="Value">22.7</field>
+            <field name="Value Footnotes">59</field>
+        </record>
+        <record>
+            <field name="Country or Area">Georgia</field>
+            <field name="Year">2007</field>
+            <field name="Value">23.4</field>
+            <field name="Value Footnotes">59</field>
+        </record>
+        <record>
+            <field name="Country or Area">Georgia</field>
+            <field name="Year">2003</field>
+            <field name="Value">28.5</field>
+            <field name="Value Footnotes">59</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ghana</field>
+            <field name="Year">2006</field>
+            <field name="Value">28.5</field>
+            <field name="Value Footnotes">60</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ghana</field>
+            <field name="Year">1998</field>
+            <field name="Value">39.5</field>
+            <field name="Value Footnotes">60</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ghana</field>
+            <field name="Year">1992</field>
+            <field name="Value">51.7</field>
+            <field name="Value Footnotes">60</field>
+        </record>
+        <record>
+            <field name="Country or Area">Guatemala</field>
+            <field name="Year">2011</field>
+            <field name="Value">53.7</field>
+            <field name="Value Footnotes">61</field>
+        </record>
+        <record>
+            <field name="Country or Area">Guatemala</field>
+            <field name="Year">2006</field>
+            <field name="Value">51</field>
+            <field name="Value Footnotes">61</field>
+        </record>
+        <record>
+            <field name="Country or Area">Guatemala</field>
+            <field name="Year">2000</field>
+            <field name="Value">56</field>
+            <field name="Value Footnotes">61</field>
+        </record>
+        <record>
+            <field name="Country or Area">Guinea</field>
+            <field name="Year">2012</field>
+            <field name="Value">55.2</field>
+            <field name="Value Footnotes">62</field>
+        </record>
+        <record>
+            <field name="Country or Area">Guinea</field>
+            <field name="Year">2007</field>
+            <field name="Value">53</field>
+            <field name="Value Footnotes">62</field>
+        </record>
+        <record>
+            <field name="Country or Area">Guinea</field>
+            <field name="Year">2003</field>
+            <field name="Value">49.1</field>
+            <field name="Value Footnotes">62</field>
+        </record>
+        <record>
+            <field name="Country or Area">Guinea</field>
+            <field name="Year">1994</field>
+            <field name="Value">62.6</field>
+            <field name="Value Footnotes">62</field>
+        </record>
+        <record>
+            <field name="Country or Area">Guinea-Bissau</field>
+            <field name="Year">2010</field>
+            <field name="Value">69.3</field>
+            <field name="Value Footnotes">63</field>
+        </record>
+        <record>
+            <field name="Country or Area">Guinea-Bissau</field>
+            <field name="Year">2002</field>
+            <field name="Value">64.7</field>
+            <field name="Value Footnotes">64</field>
+        </record>
+        <record>
+            <field name="Country or Area">Guinea-Bissau</field>
+            <field name="Year">1994</field>
+            <field name="Value">58.5</field>
+            <field name="Value Footnotes">65</field>
+        </record>
+        <record>
+            <field name="Country or Area">Haiti</field>
+            <field name="Year">2001</field>
+            <field name="Value">78</field>
+            <field name="Value Footnotes">66</field>
+        </record>
+        <record>
+            <field name="Country or Area">Honduras</field>
+            <field name="Year">2011</field>
+            <field name="Value">61.9</field>
+            <field name="Value Footnotes">67</field>
+        </record>
+        <record>
+            <field name="Country or Area">Honduras</field>
+            <field name="Year">2010</field>
+            <field name="Value">60</field>
+            <field name="Value Footnotes">67</field>
+        </record>
+        <record>
+            <field name="Country or Area">Honduras</field>
+            <field name="Year">2009</field>
+            <field name="Value">58.8</field>
+            <field name="Value Footnotes">67</field>
+        </record>
+        <record>
+            <field name="Country or Area">Honduras</field>
+            <field name="Year">2008</field>
+            <field name="Value">59.2</field>
+            <field name="Value Footnotes">67</field>
+        </record>
+        <record>
+            <field name="Country or Area">Honduras</field>
+            <field name="Year">2007</field>
+            <field name="Value">58.3</field>
+            <field name="Value Footnotes">67</field>
+        </record>
+        <record>
+            <field name="Country or Area">Honduras</field>
+            <field name="Year">2006</field>
+            <field name="Value">59.9</field>
+            <field name="Value Footnotes">67</field>
+        </record>
+        <record>
+            <field name="Country or Area">Honduras</field>
+            <field name="Year">2005</field>
+            <field name="Value">63.7</field>
+            <field name="Value Footnotes">67</field>
+        </record>
+        <record>
+            <field name="Country or Area">Honduras</field>
+            <field name="Year">2004</field>
+            <field name="Value">64.7</field>
+            <field name="Value Footnotes">67</field>
+        </record>
+        <record>
+            <field name="Country or Area">Honduras</field>
+            <field name="Year">2003</field>
+            <field name="Value">65.1</field>
+            <field name="Value Footnotes">67</field>
+        </record>
+        <record>
+            <field name="Country or Area">Honduras</field>
+            <field name="Year">2002</field>
+            <field name="Value">64.8</field>
+            <field name="Value Footnotes">67</field>
+        </record>
+        <record>
+            <field name="Country or Area">Honduras</field>
+            <field name="Year">2001</field>
+            <field name="Value">63.7</field>
+            <field name="Value Footnotes">67</field>
+        </record>
+        <record>
+            <field name="Country or Area">India</field>
+            <field name="Year">2010</field>
+            <field name="Value">29.8</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">India</field>
+            <field name="Year">2005</field>
+            <field name="Value">37.2</field>
+            <field name="Value Footnotes">68</field>
+        </record>
+        <record>
+            <field name="Country or Area">Indonesia</field>
+            <field name="Year">2012</field>
+            <field name="Value">12</field>
+            <field name="Value Footnotes">69</field>
+        </record>
+        <record>
+            <field name="Country or Area">Indonesia</field>
+            <field name="Year">2011</field>
+            <field name="Value">12.5</field>
+            <field name="Value Footnotes">69</field>
+        </record>
+        <record>
+            <field name="Country or Area">Indonesia</field>
+            <field name="Year">2010</field>
+            <field name="Value">13.3</field>
+            <field name="Value Footnotes">69</field>
+        </record>
+        <record>
+            <field name="Country or Area">Indonesia</field>
+            <field name="Year">2009</field>
+            <field name="Value">14.2</field>
+            <field name="Value Footnotes">69</field>
+        </record>
+        <record>
+            <field name="Country or Area">Indonesia</field>
+            <field name="Year">2008</field>
+            <field name="Value">15.4</field>
+            <field name="Value Footnotes">69</field>
+        </record>
+        <record>
+            <field name="Country or Area">Indonesia</field>
+            <field name="Year">2007</field>
+            <field name="Value">16.6</field>
+            <field name="Value Footnotes">69</field>
+        </record>
+        <record>
+            <field name="Country or Area">Indonesia</field>
+            <field name="Year">2006</field>
+            <field name="Value">17.8</field>
+            <field name="Value Footnotes">69</field>
+        </record>
+        <record>
+            <field name="Country or Area">Indonesia</field>
+            <field name="Year">2005</field>
+            <field name="Value">16</field>
+            <field name="Value Footnotes">69</field>
+        </record>
+        <record>
+            <field name="Country or Area">Indonesia</field>
+            <field name="Year">2004</field>
+            <field name="Value">16.7</field>
+            <field name="Value Footnotes">69</field>
+        </record>
+        <record>
+            <field name="Country or Area">Indonesia</field>
+            <field name="Year">2003</field>
+            <field name="Value">17.4</field>
+            <field name="Value Footnotes">69</field>
+        </record>
+        <record>
+            <field name="Country or Area">Indonesia</field>
+            <field name="Year">2002</field>
+            <field name="Value">18.2</field>
+            <field name="Value Footnotes">69</field>
+        </record>
+        <record>
+            <field name="Country or Area">Indonesia</field>
+            <field name="Year">1999</field>
+            <field name="Value">23.4</field>
+            <field name="Value Footnotes">69</field>
+        </record>
+        <record>
+            <field name="Country or Area">Indonesia</field>
+            <field name="Year">1996</field>
+            <field name="Value">17.6</field>
+            <field name="Value Footnotes">69</field>
+        </record>
+        <record>
+            <field name="Country or Area">Iraq</field>
+            <field name="Year">2007</field>
+            <field name="Value">22.9</field>
+            <field name="Value Footnotes">70</field>
+        </record>
+        <record>
+            <field name="Country or Area">Jamaica</field>
+            <field name="Year">2010</field>
+            <field name="Value">17.6</field>
+            <field name="Value Footnotes">71</field>
+        </record>
+        <record>
+            <field name="Country or Area">Jamaica</field>
+            <field name="Year">2009</field>
+            <field name="Value">16.5</field>
+            <field name="Value Footnotes">71</field>
+        </record>
+        <record>
+            <field name="Country or Area">Jamaica</field>
+            <field name="Year">2008</field>
+            <field name="Value">12.3</field>
+            <field name="Value Footnotes">71</field>
+        </record>
+        <record>
+            <field name="Country or Area">Jamaica</field>
+            <field name="Year">2007</field>
+            <field name="Value">9.9</field>
+            <field name="Value Footnotes">71</field>
+        </record>
+        <record>
+            <field name="Country or Area">Jamaica</field>
+            <field name="Year">2006</field>
+            <field name="Value">14.3</field>
+            <field name="Value Footnotes">71</field>
+        </record>
+        <record>
+            <field name="Country or Area">Jamaica</field>
+            <field name="Year">2005</field>
+            <field name="Value">14.8</field>
+            <field name="Value Footnotes">71</field>
+        </record>
+        <record>
+            <field name="Country or Area">Jamaica</field>
+            <field name="Year">2004</field>
+            <field name="Value">16.9</field>
+            <field name="Value Footnotes">71</field>
+        </record>
+        <record>
+            <field name="Country or Area">Jamaica</field>
+            <field name="Year">2003</field>
+            <field name="Value">19.1</field>
+            <field name="Value Footnotes">71</field>
+        </record>
+        <record>
+            <field name="Country or Area">Jamaica</field>
+            <field name="Year">2002</field>
+            <field name="Value">19.7</field>
+            <field name="Value Footnotes">71</field>
+        </record>
+        <record>
+            <field name="Country or Area">Jamaica</field>
+            <field name="Year">2001</field>
+            <field name="Value">16.9</field>
+            <field name="Value Footnotes">71</field>
+        </record>
+        <record>
+            <field name="Country or Area">Jamaica</field>
+            <field name="Year">2000</field>
+            <field name="Value">18.7</field>
+            <field name="Value Footnotes">71</field>
+        </record>
+        <record>
+            <field name="Country or Area">Jamaica</field>
+            <field name="Year">1999</field>
+            <field name="Value">16.9</field>
+            <field name="Value Footnotes">71</field>
+        </record>
+        <record>
+            <field name="Country or Area">Jamaica</field>
+            <field name="Year">1998</field>
+            <field name="Value">15.9</field>
+            <field name="Value Footnotes">71</field>
+        </record>
+        <record>
+            <field name="Country or Area">Jamaica</field>
+            <field name="Year">1997</field>
+            <field name="Value">19.9</field>
+            <field name="Value Footnotes">71</field>
+        </record>
+        <record>
+            <field name="Country or Area">Jamaica</field>
+            <field name="Year">1996</field>
+            <field name="Value">26.1</field>
+            <field name="Value Footnotes">71</field>
+        </record>
+        <record>
+            <field name="Country or Area">Jamaica</field>
+            <field name="Year">1995</field>
+            <field name="Value">27.5</field>
+            <field name="Value Footnotes">71</field>
+        </record>
+        <record>
+            <field name="Country or Area">Jamaica</field>
+            <field name="Year">1994</field>
+            <field name="Value">22.8</field>
+            <field name="Value Footnotes">71</field>
+        </record>
+        <record>
+            <field name="Country or Area">Jamaica</field>
+            <field name="Year">1993</field>
+            <field name="Value">24.4</field>
+            <field name="Value Footnotes">71</field>
+        </record>
+        <record>
+            <field name="Country or Area">Jamaica</field>
+            <field name="Year">1992</field>
+            <field name="Value">33.9</field>
+            <field name="Value Footnotes">71</field>
+        </record>
+        <record>
+            <field name="Country or Area">Jamaica</field>
+            <field name="Year">1991</field>
+            <field name="Value">44.6</field>
+            <field name="Value Footnotes">71</field>
+        </record>
+        <record>
+            <field name="Country or Area">Jamaica</field>
+            <field name="Year">1990</field>
+            <field name="Value">28.4</field>
+            <field name="Value Footnotes">71</field>
+        </record>
+        <record>
+            <field name="Country or Area">Jamaica</field>
+            <field name="Year">1989</field>
+            <field name="Value">30.5</field>
+            <field name="Value Footnotes">71</field>
+        </record>
+        <record>
+            <field name="Country or Area">Jordan</field>
+            <field name="Year">2008</field>
+            <field name="Value">13.3</field>
+            <field name="Value Footnotes">72</field>
+        </record>
+        <record>
+            <field name="Country or Area">Jordan</field>
+            <field name="Year">2006</field>
+            <field name="Value">13</field>
+            <field name="Value Footnotes">72</field>
+        </record>
+        <record>
+            <field name="Country or Area">Kazakhstan</field>
+            <field name="Year">2011</field>
+            <field name="Value">5.3</field>
+            <field name="Value Footnotes">73</field>
+        </record>
+        <record>
+            <field name="Country or Area">Kazakhstan</field>
+            <field name="Year">2010</field>
+            <field name="Value">6.5</field>
+            <field name="Value Footnotes">73</field>
+        </record>
+        <record>
+            <field name="Country or Area">Kazakhstan</field>
+            <field name="Year">2009</field>
+            <field name="Value">8.2</field>
+            <field name="Value Footnotes">73</field>
+        </record>
+        <record>
+            <field name="Country or Area">Kazakhstan</field>
+            <field name="Year">2008</field>
+            <field name="Value">12.1</field>
+            <field name="Value Footnotes">73</field>
+        </record>
+        <record>
+            <field name="Country or Area">Kazakhstan</field>
+            <field name="Year">2007</field>
+            <field name="Value">12.7</field>
+            <field name="Value Footnotes">73</field>
+        </record>
+        <record>
+            <field name="Country or Area">Kazakhstan</field>
+            <field name="Year">2006</field>
+            <field name="Value">18.2</field>
+            <field name="Value Footnotes">73</field>
+        </record>
+        <record>
+            <field name="Country or Area">Kazakhstan</field>
+            <field name="Year">2005</field>
+            <field name="Value">31.6</field>
+            <field name="Value Footnotes">73</field>
+        </record>
+        <record>
+            <field name="Country or Area">Kazakhstan</field>
+            <field name="Year">2004</field>
+            <field name="Value">33.9</field>
+            <field name="Value Footnotes">73</field>
+        </record>
+        <record>
+            <field name="Country or Area">Kazakhstan</field>
+            <field name="Year">2003</field>
+            <field name="Value">37.5</field>
+            <field name="Value Footnotes">73</field>
+        </record>
+        <record>
+            <field name="Country or Area">Kazakhstan</field>
+            <field name="Year">2002</field>
+            <field name="Value">44.5</field>
+            <field name="Value Footnotes">74</field>
+        </record>
+        <record>
+            <field name="Country or Area">Kazakhstan</field>
+            <field name="Year">2001</field>
+            <field name="Value">46.7</field>
+            <field name="Value Footnotes">73</field>
+        </record>
+        <record>
+            <field name="Country or Area">Kenya</field>
+            <field name="Year">2005</field>
+            <field name="Value">45.9</field>
+            <field name="Value Footnotes">75</field>
+        </record>
+        <record>
+            <field name="Country or Area">Kosovo</field>
+            <field name="Year">2011</field>
+            <field name="Value">29.7</field>
+            <field name="Value Footnotes">7</field>
+        </record>
+        <record>
+            <field name="Country or Area">Kosovo</field>
+            <field name="Year">2010</field>
+            <field name="Value">29.2</field>
+            <field name="Value Footnotes">7</field>
+        </record>
+        <record>
+            <field name="Country or Area">Kosovo</field>
+            <field name="Year">2009</field>
+            <field name="Value">34.5</field>
+            <field name="Value Footnotes">76</field>
+        </record>
+        <record>
+            <field name="Country or Area">Kosovo</field>
+            <field name="Year">2006</field>
+            <field name="Value">45.1</field>
+            <field name="Value Footnotes">76</field>
+        </record>
+        <record>
+            <field name="Country or Area">Kosovo</field>
+            <field name="Year">2005</field>
+            <field name="Value">34.8</field>
+            <field name="Value Footnotes">77</field>
+        </record>
+        <record>
+            <field name="Country or Area">Kosovo</field>
+            <field name="Year">2004</field>
+            <field name="Value">43.7</field>
+            <field name="Value Footnotes">77</field>
+        </record>
+        <record>
+            <field name="Country or Area">Kosovo</field>
+            <field name="Year">2003</field>
+            <field name="Value">37.7</field>
+            <field name="Value Footnotes">77</field>
+        </record>
+        <record>
+            <field name="Country or Area">Kyrgyz Republic</field>
+            <field name="Year">2012</field>
+            <field name="Value">38</field>
+            <field name="Value Footnotes">78</field>
+        </record>
+        <record>
+            <field name="Country or Area">Kyrgyz Republic</field>
+            <field name="Year">2011</field>
+            <field name="Value">36.8</field>
+            <field name="Value Footnotes">78</field>
+        </record>
+        <record>
+            <field name="Country or Area">Kyrgyz Republic</field>
+            <field name="Year">2010</field>
+            <field name="Value">33.7</field>
+            <field name="Value Footnotes">78</field>
+        </record>
+        <record>
+            <field name="Country or Area">Kyrgyz Republic</field>
+            <field name="Year">2009</field>
+            <field name="Value">31.7</field>
+            <field name="Value Footnotes">78</field>
+        </record>
+        <record>
+            <field name="Country or Area">Kyrgyz Republic</field>
+            <field name="Year">2008</field>
+            <field name="Value">31.7</field>
+            <field name="Value Footnotes">78</field>
+        </record>
+        <record>
+            <field name="Country or Area">Kyrgyz Republic</field>
+            <field name="Year">2007</field>
+            <field name="Value">54.6</field>
+            <field name="Value Footnotes">78</field>
+        </record>
+        <record>
+            <field name="Country or Area">Kyrgyz Republic</field>
+            <field name="Year">2006</field>
+            <field name="Value">61</field>
+            <field name="Value Footnotes">78</field>
+        </record>
+        <record>
+            <field name="Country or Area">Lao PDR</field>
+            <field name="Year">2008</field>
+            <field name="Value">27.6</field>
+            <field name="Value Footnotes">79</field>
+        </record>
+        <record>
+            <field name="Country or Area">Lao PDR</field>
+            <field name="Year">2002</field>
+            <field name="Value">33.5</field>
+            <field name="Value Footnotes">79</field>
+        </record>
+        <record>
+            <field name="Country or Area">Lao PDR</field>
+            <field name="Year">1997</field>
+            <field name="Value">38.6</field>
+            <field name="Value Footnotes">79</field>
+        </record>
+        <record>
+            <field name="Country or Area">Lao PDR</field>
+            <field name="Year">1992</field>
+            <field name="Value">45</field>
+            <field name="Value Footnotes">79</field>
+        </record>
+        <record>
+            <field name="Country or Area">Latvia</field>
+            <field name="Year">2004</field>
+            <field name="Value">5.9</field>
+            <field name="Value Footnotes">80</field>
+        </record>
+        <record>
+            <field name="Country or Area">Latvia</field>
+            <field name="Year">2002</field>
+            <field name="Value">7.5</field>
+            <field name="Value Footnotes">80</field>
+        </record>
+        <record>
+            <field name="Country or Area">Lesotho</field>
+            <field name="Year">2003</field>
+            <field name="Value">56.6</field>
+            <field name="Value Footnotes">81</field>
+        </record>
+        <record>
+            <field name="Country or Area">Lesotho</field>
+            <field name="Year">1994</field>
+            <field name="Value">66.6</field>
+            <field name="Value Footnotes">82</field>
+        </record>
+        <record>
+            <field name="Country or Area">Liberia</field>
+            <field name="Year">2007</field>
+            <field name="Value">63.8</field>
+            <field name="Value Footnotes">83</field>
+        </record>
+        <record>
+            <field name="Country or Area">Macedonia, FYR</field>
+            <field name="Year">2006</field>
+            <field name="Value">19</field>
+            <field name="Value Footnotes">84</field>
+        </record>
+        <record>
+            <field name="Country or Area">Macedonia, FYR</field>
+            <field name="Year">2005</field>
+            <field name="Value">20.4</field>
+            <field name="Value Footnotes">84</field>
+        </record>
+        <record>
+            <field name="Country or Area">Macedonia, FYR</field>
+            <field name="Year">2004</field>
+            <field name="Value">18.5</field>
+            <field name="Value Footnotes">84</field>
+        </record>
+        <record>
+            <field name="Country or Area">Macedonia, FYR</field>
+            <field name="Year">2003</field>
+            <field name="Value">19.2</field>
+            <field name="Value Footnotes">84</field>
+        </record>
+        <record>
+            <field name="Country or Area">Macedonia, FYR</field>
+            <field name="Year">2002</field>
+            <field name="Value">19.1</field>
+            <field name="Value Footnotes">84</field>
+        </record>
+        <record>
+            <field name="Country or Area">Madagascar</field>
+            <field name="Year">2005</field>
+            <field name="Value">68.7</field>
+            <field name="Value Footnotes">85</field>
+        </record>
+        <record>
+            <field name="Country or Area">Madagascar</field>
+            <field name="Year">2004</field>
+            <field name="Value">72.1</field>
+            <field name="Value Footnotes">85</field>
+        </record>
+        <record>
+            <field name="Country or Area">Madagascar</field>
+            <field name="Year">2002</field>
+            <field name="Value">80.7</field>
+            <field name="Value Footnotes">85</field>
+        </record>
+        <record>
+            <field name="Country or Area">Madagascar</field>
+            <field name="Year">2001</field>
+            <field name="Value">69.6</field>
+            <field name="Value Footnotes">85</field>
+        </record>
+        <record>
+            <field name="Country or Area">Madagascar</field>
+            <field name="Year">1999</field>
+            <field name="Value">71.3</field>
+            <field name="Value Footnotes">86</field>
+        </record>
+        <record>
+            <field name="Country or Area">Madagascar</field>
+            <field name="Year">1997</field>
+            <field name="Value">73.3</field>
+            <field name="Value Footnotes">86</field>
+        </record>
+        <record>
+            <field name="Country or Area">Madagascar</field>
+            <field name="Year">1993</field>
+            <field name="Value">70</field>
+            <field name="Value Footnotes">86</field>
+        </record>
+        <record>
+            <field name="Country or Area">Malawi</field>
+            <field name="Year">2010</field>
+            <field name="Value">50.7</field>
+            <field name="Value Footnotes">87</field>
+        </record>
+        <record>
+            <field name="Country or Area">Malawi</field>
+            <field name="Year">2004</field>
+            <field name="Value">52.4</field>
+            <field name="Value Footnotes">87</field>
+        </record>
+        <record>
+            <field name="Country or Area">Malawi</field>
+            <field name="Year">1998</field>
+            <field name="Value">65.3</field>
+            <field name="Value Footnotes">88</field>
+        </record>
+        <record>
+            <field name="Country or Area">Malaysia</field>
+            <field name="Year">2012</field>
+            <field name="Value">1.7</field>
+            <field name="Value Footnotes">89</field>
+        </record>
+        <record>
+            <field name="Country or Area">Malaysia</field>
+            <field name="Year">2009</field>
+            <field name="Value">3.8</field>
+            <field name="Value Footnotes">90</field>
+        </record>
+        <record>
+            <field name="Country or Area">Malaysia</field>
+            <field name="Year">2007</field>
+            <field name="Value">3.6</field>
+            <field name="Value Footnotes">90</field>
+        </record>
+        <record>
+            <field name="Country or Area">Malaysia</field>
+            <field name="Year">2004</field>
+            <field name="Value">5.7</field>
+            <field name="Value Footnotes">90</field>
+        </record>
+        <record>
+            <field name="Country or Area">Malaysia</field>
+            <field name="Year">2002</field>
+            <field name="Value">6</field>
+            <field name="Value Footnotes">90</field>
+        </record>
+        <record>
+            <field name="Country or Area">Malaysia</field>
+            <field name="Year">1999</field>
+            <field name="Value">8.5</field>
+            <field name="Value Footnotes">90</field>
+        </record>
+        <record>
+            <field name="Country or Area">Malaysia</field>
+            <field name="Year">1997</field>
+            <field name="Value">6.1</field>
+            <field name="Value Footnotes">90</field>
+        </record>
+        <record>
+            <field name="Country or Area">Malaysia</field>
+            <field name="Year">1995</field>
+            <field name="Value">8.7</field>
+            <field name="Value Footnotes">90</field>
+        </record>
+        <record>
+            <field name="Country or Area">Malaysia</field>
+            <field name="Year">1992</field>
+            <field name="Value">12.4</field>
+            <field name="Value Footnotes">90</field>
+        </record>
+        <record>
+            <field name="Country or Area">Malaysia</field>
+            <field name="Year">1989</field>
+            <field name="Value">16.5</field>
+            <field name="Value Footnotes">90</field>
+        </record>
+        <record>
+            <field name="Country or Area">Malaysia</field>
+            <field name="Year">1987</field>
+            <field name="Value">19.4</field>
+            <field name="Value Footnotes">90</field>
+        </record>
+        <record>
+            <field name="Country or Area">Malaysia</field>
+            <field name="Year">1984</field>
+            <field name="Value">20.7</field>
+            <field name="Value Footnotes">90</field>
+        </record>
+        <record>
+            <field name="Country or Area">Malaysia</field>
+            <field name="Year">1979</field>
+            <field name="Value">37.4</field>
+            <field name="Value Footnotes">90</field>
+        </record>
+        <record>
+            <field name="Country or Area">Malaysia</field>
+            <field name="Year">1976</field>
+            <field name="Value">37.7</field>
+            <field name="Value Footnotes">90</field>
+        </record>
+        <record>
+            <field name="Country or Area">Malaysia</field>
+            <field name="Year">1970</field>
+            <field name="Value">49.3</field>
+            <field name="Value Footnotes">90</field>
+        </record>
+        <record>
+            <field name="Country or Area">Mali</field>
+            <field name="Year">2010</field>
+            <field name="Value">43.6</field>
+            <field name="Value Footnotes">91</field>
+        </record>
+        <record>
+            <field name="Country or Area">Mali</field>
+            <field name="Year">2006</field>
+            <field name="Value">47.4</field>
+            <field name="Value Footnotes">91</field>
+        </record>
+        <record>
+            <field name="Country or Area">Mali</field>
+            <field name="Year">2001</field>
+            <field name="Value">55.6</field>
+            <field name="Value Footnotes">91</field>
+        </record>
+        <record>
+            <field name="Country or Area">Mauritania</field>
+            <field name="Year">2008</field>
+            <field name="Value">42</field>
+            <field name="Value Footnotes">92</field>
+        </record>
+        <record>
+            <field name="Country or Area">Mauritania</field>
+            <field name="Year">2004</field>
+            <field name="Value">46.7</field>
+            <field name="Value Footnotes">93</field>
+        </record>
+        <record>
+            <field name="Country or Area">Mauritania</field>
+            <field name="Year">2000</field>
+            <field name="Value">46.3</field>
+            <field name="Value Footnotes">94</field>
+        </record>
+        <record>
+            <field name="Country or Area">Mexico</field>
+            <field name="Year">2010</field>
+            <field name="Value">51.3</field>
+            <field name="Value Footnotes">95</field>
+        </record>
+        <record>
+            <field name="Country or Area">Mexico</field>
+            <field name="Year">2008</field>
+            <field name="Value">47.7</field>
+            <field name="Value Footnotes">95</field>
+        </record>
+        <record>
+            <field name="Country or Area">Mexico</field>
+            <field name="Year">2006</field>
+            <field name="Value">42.7</field>
+            <field name="Value Footnotes">95</field>
+        </record>
+        <record>
+            <field name="Country or Area">Mexico</field>
+            <field name="Year">2005</field>
+            <field name="Value">47</field>
+            <field name="Value Footnotes">95</field>
+        </record>
+        <record>
+            <field name="Country or Area">Mexico</field>
+            <field name="Year">2004</field>
+            <field name="Value">47.2</field>
+            <field name="Value Footnotes">95</field>
+        </record>
+        <record>
+            <field name="Country or Area">Mexico</field>
+            <field name="Year">2002</field>
+            <field name="Value">50</field>
+            <field name="Value Footnotes">95</field>
+        </record>
+        <record>
+            <field name="Country or Area">Mexico</field>
+            <field name="Year">2000</field>
+            <field name="Value">53.6</field>
+            <field name="Value Footnotes">95</field>
+        </record>
+        <record>
+            <field name="Country or Area">Mexico</field>
+            <field name="Year">1998</field>
+            <field name="Value">63.7</field>
+            <field name="Value Footnotes">95</field>
+        </record>
+        <record>
+            <field name="Country or Area">Mexico</field>
+            <field name="Year">1996</field>
+            <field name="Value">69</field>
+            <field name="Value Footnotes">95</field>
+        </record>
+        <record>
+            <field name="Country or Area">Mexico</field>
+            <field name="Year">1994</field>
+            <field name="Value">52.4</field>
+            <field name="Value Footnotes">95</field>
+        </record>
+        <record>
+            <field name="Country or Area">Mexico</field>
+            <field name="Year">1992</field>
+            <field name="Value">53.1</field>
+            <field name="Value Footnotes">95</field>
+        </record>
+        <record>
+            <field name="Country or Area">Mexico</field>
+            <field name="Year">1989</field>
+            <field name="Value">53.5</field>
+            <field name="Value Footnotes">95</field>
+        </record>
+        <record>
+            <field name="Country or Area">Moldova</field>
+            <field name="Year">2011</field>
+            <field name="Value">17.5</field>
+            <field name="Value Footnotes">7</field>
+        </record>
+        <record>
+            <field name="Country or Area">Moldova</field>
+            <field name="Year">2010</field>
+            <field name="Value">21.9</field>
+            <field name="Value Footnotes">96</field>
+        </record>
+        <record>
+            <field name="Country or Area">Moldova</field>
+            <field name="Year">2009</field>
+            <field name="Value">26.3</field>
+            <field name="Value Footnotes">96</field>
+        </record>
+        <record>
+            <field name="Country or Area">Moldova</field>
+            <field name="Year">2008</field>
+            <field name="Value">26.4</field>
+            <field name="Value Footnotes">96</field>
+        </record>
+        <record>
+            <field name="Country or Area">Moldova</field>
+            <field name="Year">2007</field>
+            <field name="Value">25.8</field>
+            <field name="Value Footnotes">96</field>
+        </record>
+        <record>
+            <field name="Country or Area">Moldova</field>
+            <field name="Year">2006</field>
+            <field name="Value">30.2</field>
+            <field name="Value Footnotes">96</field>
+        </record>
+        <record>
+            <field name="Country or Area">Moldova</field>
+            <field name="Year">2005</field>
+            <field name="Value">29</field>
+            <field name="Value Footnotes">97</field>
+        </record>
+        <record>
+            <field name="Country or Area">Moldova</field>
+            <field name="Year">2004</field>
+            <field name="Value">26.5</field>
+            <field name="Value Footnotes">97</field>
+        </record>
+        <record>
+            <field name="Country or Area">Moldova</field>
+            <field name="Year">2003</field>
+            <field name="Value">29</field>
+            <field name="Value Footnotes">97</field>
+        </record>
+        <record>
+            <field name="Country or Area">Mongolia</field>
+            <field name="Year">2012</field>
+            <field name="Value">27.4</field>
+            <field name="Value Footnotes">98</field>
+        </record>
+        <record>
+            <field name="Country or Area">Mongolia</field>
+            <field name="Year">2011</field>
+            <field name="Value">33.7</field>
+            <field name="Value Footnotes">99</field>
+        </record>
+        <record>
+            <field name="Country or Area">Mongolia</field>
+            <field name="Year">2010</field>
+            <field name="Value">38.7</field>
+            <field name="Value Footnotes">100</field>
+        </record>
+        <record>
+            <field name="Country or Area">Montenegro</field>
+            <field name="Year">2011</field>
+            <field name="Value">9.3</field>
+            <field name="Value Footnotes">101</field>
+        </record>
+        <record>
+            <field name="Country or Area">Montenegro</field>
+            <field name="Year">2010</field>
+            <field name="Value">6.6</field>
+            <field name="Value Footnotes">102</field>
+        </record>
+        <record>
+            <field name="Country or Area">Montenegro</field>
+            <field name="Year">2009</field>
+            <field name="Value">6.8</field>
+            <field name="Value Footnotes">103</field>
+        </record>
+        <record>
+            <field name="Country or Area">Montenegro</field>
+            <field name="Year">2008</field>
+            <field name="Value">4.9</field>
+            <field name="Value Footnotes">103</field>
+        </record>
+        <record>
+            <field name="Country or Area">Montenegro</field>
+            <field name="Year">2007</field>
+            <field name="Value">8</field>
+            <field name="Value Footnotes">103</field>
+        </record>
+        <record>
+            <field name="Country or Area">Montenegro</field>
+            <field name="Year">2006</field>
+            <field name="Value">11.3</field>
+            <field name="Value Footnotes">103</field>
+        </record>
+        <record>
+            <field name="Country or Area">Montenegro</field>
+            <field name="Year">2005</field>
+            <field name="Value">11.2</field>
+            <field name="Value Footnotes">104</field>
+        </record>
+        <record>
+            <field name="Country or Area">Morocco</field>
+            <field name="Year">2007</field>
+            <field name="Value">9</field>
+            <field name="Value Footnotes">105</field>
+        </record>
+        <record>
+            <field name="Country or Area">Morocco</field>
+            <field name="Year">2001</field>
+            <field name="Value">15.3</field>
+            <field name="Value Footnotes">105</field>
+        </record>
+        <record>
+            <field name="Country or Area">Morocco</field>
+            <field name="Year">1999</field>
+            <field name="Value">16.3</field>
+            <field name="Value Footnotes">105</field>
+        </record>
+        <record>
+            <field name="Country or Area">Mozambique</field>
+            <field name="Year">2009</field>
+            <field name="Value">54.7</field>
+            <field name="Value Footnotes">106</field>
+        </record>
+        <record>
+            <field name="Country or Area">Mozambique</field>
+            <field name="Year">2003</field>
+            <field name="Value">54.1</field>
+            <field name="Value Footnotes">107</field>
+        </record>
+        <record>
+            <field name="Country or Area">Mozambique</field>
+            <field name="Year">1996</field>
+            <field name="Value">69.4</field>
+            <field name="Value Footnotes">108</field>
+        </record>
+        <record>
+            <field name="Country or Area">Namibia</field>
+            <field name="Year">2009</field>
+            <field name="Value">28.7</field>
+            <field name="Value Footnotes">109</field>
+        </record>
+        <record>
+            <field name="Country or Area">Namibia</field>
+            <field name="Year">2004</field>
+            <field name="Value">37.7</field>
+            <field name="Value Footnotes">109</field>
+        </record>
+        <record>
+            <field name="Country or Area">Namibia</field>
+            <field name="Year">1994</field>
+            <field name="Value">69.3</field>
+            <field name="Value Footnotes">109</field>
+        </record>
+        <record>
+            <field name="Country or Area">Nepal</field>
+            <field name="Year">2010</field>
+            <field name="Value">25.2</field>
+            <field name="Value Footnotes">110</field>
+        </record>
+        <record>
+            <field name="Country or Area">Nepal</field>
+            <field name="Year">2003</field>
+            <field name="Value">30.9</field>
+            <field name="Value Footnotes">111</field>
+        </record>
+        <record>
+            <field name="Country or Area">Nepal</field>
+            <field name="Year">1996</field>
+            <field name="Value">41.8</field>
+            <field name="Value Footnotes">111</field>
+        </record>
+        <record>
+            <field name="Country or Area">Nicaragua</field>
+            <field name="Year">2009</field>
+            <field name="Value">42.5</field>
+            <field name="Value Footnotes">112</field>
+        </record>
+        <record>
+            <field name="Country or Area">Nicaragua</field>
+            <field name="Year">2005</field>
+            <field name="Value">48.3</field>
+            <field name="Value Footnotes">112</field>
+        </record>
+        <record>
+            <field name="Country or Area">Niger</field>
+            <field name="Year">2007</field>
+            <field name="Value">59.5</field>
+            <field name="Value Footnotes">113</field>
+        </record>
+        <record>
+            <field name="Country or Area">Nigeria</field>
+            <field name="Year">2010</field>
+            <field name="Value">62.6</field>
+            <field name="Value Footnotes">114</field>
+        </record>
+        <record>
+            <field name="Country or Area">Nigeria</field>
+            <field name="Year">2004</field>
+            <field name="Value">64.2</field>
+            <field name="Value Footnotes">115</field>
+        </record>
+        <record>
+            <field name="Country or Area">Pakistan</field>
+            <field name="Year">2006</field>
+            <field name="Value">22.3</field>
+            <field name="Value Footnotes">116</field>
+        </record>
+        <record>
+            <field name="Country or Area">Pakistan</field>
+            <field name="Year">2005</field>
+            <field name="Value">23.9</field>
+            <field name="Value Footnotes">117</field>
+        </record>
+        <record>
+            <field name="Country or Area">Pakistan</field>
+            <field name="Year">2002</field>
+            <field name="Value">34.5</field>
+            <field name="Value Footnotes">117</field>
+        </record>
+        <record>
+            <field name="Country or Area">Pakistan</field>
+            <field name="Year">1999</field>
+            <field name="Value">30.6</field>
+            <field name="Value Footnotes">117</field>
+        </record>
+        <record>
+            <field name="Country or Area">Panama</field>
+            <field name="Year">2011</field>
+            <field name="Value">27.6</field>
+            <field name="Value Footnotes">118</field>
+        </record>
+        <record>
+            <field name="Country or Area">Panama</field>
+            <field name="Year">2010</field>
+            <field name="Value">29.8</field>
+            <field name="Value Footnotes">118</field>
+        </record>
+        <record>
+            <field name="Country or Area">Panama</field>
+            <field name="Year">2009</field>
+            <field name="Value">33.4</field>
+            <field name="Value Footnotes">118</field>
+        </record>
+        <record>
+            <field name="Country or Area">Panama</field>
+            <field name="Year">2008</field>
+            <field name="Value">33.8</field>
+            <field name="Value Footnotes">118</field>
+        </record>
+        <record>
+            <field name="Country or Area">Panama</field>
+            <field name="Year">2007</field>
+            <field name="Value">36.5</field>
+            <field name="Value Footnotes">118</field>
+        </record>
+        <record>
+            <field name="Country or Area">Panama</field>
+            <field name="Year">2006</field>
+            <field name="Value">38.3</field>
+            <field name="Value Footnotes">118</field>
+        </record>
+        <record>
+            <field name="Country or Area">Papua New Guinea</field>
+            <field name="Year">1996</field>
+            <field name="Value">37.5</field>
+            <field name="Value Footnotes">79</field>
+        </record>
+        <record>
+            <field name="Country or Area">Paraguay</field>
+            <field name="Year">2011</field>
+            <field name="Value">32.4</field>
+            <field name="Value Footnotes">119</field>
+        </record>
+        <record>
+            <field name="Country or Area">Paraguay</field>
+            <field name="Year">2010</field>
+            <field name="Value">34.7</field>
+            <field name="Value Footnotes">119</field>
+        </record>
+        <record>
+            <field name="Country or Area">Paraguay</field>
+            <field name="Year">2009</field>
+            <field name="Value">35.1</field>
+            <field name="Value Footnotes">119</field>
+        </record>
+        <record>
+            <field name="Country or Area">Paraguay</field>
+            <field name="Year">2008</field>
+            <field name="Value">37.9</field>
+            <field name="Value Footnotes">119</field>
+        </record>
+        <record>
+            <field name="Country or Area">Paraguay</field>
+            <field name="Year">2007</field>
+            <field name="Value">41.2</field>
+            <field name="Value Footnotes">119</field>
+        </record>
+        <record>
+            <field name="Country or Area">Paraguay</field>
+            <field name="Year">2005</field>
+            <field name="Value">38.6</field>
+            <field name="Value Footnotes">119</field>
+        </record>
+        <record>
+            <field name="Country or Area">Paraguay</field>
+            <field name="Year">2004</field>
+            <field name="Value">41.3</field>
+            <field name="Value Footnotes">119</field>
+        </record>
+        <record>
+            <field name="Country or Area">Paraguay</field>
+            <field name="Year">2003</field>
+            <field name="Value">44</field>
+            <field name="Value Footnotes">119</field>
+        </record>
+        <record>
+            <field name="Country or Area">Peru</field>
+            <field name="Year">2011</field>
+            <field name="Value">27.8</field>
+            <field name="Value Footnotes">120</field>
+        </record>
+        <record>
+            <field name="Country or Area">Peru</field>
+            <field name="Year">2010</field>
+            <field name="Value">30.8</field>
+            <field name="Value Footnotes">120</field>
+        </record>
+        <record>
+            <field name="Country or Area">Peru</field>
+            <field name="Year">2009</field>
+            <field name="Value">33.5</field>
+            <field name="Value Footnotes">120</field>
+        </record>
+        <record>
+            <field name="Country or Area">Peru</field>
+            <field name="Year">2008</field>
+            <field name="Value">37.3</field>
+            <field name="Value Footnotes">120</field>
+        </record>
+        <record>
+            <field name="Country or Area">Peru</field>
+            <field name="Year">2007</field>
+            <field name="Value">42.4</field>
+            <field name="Value Footnotes">120</field>
+        </record>
+        <record>
+            <field name="Country or Area">Peru</field>
+            <field name="Year">2006</field>
+            <field name="Value">49.1</field>
+            <field name="Value Footnotes">120</field>
+        </record>
+        <record>
+            <field name="Country or Area">Peru</field>
+            <field name="Year">2005</field>
+            <field name="Value">55.6</field>
+            <field name="Value Footnotes">120</field>
+        </record>
+        <record>
+            <field name="Country or Area">Peru</field>
+            <field name="Year">2004</field>
+            <field name="Value">58.7</field>
+            <field name="Value Footnotes">120</field>
+        </record>
+        <record>
+            <field name="Country or Area">Philippines</field>
+            <field name="Year">2009</field>
+            <field name="Value">26.5</field>
+            <field name="Value Footnotes">121</field>
+        </record>
+        <record>
+            <field name="Country or Area">Philippines</field>
+            <field name="Year">2006</field>
+            <field name="Value">26.4</field>
+            <field name="Value Footnotes">121</field>
+        </record>
+        <record>
+            <field name="Country or Area">Philippines</field>
+            <field name="Year">2003</field>
+            <field name="Value">24.9</field>
+            <field name="Value Footnotes">121</field>
+        </record>
+        <record>
+            <field name="Country or Area">Poland</field>
+            <field name="Year">2008</field>
+            <field name="Value">10.6</field>
+            <field name="Value Footnotes">122</field>
+        </record>
+        <record>
+            <field name="Country or Area">Poland</field>
+            <field name="Year">2007</field>
+            <field name="Value">14.6</field>
+            <field name="Value Footnotes">122</field>
+        </record>
+        <record>
+            <field name="Country or Area">Poland</field>
+            <field name="Year">2006</field>
+            <field name="Value">15.1</field>
+            <field name="Value Footnotes">122</field>
+        </record>
+        <record>
+            <field name="Country or Area">Poland</field>
+            <field name="Year">2005</field>
+            <field name="Value">18</field>
+            <field name="Value Footnotes">122</field>
+        </record>
+        <record>
+            <field name="Country or Area">Poland</field>
+            <field name="Year">2004</field>
+            <field name="Value">19</field>
+            <field name="Value Footnotes">122</field>
+        </record>
+        <record>
+            <field name="Country or Area">Poland</field>
+            <field name="Year">2002</field>
+            <field name="Value">16.6</field>
+            <field name="Value Footnotes">123</field>
+        </record>
+        <record>
+            <field name="Country or Area">Poland</field>
+            <field name="Year">2001</field>
+            <field name="Value">15.6</field>
+            <field name="Value Footnotes">123</field>
+        </record>
+        <record>
+            <field name="Country or Area">Poland</field>
+            <field name="Year">2000</field>
+            <field name="Value">14.8</field>
+            <field name="Value Footnotes">123</field>
+        </record>
+        <record>
+            <field name="Country or Area">Poland</field>
+            <field name="Year">1999</field>
+            <field name="Value">14.3</field>
+            <field name="Value Footnotes">123</field>
+        </record>
+        <record>
+            <field name="Country or Area">Romania</field>
+            <field name="Year">2006</field>
+            <field name="Value">13.8</field>
+            <field name="Value Footnotes">124</field>
+        </record>
+        <record>
+            <field name="Country or Area">Romania</field>
+            <field name="Year">2005</field>
+            <field name="Value">15.1</field>
+            <field name="Value Footnotes">124</field>
+        </record>
+        <record>
+            <field name="Country or Area">Romania</field>
+            <field name="Year">2004</field>
+            <field name="Value">18.8</field>
+            <field name="Value Footnotes">124</field>
+        </record>
+        <record>
+            <field name="Country or Area">Romania</field>
+            <field name="Year">2003</field>
+            <field name="Value">25.1</field>
+            <field name="Value Footnotes">124</field>
+        </record>
+        <record>
+            <field name="Country or Area">Romania</field>
+            <field name="Year">2002</field>
+            <field name="Value">28.9</field>
+            <field name="Value Footnotes">124</field>
+        </record>
+        <record>
+            <field name="Country or Area">Romania</field>
+            <field name="Year">2001</field>
+            <field name="Value">30.6</field>
+            <field name="Value Footnotes">124</field>
+        </record>
+        <record>
+            <field name="Country or Area">Romania</field>
+            <field name="Year">2000</field>
+            <field name="Value">35.9</field>
+            <field name="Value Footnotes">124</field>
+        </record>
+        <record>
+            <field name="Country or Area">Russian Federation</field>
+            <field name="Year">2006</field>
+            <field name="Value">11.1</field>
+            <field name="Value Footnotes">125</field>
+        </record>
+        <record>
+            <field name="Country or Area">Russian Federation</field>
+            <field name="Year">2005</field>
+            <field name="Value">11.9</field>
+            <field name="Value Footnotes">125</field>
+        </record>
+        <record>
+            <field name="Country or Area">Russian Federation</field>
+            <field name="Year">2004</field>
+            <field name="Value">14.1</field>
+            <field name="Value Footnotes">125</field>
+        </record>
+        <record>
+            <field name="Country or Area">Russian Federation</field>
+            <field name="Year">2003</field>
+            <field name="Value">17.4</field>
+            <field name="Value Footnotes">125</field>
+        </record>
+        <record>
+            <field name="Country or Area">Russian Federation</field>
+            <field name="Year">2002</field>
+            <field name="Value">19.7</field>
+            <field name="Value Footnotes">125</field>
+        </record>
+        <record>
+            <field name="Country or Area">Rwanda</field>
+            <field name="Year">2011</field>
+            <field name="Value">44.9</field>
+            <field name="Value Footnotes">126</field>
+        </record>
+        <record>
+            <field name="Country or Area">Rwanda</field>
+            <field name="Year">2006</field>
+            <field name="Value">56.7</field>
+            <field name="Value Footnotes">127</field>
+        </record>
+        <record>
+            <field name="Country or Area">Sao Tome and Principe</field>
+            <field name="Year">2009</field>
+            <field name="Value">66.2</field>
+            <field name="Value Footnotes">128</field>
+        </record>
+        <record>
+            <field name="Country or Area">Senegal</field>
+            <field name="Year">2011</field>
+            <field name="Value">46.7</field>
+            <field name="Value Footnotes">129</field>
+        </record>
+        <record>
+            <field name="Country or Area">Senegal</field>
+            <field name="Year">2005</field>
+            <field name="Value">48.3</field>
+            <field name="Value Footnotes">130</field>
+        </record>
+        <record>
+            <field name="Country or Area">Senegal</field>
+            <field name="Year">2001</field>
+            <field name="Value">55.2</field>
+            <field name="Value Footnotes">131</field>
+        </record>
+        <record>
+            <field name="Country or Area">Serbia</field>
+            <field name="Year">2010</field>
+            <field name="Value">9.2</field>
+            <field name="Value Footnotes">132</field>
+        </record>
+        <record>
+            <field name="Country or Area">Serbia</field>
+            <field name="Year">2009</field>
+            <field name="Value">6.9</field>
+            <field name="Value Footnotes">132</field>
+        </record>
+        <record>
+            <field name="Country or Area">Serbia</field>
+            <field name="Year">2008</field>
+            <field name="Value">6.1</field>
+            <field name="Value Footnotes">132</field>
+        </record>
+        <record>
+            <field name="Country or Area">Serbia</field>
+            <field name="Year">2007</field>
+            <field name="Value">6.6</field>
+            <field name="Value Footnotes">133</field>
+        </record>
+        <record>
+            <field name="Country or Area">Serbia</field>
+            <field name="Year">2006</field>
+            <field name="Value">9</field>
+            <field name="Value Footnotes">134</field>
+        </record>
+        <record>
+            <field name="Country or Area">Serbia</field>
+            <field name="Year">2004</field>
+            <field name="Value">14.6</field>
+            <field name="Value Footnotes">134</field>
+        </record>
+        <record>
+            <field name="Country or Area">Serbia</field>
+            <field name="Year">2002</field>
+            <field name="Value">14</field>
+            <field name="Value Footnotes">133</field>
+        </record>
+        <record>
+            <field name="Country or Area">Sierra Leone</field>
+            <field name="Year">2003</field>
+            <field name="Value">66.4</field>
+            <field name="Value Footnotes">135</field>
+        </record>
+        <record>
+            <field name="Country or Area">Solomon Islands</field>
+            <field name="Year">2006</field>
+            <field name="Value">22.7</field>
+            <field name="Value Footnotes">136</field>
+        </record>
+        <record>
+            <field name="Country or Area">South Africa</field>
+            <field name="Year">2006</field>
+            <field name="Value">23</field>
+            <field name="Value Footnotes">137</field>
+        </record>
+        <record>
+            <field name="Country or Area">South Africa</field>
+            <field name="Year">2000</field>
+            <field name="Value">38</field>
+            <field name="Value Footnotes">137</field>
+        </record>
+        <record>
+            <field name="Country or Area">South Africa</field>
+            <field name="Year">1995</field>
+            <field name="Value">31</field>
+            <field name="Value Footnotes">137</field>
+        </record>
+        <record>
+            <field name="Country or Area">South Sudan</field>
+            <field name="Year">2009</field>
+            <field name="Value">50.6</field>
+            <field name="Value Footnotes">138</field>
+        </record>
+        <record>
+            <field name="Country or Area">Sri Lanka</field>
+            <field name="Year">2010</field>
+            <field name="Value">8.9</field>
+            <field name="Value Footnotes">139</field>
+        </record>
+        <record>
+            <field name="Country or Area">Sri Lanka</field>
+            <field name="Year">2007</field>
+            <field name="Value">15.2</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Sri Lanka</field>
+            <field name="Year">2002</field>
+            <field name="Value">22.7</field>
+            <field name="Value Footnotes">140</field>
+        </record>
+        <record>
+            <field name="Country or Area">Sri Lanka</field>
+            <field name="Year">1996</field>
+            <field name="Value">28.8</field>
+            <field name="Value Footnotes">140</field>
+        </record>
+        <record>
+            <field name="Country or Area">Sri Lanka</field>
+            <field name="Year">1991</field>
+            <field name="Value">26.1</field>
+            <field name="Value Footnotes">140</field>
+        </record>
+        <record>
+            <field name="Country or Area">Sudan</field>
+            <field name="Year">2009</field>
+            <field name="Value">46.5</field>
+            <field name="Value Footnotes">141</field>
+        </record>
+        <record>
+            <field name="Country or Area">Swaziland</field>
+            <field name="Year">2009</field>
+            <field name="Value">63</field>
+            <field name="Value Footnotes">142</field>
+        </record>
+        <record>
+            <field name="Country or Area">Swaziland</field>
+            <field name="Year">2001</field>
+            <field name="Value">69.2</field>
+            <field name="Value Footnotes">143</field>
+        </record>
+        <record>
+            <field name="Country or Area">Tajikistan</field>
+            <field name="Year">2009</field>
+            <field name="Value">46.7</field>
+            <field name="Value Footnotes">144</field>
+        </record>
+        <record>
+            <field name="Country or Area">Tajikistan</field>
+            <field name="Year">2007</field>
+            <field name="Value">53.5</field>
+            <field name="Value Footnotes">145</field>
+        </record>
+        <record>
+            <field name="Country or Area">Tajikistan</field>
+            <field name="Year">2003</field>
+            <field name="Value">72.4</field>
+            <field name="Value Footnotes">146</field>
+        </record>
+        <record>
+            <field name="Country or Area">Tajikistan</field>
+            <field name="Year">1999</field>
+            <field name="Value">96</field>
+            <field name="Value Footnotes">144</field>
+        </record>
+        <record>
+            <field name="Country or Area">Tanzania</field>
+            <field name="Year">2007</field>
+            <field name="Value">33.4</field>
+            <field name="Value Footnotes">147</field>
+        </record>
+        <record>
+            <field name="Country or Area">Tanzania</field>
+            <field name="Year">2000</field>
+            <field name="Value">35.6</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Thailand</field>
+            <field name="Year">2011</field>
+            <field name="Value">13.15</field>
+            <field name="Value Footnotes">148</field>
+        </record>
+        <record>
+            <field name="Country or Area">Thailand</field>
+            <field name="Year">2010</field>
+            <field name="Value">16.91</field>
+            <field name="Value Footnotes">149</field>
+        </record>
+        <record>
+            <field name="Country or Area">Thailand</field>
+            <field name="Year">2009</field>
+            <field name="Value">19.08</field>
+            <field name="Value Footnotes">150</field>
+        </record>
+        <record>
+            <field name="Country or Area">Thailand</field>
+            <field name="Year">2008</field>
+            <field name="Value">20.49</field>
+            <field name="Value Footnotes">151</field>
+        </record>
+        <record>
+            <field name="Country or Area">Thailand</field>
+            <field name="Year">2007</field>
+            <field name="Value">20.94</field>
+            <field name="Value Footnotes">152</field>
+        </record>
+        <record>
+            <field name="Country or Area">Thailand</field>
+            <field name="Year">2006</field>
+            <field name="Value">23.43</field>
+            <field name="Value Footnotes">153</field>
+        </record>
+        <record>
+            <field name="Country or Area">Thailand</field>
+            <field name="Year">2004</field>
+            <field name="Value">26.88</field>
+            <field name="Value Footnotes">154</field>
+        </record>
+        <record>
+            <field name="Country or Area">Thailand</field>
+            <field name="Year">2002</field>
+            <field name="Value">32.64</field>
+            <field name="Value Footnotes">155</field>
+        </record>
+        <record>
+            <field name="Country or Area">Thailand</field>
+            <field name="Year">2000</field>
+            <field name="Value">42.63</field>
+            <field name="Value Footnotes">156</field>
+        </record>
+        <record>
+            <field name="Country or Area">Thailand</field>
+            <field name="Year">1998</field>
+            <field name="Value">38.72</field>
+            <field name="Value Footnotes">157</field>
+        </record>
+        <record>
+            <field name="Country or Area">Thailand</field>
+            <field name="Year">1996</field>
+            <field name="Value">35.31</field>
+            <field name="Value Footnotes">158</field>
+        </record>
+        <record>
+            <field name="Country or Area">Thailand</field>
+            <field name="Year">1994</field>
+            <field name="Value">42.65</field>
+            <field name="Value Footnotes">159</field>
+        </record>
+        <record>
+            <field name="Country or Area">Thailand</field>
+            <field name="Year">1992</field>
+            <field name="Value">50.09</field>
+            <field name="Value Footnotes">160</field>
+        </record>
+        <record>
+            <field name="Country or Area">Thailand</field>
+            <field name="Year">1990</field>
+            <field name="Value">58.08</field>
+            <field name="Value Footnotes">161</field>
+        </record>
+        <record>
+            <field name="Country or Area">Thailand</field>
+            <field name="Year">1988</field>
+            <field name="Value">65.26</field>
+            <field name="Value Footnotes">162</field>
+        </record>
+        <record>
+            <field name="Country or Area">Timor-Leste</field>
+            <field name="Year">2007</field>
+            <field name="Value">49.9</field>
+            <field name="Value Footnotes">163</field>
+        </record>
+        <record>
+            <field name="Country or Area">Timor-Leste</field>
+            <field name="Year">2001</field>
+            <field name="Value">36.3</field>
+            <field name="Value Footnotes">164</field>
+        </record>
+        <record>
+            <field name="Country or Area">Togo</field>
+            <field name="Year">2011</field>
+            <field name="Value">58.7</field>
+            <field name="Value Footnotes">165</field>
+        </record>
+        <record>
+            <field name="Country or Area">Togo</field>
+            <field name="Year">2006</field>
+            <field name="Value">61.7</field>
+            <field name="Value Footnotes">166</field>
+        </record>
+        <record>
+            <field name="Country or Area">Tunisia</field>
+            <field name="Year">2010</field>
+            <field name="Value">15.5</field>
+            <field name="Value Footnotes">167</field>
+        </record>
+        <record>
+            <field name="Country or Area">Tunisia</field>
+            <field name="Year">2005</field>
+            <field name="Value">23.3</field>
+            <field name="Value Footnotes">167</field>
+        </record>
+        <record>
+            <field name="Country or Area">Tunisia</field>
+            <field name="Year">2000</field>
+            <field name="Value">32.4</field>
+            <field name="Value Footnotes">167</field>
+        </record>
+        <record>
+            <field name="Country or Area">Turkey</field>
+            <field name="Year">2009</field>
+            <field name="Value">18.1</field>
+            <field name="Value Footnotes">168</field>
+        </record>
+        <record>
+            <field name="Country or Area">Turkey</field>
+            <field name="Year">2008</field>
+            <field name="Value">17.1</field>
+            <field name="Value Footnotes">168</field>
+        </record>
+        <record>
+            <field name="Country or Area">Turkey</field>
+            <field name="Year">2007</field>
+            <field name="Value">17.8</field>
+            <field name="Value Footnotes">168</field>
+        </record>
+        <record>
+            <field name="Country or Area">Turkey</field>
+            <field name="Year">2006</field>
+            <field name="Value">17.8</field>
+            <field name="Value Footnotes">168</field>
+        </record>
+        <record>
+            <field name="Country or Area">Turkey</field>
+            <field name="Year">2005</field>
+            <field name="Value">20.5</field>
+            <field name="Value Footnotes">168</field>
+        </record>
+        <record>
+            <field name="Country or Area">Turkey</field>
+            <field name="Year">2004</field>
+            <field name="Value">25.6</field>
+            <field name="Value Footnotes">168</field>
+        </record>
+        <record>
+            <field name="Country or Area">Turkey</field>
+            <field name="Year">2003</field>
+            <field name="Value">28.1</field>
+            <field name="Value Footnotes">168</field>
+        </record>
+        <record>
+            <field name="Country or Area">Turkey</field>
+            <field name="Year">2002</field>
+            <field name="Value">27</field>
+            <field name="Value Footnotes">168</field>
+        </record>
+        <record>
+            <field name="Country or Area">Uganda</field>
+            <field name="Year">2009</field>
+            <field name="Value">24.5</field>
+            <field name="Value Footnotes">169</field>
+        </record>
+        <record>
+            <field name="Country or Area">Uganda</field>
+            <field name="Year">2005</field>
+            <field name="Value">31.1</field>
+            <field name="Value Footnotes">170</field>
+        </record>
+        <record>
+            <field name="Country or Area">Uganda</field>
+            <field name="Year">2002</field>
+            <field name="Value">38.8</field>
+            <field name="Value Footnotes">171</field>
+        </record>
+        <record>
+            <field name="Country or Area">Uganda</field>
+            <field name="Year">2000</field>
+            <field name="Value">33.8</field>
+            <field name="Value Footnotes">171</field>
+        </record>
+        <record>
+            <field name="Country or Area">Uganda</field>
+            <field name="Year">1996</field>
+            <field name="Value">44.4</field>
+            <field name="Value Footnotes">171</field>
+        </record>
+        <record>
+            <field name="Country or Area">Uganda</field>
+            <field name="Year">1992</field>
+            <field name="Value">56.4</field>
+            <field name="Value Footnotes">171</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ukraine</field>
+            <field name="Year">2008</field>
+            <field name="Value">2.9</field>
+            <field name="Value Footnotes">172</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ukraine</field>
+            <field name="Year">2007</field>
+            <field name="Value">4.6</field>
+            <field name="Value Footnotes">172</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ukraine</field>
+            <field name="Year">2006</field>
+            <field name="Value">6.8</field>
+            <field name="Value Footnotes">172</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ukraine</field>
+            <field name="Year">2005</field>
+            <field name="Value">8.4</field>
+            <field name="Value Footnotes">172</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ukraine</field>
+            <field name="Year">2004</field>
+            <field name="Value">14.7</field>
+            <field name="Value Footnotes">172</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ukraine</field>
+            <field name="Year">2003</field>
+            <field name="Value">19.3</field>
+            <field name="Value Footnotes">172</field>
+        </record>
+        <record>
+            <field name="Country or Area">Ukraine</field>
+            <field name="Year">2002</field>
+            <field name="Value">28.1</field>
+            <field name="Value Footnotes">172</field>
+        </record>
+        <record>
+            <field name="Country or Area">Uruguay</field>
+            <field name="Year">2012</field>
+            <field name="Value">8.4</field>
+            <field name="Value Footnotes">173</field>
+        </record>
+        <record>
+            <field name="Country or Area">Uruguay</field>
+            <field name="Year">2011</field>
+            <field name="Value">9.5</field>
+            <field name="Value Footnotes">173</field>
+        </record>
+        <record>
+            <field name="Country or Area">Uruguay</field>
+            <field name="Year">2010</field>
+            <field name="Value">12.6</field>
+            <field name="Value Footnotes">173</field>
+        </record>
+        <record>
+            <field name="Country or Area">Uruguay</field>
+            <field name="Year">2009</field>
+            <field name="Value">14.7</field>
+            <field name="Value Footnotes">173</field>
+        </record>
+        <record>
+            <field name="Country or Area">Uruguay</field>
+            <field name="Year">2008</field>
+            <field name="Value">16.9</field>
+            <field name="Value Footnotes">174</field>
+        </record>
+        <record>
+            <field name="Country or Area">Uruguay</field>
+            <field name="Year">2007</field>
+            <field name="Value">21.9</field>
+            <field name="Value Footnotes">173</field>
+        </record>
+        <record>
+            <field name="Country or Area">Uruguay</field>
+            <field name="Year">2006</field>
+            <field name="Value">25.7</field>
+            <field name="Value Footnotes">173</field>
+        </record>
+        <record>
+            <field name="Country or Area">Venezuela, RB</field>
+            <field name="Year">2012</field>
+            <field name="Value">25.4</field>
+            <field name="Value Footnotes">175</field>
+        </record>
+        <record>
+            <field name="Country or Area">Venezuela, RB</field>
+            <field name="Year">2011</field>
+            <field name="Value">31.6</field>
+            <field name="Value Footnotes">175</field>
+        </record>
+        <record>
+            <field name="Country or Area">Venezuela, RB</field>
+            <field name="Year">2010</field>
+            <field name="Value">32.5</field>
+            <field name="Value Footnotes">175</field>
+        </record>
+        <record>
+            <field name="Country or Area">Venezuela, RB</field>
+            <field name="Year">2009</field>
+            <field name="Value">31.8</field>
+            <field name="Value Footnotes">175</field>
+        </record>
+        <record>
+            <field name="Country or Area">Venezuela, RB</field>
+            <field name="Year">2008</field>
+            <field name="Value">32.6</field>
+            <field name="Value Footnotes">175</field>
+        </record>
+        <record>
+            <field name="Country or Area">Venezuela, RB</field>
+            <field name="Year">2007</field>
+            <field name="Value">33.6</field>
+            <field name="Value Footnotes">175</field>
+        </record>
+        <record>
+            <field name="Country or Area">Venezuela, RB</field>
+            <field name="Year">2006</field>
+            <field name="Value">36.3</field>
+            <field name="Value Footnotes">175</field>
+        </record>
+        <record>
+            <field name="Country or Area">Venezuela, RB</field>
+            <field name="Year">2005</field>
+            <field name="Value">43.7</field>
+            <field name="Value Footnotes">175</field>
+        </record>
+        <record>
+            <field name="Country or Area">Venezuela, RB</field>
+            <field name="Year">2004</field>
+            <field name="Value">53.9</field>
+            <field name="Value Footnotes">175</field>
+        </record>
+        <record>
+            <field name="Country or Area">Venezuela, RB</field>
+            <field name="Year">2003</field>
+            <field name="Value">62.1</field>
+            <field name="Value Footnotes">175</field>
+        </record>
+        <record>
+            <field name="Country or Area">Venezuela, RB</field>
+            <field name="Year">2002</field>
+            <field name="Value">55.4</field>
+            <field name="Value Footnotes">175</field>
+        </record>
+        <record>
+            <field name="Country or Area">Venezuela, RB</field>
+            <field name="Year">2001</field>
+            <field name="Value">45.4</field>
+            <field name="Value Footnotes">175</field>
+        </record>
+        <record>
+            <field name="Country or Area">Venezuela, RB</field>
+            <field name="Year">2000</field>
+            <field name="Value">46.3</field>
+            <field name="Value Footnotes">175</field>
+        </record>
+        <record>
+            <field name="Country or Area">Venezuela, RB</field>
+            <field name="Year">1999</field>
+            <field name="Value">48.7</field>
+            <field name="Value Footnotes">175</field>
+        </record>
+        <record>
+            <field name="Country or Area">Venezuela, RB</field>
+            <field name="Year">1998</field>
+            <field name="Value">50.4</field>
+            <field name="Value Footnotes">175</field>
+        </record>
+        <record>
+            <field name="Country or Area">Venezuela, RB</field>
+            <field name="Year">1997</field>
+            <field name="Value">54.5</field>
+            <field name="Value Footnotes">175</field>
+        </record>
+        <record>
+            <field name="Country or Area">Vietnam</field>
+            <field name="Year">2010</field>
+            <field name="Value">20.7</field>
+            <field name="Value Footnotes">176</field>
+        </record>
+        <record>
+            <field name="Country or Area">West Bank and Gaza</field>
+            <field name="Year">2009</field>
+            <field name="Value">21.9</field>
+            <field name="Value Footnotes">177</field>
+        </record>
+        <record>
+            <field name="Country or Area">West Bank and Gaza</field>
+            <field name="Year">2007</field>
+            <field name="Value">31.2</field>
+            <field name="Value Footnotes">177</field>
+        </record>
+        <record>
+            <field name="Country or Area">Yemen, Rep.</field>
+            <field name="Year">2005</field>
+            <field name="Value">34.8</field>
+            <field name="Value Footnotes">178</field>
+        </record>
+        <record>
+            <field name="Country or Area">Yemen, Rep.</field>
+            <field name="Year">1998</field>
+            <field name="Value">40.1</field>
+            <field name="Value Footnotes">178</field>
+        </record>
+        <record>
+            <field name="Country or Area">Zambia</field>
+            <field name="Year">2010</field>
+            <field name="Value">60.5</field>
+            <field name="Value Footnotes">179</field>
+        </record>
+        <record>
+            <field name="Country or Area">Zimbabwe</field>
+            <field name="Year">2004</field>
+            <field name="Value">72</field>
+            <field name="Value Footnotes">180</field>
+        </record>
+    </data>
+    <footnotes>
+        <footnote footnoteSeqID="1">World Bank Source; Poverty figures are not comparable due to seasonality and changes in the questionnaires used</footnote>
+        <footnote footnoteSeqID="2">World Bank Source; Albania: trends in poverty 2002-2005-2008</footnote>
+        <footnote footnoteSeqID="4">Armenia PA 2012 - Input to Armenia ER</footnote>
+        <footnote footnoteSeqID="5">South Caucasus Armenia poverty update using revised poverty lines technical note No.1</footnote>
+        <footnote footnoteSeqID="6">World Bank Source; Armenia: Poverty Assessment  (In Three Volumes) Volume I: A Summary of Findings, Report No: 27192-AM, Nov 2003</footnote>
+        <footnote footnoteSeqID="7">World Bank Source</footnote>
+        <footnote footnoteSeqID="8">World Bank Source; Azerbaijan: Living Conditions Assessment Report, Report No. 52801-AZ, March 2010</footnote>
+        <footnote footnoteSeqID="9">Bangladesh Bureau of Statistics Source; HIES 2010; based on the BBS method anchored to HIES (2005) upper poverty lines; inflation adjustment based on HIES data, not CPI.</footnote>
+        <footnote footnoteSeqID="10">World Bank Source; HIES 1991/92, 1995/96, 2000, and 2005; based on the BBS method anchored to HIES (2005) upper poverty lines deflated to adjust for inflation to generate comparable poverty lines for earlier years.</footnote>
+        <footnote footnoteSeqID="11">National Source (http://www.belstat.gov.by); incorporated in the IBRD Program Document for the Belarus Development Policy Loan (P117681)</footnote>
+        <footnote footnoteSeqID="12">Enquête Modulaire Intégrée sur les Conditions de Vie des Ménages (EMICoV). Not comparable with prior series.</footnote>
+        <footnote footnoteSeqID="13">National Source; estimates for 2003 and 2007 are not comparable. Poverty Analysis Report 2007. National Statistics Bureau Royal Government of Bhutan (December 2007) and Poverty and Inequality in Bhutan (2004).</footnote>
+        <footnote footnoteSeqID="14">National Source (www.ine.gov.bo and www.udape.gov.bo) Encuesta Continua de Hogares- MECOVI; Moderate Poverty Line (individuals)</footnote>
+        <footnote footnoteSeqID="15">World Bank Source; Bosnia and Herzegovina Poverty Update: PROTECTING THE POOR DURING THE GLOBAL CRISIS, Report No: 51847-BA, Dec 2009</footnote>
+        <footnote footnoteSeqID="16">Central Statistics office: Poverty Datum Line for Botswana 2003. Comparable series since 1986.</footnote>
+        <footnote footnoteSeqID="17">Central Statistics office. Comparable series since 1986.</footnote>
+        <footnote footnoteSeqID="18">National Source (www.ipeadata.gov.br) Novo Pesquisa Nacional por Amostra de Domicilios; from 2005 onwards estimates also includes Rural North; Moderate Poverty Line (individuals)</footnote>
+        <footnote footnoteSeqID="19">social assistance programs: cost, coverage, targeting and poverty impact, Report No. 47793-BG</footnote>
+        <footnote footnoteSeqID="20">World Bank Source; Bulgaria Poverty Assessment, Report No. 24516-BUL, Oct 2002)</footnote>
+        <footnote footnoteSeqID="21">Institut National de la Statistique: Burkina Faso La Pauvreté en 2009: Incidence de la pauvreté. Comparable with the 2003 estimates.</footnote>
+        <footnote footnoteSeqID="22">Institut National de la Statistique: Burkina Faso La Pauvreté en 2003: Incidence de la pauvreté. Not comparable with prior series.</footnote>
+        <footnote footnoteSeqID="23">Republic of Burundi: Poverty Reduction Strategy Paper: PRSP First Annual Progress Report.  IMF Country Report No. 07/46. Not comparable with prior estimates.</footnote>
+        <footnote footnoteSeqID="24">World Bank Source: Cambodia Poverty Assessment 2013 "Where Have All The Poor Gone?", May 2013. Staff estimates from Cambodia Socio-Economic Survey 2011 based on revised poverty line. Not comparable with previously published series.</footnote>
+        <footnote footnoteSeqID="25">World Bank Source: Cambodia Poverty Assessment 2013 "Where Have All The Poor Gone?", May 2013. Staff estimates from Cambodia Socio-Economic Survey 2010 based on revised poverty line. Not comparable with previously published series.</footnote>
+        <footnote footnoteSeqID="26">World Bank Source: Cambodia Poverty Assessment 2013 "Where Have All The Poor Gone?", May 2013. Staff estimates from Cambodia Socio-Economic Survey 2009 based on revised poverty line. Not comparable with previously published series.</footnote>
+        <footnote footnoteSeqID="27">World Bank Source: Cambodia Poverty Assessment 2013 "Where Have All The Poor Gone?", May 2013. Staff estimates from Cambodia Socio-Economic Survey 2008 based on revised poverty line. Not comparable with previously published series.</footnote>
+        <footnote footnoteSeqID="28">World Bank Source: Cambodia Poverty Assessment 2013 "Where Have All The Poor Gone?", May 2013. Staff estimates from Cambodia Socio-Economic Survey 2007 based on revised poverty line. Not comparable with previously published series.</footnote>
+        <footnote footnoteSeqID="29">World Bank Source: Cambodia Poverty Assessment 2013 "Where Have All The Poor Gone?", May 2013. Staff estimates from Cambodia Socio-Economic Survey 2003-2004 based on revised poverty line. Not comparable with previously published series.</footnote>
+        <footnote footnoteSeqID="30">Institut National de la Statistique: Tendances, profil et déterminants de la pauvreté au Cameroun entre 2001-2007. Comparable series since 1996.</footnote>
+        <footnote footnoteSeqID="31">Instituto Nacional de Estatistica Cabo Verde: Questionário Unifacado de Indicadores Básicos de Bem-Estar QUIBB - CV,  2006. Not comparable with prior series.</footnote>
+        <footnote footnoteSeqID="32">CAR2008 Rapport ECASEB et Profil 2008 pagine tabulé finalysé. Not comparable with prior series.</footnote>
+        <footnote footnoteSeqID="33">Institut National de la Statistique. Not comparable with prior series.</footnote>
+        <footnote footnoteSeqID="34">National Source (www.mideplan.cl) Encuesta  de Caracterización Socioeconómica Nacional; Moderate Poverty Line (individuals)</footnote>
+        <footnote footnoteSeqID="35">National Source</footnote>
+        <footnote footnoteSeqID="36">National Source (www.dnp.gov.co) Gran Encuesta Continua de Hogares; Moderate Poverty Line (individuals)</footnote>
+        <footnote footnoteSeqID="37">National Source (www.dnp.gov.co) Encuesta Continua de Hogares; Moderate Poverty Line (individuals)</footnote>
+        <footnote footnoteSeqID="38">Pauvreté, inégalité et marché du travail dans l’Union des Comores: Eléments d’analyse fondés sur l’Enquête intégrale auprès des ménages de 2004. Not comparable with prior series.</footnote>
+        <footnote footnoteSeqID="39">Poverty Reduction Strategy Paper: IMF Country Report</footnote>
+        <footnote footnoteSeqID="40">DEUXIEME ENQUETE CONGOLAISE AUPRES DES MENAGES POUR SUIVI ET L'EVALUATION DE LA PAUVRETE (ECON 2011): EXTRAIT DU PROFIL DE LA PAUVRETE AU CONGO EN 2011. Comparable with the 2005 estimates.</footnote>
+        <footnote footnoteSeqID="41">Enquete Congolaise aupres des menages pour l'evaluation de la pauvrete (ECOM 2005) - Profil de la pauvrete au Congo en 2005 - Rapport final d'analyse, Republique du Congo, Ministere du Plan, de l'Amenagement du Territoire et de l'Integration Ec. Not comparable with prior series.</footnote>
+        <footnote footnoteSeqID="42">National Source (www.inec.go.cr) ENAHO; Moderate Poverty Line (households)</footnote>
+        <footnote footnoteSeqID="43">World Bank: Poverty Assessment 2010. Comparable series since 1985.</footnote>
+        <footnote footnoteSeqID="44">World Bank Source; Croatia: Living Standards Assessment, Volume 1: Promoting Social Inclusion and Regional Equity, Report No. 37992, Nov 2006</footnote>
+        <footnote footnoteSeqID="45">National Source (Oficina Nacional de Estadistica) Encuesta Nacional de Fuerza de Trabajo; April and October average; Moderate Poverty Line (individuals)</footnote>
+        <footnote footnoteSeqID="46">Sistema integrado de indicadores sociales de Ecuador.</footnote>
+        <footnote footnoteSeqID="47">National Source (www.inec.gov.ec) ENEMDU, Income Poverty; Dec data; Moderate Poverty Line (individuals)</footnote>
+        <footnote footnoteSeqID="48">Sistema de Indicadores sociales del Ecuador - Ministerio Coordinador de Desarrollo Social</footnote>
+        <footnote footnoteSeqID="49">National Source; Ministry of Economic Development, Government of the Arab Republic of Egypt</footnote>
+        <footnote footnoteSeqID="50">World Bank and National Source; Ministry of Economic Development, Government of the Arab Republic of Egypt and the World Bank. 2007. Poverty Assessment Update</footnote>
+        <footnote footnoteSeqID="51">National Source (www.digestyc.gob.sv) Encuesta de Hogares de Propósitos Múltiples; Moderate Poverty Line (households)</footnote>
+        <footnote footnoteSeqID="52">PROFIL DE LA PAUVRETE EN GUINEE EQUATORIALE EN 2006</footnote>
+        <footnote footnoteSeqID="53">Eritrea Poverty Assessment.</footnote>
+        <footnote footnoteSeqID="54">Ethiopia’s Progress Towards Eradicating Poverty: An Interim Report on Poverty Analysis Study (2010/11). Comparable series since 1995.</footnote>
+        <footnote footnoteSeqID="55">Ministry of Finance and Economic Development (MoFED): Ethiopia: Building on Progress, A Plan for Accelerated and Sustained Development to End Poverty (PASDEP), Volume I: Main Text. Comparable series since 1995.</footnote>
+        <footnote footnoteSeqID="56">National Source (Fiji Islands Bureau of Statistics): Poverty and Household Incomes in Fiji</footnote>
+        <footnote footnoteSeqID="57">Gabon: Diagnostique de la Pauvrete and Enquête Gabonaise sur l’évaluation et le suivi de la pauvreté from 2005</footnote>
+        <footnote footnoteSeqID="58">Integrated Household Survey poverty Assessment - 2010. Not comparable with prior series.</footnote>
+        <footnote footnoteSeqID="59">Georgea PA 2012 - Input to ER</footnote>
+        <footnote footnoteSeqID="60">Ghana Statistical Service: Poverty Trends in Ghana in the 1990s. Comparable series since 1992.</footnote>
+        <footnote footnoteSeqID="61">National Source (www.ine.gob.gt) Encuesta Nacional de Condiciones de Vida; Moderate Poverty Line (individuals)</footnote>
+        <footnote footnoteSeqID="62">PAUVRETE ET INEGALITES EN GUINEE DE1994 A 2012 ANALYSE A PARTIR D’ENQUETES AUPRES DES MENAGE</footnote>
+        <footnote footnoteSeqID="63">Inquérito Ligeiro para Avaliação da Pobreza (ILAP2): Resultados definitivos. Comparable series since 1994.</footnote>
+        <footnote footnoteSeqID="64">Avaliação da Pobreza na Guiné-Bissau. Comparable series since 1994.</footnote>
+        <footnote footnoteSeqID="65">Government: Tables generated. Comparable since 1994.</footnote>
+        <footnote footnoteSeqID="66">Source (www.fafo.no/ais/other/haiti/index.htm) Enquête sur les Conditions de Vie en Haïti; Covers only the Metropolitan Area; Moderate Poverty Line (individuals)</footnote>
+        <footnote footnoteSeqID="67">National Source (www.ine-hn.org) Encuesta Permanente de Hogares de Propósitos Múltiples; Moderate Poverty Line (households)</footnote>
+        <footnote footnoteSeqID="68">National Source; Planning Commision, Government of India</footnote>
+        <footnote footnoteSeqID="69">National Source (http://dds.bps.go.id/eng/); Based on SUSENAS using GSO expenditure poverty line</footnote>
+        <footnote footnoteSeqID="70">National Source; Iraq Poverty Reduction Strategy High Committee, 2011, Confronting Poverty in Iraq: Main Findings.</footnote>
+        <footnote footnoteSeqID="71">National Source (www.pioj.gov.jm) Jamaica Survey of Living Conditions; Moderate Poverty Line (individuals)</footnote>
+        <footnote footnoteSeqID="72">World Bank and National Source; Ministry of Planning and International Cooperation, Hashemite Kingdom of Jordan and the World Bank. 2009. Jordan Poverty Update.</footnote>
+        <footnote footnoteSeqID="73">Kazakhstan PA 2012 &amp; official poverty tables published by the authority</footnote>
+        <footnote footnoteSeqID="74">official poverty tables published by the authority</footnote>
+        <footnote footnoteSeqID="75">Kenya National Bureau of Statistics: Basic report on Well-being in Kenya. Not comparable with prior series.</footnote>
+        <footnote footnoteSeqID="76">Consumption poverty in the republic of Kosovo, 2005/06 to 2009</footnote>
+        <footnote footnoteSeqID="77">World Bank Source; Kosovo: Poverty Assessment, Volume I and Volume II: Estimating Trends from Non-comparable Data, Report No. 39737-XK, Oct 2007</footnote>
+        <footnote footnoteSeqID="78">Kyrgyz Republic PA 2012 - Input Kyrgyz Republic ER</footnote>
+        <footnote footnoteSeqID="79">World Bank Source; staff estimates</footnote>
+        <footnote footnoteSeqID="80">World Bank Source; Latvia: Sharing the High Growth Dividend, Report No. 38437-LV, Mar 2007</footnote>
+        <footnote footnoteSeqID="81">World Bank: Sharing Growth by Reducing Inequality and Vulnerability: Choices for Change, A Poverty, Gender, and Social Assessment. Comparable with the 1994 estimates.</footnote>
+        <footnote footnoteSeqID="82">World Bank: Sharing Growth by Reducing Inequality and Vulnerability: Choices for Change, A Poverty, Gender, and Social Assessment. Not comparable with prior series.</footnote>
+        <footnote footnoteSeqID="83">The World Bank</footnote>
+        <footnote footnoteSeqID="84">World Bank Source; FYR Macedonia: Poverty, Jobs and Firms: An Assessment for 2002-06, Report No. 48510-MK, Nov 2009</footnote>
+        <footnote footnoteSeqID="85">Minsitere de l'economie, des Finances et du Budget, USAID and Institut National de la Statistique: Enquete Periodique Aupres des Menage 2005: Rapport Prinicpal. Comparable series since 1993.</footnote>
+        <footnote footnoteSeqID="86">Changes in Poverty in Madagascar: 1993-1999, Africa Region Working Paper Series No. 19. Comparable series since 1993.</footnote>
+        <footnote footnoteSeqID="87">INTEGRATED HOUSEHOLD SURVEY 2010-2011: HOUSEHOLD SOCIO-ECONOMIC CHARACTERISCTICS REPORT. Comparable series since 1998.</footnote>
+        <footnote footnoteSeqID="88">PMS policy brief No. 2 (revised) The state of Malawi’s poor: The incidence, depth, and severity of poverty. Not comparable with prior series.</footnote>
+        <footnote footnoteSeqID="89">National Source: Household Income Survey 2012. Department of Statistics Malaysia. http://www.statistics.gov.my/portal/images/stories/files/LatestReleases/household/HIS_2012_Eng.pdf</footnote>
+        <footnote footnoteSeqID="90">National Source: Household Income Surveys.  From the website of the Household Income &amp; Poverty Statistics, Economic Planning Unit. http://www.epu.gov.my/en/c/document_library/get_file?uuid=c07bf486-79d9-48af-b4fc-41109be4178d&amp;groupId=283545</footnote>
+        <footnote footnoteSeqID="91">POVERTY IN MALI IN THE 2000’s A SUCCESS STORY?</footnote>
+        <footnote footnoteSeqID="92">Profil de la Pauvrete en Mauritanie 2008. Comparable series since 2000.</footnote>
+        <footnote footnoteSeqID="93">Profil de la Pauvrete en Mauritanie 2004. Comparable series since 2000.</footnote>
+        <footnote footnoteSeqID="94">Profil de la Pauvrete en Mauritanie 2000. Comparable series since 2000.</footnote>
+        <footnote footnoteSeqID="95">National Source (www.coneval.gob.mx/Programas) Encuesta Nacional de Ingresos y Gastos de los Hogares; Moderate Poverty Line (individuals)</footnote>
+        <footnote footnoteSeqID="96">Moldova: The Consequences of Several Shocks for Consumption and Poverty, Report No.  49019-MD</footnote>
+        <footnote footnoteSeqID="97">World Bank Source; Moldova: Poverty Update, Report No. 35618-MD, June 2006</footnote>
+        <footnote footnoteSeqID="98">National source: Household Socio-economic Survey 2012, National Statistical Office of Mongolia (NSO). A comparable series of Mongolia's poverty 2010-2012 was announced by the NSO in May 2013, which replaced the poverty numbers for 2010 and 2011 published in 2012. The new series is not comparable with previously released series. The poverty headcount rates published by the NSO for years prior to 2010 were based on different poverty lines, and the earlier consumption aggregates do not include imputed value of free fuels.</footnote>
+        <footnote footnoteSeqID="99">National source: Household Socio-economic Survey 2011, National Statistical Office of Mongolia (NSO). A comparable series of Mongolia's poverty 2010-2012 was announced by the NSO in May 2013, which replaced the poverty numbers for 2010 and 2011 published in 2012. The new series is not comparable with previously released series. The poverty headcount rates published by the NSO for years prior to 2010 were based on different poverty lines, and the earlier consumption aggregates do not include imputed value of free fuels.</footnote>
+        <footnote footnoteSeqID="100">National source: Household Socio-economic Survey 2010, National Statistical Office of Mongolia (NSO). A comparable series of Mongolia's poverty 2010-2012 was announced by the NSO in May 2013, which replaced the poverty numbers for 2010 and 2011 published in 2012. The new series is not comparable with previously released series. The poverty headcount rates published by the NSO for years prior to 2010 were based on different poverty lines, and the earlier consumption aggregates do not include imputed value of free fuels.</footnote>
+        <footnote footnoteSeqID="101">National Source. POVERTY ANALYSIS IN MONTENEGRO IN 2011. www.monstat.org</footnote>
+        <footnote footnoteSeqID="102">POVERTY ANALYSIS IN MONTENEGRO IN 2010</footnote>
+        <footnote footnoteSeqID="103">World Bank Source; Poverty Analysis in Montenegro in 2008, Dec 2009</footnote>
+        <footnote footnoteSeqID="104">World Bank Source; Poverty Analysis in Montenegro in 2007, July 2009</footnote>
+        <footnote footnoteSeqID="105">National Source (www.hcp.ma/pubdata/25.06.2008.fr.pdf); Haut Commissariat au Plan, 2008, Premiers resultants de ENNVM 2007</footnote>
+        <footnote footnoteSeqID="106">Instituto Nacional de Estatística: Inquérito Sobre Orçamento Familiar, 2008/09. Comparable series since 1996.</footnote>
+        <footnote footnoteSeqID="107">Poverty and Well-being in Mozambique – The Second National Assessment (2002-2003). Comparable series since 1996.</footnote>
+        <footnote footnoteSeqID="108">Poverty and Wellbeing in Mozambique. Comparable series since 1996.</footnote>
+        <footnote footnoteSeqID="109">Poverty Dynamics Report in Namibia: A comparative study using the 1993/04, 2003/04 and the 2009/10 NHIES surveys</footnote>
+        <footnote footnoteSeqID="110">National Source; Poverty in Nepal, Nepal Living Standards Survey (NLSS-III, 2010-11), Central Bureau of Statistics (CBS).</footnote>
+        <footnote footnoteSeqID="111">World Bank and National Source; Central Bureau of Statistics: Poverty Trends in Nepal (http://www.cbs.gov.np/Others/Poverty%20Assessment.pdf), Sept 2005; and Resilience Amidst Conflict: An Assessment of Poverty in Nepal, World Bank, June 2006</footnote>
+        <footnote footnoteSeqID="112">National Source (INIDE) Encuesta Nacional de Hogares sobre Medición de Nivel de Vida; Moderate Poverty Line (individuals)</footnote>
+        <footnote footnoteSeqID="113">CSO: http://www.stat-niger.org/statistique/plugins/getfilehtml/getfilehtml.php?lng=fr&amp;id=38 and data file  (enbc2007welfare.dta). Not comparable with prior series.</footnote>
+        <footnote footnoteSeqID="114">National Bureau of Statistics. Comparable with the 2004 estimates.</footnote>
+        <footnote footnoteSeqID="115">National Bureau of Statistics. Not comparable with prior series.</footnote>
+        <footnote footnoteSeqID="116">National Source; Pakistan Social And Living Standards Measurement Survey 2005-06.</footnote>
+        <footnote footnoteSeqID="117">National Source; Pakistan Economic Survey 2007-08 for Pakistan 1998-99 – 2005-06</footnote>
+        <footnote footnoteSeqID="118">Ministerio de Economía y Finanzas</footnote>
+        <footnote footnoteSeqID="119">National Source (www.dgeec.gov.py) Encuesta Permanente de Hogares; Moderate Poverty Line (individuals)</footnote>
+        <footnote footnoteSeqID="120">National Source (www.inei.gob.pe) Encuesta Nacional de Hogares 3; Moderate Poverty Line (individuals); Estimates based on new methodology since 2004; Not comparable with prior series</footnote>
+        <footnote footnoteSeqID="121">National Source (www.nscb.gov.ph); all estimates for 2003, 2006 and 2009 comparable across time</footnote>
+        <footnote footnoteSeqID="122">IBRD PROGRAM DOCUMENT FOR A PROPOSED LOAN, PL DPL III Program Document 15 Jan 2010</footnote>
+        <footnote footnoteSeqID="123">World Bank Source; Poland: Growth, Employment and Living Standards in Pre-Accession Poland, Report No. 28233-POL, Mar 2004</footnote>
+        <footnote footnoteSeqID="124">World Bank Source; Romania: Poverty Assessment Analytical and Advisory Assistance Program, First Phase Report, Fiscal Year 2007, Report No. 40120-RO, Nov 2007</footnote>
+        <footnote footnoteSeqID="125">World Bank Source; Russian Federation: Addressing the Challenge of Chronic Poverty and Vulnerability to Poverty - A Living Standards Assessment – Technical Annex, June 2009</footnote>
+        <footnote footnoteSeqID="126">National source; National Institute of Statistics of Rwanda; The evolution of poverty in Rwanda from 2000 to 2011. Comparable series since 2006.</footnote>
+        <footnote footnoteSeqID="127">National Institute of Statistics of Rwanda. Comparable series since 2006.</footnote>
+        <footnote footnoteSeqID="128">Principais Resultados Grelha de Indicadores. Not comparable with the 2001 estimates.</footnote>
+        <footnote footnoteSeqID="129">Comparable series since 2001.</footnote>
+        <footnote footnoteSeqID="130">World Bank: Data file (ESPS2005DEPENSES.dta). Comparable series since 2001.</footnote>
+        <footnote footnoteSeqID="131">DRSP Document de Stratégie pour la croissance et la Réduction de la Pauvreté 2006-2010. Comparable series since 2001.</footnote>
+        <footnote footnoteSeqID="132">Republic of Serbia: 2010 poverty update</footnote>
+        <footnote footnoteSeqID="133">World Bank Source; Living standard Measurement Survey - Serbia 2002 - 2007</footnote>
+        <footnote footnoteSeqID="134">World Bank Source; Background Paper on Trends and Profile of Poverty in Serbia: 2004-2006 - Serbia Poverty Assessment, June 2007</footnote>
+        <footnote footnoteSeqID="135">Poverty Diagnostic (Report no. 44082-SL, October 30, 2009). Not comparable with prior series.</footnote>
+        <footnote footnoteSeqID="136">Solomon Islands National Statistics Office and UNDP Pacific Centre, ANALYSIS OF THE 2005/06 HOUSEHOLD INCOME AND EXPENDITURE SURVEY - FINAL REPORT ON THE ESTIMATION OF BASIC NEEDS POVERTY LINES, AND THE INCIDENCE AND CHARACTERISTICS OF POVERTY IN SOLOMON</footnote>
+        <footnote footnoteSeqID="137">Ministry of Finance website: POVERTY AND INEQUALITY Poverty and inequality. Comparable series since 1995.</footnote>
+        <footnote footnoteSeqID="138">A Poverty Profile for the Southern States of Sudan</footnote>
+        <footnote footnoteSeqID="139">National Source; Poverty Indicators - Household Income and Expenditure Survey 2009/10 by Department of Census and Statistics. Ministry of Finance and Planning. ISSN 1391-4696 (May 2011)</footnote>
+        <footnote footnoteSeqID="140">National Source; Poverty Indicators - Household Income and Expenditure Survey 2006/07 by Department of Census and Statistics. Ministry of Finance and Planning. ISSN 1391-4695 (March 2008)</footnote>
+        <footnote footnoteSeqID="141">A Poverty Profile for the Northern States of Sudan</footnote>
+        <footnote footnoteSeqID="142">Poverty in a decade of slow growth: Swaziland in the 2000’s. Comparable series since 2001.</footnote>
+        <footnote footnoteSeqID="143">Swaziland Household Income and Expenditure Survey 2000-01. Comparable series since 2001.</footnote>
+        <footnote footnoteSeqID="144">Tajikistan PA 2012 - Input Tajikistan ER</footnote>
+        <footnote footnoteSeqID="145">TJ Poverty Assessment, Report No. 51341-TJ</footnote>
+        <footnote footnoteSeqID="146">World Bank Source; Tajikistan: Poverty Update 2007-2009</footnote>
+        <footnote footnoteSeqID="147">2009 Paper Prepared for the Research and Analysis Working Group, “Lost in Transition?: Income Poverty Reduction in Tanzania since 2001”. Comparable series since 2000.</footnote>
+        <footnote footnoteSeqID="148">National Source; Office of National Economic and Social Development Board; Calculated from Thailand Household Socio-Economic Survey 2011. The entire series is updated based on revised national poverty line in 2013, and thus, cannot be compared with series published in previous editions of the database.</footnote>
+        <footnote footnoteSeqID="149">National Source; Office of National Economic and Social Development Board; Calculated from Thailand Household Socio-Economic Survey 2010. The entire series is updated based on revised national poverty line in 2013, and thus, cannot be compared with series published in previous editions of the database.</footnote>
+        <footnote footnoteSeqID="150">National Source; Office of National Economic and Social Development Board; Calculated from Thailand Household Socio-Economic Survey 2009. The entire series is updated based on revised national poverty line in 2013, and thus, cannot be compared with series published in previous editions of the database.</footnote>
+        <footnote footnoteSeqID="151">National Source; Office of National Economic and Social Development Board; Calculated from Thailand Household Socio-Economic Survey 2008. The entire series is updated based on revised national poverty line in 2013, and thus, cannot be compared with series published in previous editions of the database.</footnote>
+        <footnote footnoteSeqID="152">National Source; Office of National Economic and Social Development Board; Calculated from Thailand Household Socio-Economic Survey 2007. The entire series is updated based on revised national poverty line in 2013, and thus, cannot be compared with series published in previous editions of the database.</footnote>
+        <footnote footnoteSeqID="153">National Source; Office of National Economic and Social Development Board; Calculated from Thailand Household Socio-Economic Survey 2006. The entire series is updated based on revised national poverty line in 2013, and thus, cannot be compared with series published in previous editions of the database.</footnote>
+        <footnote footnoteSeqID="154">National Source; Office of National Economic and Social Development Board; Calculated from Thailand Household Socio-Economic Survey 2004. The entire series is updated based on revised national poverty line in 2013, and thus, cannot be compared with series published in previous editions of the database.</footnote>
+        <footnote footnoteSeqID="155">National Source; Office of National Economic and Social Development Board; Calculated from Thailand Household Socio-Economic Survey 2002. The entire series is updated based on revised national poverty line in 2013, and thus, cannot be compared with series published in previous editions of the database.</footnote>
+        <footnote footnoteSeqID="156">National Source; Office of National Economic and Social Development Board; Calculated from Thailand Household Socio-Economic Survey 2000. The entire series is updated based on revised national poverty line in 2013, and thus, cannot be compared with series published in previous editions of the database.</footnote>
+        <footnote footnoteSeqID="157">National Source; Office of National Economic and Social Development Board; Calculated from Thailand Household Socio-Economic Survey 1998. The entire series is updated based on revised national poverty line in 2013, and thus, cannot be compared with series published in previous editions of the database.</footnote>
+        <footnote footnoteSeqID="158">National Source; Office of National Economic and Social Development Board; Calculated from Thailand Household Socio-Economic Survey 1996. The entire series is updated based on revised national poverty line in 2013, and thus, cannot be compared with series published in previous editions of the database.</footnote>
+        <footnote footnoteSeqID="159">National Source; Office of National Economic and Social Development Board; Calculated from Thailand Household Socio-Economic Survey 1994. The entire series is updated based on revised national poverty line in 2013, and thus, cannot be compared with series published in previous editions of the database.</footnote>
+        <footnote footnoteSeqID="160">National Source; Office of National Economic and Social Development Board; Calculated from Thailand Household Socio-Economic Survey 1992. The entire series is updated based on revised national poverty line in 2013, and thus, cannot be compared with series published in previous editions of the database.</footnote>
+        <footnote footnoteSeqID="161">National Source; Office of National Economic and Social Development Board; Calculated from Thailand Household Socio-Economic Survey 1990. The entire series is updated based on revised national poverty line in 2013, and thus, cannot be compared with series published in previous editions of the database.</footnote>
+        <footnote footnoteSeqID="162">National Source; Office of National Economic and Social Development Board; Calculated from Thailand Household Socio-Economic Survey 1988. The entire series is updated based on revised national poverty line in 2013, and thus, cannot be compared with series published in previous editions of the database.</footnote>
+        <footnote footnoteSeqID="163">World Bank and National Source; Ministry of Finance, Directorate of National Statistics; Timor-Leste Living Standards Survey 2007; "Timor-Leste - Poverty in a young nation."</footnote>
+        <footnote footnoteSeqID="164">World Bank and National Source; Ministry of Finance, Directorate of National Statistics; Timor-Leste Living Standards Survey 2001; "Timor-Leste - Poverty in a young nation."</footnote>
+        <footnote footnoteSeqID="165">Comparable series since 2006.</footnote>
+        <footnote footnoteSeqID="166">Profil de la pauvreté et de la vulnérabilité au Togo. Comparable series since 2006.</footnote>
+        <footnote footnoteSeqID="167">National Source (www.ins.nat.tn/indexen.php); National Institute of Statistics of Tunisia</footnote>
+        <footnote footnoteSeqID="168">National Source (www.turkstat.gov.tr); Press release - results of the 2009 poverty study, Jan 2011</footnote>
+        <footnote footnoteSeqID="169">Uganda Bureau of Statistics. Comparable series since 1992.</footnote>
+        <footnote footnoteSeqID="170">UGANDA BUREAU OF STATISTICS: UGANDA NATIONAL HOUSEHOLD SURVEY 2005/2006 REPORT ON THE SOCIO-ECONOMIC MODULE. Comparable series since 1992.</footnote>
+        <footnote footnoteSeqID="171">UGANDA BUREAU OF STATISTICS: UGANDA NATIONAL HOUSEHOLD SURVEY 2002/2003 REPORT ON THE SOCIO-ECONOMIC SURVEY. Comparable series since 1992.</footnote>
+        <footnote footnoteSeqID="172">poverty tables (created by ECSPE)</footnote>
+        <footnote footnoteSeqID="173">National Source (www.ine.gub.uy) Urban rates only consider Montevideo and cities with more than 5.000 inhabitants.</footnote>
+        <footnote footnoteSeqID="174">National Source (www.ine.gub.uy); Urban rates only consider Montevideo and cities with more than 5.000 inhabitants.</footnote>
+        <footnote footnoteSeqID="175">National Source (www.ine.gov.ve) Encuesta de Hogares Por Muestreo; Moderate Poverty Line (individuals)</footnote>
+        <footnote footnoteSeqID="176">World Bank and National Source; VHLSS 2010 data, based on the 2010 revised WB/GSO expenditure poverty line, and thus, not comparable with the prior series. An alternative poverty headcount used by the goverment is 14.2, which is based on the official MOLISA poverty lines (revised every 5 years for the SEDP) and a  'bottom up' system using community level poverty counts aggregated up district, province and national levels.</footnote>
+        <footnote footnoteSeqID="177">National Source (www.pcbs.gov.ps/Portals/_pcbs/PressRelease/poor2009_E.pdf); The Palestinian Central Bureau of Statistics Press Release, Oct 26, 2010</footnote>
+        <footnote footnoteSeqID="178">World Bank and National Source; The Government of Yemen, The World Bank and the UNDP, 2007. Yemen Poverty Assessment, Volume 1</footnote>
+        <footnote footnoteSeqID="179">LIVING CONDITIONS MONITORING SURVEY REPORT 2006 and 2010. Not comparable with prior series.</footnote>
+        <footnote footnoteSeqID="180">PASSII report. Not comparable with prior series.</footnote>
+    </footnotes>
+</ROOT>

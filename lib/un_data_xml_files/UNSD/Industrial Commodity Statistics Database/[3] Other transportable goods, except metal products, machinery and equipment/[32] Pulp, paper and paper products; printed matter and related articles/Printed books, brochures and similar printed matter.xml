@@ -1,0 +1,690 @@
+<ROOT>
+    <data>
+        <record>
+            <field name="Country or Area">Azerbaijan</field>
+            <field name="Year">2009</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Azerbaijan</field>
+            <field name="Year">2007</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">0.0477786533902518</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Azerbaijan</field>
+            <field name="Year">2005</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">0.0105772983676055</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Azerbaijan</field>
+            <field name="Year">2004</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">0.0203521843745087</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Azerbaijan</field>
+            <field name="Year">2003</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">0.0040727142400417</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Azerbaijan</field>
+            <field name="Year">2002</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">0.00308589855794246</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Azerbaijan</field>
+            <field name="Year">2001</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">0.00536874317722222</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Azerbaijan</field>
+            <field name="Year">2000</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">0.0301733037225196</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Brazil</field>
+            <field name="Year">2009</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">685.875747586085</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Brazil</field>
+            <field name="Year">2009</field>
+            <field name="Unit">THOUSAND UNITS</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Brazil</field>
+            <field name="Year">2008</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">506.871393670586</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Brazil</field>
+            <field name="Year">2008</field>
+            <field name="Unit">THOUSAND UNITS</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Bulgaria</field>
+            <field name="Year">2009</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">33.4117284645414</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Bulgaria</field>
+            <field name="Year">2009</field>
+            <field name="Unit">THOUSAND UNITS</field>
+            <field name="Value">268252</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Bulgaria</field>
+            <field name="Year">2008</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">42.6290400987198</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Bulgaria</field>
+            <field name="Year">2008</field>
+            <field name="Unit">THOUSAND UNITS</field>
+            <field name="Value">301610</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Egypt</field>
+            <field name="Year">2008</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">0.736535215589996</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Egypt</field>
+            <field name="Year">2008</field>
+            <field name="Unit">THOUSAND UNITS</field>
+            <field name="Value">1030000</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Estonia</field>
+            <field name="Year">2009</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">31.6235563544012</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Estonia</field>
+            <field name="Year">2009</field>
+            <field name="Unit">THOUSAND UNITS</field>
+            <field name="Value">173782.8</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Estonia</field>
+            <field name="Year">2008</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">47.033772173669</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Estonia</field>
+            <field name="Year">2008</field>
+            <field name="Unit">THOUSAND UNITS</field>
+            <field name="Value">93424.9</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Finland</field>
+            <field name="Year">2009</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">273.670649762847</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Finland</field>
+            <field name="Year">2009</field>
+            <field name="Unit">THOUSAND UNITS</field>
+            <field name="Value">541550</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Finland</field>
+            <field name="Year">2008</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">414.545896223424</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Finland</field>
+            <field name="Year">2008</field>
+            <field name="Unit">THOUSAND UNITS</field>
+            <field name="Value">727806</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Finland</field>
+            <field name="Year">2007</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">416.075002993961</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Finland</field>
+            <field name="Year">2007</field>
+            <field name="Unit">THOUSAND UNITS</field>
+            <field name="Value">870168</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Finland</field>
+            <field name="Year">2006</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">378.854008440583</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Finland</field>
+            <field name="Year">2006</field>
+            <field name="Unit">THOUSAND UNITS</field>
+            <field name="Value">718826</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Finland</field>
+            <field name="Year">2005</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">371.8350494951</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Finland</field>
+            <field name="Year">2005</field>
+            <field name="Unit">THOUSAND UNITS</field>
+            <field name="Value">727900</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Finland</field>
+            <field name="Year">2004</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">315.3849496812</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Finland</field>
+            <field name="Year">2004</field>
+            <field name="Unit">THOUSAND UNITS</field>
+            <field name="Value">419926</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Finland</field>
+            <field name="Year">2003</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">306.985904418659</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Finland</field>
+            <field name="Year">2003</field>
+            <field name="Unit">THOUSAND UNITS</field>
+            <field name="Value">309206</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Finland</field>
+            <field name="Year">2002</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">255.987551977864</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Finland</field>
+            <field name="Year">2002</field>
+            <field name="Unit">THOUSAND UNITS</field>
+            <field name="Value">279522</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Finland</field>
+            <field name="Year">2001</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">154.80845808986</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Finland</field>
+            <field name="Year">2000</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">162.152077458328</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Finland</field>
+            <field name="Year">1999</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">181.115554999263</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">2008</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">1553.39967416397</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">2007</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">1474.05519152795</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">2006</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">1338.53386425862</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">2005</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">1272.19817937621</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">2004</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">1252.84808751312</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">2003</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">1150.06851692137</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Germany</field>
+            <field name="Year">2002</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">1000.42194026643</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Hungary</field>
+            <field name="Year">2009</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">109.967464272476</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Hungary</field>
+            <field name="Year">2009</field>
+            <field name="Unit">THOUSAND UNITS</field>
+            <field name="Value">383685</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Hungary</field>
+            <field name="Year">2008</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">130.82658713251</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Hungary</field>
+            <field name="Year">2008</field>
+            <field name="Unit">THOUSAND UNITS</field>
+            <field name="Value">329327</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Latvia</field>
+            <field name="Year">2009</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">47.0444051033528</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Latvia</field>
+            <field name="Year">2009</field>
+            <field name="Unit">THOUSAND UNITS</field>
+            <field name="Value">89890.457</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Latvia</field>
+            <field name="Year">2008</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">43.1352767860238</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Latvia</field>
+            <field name="Year">2008</field>
+            <field name="Unit">THOUSAND UNITS</field>
+            <field name="Value">75802.928</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Latvia</field>
+            <field name="Year">2007</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">25.3020841780877</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Latvia</field>
+            <field name="Year">2006</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">25.6955493761989</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Lithuania</field>
+            <field name="Year">2009</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">8.57476416043801</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Lithuania</field>
+            <field name="Year">2009</field>
+            <field name="Unit">THOUSAND UNITS</field>
+            <field name="Value">44563.6</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Macau (SAR)</field>
+            <field name="Year">2009</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">0.16637185136633</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Macau (SAR)</field>
+            <field name="Year">2006</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Macau (SAR)</field>
+            <field name="Year">2005</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Mexico</field>
+            <field name="Year">2009</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Mexico</field>
+            <field name="Year">2009</field>
+            <field name="Unit">THOUSAND UNITS</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Mexico</field>
+            <field name="Year">2008</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Mexico</field>
+            <field name="Year">2008</field>
+            <field name="Unit">THOUSAND UNITS</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Mexico</field>
+            <field name="Year">2007</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Mexico</field>
+            <field name="Year">2007</field>
+            <field name="Unit">THOUSAND UNITS</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Romania</field>
+            <field name="Year">2009</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">39.4326613266871</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Romania</field>
+            <field name="Year">2009</field>
+            <field name="Unit">THOUSAND UNITS</field>
+            <field name="Value">51110</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Romania</field>
+            <field name="Year">2008</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">45.4555139067634</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Romania</field>
+            <field name="Year">2008</field>
+            <field name="Unit">THOUSAND UNITS</field>
+            <field name="Value">28209</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Slovakia</field>
+            <field name="Year">2009</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">79.2033422618221</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Slovakia</field>
+            <field name="Year">2009</field>
+            <field name="Unit">THOUSAND UNITS</field>
+            <field name="Value">241206</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Slovakia</field>
+            <field name="Year">2008</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">96.201484764197</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Slovakia</field>
+            <field name="Year">2008</field>
+            <field name="Unit">THOUSAND UNITS</field>
+            <field name="Value">280443</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Slovenia</field>
+            <field name="Year">2009</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">48.6661431598581</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Slovenia</field>
+            <field name="Year">2009</field>
+            <field name="Unit">THOUSAND UNITS</field>
+            <field name="Value">194066</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Slovenia</field>
+            <field name="Year">2008</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">105.587622938434</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Slovenia</field>
+            <field name="Year">2008</field>
+            <field name="Unit">THOUSAND UNITS</field>
+            <field name="Value">257492</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Slovenia</field>
+            <field name="Year">2007</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">94.860994679304</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Slovenia</field>
+            <field name="Year">2006</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">73.4111183086264</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Slovenia</field>
+            <field name="Year">2005</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">67.0148734019798</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Slovenia</field>
+            <field name="Year">2004</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">64.8754359740907</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Slovenia</field>
+            <field name="Year">2003</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">54.9265301399977</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Slovenia</field>
+            <field name="Year">2002</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">42.8927680798005</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Slovenia</field>
+            <field name="Year">2001</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">42.6900296150049</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Slovenia</field>
+            <field name="Year">2000</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">39.1809277795716</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Slovenia</field>
+            <field name="Year">1999</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">31.93493388317</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Spain</field>
+            <field name="Year">2009</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">1091.90421682029</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Spain</field>
+            <field name="Year">2009</field>
+            <field name="Unit">THOUSAND UNITS</field>
+            <field name="Value">3507057</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Spain</field>
+            <field name="Year">2008</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">1384.26103155878</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Spain</field>
+            <field name="Year">2008</field>
+            <field name="Unit">THOUSAND UNITS</field>
+            <field name="Value">3692878</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Sweden</field>
+            <field name="Year">2008</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">1566.98825777542</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">United Kingdom</field>
+            <field name="Year">2009</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">844.883509253626</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">United Kingdom</field>
+            <field name="Year">2008</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">2545.14853436647</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">United Kingdom</field>
+            <field name="Year">2007</field>
+            <field name="Unit">Mil. USD</field>
+            <field name="Value">2392.96078542534</field>
+            <field name="Value Footnotes"></field>
+        </record>
+    </data>
+</ROOT>

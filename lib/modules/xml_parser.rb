@@ -1,64 +1,80 @@
+require "find"
+
 class XmlParser
   require "rexml/document"
   include REXML
 
-  def get_file_names_mult_dir(organization_name, database_name, footnote_id_name)
+  def initialize(organization_name, database_name, footnote_id_name)
     @organization_name = organization_name
     @database_name = database_name
     @organization = Organization.find_or_create_by_name(@organization_name)
     @database = Database.find_or_create_by_name(@database_name)
     @database.organization = @organization
     @footnote_id_name = footnote_id_name
+    directory_name = "lib/un_data_xml_files/#{@organization_name}/#{@database_name}/"
+    get_file_names(directory_name)
+  end
 
-    @directory_name = "lib/un_data_xml_files/#{@organization_name}/#{@database_name}/"
-
-    Dir.foreach(@directory_name) do |dir|
-      unless dir == "." || dir == ".." || dir == ".DS_Store"
-        @full_directory_name = @directory_name + dir + "/"
-        @topic = dir
-        Dir.foreach(@full_directory_name) do |files|
-          filenames_array = []
-          unless files == "." || files == ".." || files == ".DS_Store"
-            filenames_array << files
-          end
-          parse_filenames(filenames_array)
+  def get_file_names(directory_name)
+    @topics = ""
+      Find.find(directory_name) do |path|
+        unless path =~ /.DS_Store$/ || path == directory_name || path =~ /\.xml$/
+        topic = path[/[^\/]*$/]
+        @topics += topic + ", "
+        if !File.directory?(path + "/*/")
+          path += "/"
+          file_name_array(path)
+          @topics = ""
         end
-      end
+      end      
     end
-  end   
+  end
 
-  def get_file_names(organization_name, database_name, footnote_id_name)
-    @organization_name = organization_name
-    @database_name = database_name
-    @organization = Organization.find_or_create_by_name(@organization_name)
-    @database = Database.find_or_create_by_name(@database_name)
-    @database.organization = @organization
-    @footnote_id_name = footnote_id_name
-
-    @full_directory_name = "lib/un_data_xml_files/#{@organization_name}/#{@database_name}/"
-      
-    filenames_array = []
-    Dir.foreach(@full_directory_name) do |files|
+  def file_name_array(directory_name)
+    Dir.foreach(directory_name) do |files|
+      filenames_array = []
       unless files == "." || files == ".." || files == ".DS_Store"
         filenames_array << files
       end
+      parse_filenames(directory_name, filenames_array)
     end
-    parse_filenames(filenames_array)
+  end   
+
+  # def get_file_names(organization_name, database_name, footnote_id_name)
+  #   @organization_name = organization_name
+  #   @database_name = database_name
+  #   @organization = Organization.find_or_create_by_name(@organization_name)
+  #   @database = Database.find_or_create_by_name(@database_name)
+  #   @database.organization = @organization
+  #   @footnote_id_name = footnote_id_name
+
+  #   @full_directory_name = "lib/un_data_xml_files/#{@organization_name}/#{@database_name}/"
+      
+  #   filenames_array = []
+  #   Dir.foreach(@full_directory_name) do |files|
+  #     unless files == "." || files == ".." || files == ".DS_Store"
+  #       filenames_array << files
+  #     end
+  #   end
+  #   parse_filenames(filenames_array)
+  # end
+
+  def parse_filenames(directory_name, filenames_array)
+    filenames_array.each do |filename|
+      xml_parser(directory_name, filename)
+    end
   end
 
-  def parse_filenames(filenames_array)
-    # filenames_array.each do |filename|
-    p filenames_array
-    filename = filenames_array.pop
-      xml_parser(filename)
-    # end
+  def parse_filenames_wb(directory_name, filenames_array)
+    filename = filenames_array.pop    
+    xml_parser(directory_name, filename)
   end
 
-  def xml_parser(filename)
-    @doc = Document.new File.new(@full_directory_name + filename)
+  def xml_parser(directory_name, filename)
+    @doc = Document.new File.new(directory_name + filename)
 
     @dataset = get_dataset_name(filename)
-    @dataset.topics << @topic
+    @dataset.topics << @topics
     @dataset.database = @database
     @dataset_id = @dataset.id
 
@@ -92,10 +108,12 @@ class XmlParser
         case element_name
         when "Country or Area"
           @original_country_name = element.text.strip
-          p @original_country_name
           @country_name = @original_country_name
           normalize_country_name(@country_name)
-        when "Year"
+        when "Year" || "Year(s)"
+          year = element.text.to_i
+          set_year(year)
+        when "Year(s)"
           year = element.text.to_i
           set_year(year)
         when "Unit"
@@ -161,7 +179,12 @@ class XmlParser
   end
 
   def set_country
-    @country = Country.find_or_create_by_name(@country_name)
+    if Country.find_by_name(@country_name) != nil
+      @country = Country.find_or_create_by_name(@country_name)
+    else
+      p @country_name
+      @country = Country.find_or_create_by_name(@country_name)
+    end
 
     @country.organizations << @organization
     @organization.countries << @country

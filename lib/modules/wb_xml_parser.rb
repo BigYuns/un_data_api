@@ -1,12 +1,47 @@
 require "#{Rails.root}/lib/modules/xml_parser.rb"
-require "#{Rails.root}/lib/modules/single_dir_parser.rb"
 
 
-class WbXmlParser < SingleDirParser
+class WbXmlParser < XmlParser
 
-  def initialize(organization_name, database_name, footnote_id_name)
+  def record_attributes
+    @doc.elements.each("ROOT/data/record") do |record|
+      record.elements.each do |element|
+        element_name = element.attributes["name"]
+
+        case element_name
+        when "Country or Area"
+          @original_country_name = element.text.strip
+          @country_name = @original_country_name
+          normalize_country_name(@country_name)
+        when "Year"
+          year = element.text.to_i
+          set_year(year)
+        when "Value"
+          value = element.text.to_f
+          set_record("value", value)
+        when "Value Footnotes" 
+          if element.text != nil 
+            clean_footnotes(element.text)
+          end
+        else
+          name = element_name.downcase.gsub("/ /", "_")
+          set_record(name, element.text)
+        end
+      end
+      set_record("measurement", @measurement)    
+      new_record = Record.new(@record)
+      new_record.save
+    end
+  end
+
+  def get_topic(path)
+    topic = @database_name
+    @topics << topic
+  end
+
+  def get_dataset_name(filename)
     super
-    get_file_names
+    @measurement = @dataset_name[/\(([^)]+)\)/]
   end
 
 end

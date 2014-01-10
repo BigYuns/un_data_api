@@ -17,17 +17,28 @@ class XmlParser
 
   def get_file_names(directory_name)
     @topics = ""
-      Find.find(directory_name) do |path|
-        unless path =~ /.DS_Store$/ || path == directory_name || path =~ /\.xml$/
-        topic = path[/[^\/]*$/]
-        @topics += topic + ", "
-        if !File.directory?(path + "/*/")
-          path += "/"
-          file_name_array(path)
+    full_directory_array = Find.find(directory_name).to_a
+
+    full_directory_array.delete_if {|path| path =~ /.DS_Store/}
+
+    full_directory_array.each_with_index do |path, i|
+      if path =~ /\.xml/
+        unless full_directory_array[i-1] =~ /\.xml/ 
+          file_dir = full_directory_array[i-1]
+          file_dir += "/"
+          file_name_array(file_dir)
           @topics = ""
         end
-      end      
+      end
+      unless path == directory_name || path =~ /\.xml/
+        get_topic(path)
+      end
     end
+  end
+
+  def get_topic(path)
+    topic = path[/[^\/]*$/]
+    @topics += topic + ", "
   end
 
   def file_name_array(directory_name)
@@ -39,25 +50,6 @@ class XmlParser
       parse_filenames(directory_name, filenames_array)
     end
   end   
-
-  # def get_file_names(organization_name, database_name, footnote_id_name)
-  #   @organization_name = organization_name
-  #   @database_name = database_name
-  #   @organization = Organization.find_or_create_by_name(@organization_name)
-  #   @database = Database.find_or_create_by_name(@database_name)
-  #   @database.organization = @organization
-  #   @footnote_id_name = footnote_id_name
-
-  #   @full_directory_name = "lib/un_data_xml_files/#{@organization_name}/#{@database_name}/"
-      
-  #   filenames_array = []
-  #   Dir.foreach(@full_directory_name) do |files|
-  #     unless files == "." || files == ".." || files == ".DS_Store"
-  #       filenames_array << files
-  #     end
-  #   end
-  #   parse_filenames(filenames_array)
-  # end
 
   def parse_filenames(directory_name, filenames_array)
     filenames_array.each do |filename|
@@ -72,18 +64,8 @@ class XmlParser
 
   def xml_parser(directory_name, filename)
     @doc = Document.new File.new(directory_name + filename)
-
-    @dataset = get_dataset_name(filename)
-    @dataset.topics << @topics
-    @dataset.database = @database
-    @dataset_id = @dataset.id
-
-    @organization.datasets << @dataset
-    @dataset.organization = @organization
-    @dataset.save
-
+    set_dataset_rel_and_attr(filename)
     get_footnotes
-
     record_attributes
   end
 
@@ -95,9 +77,20 @@ class XmlParser
     end
   end
 
+  def set_dataset_rel_and_attr(filename)
+    get_dataset_name(filename)
+    @dataset.topics << @topics
+    @dataset.database = @database
+    @dataset_id = @dataset.id
+    @organization.datasets << @dataset
+    @dataset.organization = @organization
+    @dataset.save
+  end
+
   def get_dataset_name(filename)
+    p @dataset_name
     @dataset_name = filename.chomp(".xml")
-    Dataset.find_or_create_by_name(@dataset_name)
+    @dataset = Dataset.find_or_create_by_name(@dataset_name)
   end
 
   def record_attributes
@@ -137,9 +130,6 @@ class XmlParser
           set_record(name, element.text)
         end
       end
-      if @record[:measurement] == nil
-        get_measurement
-      end
       new_record = Record.new(@record)
       new_record.save
     end
@@ -173,11 +163,6 @@ class XmlParser
     set_country
   end
 
-  def get_measurement
-    set_measurement = @dataset_name[/\(([^)]+)\)/]
-    set_record("measurement", set_measurement)    
-  end
-
   def set_country
     if Country.find_by_name(@country_name) != nil
       @country = Country.find_or_create_by_name(@country_name)
@@ -202,7 +187,6 @@ class XmlParser
                 dataset_id: @dataset_id, 
                 country_id: @country.id,
                 area_name: @original_country_name,
-                measurement: nil 
               }
   end
 

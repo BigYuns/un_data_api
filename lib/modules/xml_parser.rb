@@ -16,18 +16,18 @@ class XmlParser
   end
 
   def get_file_names(directory_name)
-    @topics = ""
+    @topics = []
     full_directory_array = Find.find(directory_name).to_a
 
     full_directory_array.delete_if {|path| path =~ /.DS_Store/}
 
     full_directory_array.each_with_index do |path, i|
       if path =~ /\.xml/
-        unless full_directory_array[i-1] =~ /\.xml/ 
+        unless full_directory_array[i-1] =~ /\.xml/
           file_dir = full_directory_array[i-1]
           file_dir += "/"
           file_name_array(file_dir)
-          @topics = ""
+          @topics = []
         end
       end
       unless path == directory_name || path =~ /\.xml/
@@ -38,7 +38,7 @@ class XmlParser
 
   def get_topic(path)
     topic = path[/[^\/]*$/]
-    @topics += topic + ", "
+    @topics.push(topic)
   end
 
   def file_name_array(directory_name)
@@ -79,7 +79,11 @@ class XmlParser
 
   def set_dataset_rel_and_attr(filename)
     get_dataset_name(filename)
-    @dataset.topics << @topics
+    if @topics == []
+      @topics.push(@database_name)
+    end
+    @topics.each {|topic| @dataset.topics << topic}
+    p @dataset.topics
     @dataset.database = @database
     @dataset_id = @dataset.id
     @organization.datasets << @dataset
@@ -88,7 +92,6 @@ class XmlParser
   end
 
   def get_dataset_name(filename)
-    p @dataset_name
     @dataset_name = filename.chomp(".xml")
     @dataset = Dataset.find_or_create_by_name(@dataset_name)
   end
@@ -102,7 +105,7 @@ class XmlParser
         when "Country or Area"
           @original_country_name = element.text.strip
           @country_name = @original_country_name
-          normalize_country_name(@country_name)
+          un_abrev_country_name(@country_name)
         when "Year" || "Year(s)"
           year = element.text.to_i
           set_year(year)
@@ -135,7 +138,18 @@ class XmlParser
     end
   end
 
+  def un_abrev_country_name(country_name)
+    case country_name
+    when /Rep\./
+      country_name.gsub!(/(Rep\.)/, "Republic")
+    when /Dem\./
+      country_name.gsub!(/(Dem\.)/, "Democratic")
+    end
+    normalize_country_name(country_name)
+  end
+
   def normalize_country_name(country_name)
+
     case country_name
     when /United States/
       @country_name = "United States of America"
@@ -153,12 +167,64 @@ class XmlParser
         @country_name = "Republic of Korea"
         set_country
       end
+    when /Congo/
+      if country_name.include?("Rep") && !country_name.include?("Dem")
+        @country_name = "Congo"
+      elsif country_name.include?("Dem")
+        @country_name = "Democratic Republic of the Congo"
+      end
     when /Grenadines/
       @country_name = "Saint Vincent and the Grenadines"
     when /d'Ivoire/
       @country_name = "Côte d'Ivoire"
     when /Venezuela/
       @country_name = "Venezuela (Bolivarian Republic of)"
+    when /Bahamas/
+      @country_name = "Bahamas"
+    when /Egypt/
+      @country_name = "Egypt"
+    when /Iran/
+      @country_name = "Iran (Islamic Republic of)"
+    when /Kyrgyz Republic/
+      @country_name = "Kyrgyzstan"
+    when /Lao/
+      @country_name =  "Lao People's Democratic Republic"
+    when /Micronesia/
+      if country_name =~ /Micronesia, Fed\. Sts\./ || country_name =~ /Micronesia, Fed\.States of/
+        @country_name = "Micronesia (Federated States of)"
+      end
+    when /Kitts/
+      @country_name = "Saint Kitts and Nevis"
+    when /Hong Kong SAR/
+      @country_name = "Hong Kong SAR, China"
+    when /Macau \(SAR\)/
+      @country_name = "Macao SAR, China"
+    when /Macao SAR/
+      @country_name = "Macao SAR, China"
+    when /Tanzania/
+      @country_name = "United Republic of Tanzania"
+    when /Yemen/
+      @country_name = "Yemen"
+    when /Switzrld,Liechtenstein/
+      @country_name = "Switzerland and Liechtenstein"
+    when /Christmas Is\.\(Aust\)/
+      @country_name = "Christmas Island"
+    when /Falkland Is\. \(Malvinas\)/
+      @country_name = "Falkland Islands"
+    when /St\. Helena and Depend\./
+      @country_name = "Saint Helena and Dependencies"
+    when /St\. Pierre-Miquelon/
+      @country_name = "Saint Pierre and Miquelon"
+    when /Wallis \& Futuna Isl/
+      @country_name = "Wallis and Futuna Island"
+    when /Vietnam/
+      @country_name = "Viet Nam"
+    when /East Timor/
+      @country_name = "Timor-Leste"
+    when /Moldova/
+      @country_name = "Republic of Moldova"
+    when /St. Lucia/
+      @country_name = "Saint Lucia"
     end
     set_country
   end

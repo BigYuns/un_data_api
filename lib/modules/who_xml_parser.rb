@@ -10,4 +10,10 @@ class WhoXmlParser < XmlParser
                 measurement: "none"
               }
   end
+
+  def get_file_names(directory_name)
+    puts "hello"
+    file_name_array(directory_name)
+  end
+
 end

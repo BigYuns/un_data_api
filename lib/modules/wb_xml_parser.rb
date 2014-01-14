@@ -34,14 +34,12 @@ class WbXmlParser < XmlParser
     end
   end
 
-  def get_topic(path)
-    topic = @database_name
-    @topics << topic
-  end
-
   def get_dataset_name(filename)
     super
     @measurement = @dataset_name[/\(([^)]+)\)/]
+    @measurement.gsub!(/\%/, "percent")
+    @measurement.delete!("(")
+    @measurement.delete!(")")
   end
 
 end

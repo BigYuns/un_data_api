@@ -93,6 +93,8 @@ class XmlParser
 
   def get_dataset_name(filename)
     @dataset_name = filename.chomp(".xml")
+    @dataset_name.gsub!(/\%/, "percent")
+    puts @dataset_name
     @dataset = Dataset.find_or_create_by_name(@dataset_name)
   end
 

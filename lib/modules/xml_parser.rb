@@ -69,8 +69,8 @@ class XmlParser
   def xml_parser(directory_name, filename)
     @doc = Document.new File.new(directory_name + filename)
     set_dataset_rel_and_attr(filename)
-    # get_footnotes
-    # record_attributes
+    get_footnotes
+    record_attributes
   end
 
   def get_footnotes

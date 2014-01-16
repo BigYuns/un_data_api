@@ -31,14 +31,18 @@ class XmlParser
         end
       end
       unless path == directory_name || path =~ /\.xml/
-        get_topic(path)
+        get_topic(path, directory_name)
       end
     end
   end
 
-  def get_topic(path)
-    topic = path[/[^\/]*$/]
-    @topics.push(topic)
+  def get_topic(path, directory_name)
+    topic_path = path.gsub(/#{directory_name}/, "")
+    path_array = topic_path.split("/")
+    # topic = path[/[^\/]*$/]
+    path_array.each do |topic|
+      @topics.push(topic)
+    end
   end
 
   def file_name_array(directory_name)
@@ -65,8 +69,8 @@ class XmlParser
   def xml_parser(directory_name, filename)
     @doc = Document.new File.new(directory_name + filename)
     set_dataset_rel_and_attr(filename)
-    get_footnotes
-    record_attributes
+    # get_footnotes
+    # record_attributes
   end
 
   def get_footnotes

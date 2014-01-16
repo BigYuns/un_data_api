@@ -86,6 +86,7 @@ class XmlParser
     if @topics == []
       @topics.push(@database_name)
     end
+    @topics.uniq!
     @topics.each {|topic| @dataset.topics << topic}
     p @dataset.topics
     @dataset.database = @database

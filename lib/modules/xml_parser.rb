@@ -232,12 +232,11 @@ class XmlParser
   end
 
   def set_country
-    if Country.find_by_name(@country_name) != nil
+    # if Country.find_by_name(@country_name) != nil
       @country = Country.find_or_create_by_name(@country_name)
-    else
-      p @country_name
-      @country = Country.find_or_create_by_name(@country_name)
-    end
+    # else
+      # @country = Country.find_or_create_by_name(@country_name)
+    # end
 
     @country.organizations << @organization
     @organization.countries << @country

@@ -15,4 +15,12 @@ class WhoXmlParser < XmlParser
     file_name_array(directory_name)
   end
 
+  def un_abrev_country_name(country_name)
+    normalize_country_name(country_name)
+  end
+
+  def normalize_country_name(country_name)
+    set_country
+  end
+
 end

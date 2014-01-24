@@ -1,6 +1,10 @@
 require "#{Rails.root}/lib/modules/xml_parser.rb"
-require "#{Rails.root}/lib/modules/wb_xml_parser.rb"
+require "#{Rails.root}/lib/modules/wdi_xml_parser.rb"
 require "#{Rails.root}/lib/modules/test_parser.rb"
+require "#{Rails.root}/lib/modules/ggid_xml_parser.rb"
+require "#{Rails.root}/lib/modules/esd_xml_parser.rb"
+require "#{Rails.root}/lib/modules/xml_parser.rb"
+require "#{Rails.root}/lib/modules/icsd_xml_parser.rb"
 
 namespace :xml_parser do
   desc "get WHO countries" 
@@ -44,6 +48,18 @@ namespace :xml_parser do
     desc "tests the country names for wdi"
     task wdi_countries: :environment do
       parser = TestCountryNamesParser.new("WB", "World Development Indicators", "footnoteSeqID")
+    end
+  end
+
+  namespace :unfccc do
+    desc "parse Greenhouse Gas Inventory Data"
+    task ggid: :environment do
+      parser = GgidXmlParser.new("UNFCCC", "Greenhouse Gas Inventory Data", "none")
+    end
+
+    desc "tests the country names for Greenhouse Gas Inventory Data"
+    task ggid_countries: :environment do
+      parser = TestCountryNamesParser.new("UNFCCC", "Greenhouse Gas Inventory Data", "none")
     end
   end
 end

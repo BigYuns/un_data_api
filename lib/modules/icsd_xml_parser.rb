@@ -57,8 +57,6 @@ class IcsdXmlParser < IcsdXmlParser
       @country_name = "Macao SAR, China"
     when /Tanzania/
       @country_name = "United Republic of Tanzania"
-    when /Yemen/
-      @country_name = "Yemen"
     when /Switzrld,Liechtenstein/
       @country_name = "Switzerland and Liechtenstein"
     when /Christmas Is\.\(Aust\)/
@@ -71,8 +69,6 @@ class IcsdXmlParser < IcsdXmlParser
       @country_name = "Saint Pierre and Miquelon"
     when /Wallis \& Futuna Isl/
       @country_name = "Wallis and Futuna Island"
-    when /Vietnam/
-      @country_name = "Viet Nam"
     when /East Timor/
       @country_name = "Timor-Leste"
     when /Moldova/

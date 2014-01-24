@@ -38,7 +38,7 @@ namespace :xml_parser do
   namespace :wb do
     desc "parse World Developer Indicators"
     task wdi: :environment do
-      parser = WbXmlParser.new("WB", "World Development Indicators", "footnoteSeqID")
+      parser = WdiXmlParser.new("WB", "World Development Indicators", "footnoteSeqID")
     end
 
     desc "tests the country names for wdi"

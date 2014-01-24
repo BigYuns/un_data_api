@@ -1,7 +1,7 @@
 require "#{Rails.root}/lib/modules/xml_parser.rb"
 
 
-class WbXmlParser < XmlParser
+class WdiXmlParser < XmlParser
 
   def record_attributes
     @doc.elements.each("ROOT/data/record") do |record|

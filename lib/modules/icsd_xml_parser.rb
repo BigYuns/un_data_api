@@ -1,38 +1,6 @@
 require "#{Rails.root}/lib/modules/xml_parser.rb"
 
-
-class WbXmlParser < XmlParser
-
-  def record_attributes
-    @doc.elements.each("ROOT/data/record") do |record|
-      record.elements.each do |element|
-        element_name = element.attributes["name"]
-
-        case element_name
-        when "Country or Area"
-          @original_country_name = element.text.strip
-          @country_name = @original_country_name
-          normalize_country_name(@country_name)
-        when "Year"
-          year = element.text.to_i
-          set_year(year)
-        when "Value"
-          value = element.text.to_f
-          set_record("value", value)
-        when "Value Footnotes" 
-          if element.text != nil 
-            clean_footnotes(element.text)
-          end
-        else
-          name = element_name.downcase.gsub("/ /", "_")
-          set_record(name, element.text)
-        end
-      end
-      set_record("measurement", @measurement)    
-      new_record = Record.new(@record)
-      new_record.save
-    end
-  end
+class IcsdXmlParser < IcsdXmlParser
 
   def un_abrev_country_name(country_name)
     case country_name
@@ -71,18 +39,10 @@ class WbXmlParser < XmlParser
       end
     when /Grenadines/
       @country_name = "Saint Vincent and the Grenadines"
-    when /d'Ivoire/
-      @country_name = "Côte d'Ivoire"
     when /Venezuela/
       @country_name = "Venezuela (Bolivarian Republic of)"
-    when /Bahamas/
-      @country_name = "Bahamas"
-    when /Egypt/
-      @country_name = "Egypt"
     when /Iran/
       @country_name = "Iran (Islamic Republic of)"
-    when /Kyrgyz Republic/
-      @country_name = "Kyrgyzstan"
     when /Lao/
       @country_name =  "Lao People's Democratic Republic"
     when /Micronesia/
@@ -91,10 +51,26 @@ class WbXmlParser < XmlParser
       end
     when /Kitts/
       @country_name = "Saint Kitts and Nevis"
+    when /Hong Kong SAR/
+      @country_name = "Hong Kong SAR, China"
+    when /Macau \(SAR\)/
+      @country_name = "Macao SAR, China"
     when /Tanzania/
       @country_name = "United Republic of Tanzania"
     when /Yemen/
       @country_name = "Yemen"
+    when /Switzrld,Liechtenstein/
+      @country_name = "Switzerland and Liechtenstein"
+    when /Christmas Is\.\(Aust\)/
+      @country_name = "Christmas Island"
+    when /Falkland Is\. \(Malvinas\)/
+      @country_name = "Falkland Islands"
+    when /St\. Helena and Depend\./
+      @country_name = "Saint Helena and Dependencies"
+    when /St\. Pierre-Miquelon/
+      @country_name = "Saint Pierre and Miquelon"
+    when /Wallis \& Futuna Isl/
+      @country_name = "Wallis and Futuna Island"
     when /Vietnam/
       @country_name = "Viet Nam"
     when /East Timor/
@@ -106,13 +82,4 @@ class WbXmlParser < XmlParser
     end
     set_country
   end
-
-  def get_dataset_name(filename)
-    super
-    @measurement = @dataset_name[/\(([^)]+)\)/]
-    @measurement.gsub!(/\%/, "percent")
-    @measurement.delete!("(")
-    @measurement.delete!(")")
-  end
-
 end

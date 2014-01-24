@@ -39,7 +39,6 @@ class XmlParser
   def get_topic(path, directory_name)
     topic_path = path.gsub(/#{directory_name}/, "")
     path_array = topic_path.split("/")
-    # topic = path[/[^\/]*$/]
     path_array.each do |topic|
       @topics.push(topic)
     end

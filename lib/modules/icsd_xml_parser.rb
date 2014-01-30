@@ -1,6 +1,6 @@
 require "#{Rails.root}/lib/modules/xml_parser.rb"
 
-class IcsdXmlParser < IcsdXmlParser
+class IcsdXmlParser < XmlParser
 
   def un_abrev_country_name(country_name)
     case country_name

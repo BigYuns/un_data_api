@@ -25,7 +25,7 @@ class XmlParser
       if path =~ /\.xml/
         unless full_directory_array[i-1] =~ /\.xml/
           file_dir = full_directory_array[i-1]
-          file_dir += "/"
+          # file_dir += "/"
           file_name_array(file_dir)
           @topics = []
         end
@@ -50,6 +50,7 @@ class XmlParser
       unless files == "." || files == ".." || files == ".DS_Store"
         filenames_array << files
       end
+      p filenames_array
       parse_filenames(directory_name, filenames_array)
     end
   end   
@@ -58,11 +59,6 @@ class XmlParser
     filenames_array.each do |filename|
       xml_parser(directory_name, filename)
     end
-  end
-
-  def parse_filenames_wb(directory_name, filenames_array)
-    filename = filenames_array.pop    
-    xml_parser(directory_name, filename)
   end
 
   def xml_parser(directory_name, filename)

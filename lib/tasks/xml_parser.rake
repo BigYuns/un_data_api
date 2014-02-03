@@ -5,8 +5,21 @@ require "#{Rails.root}/lib/modules/ggid_xml_parser.rb"
 require "#{Rails.root}/lib/modules/esd_xml_parser.rb"
 require "#{Rails.root}/lib/modules/xml_parser.rb"
 require "#{Rails.root}/lib/modules/icsd_xml_parser.rb"
+require "#{Rails.root}/lib/modules/naema_xml_parser.rb"
 
 namespace :xml_parser do
+  namespace :all_countries do
+    desc "populate all the country names in the database"
+    task names: :environment do
+      TestCountryNamesParser.new("WHO", "WHO Data", "footnoteSeqID")
+      TestCountryNamesParser.new("UNSD", "Environment Statistics Database", "fnSeqID")
+      TestCountryNamesParser.new("UNSD", "Industrial Commodity Statistics Database", "fnSeqID")
+      TestCountryNamesParser.new("WB", "World Development Indicators", "footnoteSeqID")
+      TestCountryNamesParser.new("UNFCCC", "Greenhouse Gas Inventory Data", "none")
+      #TestCountryNamesParser.new("UNSD", "National Accounts Estimates of Main Aggregates")
+    end
+  end
+
   desc "get WHO countries" 
   task who_countries: :environment do
     parser = TestCountryNamesParser.new("WHO", "WHO Data", "footnoteSeqID")
@@ -36,6 +49,16 @@ namespace :xml_parser do
     desc "tests the country names for icsd"
     task icsd_countries: :environment do
       parser = TestCountryNamesParser.new("UNSD", "Industrial Commodity Statistics Database", "fnSeqID")
+    end
+
+    desc "par National Accounts Estimates of Main Aggregates"
+    task naema: :environment do 
+      parser = NaemaXmlParser.new("UNSD", "National Accounts Estimates of Main Aggregates", "none")
+    end
+
+    desc "tests thecountry names of National Accounts Estimates of Main Aggregates"
+    task naema_countries: :environment do
+      parser = TestCountryNamesParser.new("UNSD", "National Accounts Estimates of Main Aggregates", "none")
     end
   end
 

@@ -64,7 +64,7 @@ class NaemaXmlParser < XmlParser
     end
   end
 
-    def get_dataset_name(filename)
+  def get_dataset_name(filename)
     super
     @measurement = /-\s+(.*)/.match(@dataset_name, 1).captures[0]
     puts @measurement

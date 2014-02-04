@@ -3,6 +3,12 @@ require "find"
 class XmlParser
   require "rexml/document"
   include REXML
+#  Initialize the parser with the organization name database name, and the name of the footnote sequence id.
+#   1. The organization name needs to match up EXACTLY with the name used in the directory.
+#   2. The database name needs to match up EXACTLY with the name used in the directory.
+#   3. The name of the footnote sequence id will found at the bottom of the xml file under the <footnote> tag.
+#     Example: <footnote fnSeqID="1">Footnote Text</footnote>
+#              footnote_id_name = "fnSeqID"
 
   def initialize(organization_name, database_name, footnote_id_name)
     @organization_name = organization_name
@@ -17,15 +23,21 @@ class XmlParser
 
   def get_file_names(directory_name)
     @topics = []
-    full_directory_array = Find.find(directory_name).to_a
 
+#   Finds all the paths that are under the database's directory
+    full_directory_array = Find.find(directory_name).to_a
     full_directory_array.delete_if {|path| path =~ /.DS_Store/}
 
+#   Iterates over the array of the paths under the directory
     full_directory_array.each_with_index do |path, i|
+
+#   If the next path ends with a file(.xml) then it finds the previous element which is the directory
+#   used to get all the filenames in that directory.
+#   The directory name is used as a topic on the dataset name.
       if path =~ /\.xml/
         unless full_directory_array[i-1] =~ /\.xml/
           file_dir = full_directory_array[i-1]
-          # file_dir += "/"
+          file_dir += "/"
           file_name_array(file_dir)
           @topics = []
         end
@@ -227,17 +239,15 @@ class XmlParser
       @country_name = "Republic of Moldova"
     when /St. Lucia/
       @country_name = "Saint Lucia"
+    when /China, People's Republic of/
+      @country_name = "China"
     end
+
     set_country
   end
 
   def set_country
-    # if Country.find_by_name(@country_name) != nil
-      @country = Country.find_or_create_by_name(@country_name)
-    # else
-      # @country = Country.find_or_create_by_name(@country_name)
-    # end
-
+    @country = Country.find_or_create_by_name(@country_name)
     @country.organizations << @organization
     @organization.countries << @country
     @organization.save

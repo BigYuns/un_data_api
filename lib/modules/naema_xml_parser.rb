@@ -4,8 +4,29 @@ class NaemaXmlParser < XmlParser
 
   def xml_parser(directory_name, filename)
     @doc = Document.new File.new(directory_name + filename)
-    set_dataset_rel_and_attr(filename)
+    get_dataset_name(filename)
+    set_topics
+    set_dataset_rel_and_attr
     record_attributes
+  end
+
+  def get_file_names(directory_name)
+    @topics = []
+    full_directory_array = Find.find(directory_name).to_a
+    full_directory_array.delete_if {|path| path =~ /.DS_Store/}
+    full_directory_array.each_with_index do |path, i|
+      if path =~ /\.xml/
+        unless full_directory_array[i-1] =~ /\.xml/
+          file_dir = full_directory_array[i-1]
+          # file_dir += "/"
+          file_name_array(file_dir)
+          @topics = []
+        end
+      end
+      unless path == directory_name || path =~ /\.xml/
+        get_topic(path, directory_name)
+      end
+    end
   end
 
   def un_abrev_country_name(country_name)
@@ -31,7 +52,7 @@ class NaemaXmlParser < XmlParser
       @country_name = "Macao SAR, China"
     when /China, People's Republic of/
       @country_name = "China"
-    when /United Kingdom of Great Britain and Northern Ireland/
+    when /United Kingdom/
       @country_name = "United Kingdom"
     end
     set_country
@@ -66,8 +87,8 @@ class NaemaXmlParser < XmlParser
 
   def get_dataset_name(filename)
     super
+    puts @dataset.name
     @measurement = /-\s+(.*)/.match(@dataset_name, 1).captures[0]
-    puts @measurement
   end
 
 end

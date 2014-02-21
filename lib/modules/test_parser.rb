@@ -15,6 +15,7 @@ class TestCountryNamesParser < XmlParser
   end
 
   def record_attributes
+    puts "DATABASE NAME #{@database_name}"
     @doc.elements.each("ROOT/data/record") do |record|
       record.elements.each do |element|
         element_name = element.attributes["name"]

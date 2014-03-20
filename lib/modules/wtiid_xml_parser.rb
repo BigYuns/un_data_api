@@ -106,8 +106,6 @@ class WtiidXmlParser < XmlParser
       @country_name = "Syrian Arab Republic"
     when /Macedonia/
       @country_name = "The former Yugoslav Republic of Macedonia"
-    when /Tanzania/
-      @country_name = "United Republic of Tanzania"
     when /Venezuela/
       @country_name = "Venezuela (Bolivarian Republic of)"
     end

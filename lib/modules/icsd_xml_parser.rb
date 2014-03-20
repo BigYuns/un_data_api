@@ -55,8 +55,6 @@ class IcsdXmlParser < XmlParser
       @country_name = "Hong Kong SAR, China"
     when /Macau \(SAR\)/
       @country_name = "Macao SAR, China"
-    when /Tanzania/
-      @country_name = "United Republic of Tanzania"
     when /Switzrld,Liechtenstein/
       @country_name = "Switzerland and Liechtenstein"
     when /Christmas Is\.\(Aust\)/

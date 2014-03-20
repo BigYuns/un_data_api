@@ -13,6 +13,7 @@ class XmlParser
   def initialize(organization_name, database_name, footnote_id_name)
     @organization_name = organization_name
     @database_name = database_name
+    puts "DATABASE NAME #{@database_name}"
     @organization = Organization.find_or_create_by_name(@organization_name)
     @database = Database.find_or_create_by_name(@database_name)
     @database.organization = @organization
@@ -229,9 +230,7 @@ class XmlParser
       @country_name = "Macao SAR, China"
     when /Macao SAR/
       @country_name = "Macao SAR, China"
-    when /Tanzania/
-      @country_name = "United Republic of Tanzania"
-    when /Yemen/
+    when /Yemen, Rep\./
       @country_name = "Yemen"
     when /Switzrld,Liechtenstein/
       @country_name = "Switzerland and Liechtenstein"
@@ -261,8 +260,13 @@ class XmlParser
       @country_name = "Russian Federation"
     when /Syria$/
       @country_name = "Syrian Arab Republic"
+    when /Former Democratic Yemen/
+      @country_name = "Former Democratic Yemen"
+    when /Former Yemen Arab Republic/
+      @country_name = "Former Yemen Arab Republic"
+    when /United Kingdom/
+      @country_name = "United Kingdom"
     end
-
     set_country
   end
 

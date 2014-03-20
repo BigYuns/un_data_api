@@ -54,6 +54,10 @@ class NaemaXmlParser < XmlParser
       @country_name = "China"
     when /United Kingdom/
       @country_name = "United Kingdom"
+    when /Former Democratic Yemen/
+      @country_name = "Former Democratic Yemen"
+    when /Former Yemen Arab Republic/
+      @country_name = "Former Yemen Arab Republic"
     end
     set_country
   end

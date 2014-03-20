@@ -3,10 +3,17 @@ require "find"
 class XmlParser
   require "rexml/document"
   include REXML
+#  Initialize the parser with the organization name database name, and the name of the footnote sequence id.
+#   1. The organization name needs to match up EXACTLY with the name used in the directory.
+#   2. The database name needs to match up EXACTLY with the name used in the directory.
+#   3. The name of the footnote sequence id will found at the bottom of the xml file under the <footnote> tag.
+#     Example: <footnote fnSeqID="1">Footnote Text</footnote>
+#              footnote_id_name = "fnSeqID"
 
   def initialize(organization_name, database_name, footnote_id_name)
     @organization_name = organization_name
     @database_name = database_name
+    puts "DATABASE NAME #{@database_name}"
     @organization = Organization.find_or_create_by_name(@organization_name)
     @database = Database.find_or_create_by_name(@database_name)
     @database.organization = @organization
@@ -17,11 +24,17 @@ class XmlParser
 
   def get_file_names(directory_name)
     @topics = []
-    full_directory_array = Find.find(directory_name).to_a
 
+#   Finds all the paths that are under the database's directory
+    full_directory_array = Find.find(directory_name).to_a
     full_directory_array.delete_if {|path| path =~ /.DS_Store/}
 
+#   Iterates over the array of the paths under the directory
     full_directory_array.each_with_index do |path, i|
+
+#   If the next path ends with a file(.xml) then it finds the previous element which is the directory
+#   used to get all the filenames in that directory.
+#   The directory name is used as a topic on the dataset name.
       if path =~ /\.xml/
         unless full_directory_array[i-1] =~ /\.xml/
           file_dir = full_directory_array[i-1]
@@ -36,6 +49,7 @@ class XmlParser
     end
   end
 
+# Collects the topic names from the directory names.
   def get_topic(path, directory_name)
     topic_path = path.gsub(/#{directory_name}/, "")
     path_array = topic_path.split("/")
@@ -44,11 +58,13 @@ class XmlParser
     end
   end
 
+# Iterates over the files in the directory and pushes them into the xml_parser
   def file_name_array(directory_name)
-    Dir.foreach(directory_name) do |files|
+    Dir.foreach(directory_name) do |filename|
       filenames_array = []
-      unless files == "." || files == ".." || files == ".DS_Store"
-        filenames_array << files
+      unless filename == "." || filename == ".." || filename == ".DS_Store"
+        filenames_array << filename
+        xml_parser(directory_name, filename)
       end
       parse_filenames(directory_name, filenames_array)
     end
@@ -60,18 +76,44 @@ class XmlParser
     end
   end
 
-  def parse_filenames_wb(directory_name, filenames_array)
-    filename = filenames_array.pop    
-    xml_parser(directory_name, filename)
-  end
-
+# Creates a doc from the xml file so the parser can traverse through the elements.
+# This function triggers the rest of the parser.
   def xml_parser(directory_name, filename)
     @doc = Document.new File.new(directory_name + filename)
-    set_dataset_rel_and_attr(filename)
+    get_dataset_name(filename)
+    set_topics
+    set_dataset_rel_and_attr
     get_footnotes
     record_attributes
   end
 
+# Gets the dataset name from the xml filename
+  def get_dataset_name(filename)
+    @dataset_name = filename.chomp(".xml")
+    @dataset_name.gsub!(/\%/, "percent")
+    @dataset = Dataset.find_or_create_by_name(@dataset_name)
+  end
+
+# Sets relationships to do with datasets
+  def set_dataset_rel_and_attr
+    @dataset.database = @database
+    @dataset_id = @dataset.id
+    @organization.datasets << @dataset
+    @dataset.organization = @organization
+    @dataset.save
+  end
+
+# Sets the topics for the dataset.  If the dataset has no topics specified it defaults to the database name.
+  def set_topics
+    if @topics == [] || @topics == nil
+      @topics = []
+      @topics.push(@database_name)
+    end
+    @topics.uniq!
+    @topics.each {|topic| @dataset.topics << topic}
+  end
+
+# Makes footnote objects out of the footnotes for the dataset. 
   def get_footnotes
     @doc.elements.each("ROOT/footnotes/footnote") do |footnote|
       number = footnote.attributes[@footnote_id_name]
@@ -80,28 +122,7 @@ class XmlParser
     end
   end
 
-  def set_dataset_rel_and_attr(filename)
-    get_dataset_name(filename)
-    if @topics == []
-      @topics.push(@database_name)
-    end
-    @topics.uniq!
-    @topics.each {|topic| @dataset.topics << topic}
-    p @dataset.topics
-    @dataset.database = @database
-    @dataset_id = @dataset.id
-    @organization.datasets << @dataset
-    @dataset.organization = @organization
-    @dataset.save
-  end
-
-  def get_dataset_name(filename)
-    @dataset_name = filename.chomp(".xml")
-    @dataset_name.gsub!(/\%/, "percent")
-    puts @dataset_name
-    @dataset = Dataset.find_or_create_by_name(@dataset_name)
-  end
-
+# Grabs the attributes from each record and triggers the corresponding methods to set the attributes.
   def record_attributes
     @doc.elements.each("ROOT/data/record") do |record|
       record.elements.each do |element|
@@ -112,7 +133,7 @@ class XmlParser
           @original_country_name = element.text.strip
           @country_name = @original_country_name
           un_abrev_country_name(@country_name)
-        when "Year" || "Year(s)"
+        when "Year"
           year = element.text.to_i
           set_year(year)
         when "Year(s)"
@@ -198,6 +219,8 @@ class XmlParser
     when /Micronesia/
       if country_name =~ /Micronesia, Fed\. Sts\./ || country_name =~ /Micronesia, Fed\.States of/
         @country_name = "Micronesia (Federated States of)"
+      elsif country_name =~ /Micronesia \(Fed\. States of\)/
+        @country_name = "Micronesia (Federated States of)"
       end
     when /Kitts/
       @country_name = "Saint Kitts and Nevis"
@@ -207,9 +230,7 @@ class XmlParser
       @country_name = "Macao SAR, China"
     when /Macao SAR/
       @country_name = "Macao SAR, China"
-    when /Tanzania/
-      @country_name = "United Republic of Tanzania"
-    when /Yemen/
+    when /Yemen, Rep\./
       @country_name = "Yemen"
     when /Switzrld,Liechtenstein/
       @country_name = "Switzerland and Liechtenstein"
@@ -231,17 +252,29 @@ class XmlParser
       @country_name = "Republic of Moldova"
     when /St. Lucia/
       @country_name = "Saint Lucia"
+    when /China, People's Republic of/
+      @country_name = "China"
+    when /Macao, China/
+      @country_name = "Macao SAR, China"
+    when /Russia/
+      @country_name = "Russian Federation"
+    when /Syria$/
+      @country_name = "Syrian Arab Republic"
+    when /Former Democratic Yemen/
+      @country_name = "Former Democratic Yemen"
+    when /Former Yemen Arab Republic/
+      @country_name = "Former Yemen Arab Republic"
+    when /United Kingdom/
+      @country_name = "United Kingdom"
     end
     set_country
   end
 
   def set_country
-    # if Country.find_by_name(@country_name) != nil
-      @country = Country.find_or_create_by_name(@country_name)
-    # else
-      # @country = Country.find_or_create_by_name(@country_name)
-    # end
-
+    if Country.find_by_name(@country_name) == nil
+      puts @country_name
+    end
+    @country = Country.find_or_create_by_name(@country_name)
     @country.organizations << @organization
     @organization.countries << @country
     @organization.save

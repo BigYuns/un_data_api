@@ -101,6 +101,8 @@ class WdiXmlParser < XmlParser
       @country_name = "Republic of Moldova"
     when /St. Lucia/
       @country_name = "Saint Lucia"
+    when /Tanzania/
+      @country_name = "United Republic of Tanzania"
     end
     set_country
   end

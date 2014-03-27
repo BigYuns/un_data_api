@@ -64,7 +64,6 @@ class XmlParser
       filenames_array = []
       unless filename == "." || filename == ".." || filename == ".DS_Store"
         filenames_array << filename
-        xml_parser(directory_name, filename)
       end
       parse_filenames(directory_name, filenames_array)
     end
@@ -266,6 +265,8 @@ class XmlParser
       @country_name = "Former Yemen Arab Republic"
     when /United Kingdom/
       @country_name = "United Kingdom"
+    when /Tanzania/
+      @country_name = "United Republic of Tanzania"
     end
     set_country
   end

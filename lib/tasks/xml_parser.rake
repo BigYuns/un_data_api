@@ -15,9 +15,9 @@ namespace :xml_parser do
       TestCountryNamesParser.new("UNSD", "Environment Statistics Database", "fnSeqID")
       TestCountryNamesParser.new("UNSD", "Industrial Commodity Statistics Database", "fnSeqID")
       TestCountryNamesParser.new("WB", "World Development Indicators", "footnoteSeqID")
-      TestCountryNamesParser.new("UNFCCC", "Greenhouse Gas Inventory Data", "none")
-      TestCountryNamesParser.new("UNSD", "National Accounts Estimates of Main Aggregates", "none")
-      TestCountryNamesParser.new("ITU", "World Telecommunication and ICT Indicators Database", "footnoteSeqID")
+      # TestCountryNamesParser.new("UNFCCC", "Greenhouse Gas Inventory Data", "none")
+      # TestCountryNamesParser.new("UNSD", "National Accounts Estimates of Main Aggregates", "none")
+      # TestCountryNamesParser.new("ITU", "World Telecommunication and ICT Indicators Database", "footnoteSeqID")
       # TestCountryNamesParser.new("UNSD", "Global Indicators Database", "")
 
     end

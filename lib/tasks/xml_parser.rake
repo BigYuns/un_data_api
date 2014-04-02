@@ -1,6 +1,7 @@
 require "#{Rails.root}/lib/modules/xml_parser.rb"
 require "#{Rails.root}/lib/modules/wdi_xml_parser.rb"
-require "#{Rails.root}/lib/modules/test_parser.rb"
+require "#{Rails.root}/lib/modules/test_country_names_parser.rb"
+require "#{Rails.root}/lib/modules/seed_country_names_parser.rb"
 require "#{Rails.root}/lib/modules/ggid_xml_parser.rb"
 require "#{Rails.root}/lib/modules/esd_xml_parser.rb"
 require "#{Rails.root}/lib/modules/xml_parser.rb"
@@ -11,14 +12,14 @@ namespace :xml_parser do
   namespace :all_countries do
     desc "populate all the country names in the database"
     task names: :environment do
-      TestCountryNamesParser.new("WHO", "WHO Data", "footnoteSeqID")
-      TestCountryNamesParser.new("UNSD", "Environment Statistics Database", "fnSeqID")
-      TestCountryNamesParser.new("UNSD", "Industrial Commodity Statistics Database", "fnSeqID")
-      TestCountryNamesParser.new("WB", "World Development Indicators", "footnoteSeqID")
-      # TestCountryNamesParser.new("UNFCCC", "Greenhouse Gas Inventory Data", "none")
-      # TestCountryNamesParser.new("UNSD", "National Accounts Estimates of Main Aggregates", "none")
-      # TestCountryNamesParser.new("ITU", "World Telecommunication and ICT Indicators Database", "footnoteSeqID")
-      # TestCountryNamesParser.new("UNSD", "Global Indicators Database", "")
+      SeedCountryNamesParser.new("WHO", "WHO Data", "footnoteSeqID")
+      SeedCountryNamesParser.new("UNSD", "Environment Statistics Database", "fnSeqID")
+      SeedCountryNamesParser.new("UNSD", "Industrial Commodity Statistics Database", "fnSeqID")
+      SeedCountryNamesParser.new("WB", "World Development Indicators", "footnoteSeqID")
+      # SeedCountryNamesParser.new("UNFCCC", "Greenhouse Gas Inventory Data", "none")
+      # SeedCountryNamesParser.new("UNSD", "National Accounts Estimates of Main Aggregates", "none")
+      # SeedCountryNamesParser.new("ITU", "World Telecommunication and ICT Indicators Database", "footnoteSeqID")
+      # SeedCountryNamesParser.new("UNSD", "Global Indicators Database", "")
 
     end
   end
@@ -36,7 +37,7 @@ namespace :xml_parser do
   namespace :unsd do
     desc "parse Environment Statistics Database"
     task esd: :environment do
-      XmlParser.new("UNSD", "Environment Statistics Database", "fnSeqID")
+      EsdXmlParser.new("UNSD", "Environment Statistics Database", "fnSeqID")
     end
 
     desc "tests the country names for Environment Statistics Database"
@@ -46,7 +47,7 @@ namespace :xml_parser do
     
     desc "parse Industrial Commodity Statistics Database"
     task icsd: :environment do 
-      XmlParser.new("UNSD", "Industrial Commodity Statistics Database", "fnSeqID")
+      IcsdXmlParser.new("UNSD", "Industrial Commodity Statistics Database", "fnSeqID")
     end
 
     desc "tests the country names for Industrial Commodity Statistics Database"

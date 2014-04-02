@@ -1,3 +1,11 @@
+# For instantiating your 3scale client
 PROVIDER_KEY: 'some_provider_key'
+
+# So you can run tests in Rspec
 APP_ID: 'some_app_id'
 APP_KEY: 'some_app_key'
+
+# For the heroku mongo backup gem that uses Amazon S3
+S3_KEY_ID: 'your_s3_key'
+S3_SECRET_KEY: 'your_s3_secret_key'
+S3_BACKUPS_BUCKET: 'your_bucket_name'

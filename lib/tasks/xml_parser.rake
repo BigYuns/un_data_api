@@ -76,7 +76,7 @@ namespace :xml_parser do
   end
 
   namespace :wb do
-    desc "parse World Developer Indicators"
+    desc "parse World Development Indicators"
     task wdi: :environment do
       WdiXmlParser.new("WB", "World Development Indicators", "footnoteSeqID")
     end

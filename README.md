@@ -130,19 +130,33 @@ Go to http://data.un.org/Explorer.aspx and pick a database that you would like t
 - **Organization Acronym** "WB"
 - **Full Database Name:** "World Development Indicators"
 
-SCREEN SHOT
 ![Image](https://github.com/3scale/un_data_api/raw/master/public/images/data-un-name-screenshot.png)
 
 Next you will have to download all of the datasets that are under the database. Your file structure should match how the files are listed on that data.un.org website. In “lib/un_data_xml_files/” you will create a directory that is called the acronym of the organzation that the database belongs to. There are multiple databases in an organization so you should check if the directory already exists for the organization. Within the organzation's directory you will create a new directory named the full name of the new database. You will then download all the datasets and save them under this directory.
 
-1. Next to the dataset click "view data". When you click through each dataset you should take note if they have footnotes.- **SCREEN SHOT**
-2. Click on download and then a box will pop up with the different options to download the dataset. **SCREEN SHOT**
-3. Select the XML option **SCREEN SHOT**
-4. When the file downloads it will be in a zip format and the file name is a random name assigned by the data.un.org site. **SCREEN SHOT**
-5. You will have to unzip the file. **SCREEN SHOT**
-6. Copy the dataset name from the data.un.org website **SCREEN SHOT**
-7. rename the dataset file to the same as displayed on the website. We try to keep the names exactly the same but sometimes the names have characters that are not supported in filenames.  In that case you will have to replace the character with the appropriate word. **SCREEN SHOT**
-**show example of a nested directory
+![Image](https://github.com/3scale/un_data_api/raw/master/public/images/file_structure.png)
+
+1. Next to the dataset click "view data". When you click through each dataset you should take note if they have footnotes. 
+![Image](https://github.com/3scale/un_data_api/raw/master/public/images/view_data.png)
+
+2. Click on download and then a box will pop up with the different options to download the dataset.  
+![Image](https://github.com/3scale/un_data_api/raw/master/public/images/click_download.png)
+
+3. Select the XML option.  
+![Image](https://github.com/3scale/un_data_api/raw/master/public/images/download_xml.png)
+
+4. When the file downloads it will be in a zip format and the file name is a random name assigned by the data.un.org site.  
+![Image](https://github.com/3scale/un_data_api/raw/master/public/images/dataset_zip.png)
+
+5. You will have to unzip the file.  
+![Image](https://github.com/3scale/un_data_api/raw/master/public/images/dataset-unzipped.png)
+
+6. Copy the dataset name from the data.un.org website.  
+![Image](https://github.com/3scale/un_data_api/raw/master/public/images/dataset_name.png)
+
+7. Rename the dataset file to the same as displayed on the website. We try to keep the names exactly the same but sometimes the names have characters that are not supported in filenames.  In that case you will have to replace the character with the appropriate word.  
+![Image](https://github.com/3scale/un_data_api/raw/master/public/images/updated_xml_filename.png)
+
 
 ####Step 1: Set Up Rake Tasks
 To create the rake tasks that you will use to populate the database you will need a few more pieces of information. 

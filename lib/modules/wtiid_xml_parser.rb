@@ -2,15 +2,6 @@ require "#{Rails.root}/lib/modules/xml_parser.rb"
 
 class WtiidXmlParser < XmlParser
 
-  # def xml_parser(directory_name, filename)
-  #   @doc = Document.new File.new(directory_name + filename)
-  #   get_dataset_name(filename)
-  #   set_topics
-  #   set_dataset_rel_and_attr
-  #   get_footnotes
-  #   record_attributes
-  # end
-
   def un_abrev_country_name(country_name)
     case country_name
     when /Rep\./

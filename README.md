@@ -450,9 +450,7 @@ Making sure that each record's measurement attribute is one of the most difficul
 </record>
 ```
 
-Some of the datasets have the measurement specified in the name of the dataset. 
-
-  "Adolescent fertility rate (births per 1,000 women ages 15-19).xml"
+    "Adolescent fertility rate (births per 1,000 women ages 15-19).xml"
   
 In this case you will need to use some regex to retrieve the measurement from the dataset name. You will need to write a method to retrieve the name and set it equal to the @measurement instance variable. Then you will pass @ measurement intot the set_record(attribute_name, attribute_value) method. Refer to the record_attributes example above from the "lib/modules/wdi_xml_parser.rb" file.
 

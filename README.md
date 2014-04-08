@@ -21,6 +21,7 @@ $ mongod
 # open up another terminal window
 $ cd un_data_api
 $ rake db:create
+# Seeds your db with the current databases
 $ rake xml_parser:seed_db
 ```
 ###Setting up with 3scale

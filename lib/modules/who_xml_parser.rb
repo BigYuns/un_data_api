@@ -15,12 +15,6 @@ class WhoXmlParser < XmlParser
         when "Year(s)"
           year = element.text.to_i
           set_year(year)
-        when "Unit"
-          measurement = element.text
-          if measurement == "%"
-            measurement = "percent"
-          end
-          set_record("measurement", measurement)
         when "Value"
           value = element.text.to_f
           set_record("value", value)

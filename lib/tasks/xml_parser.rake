@@ -20,7 +20,6 @@ namespace :xml_parser do
       # SeedCountryNamesParser.new("UNSD", "National Accounts Estimates of Main Aggregates", "none")
       # SeedCountryNamesParser.new("ITU", "World Telecommunication and ICT Indicators Database", "footnoteSeqID")
       # SeedCountryNamesParser.new("UNSD", "Global Indicators Database", "")
-
     end
   end
 
@@ -61,8 +60,13 @@ namespace :xml_parser do
     end
 
     desc "tests the country names of National Accounts Estimates of Main Aggregates"
-    task naema_countries: :environment do
+    task naema_test_countries: :environment do
       TestCountryNamesParser.new("UNSD", "National Accounts Estimates of Main Aggregates", "none")
+    end
+
+    desc "seeds the country names of National Accounts Estimates of Main Aggregates"
+    task naema_seed_countries: :environment do
+      SeedCountryNamesParser.new("UNSD", "National Accounts Estimates of Main Aggregates", "none")
     end
 
     desc "parse Global Indicator Database"
@@ -83,8 +87,13 @@ namespace :xml_parser do
     end
 
     desc "tests the country names for wdi"
-    task wdi_countries: :environment do
+    task wdi_test_countries: :environment do
       TestCountryNamesParser.new("WB", "World Development Indicators", "footnoteSeqID")
+    end
+
+    desc "seeds the country names for wdi"
+    task wdi_seed_countries: :environment do
+      SeedCountryNamesParser.new("WB", "World Development Indicators", "footnoteSeqID")
     end
   end
 
@@ -107,8 +116,13 @@ namespace :xml_parser do
     end
 
     desc "tests the country names for Greenhouse Gas Inventory Data"
-    task ggid_countries: :environment do
+    task ggid_test_countries: :environment do
       TestCountryNamesParser.new("UNFCCC", "Greenhouse Gas Inventory Data", "none")
+    end
+
+    desc "seeds the country names for Greenhouse Gas Inventory Data"
+    task ggid_seed_countries: :environment do
+      SeedCountryNamesParser.new("UNFCCC", "Greenhouse Gas Inventory Data", "none")
     end
   end
 end

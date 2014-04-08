@@ -21,7 +21,6 @@ class SeedCountryNamesParser < XmlParser
         if element_name == "Country or Area"
           @original_country_name = element.text.strip
           @country_name = @original_country_name
-          # set_country
           un_abrev_country_name(@country_name)
         end
       end

@@ -24,17 +24,19 @@ $ rake db:create
 $ rake xml_parser:seed_db
 ```
 ###Setting up with 3scale
-Currently the UN Data API has the plugin implemented into the code already.  It only takes a few steps and you'll be up and running with authentication! In order to use 3scale you need to signup and retrieve the keys you need to use your API.
+Currently the UN Data API has the plugin implemented into the code already.  It only takes a few steps and you'll be up and running with authentication! In order to use 3scale you need to signup and retrieve the keys you need to use your API. 
+
+Here is the Github repo for the [3scale ruby plugin](https://github.com/3scale/3scale_ws_api_for_ruby)
 
 1. Go to www.3scale.net
 2. Click on the big orange button "SIGNUP NOW-FREE!"
 3. Sign up!
 4. Go to your admin portal and log in. https://your-api-name-admin.3scale.net .
-5. Set up your environment variables for development.
+5. Follow this quickstart tutorial for setting up your 3scale admin portal. [3scale Quickstart Plugin Tutorial](https://support.3scale.net/get-started/quickstarts/hello-world-api)
 
-#####Enviroment Variables
+#####Enviroment Variables: Set up your environment variables for development.
 **Remember the enviroment variables and keys are secret.  Make sure that your .gitignore is configured properly so your keys do not end up on github.  Here is a good article on how to implement environment variables. http://railsapps.github.io/rails-environment-variables.html
-im
+
 You can look at the example local environment yaml file to see how to format your file. 
 ```yml
 # config/examples/local_env.yml
@@ -42,6 +44,35 @@ PROVIDER_KEY: 'some_provider_key'
 APP_ID: 'some_app_id'
 APP_KEY: 'some_app_key'
 ```
+
+#####Monitoring
+If you want to add monitorning the current routes in the app have the metrics implemented already.   In order for you to see the tracking you will have to add these metrics to you 3scale admin dashboard.
+
+######Example
+Here is a route from the API. The metric parameter gets sent with every request to report to 3scale when this route is used.
+```ruby
+	get "/organizations" => "organizations#index", metric: "organizations"
+```
+
+This is the authentication method from the Application Controller. It sends the request to 3scale to see if the request is valid. The metric parameter gets passed in to the authrep hash to get reported to your admin dashboard.
+```ruby
+  def authenticate_app
+    response = create_client.authrep(:app_id => params["app_id"], 
+                                     :app_key => params["app_key"],
+                                     :usage => { params[:metric].to_sym => 1 })
+    response_success(response)
+  end
+```
+
+1. Go to your 3scale admin dashboard.
+2. Click on "API"
+3. Click on "Application Plans"
+4. Click the name of your Application Plan
+5. If you want to track the number of hits on this particular route you will click on "New Method" next to "Hits". Otherwide select "New metric" at the top of the table of Metrics & Limits.
+6. A box will pop up with 3 text fields. "Friendly name", "System name", and "Description".
+![Image](https://github.com/3scale/un_data_api/raw/master/public/images/new_metric_example.png)
+
+
 #####Active Docs
 ***You will not be able to use this feature until you deploy into production.
 Lucky for you, I have already written and saved the file that generates the active docs. Here are 3scale's docs for Active Docs https://support.3scale.net/howtos/api-configuration#ConfigureActiveDocs .
@@ -60,7 +91,7 @@ Lucky for you, I have already written and saved the file that generates the acti
   "apis": [
     {
 ```
-7. You will have to click "publish" if you want them to show up on your Developer Portal.
+- You will have to click "publish" if you want them to show up on your Developer Portal.
 
 ###Set up without 3scale
 If you would like to remove authentication you just need to remove or comment out the following methods from the Application Controller

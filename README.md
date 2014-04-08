@@ -131,8 +131,7 @@ Go to http://data.un.org/Explorer.aspx and pick a database that you would like t
 - **Full Database Name:** "World Development Indicators"
 
 SCREEN SHOT
-![Image](data-un-name-screenshot.png?raw=true)
-<img src="data-un-name-screenshot.png"></img>
+![Image](https://github.com/3scale/un_data_api/raw/master/public/images/data-un-name-screenshot.png)
 
 Next you will have to download all of the datasets that are under the database. Your file structure should match how the files are listed on that data.un.org website. In “lib/un_data_xml_files/” you will create a directory that is called the acronym of the organzation that the database belongs to. There are multiple databases in an organization so you should check if the directory already exists for the organization. Within the organzation's directory you will create a new directory named the full name of the new database. You will then download all the datasets and save them under this directory.
 

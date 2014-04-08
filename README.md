@@ -65,12 +65,12 @@ This is the authentication method from the Application Controller. It sends the 
 ```
 
 1. Go to your 3scale admin dashboard.
-2. Click on "API"
-3. Click on "Application Plans"
-4. Click the name of your Application Plan
+2. Click on "API".
+3. Click on "Application Plans".
+4. Click the name of your Application Plan.
 5. If you want to track the number of hits on this particular route you will click on "New Method" next to "Hits". Otherwide select "New metric" at the top of the table of Metrics & Limits.
 6. A box will pop up with 3 text fields. "Friendly name", "System name", and "Description".
-![Image](https://github.com/3scale/un_data_api/raw/master/public/images/new_metric_example.png)
+<img src="https://github.com/3scale/un_data_api/raw/master/public/images/new_metric_example.png" width="400px">
 
 
 #####Active Docs
@@ -78,10 +78,10 @@ This is the authentication method from the Application Controller. It sends the 
 Lucky for you, I have already written and saved the file that generates the active docs. Here are 3scale's docs for Active Docs https://support.3scale.net/howtos/api-configuration#ConfigureActiveDocs .
 
 1. Go to your admin portal.
-2. Click on "API"
-3. Click on "Active Docs"
-4. Click "Create a new spec"
-5. Give the spec a name and system_name
+2. Click on "API".
+3. Click on "Active Docs".
+4. Click "Create a new spec".
+5. Give the spec a name and system_name.
 6. Get the spec. The only thing you will need to change is the "basePath" to the base url of your project. Go to un_data_active_doc_spec.json 
 
 ```json
@@ -131,14 +131,19 @@ def response_success(response)
 end
 ```
 
-###Deploy on Heroku
-set your heroku config variables
-provider_key
-app_id
-app_key
+##Deploy to Heroku
+Follow the directions on Heroku to deploy your API. [Deploy to Heroku](https://devcenter.heroku.com/articles/getting-started-with-rails4#deploy-your-application-to-heroku)
 
+The default database for Heroku is Postgres. This API uses MongoDB so after you create your application on heroku you will have to select the MongoHQ add-on.
+[Link to MongoHQ docs on Heroku](https://devcenter.heroku.com/articles/mongohq)
+
+Set your heroku config variables
+
+```
+$ heroku config:set PROVIDER_KEY=your_provider_key
+```
   
-##Backup your database on Heroku
+###Backup your database to Amazon S3
 
 If you deploy on heroku the project already has the [heroku-mongo-backup gem](http://rubydoc.info/gems/heroku-mongo-backup/0.4.32/frames) installed. 
 
@@ -248,7 +253,7 @@ In the tasks below we are creating the tasks that will populate the database.
   end
 ```
 
-####Step 3:
+####Step 2: Create a subclass
 In “lib/modules/”
   Create a new file named acronym of database_acronym + _xml_parser
   class database_acronym(Capitalize first letter) +XmlParser < XmlParser
@@ -266,7 +271,7 @@ Include the file into the lib/tasks/xml_parser.rake file.
 require "#{Rails.root}/lib/modules/wdi_xml_parser.rb"
 ```
 
-####Step 4: Normalize Country Names
+####Step 3: Normalize Country Names
 Between all of the different major organizations there are differences in the way the country names are stored.  When parsing all of the datasets it made it difficult to associate the country names.  Our goal is not to munipulate the data but to make it more easily accessible to developers.  We solved this buy making the parser normalize the country names to make sure there are no duplicates.  
 
 If you look at the main xml_parser in "lib/modules/xml_parser.rb" the normalize_country_name method is a list of the country names that we normalized.  To make sure it is known what the original country name was in the original database we stored the string "area_name" as an attribute on the record to make sure there was no confusion on which country the record belonged to.
@@ -348,7 +353,7 @@ You may have to go through this process of seeding the db and restoring it with 
 ```ruby
 rake xml_parser:wb:wdi_seed_countries
 ```
-####Step 5: Identify Record Attributes
+####Step 4: Identify Record Attributes
 #####Record Attributes
 
 #####Example record from a World Development Indicator dataset.

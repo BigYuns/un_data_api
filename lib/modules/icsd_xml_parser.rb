@@ -55,8 +55,6 @@ class IcsdXmlParser < XmlParser
       @country_name = "Hong Kong SAR, China"
     when /Macau \(SAR\)/
       @country_name = "Macao SAR, China"
-    when /Tanzania/
-      @country_name = "United Republic of Tanzania"
     when /Switzrld,Liechtenstein/
       @country_name = "Switzerland and Liechtenstein"
     when /Christmas Is\.\(Aust\)/
@@ -75,6 +73,8 @@ class IcsdXmlParser < XmlParser
       @country_name = "Republic of Moldova"
     when /St. Lucia/
       @country_name = "Saint Lucia"
+    when /Tanzania/
+      @country_name = "United Republic of Tanzania"
     end
     set_country
   end

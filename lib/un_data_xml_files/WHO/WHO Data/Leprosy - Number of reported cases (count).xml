@@ -1,0 +1,622 @@
+<ROOT>
+    <data>
+        <record>
+            <field name="Country or Area">Afghanistan </field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">26</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Algeria</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Angola</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">1269</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Antigua and Barbuda</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Argentina</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">312</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Bahamas</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Bahrain</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">2</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Bangladesh</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">5357</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Barbados</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Belize</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Benin</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">345</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Botswana</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Brazil</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Burkina Faso</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">588</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Burundi</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">239</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Cambodia</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">315</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Cameroon</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">549</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Cape Verde</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">8</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Central African Republic</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">345</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Chad</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">631</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">China</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">1528</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Colombia</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">510</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Comoros</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">108</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Congo</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">261</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Cook Islands</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Costa Rica</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">11</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Côte d'Ivoire</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">1204</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Cuba</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">244</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Democratic Republic of the Congo</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">8820</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Dominica</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Dominican Republic</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">164</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Ecuador</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">107</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Egypt</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">887</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">El Salvador</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">8</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Ethiopia</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">4187</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Fiji</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">6</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Gabon</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">27</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Ghana</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">594</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Guinea</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">803</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Guinea-Bissau</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">58</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Guyana</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">26</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Haiti</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">29</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">India</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">137685</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Indonesia</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">17723</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Iran (Islamic Republic of)</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">25</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Iraq</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Jamaica</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">6</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Japan</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">11</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Jordan</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Kiribati</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">63</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Kuwait</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">20</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Lao People's Democratic Republic</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">125</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Lesotho</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">4</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Liberia</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">319</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Libyan Arab Jamahiriya</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">8</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Madagascar</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">1521</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Malaysia</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">190</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Mali</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">455</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Marshall Islands</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">64</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Mexico</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">243</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Micronesia (Federated States of)</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">141</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Mongolia</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Morocco</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">38</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Mozambique</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">2510</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Myanmar</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">3637</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Nauru</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">3</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Nepal</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">4436</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Niger</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">610</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Nigeria</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">4665</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Oman</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">2</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Pakistan</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">496</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Palau</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">4</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Papua New Guinea</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">270</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Paraguay</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">403</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Peru</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">19</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Philippines</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">2514</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Republic of Korea</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">12</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Saint Lucia</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">12</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Saint Vincent and the Grenadines</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Saudi Arabia</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">20</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Senegal</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">282</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Seychelles</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">1</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Singapore</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">12</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Solomon Islands</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">15</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Somalia</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">414</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">South Africa</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">66</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Sudan</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">1706</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Suriname</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">43</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Thailand</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">506</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Timor-Leste</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">184</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Togo</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">173</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Tonga</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Trinidad and Tobago</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">30</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Tunisia</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">0</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Tuvalu</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">1</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Uganda</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">389</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">United Arab Emirates</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">11</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Uruguay</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">4</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Vanuatu</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">3</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Venezuela (Bolivarian Republic of)</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">683</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Viet Nam</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">588</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Yemen</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">434</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Zimbabwe</field>
+            <field name="Year(s)">2007</field>
+            <field name="Value">6</field>
+            <field name="Value Footnotes"></field>
+        </record>
+    </data>
+</ROOT>

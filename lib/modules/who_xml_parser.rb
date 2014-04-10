@@ -2,13 +2,38 @@ require "#{Rails.root}/lib/modules/xml_parser.rb"
 
 class WhoXmlParser < XmlParser
 
-  def set_year(year)
-    @record = { year: year, 
-                dataset_id: @dataset_id, 
-                country_id: @country.id,
-                area_name: @original_country_name,
-                measurement: "none"
-              }
+  def record_attributes
+    @doc.elements.each("ROOT/data/record") do |record|
+      record.elements.each do |element|
+        element_name = element.attributes["name"]
+
+        case element_name
+        when "Country or Area"
+          @original_country_name = element.text.strip
+          @country_name = @original_country_name
+          un_abrev_country_name(@country_name)
+        when "Year(s)"
+          year = element.text.to_i
+          set_year(year)
+        when "Value"
+          value = element.text.to_f
+          set_record("value", value)
+        when "GENDER"
+          gender = element.text
+          set_record("gender", gender)
+        when "Value Footnotes" 
+          if element.text != nil 
+            clean_footnotes(element.text)
+          end
+        else
+          name = element_name.downcase.gsub("/ /", "_")
+          set_record(name, element.text)
+        end
+      end
+      set_record("measurement", @measurement)    
+      new_record = Record.new(@record)
+      new_record.save
+    end
   end
 
   def get_file_names(directory_name)
@@ -23,4 +48,20 @@ class WhoXmlParser < XmlParser
     set_country
   end
 
+  def get_dataset_name(filename)
+    super
+    if @dataset_name == "distributions_of_causes_of_death_among_children_aged_<5_years_HIV-AIDS_percent"
+      @dataset_name = "Distribution of causes of death among children aged <5 years - HIV/AIDS (percent)"
+    elsif @dataset_name == "deaths_due_to_HIV-AIDS_per_100_000"
+      @dataset_name = "Deaths due to HIV/AIDS (per 100,000)"
+    end 
+    @measurement = @dataset_name[/\(([^)]+)\)/]
+    @dataset_name.gsub!(/\(([^)]+)\)/, "")
+    @dataset_name.rstrip!
+    @measurement.gsub!(/\%/, "percent")
+    @measurement.delete!("(")
+    @measurement.delete!(")")
+    p @dataset_name
+  end
 end
+

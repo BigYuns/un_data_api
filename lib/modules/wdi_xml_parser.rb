@@ -91,9 +91,7 @@ class WdiXmlParser < XmlParser
       end
     when /Kitts/
       @country_name = "Saint Kitts and Nevis"
-    when /Tanzania/
-      @country_name = "United Republic of Tanzania"
-    when /Yemen/
+    when /Yemen, Rep\./
       @country_name = "Yemen"
     when /Vietnam/
       @country_name = "Viet Nam"
@@ -103,6 +101,8 @@ class WdiXmlParser < XmlParser
       @country_name = "Republic of Moldova"
     when /St. Lucia/
       @country_name = "Saint Lucia"
+    when /Tanzania/
+      @country_name = "United Republic of Tanzania"
     end
     set_country
   end

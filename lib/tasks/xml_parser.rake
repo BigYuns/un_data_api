@@ -16,9 +16,9 @@ namespace :xml_parser do
       SeedCountryNamesParser.new("UNSD", "Environment Statistics Database", "fnSeqID")
       SeedCountryNamesParser.new("UNSD", "Industrial Commodity Statistics Database", "fnSeqID")
       SeedCountryNamesParser.new("WB", "World Development Indicators", "footnoteSeqID")
-      # SeedCountryNamesParser.new("UNFCCC", "Greenhouse Gas Inventory Data", "none")
+      SeedCountryNamesParser.new("UNFCCC", "Greenhouse Gas Inventory Data", "none")
       # SeedCountryNamesParser.new("UNSD", "National Accounts Estimates of Main Aggregates", "none")
-      # SeedCountryNamesParser.new("ITU", "World Telecommunication and ICT Indicators Database", "footnoteSeqID")
+      SeedCountryNamesParser.new("ITU", "World Telecommunication and ICT Indicators Database", "footnoteSeqID")
       # SeedCountryNamesParser.new("UNSD", "Global Indicators Database", "")
     end
   end
@@ -78,6 +78,16 @@ namespace :xml_parser do
     task gid_countries: :environment do
       TestCountryNamesParser.new("UNSD", "Global Indicators Database", "")
     end
+
+    desc "tests the country names of Global Indicator Database"
+      task gid_test_countries: :environment do
+      TestCountryNamesParser.new("UNSD", "Global Indicators Database", "")
+    end
+
+    desc "seeds the country names of Global Indicator Database"
+      task gid_seed_countries: :environment do
+      TestCountryNamesParser.new("UNSD", "Global Indicators Database", "")
+    end
   end
 
   namespace :wb do
@@ -104,8 +114,13 @@ namespace :xml_parser do
     end
 
     desc "tests the country names for wtiid"
-    task wtiid_countries: :environment do
+    task wtiid_test_countries: :environment do
       TestCountryNamesParser.new("ITU", "World Telecommunication and ICT Indicators Database", "footnoteSeqID")
+    end
+
+    desc "seed the country names for wtiid"
+    task wtiid_seed_countries: :environment do
+      SeedCountryNamesParser.new("ITU", "World Telecommunication and ICT Indicators Database", "footnoteSeqID")
     end
   end
 

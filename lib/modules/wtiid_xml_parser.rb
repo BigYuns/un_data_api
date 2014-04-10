@@ -75,7 +75,7 @@ class WtiidXmlParser < XmlParser
       @country_name = "Democratic Republic of the Congo"
     when /d'Ivoire/
       @country_name = "Côte d'Ivoire"
-    when /Hong Kong/
+    when /Hong Kong,/
       @country_name = "Hong Kong SAR, China"
     when /Korea \(Republic of\)$/
       @country_name = "Republic of Korea"
@@ -99,6 +99,8 @@ class WtiidXmlParser < XmlParser
       @country_name = "The former Yugoslav Republic of Macedonia"
     when /Venezuela/
       @country_name = "Venezuela (Bolivarian Republic of)"
+    when /Tanzania/
+      @country_name = "United Republic of Tanzania"
     end
 
     set_country

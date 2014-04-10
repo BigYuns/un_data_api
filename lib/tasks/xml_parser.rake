@@ -75,11 +75,6 @@ namespace :xml_parser do
     end
 
     desc "tests the country names of Global Indicator Database"
-    task gid_countries: :environment do
-      TestCountryNamesParser.new("UNSD", "Global Indicators Database", "")
-    end
-
-    desc "tests the country names of Global Indicator Database"
       task gid_test_countries: :environment do
       TestCountryNamesParser.new("UNSD", "Global Indicators Database", "")
     end

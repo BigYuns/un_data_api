@@ -17,9 +17,8 @@ namespace :xml_parser do
       SeedCountryNamesParser.new("UNSD", "Industrial Commodity Statistics Database", "fnSeqID")
       SeedCountryNamesParser.new("WB", "World Development Indicators", "footnoteSeqID")
       SeedCountryNamesParser.new("UNFCCC", "Greenhouse Gas Inventory Data", "none")
-      # SeedCountryNamesParser.new("UNSD", "National Accounts Estimates of Main Aggregates", "none")
+      SeedCountryNamesParser.new("UNSD", "National Accounts Estimates of Main Aggregates", "none")
       SeedCountryNamesParser.new("ITU", "World Telecommunication and ICT Indicators Database", "footnoteSeqID")
-      # SeedCountryNamesParser.new("UNSD", "Global Indicators Database", "")
     end
   end
 

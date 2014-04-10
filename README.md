@@ -21,8 +21,8 @@ $ mongod
 # open up another terminal window
 $ cd un_data_api
 $ rake db:create
-# Seeds your db with the current databases
-$ rake xml_parser:seed_db
+# Seeds your db with a database
+$ rake xml_parser:who
 ```
 ###Setting up with 3scale
 Currently the UN Data API has the plugin implemented into the code already.  It only takes a few steps and you'll be up and running with authentication! In order to use 3scale you need to signup and retrieve the keys you need to use your API. 

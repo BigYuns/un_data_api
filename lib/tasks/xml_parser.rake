@@ -21,16 +21,22 @@ namespace :xml_parser do
       SeedCountryNamesParser.new("ITU", "World Telecommunication and ICT Indicators Database", "footnoteSeqID")
     end
   end
+  namespace :who do
+    desc "test WHO Data countries" 
+    task wd_test_countries: :environment do
+      TestCountryNamesParser.new("WHO", "WHO Data", "footnoteSeqID")
+    end
 
-  desc "get WHO countries" 
-  task who_countries: :environment do
-    TestCountryNamesParser.new("WHO", "WHO Data", "footnoteSeqID")
-  end
+    desc "seed WHO Data countries" 
+    task wd_seed_countries: :environment do
+      SeedCountryNamesParser.new("WHO", "WHO Data", "footnoteSeqID")
+    end
 
-  desc "parse WHO"
-  task who: :environment do
-    WhoXmlParser.new("WHO", "WHO Data", "footnoteSeqID")
-  end
+    desc "parse WHO Data"
+    task wd: :environment do
+      WhoXmlParser.new("WHO", "WHO Data", "footnoteSeqID")
+    end
+  end 
 
   namespace :unsd do
     desc "parse Environment Statistics Database"

@@ -1,5 +1,6 @@
-require "#{Rails.root}/lib/modules/xml_parser.rb"
+require "#{Rails.root}/lib/modules/xml_parsers/xml_parser.rb"
 
+# Greenhouse Gas Inventory Data
 class GgidXmlParser < XmlParser
 
   def xml_parser(directory_name, filename)

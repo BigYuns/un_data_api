@@ -1,5 +1,6 @@
-require "#{Rails.root}/lib/modules/xml_parser.rb"
+require "#{Rails.root}/lib/modules/xml_parsers/xml_parser.rb"
 
+# Industrial Commodity Statistics Database
 class IcsdXmlParser < XmlParser
 
   def un_abrev_country_name(country_name)

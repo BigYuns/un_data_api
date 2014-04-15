@@ -1,6 +1,7 @@
-require "#{Rails.root}/lib/modules/xml_parser.rb"
+require "#{Rails.root}/lib/modules/xml_parsers/xml_parser.rb"
 
-class WhoXmlParser < XmlParser
+# WHO Data
+class WdXmlParser < XmlParser
 
   def record_attributes
     @doc.elements.each("ROOT/data/record") do |record|

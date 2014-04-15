@@ -1,5 +1,6 @@
-require "#{Rails.root}/lib/modules/xml_parser.rb"
+require "#{Rails.root}/lib/modules/xml_parsers/xml_parser.rb"
 
+# National Accounts Estimates of Main Aggregates
 class NaemaXmlParser < XmlParser
 
   def xml_parser(directory_name, filename)

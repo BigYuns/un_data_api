@@ -1,6 +1,6 @@
-require "#{Rails.root}/lib/modules/xml_parser.rb"
+require "#{Rails.root}/lib/modules/xml_parsers/xml_parser.rb"
 
-
+# World Development Indicators
 class WdiXmlParser < XmlParser
 
   def record_attributes

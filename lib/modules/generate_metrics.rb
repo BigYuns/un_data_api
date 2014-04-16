@@ -3,21 +3,18 @@ class GenerateMetrics
   base_uri 'undata-api-admin.3scale.net'
 
   def initialize
-    # @hit_methods_array = ["organizations",
-    #                       "organization_datasets",
-    #                       "countries",
-    #                       "records",
-    #                       "country_datasets",
-    #                       "databases",
-    #                       "db_datasets",
-    #                       "db_countries",
-    #                       "db_records",
-    #                       "db_country_datasets"]
+    @hit_methods_array = ["organizations",
+                          "organization_datasets",
+                          "countries",
+                          "records",
+                          "country_datasets",
+                          "databases",
+                          "db_datasets",
+                          "db_countries",
+                          "db_records",
+                          "db_country_datasets"]
 
-    # @other_metrics_array = ["invalid_url", "no_record_found"]
-
-      @hit_methods_array = ["hello"]
-      @other_metrics_array = ["goodbye"]
+    @other_metrics_array = ["invalid_url", "no_record_found"]
   end
 
   def get_service_id

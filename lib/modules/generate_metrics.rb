@@ -1,8 +1,10 @@
+# This is written assuming you have implemented no other metrics.
+
 class GenerateMetrics
   include HTTParty
-  base_uri @three_scale_url
+  base_uri 'your_3scale_url'
 
-  def initialize(three_scale_url)
+  def initialize
     @hit_methods_array = ["organizations",
                           "organization_datasets",
                           "countries",
@@ -15,7 +17,6 @@ class GenerateMetrics
                           "db_country_datasets"]
 
     @other_metrics_array = ["invalid_url", "no_record_found"]
-    @three_scale_url = three_scale_url
   end
 
   def get_service_id

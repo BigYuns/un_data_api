@@ -4,6 +4,9 @@ class Organization
   key :name, String
   validates_presence_of :name
 
+  key :full_name, String
+  validates_presence_of :full_name
+
   many :datasets
 
   key :country_ids, Array

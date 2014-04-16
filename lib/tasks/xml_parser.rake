@@ -1,5 +1,5 @@
 require "#{Rails.root}/lib/modules/xml_parsers/xml_parser.rb"
-require "#{Rails.root}/lib/modules/get_metrics.rb"
+
 
 namespace :xml_parser do
   namespace :all_countries do
@@ -142,12 +142,5 @@ namespace :xml_parser do
     task ggid_seed_countries: :environment do
       SeedCountryNamesParser.new("UNFCCC", "Greenhouse Gas Inventory Data", "none")
     end
-  end
-end
-
-namespace :metrics do
-  desc "automatically populate metrics"
-  task get_metrics: :environment do
-    GetMetrics.new
   end
 end

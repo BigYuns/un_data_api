@@ -1,5 +1,6 @@
 require "#{Rails.root}/lib/modules/xml_parsers/xml_parser.rb"
 
+# WHO Data
 class WdXmlParser < XmlParser
 
   def record_attributes

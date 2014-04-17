@@ -10,10 +10,10 @@ class XmlParser
 #     Example: <footnote fnSeqID="1">Footnote Text</footnote>
 #              footnote_id_name = "fnSeqID"
 
-  def initialize(organization_name, database_name, footnote_id_name)
+  def initialize(organization_name, organization_full_name, database_name, footnote_id_name)
     @organization_name = organization_name
     @database_name = database_name
-    @organization = Organization.find_or_create_by_name(@organization_name)
+    @organization = Organization.find_or_create_by_name_and_full_name(@organization_name, organization_full_name)
     @database = Database.find_or_create_by_name(@database_name)
     @database.organization = @organization
     @footnote_id_name = footnote_id_name

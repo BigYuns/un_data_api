@@ -12,7 +12,7 @@ namespace :xml_parser do
       SeedCountryNamesParser.new("UNFCCC", "United Nations Framework Convention on Climate Change (UNFCCC) Information
       ", "Greenhouse Gas Inventory Data", "none")
       SeedCountryNamesParser.new("UNSD", "United Nations Statistics Division", "National Accounts Estimates of Main Aggregates", "none")
-      SeedCountryNamesParser.new("ITU", "Internation Telecommunication Union", "World Telecommunication and ICT Indicators Database", "footnoteSeqID")
+      SeedCountryNamesParser.new("ITU", "International Telecommunications Union", "World Telecommunication and ICT Indicators Database", "footnoteSeqID")
     end
   end
   namespace :who do
@@ -78,6 +78,7 @@ namespace :xml_parser do
       SeedCountryNamesParser.new("UNSD", "United Nations Statistics Division", "National Accounts Estimates of Main Aggregates", "none")
     end
 
+    # This Global Indicators Database is not ready to be parsed yet.  All the files have been downloaded to the repo.
     desc "parse Global Indicator Database"
     task gid: :environment do 
       GidXmlParser.new("UNSD", "Global Indicators Database", "")
@@ -114,37 +115,34 @@ namespace :xml_parser do
   namespace :itu do
     desc "parse World Telecommunication and ICT Indicators Database"
     task wtiid: :environment do
-      WtiidXmlParser.new("ITU", "Internation Telecommunication Union", "World Telecommunication and ICT Indicators Database", "footnoteSeqID")
+      WtiidXmlParser.new("ITU", "International Telecommunications Union", "World Telecommunication and ICT Indicators Database", "footnoteSeqID")
     end
 
     desc "tests the country names for wtiid"
     task wtiid_test_countries: :environment do
-      TestCountryNamesParser.new("ITU", "Internation Telecommunication Union", "World Telecommunication and ICT Indicators Database", "footnoteSeqID")
+      TestCountryNamesParser.new("ITU", "International Telecommunications Union", "World Telecommunication and ICT Indicators Database", "footnoteSeqID")
     end
 
     desc "seed the country names for wtiid"
     task wtiid_seed_countries: :environment do
-      SeedCountryNamesParser.new("ITU", "Internation Telecommunication Union", "World Telecommunication and ICT Indicators Database", "footnoteSeqID")
+      SeedCountryNamesParser.new("ITU", "International Telecommunications Union", "World Telecommunication and ICT Indicators Database", "footnoteSeqID")
     end
   end
 
   namespace :unfccc do
     desc "parse Greenhouse Gas Inventory Data"
     task ggid: :environment do
-      GgidXmlParser.new("UNFCCC", "United Nations Framework Convention on Climate Change (UNFCCC) Information
-      ", "Greenhouse Gas Inventory Data", "none")
+      GgidXmlParser.new("UNFCCC", "United Nations Framework Convention on Climate Change", "Greenhouse Gas Inventory Data", "none")
     end
 
     desc "tests the country names for Greenhouse Gas Inventory Data"
     task ggid_test_countries: :environment do
-      TestCountryNamesParser.new("UNFCCC", "United Nations Framework Convention on Climate Change (UNFCCC) Information
-      ", "Greenhouse Gas Inventory Data", "none")
+      TestCountryNamesParser.new("UNFCCC", "United Nations Framework Convention on Climate Change", "Greenhouse Gas Inventory Data", "none")
     end
 
     desc "seeds the country names for Greenhouse Gas Inventory Data"
     task ggid_seed_countries: :environment do
-      SeedCountryNamesParser.new("UNFCCC", "United Nations Framework Convention on Climate Change (UNFCCC) Information
-      ", "Greenhouse Gas Inventory Data", "none")
+      SeedCountryNamesParser.new("UNFCCC", "United Nations Framework Convention on Climate Change", "Greenhouse Gas Inventory Data", "none")
     end
   end
 end

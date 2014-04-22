@@ -56,9 +56,9 @@ class WdXmlParser < XmlParser
   def get_dataset_name(filename)
     super
     if @dataset_name == "distributions_of_causes_of_death_among_children_aged_<5_years_HIV-AIDS_percent"
-      @dataset_name = "Distribution of causes of death among children aged <5 years - HIV/AIDS (percent)"
+      @dataset_name = "Distribution of causes of death among children aged <5 years - HIV-AIDS (percent)"
     elsif @dataset_name == "deaths_due_to_HIV-AIDS_per_100_000"
-      @dataset_name = "Deaths due to HIV/AIDS (per 100,000)"
+      @dataset_name = "Deaths due to HIV-AIDS (per 100,000)"
     end 
     @measurement = @dataset_name[/\(([^)]+)\)/]
     @dataset_name.gsub!(/\(([^)]+)\)/, "")

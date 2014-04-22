@@ -36,6 +36,8 @@ class EsdXmlParser < XmlParser
       @country_name = "Hong Kong SAR, China"
     when /Macao SAR/
       @country_name = "Macao SAR, China"
+    when /Grenadines/
+      @country_name = "Saint Vincent and the Grenadines"
     end
     set_country
   end

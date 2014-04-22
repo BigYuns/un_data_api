@@ -91,7 +91,7 @@ class WdiXmlParser < XmlParser
       end
     when /Kitts/
       @country_name = "Saint Kitts and Nevis"
-    when /Yemen, Republic/
+    when /Yemen, Rep\./
       @country_name = "Yemen"
     when /Vietnam/
       @country_name = "Viet Nam"

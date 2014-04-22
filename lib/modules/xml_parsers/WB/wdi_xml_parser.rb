@@ -52,7 +52,7 @@ class WdiXmlParser < XmlParser
     when /Bolivia/
       @country_name = "Bolivia (Plurinational State of)"
     when /Libya/
-      @country_name = "Libya Republic of Jamahiriya"
+      @country_name = "Libya"
     when /Macedonia/
       @country_name = "The former Yugoslav Republic of Macedonia"
     when /Korea/
@@ -91,7 +91,7 @@ class WdiXmlParser < XmlParser
       end
     when /Kitts/
       @country_name = "Saint Kitts and Nevis"
-    when /Yemen, Rep\./
+    when /Yemen, Republic/
       @country_name = "Yemen"
     when /Vietnam/
       @country_name = "Viet Nam"
@@ -103,6 +103,8 @@ class WdiXmlParser < XmlParser
       @country_name = "Saint Lucia"
     when /Tanzania/
       @country_name = "United Republic of Tanzania"
+    when /Gambia, The/
+      @country_name = "Gambia"
     end
     set_country
   end

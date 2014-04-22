@@ -83,7 +83,7 @@ class WtiidXmlParser < XmlParser
     when /Lao/
       @country_name =  "Lao People's Democratic Republic"
     when /Libya/
-      @country_name = "Libya Republic of Jamahiriya"
+      @country_name = "Libya"
     when /Macao, China/
       @country_name = "Macao SAR, China"
     when /Micronesia \(Fed\. States of\)/

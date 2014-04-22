@@ -46,6 +46,10 @@ class WdXmlParser < XmlParser
   end
 
   def normalize_country_name(country_name)
+    case country_name
+    when /Libya/
+      @country_name = "Libya"
+    end
     set_country
   end
 

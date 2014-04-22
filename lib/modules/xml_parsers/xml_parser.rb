@@ -181,7 +181,7 @@ class XmlParser
     when /Bolivia/
       @country_name = "Bolivia (Plurinational State of)"
     when /Libya/
-      @country_name = "Libya Republic of Jamahiriya"
+      @country_name = "Libya"
     when /Macedonia/
       @country_name = "The former Yugoslav Republic of Macedonia"
     when /Korea/
@@ -264,12 +264,14 @@ class XmlParser
       @country_name = "Former Democratic Yemen"
     when /Former Yemen Arab Republic/
       @country_name = "Former Yemen Arab Republic"
-    when /Yemen, Rep\./
+    when /Yemen, Republic/
       @country_name = "Yemen"
     when /United Kingdom/
       @country_name = "United Kingdom"
     when /Tanzania/
       @country_name = "United Republic of Tanzania"
+    when /Gambia, The/
+      @country_name = "Gambia"
     end
     set_country
   end

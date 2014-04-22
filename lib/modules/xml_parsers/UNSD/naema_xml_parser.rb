@@ -42,7 +42,7 @@ class NaemaXmlParser < XmlParser
     when /Bolivia/
       @country_name = "Bolivia (Plurinational State of)"
     when /Libya/
-      @country_name = "Libya Republic of Jamahiriya"
+      @country_name = "Libya"
     when /Venezuela/
       @country_name = "Venezuela (Bolivarian Republic of)"
     when /Iran/

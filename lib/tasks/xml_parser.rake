@@ -79,20 +79,20 @@ namespace :xml_parser do
     end
 
     # This Global Indicators Database is not ready to be parsed yet.  All the files have been downloaded to the repo.
-    desc "parse Global Indicator Database"
-    task gid: :environment do 
-      GidXmlParser.new("UNSD", "Global Indicators Database", "")
-    end
+    # desc "parse Global Indicator Database"
+    # task gid: :environment do 
+    #   GidXmlParser.new("UNSD", "Global Indicators Database", "")
+    # end
 
-    desc "tests the country names of Global Indicator Database"
-      task gid_test_countries: :environment do
-      TestCountryNamesParser.new("UNSD", "Global Indicators Database", "")
-    end
+    # desc "tests the country names of Global Indicator Database"
+    #   task gid_test_countries: :environment do
+    #   TestCountryNamesParser.new("UNSD", "Global Indicators Database", "")
+    # end
 
-    desc "seeds the country names of Global Indicator Database"
-      task gid_seed_countries: :environment do
-      SeedCountryNamesParser.new("UNSD", "Global Indicators Database", "")
-    end
+    # desc "seeds the country names of Global Indicator Database"
+    #   task gid_seed_countries: :environment do
+    #   SeedCountryNamesParser.new("UNSD", "Global Indicators Database", "")
+    # end
   end
 
   namespace :wb do

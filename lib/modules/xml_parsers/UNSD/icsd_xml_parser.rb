@@ -21,7 +21,7 @@ class IcsdXmlParser < XmlParser
     when /Bolivia/
       @country_name = "Bolivia (Plurinational State of)"
     when /Libya/
-      @country_name = "Libya Republic of Jamahiriya"
+      @country_name = "Libya"
     when /Macedonia/
       @country_name = "The former Yugoslav Republic of Macedonia"
     when /Korea/

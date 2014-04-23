@@ -26,7 +26,7 @@ class ApplicationController < ActionController::API
     if response.success?
       return true
     else
-      error(response.error_code, 401, response.error_message)
+      analyze_error(response)
     end
   end
 
@@ -62,4 +62,16 @@ class ApplicationController < ActionController::API
       format.xml  { render :xml => item }
     end
   end
+
+  def analyze_error(response)
+    if response.error_code == "metric_invalid"
+      error(response.error_code, 401, "#{response.error_message} or have you generated your metrics yet? 
+                                      If you have implemented 3scale and have not added metrics run 
+                                      'rake metrics:generate_metrics'. If you have added some metrics but 
+                                      not the ones implemented in the project run 'rake metrics:add_metrics' ")
+    else
+      error(response.error_code, 401, response.error_message )
+    end
+  end
+  
 end

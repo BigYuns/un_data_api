@@ -48,3 +48,13 @@ class GenerateMetrics
   end
 
 end
+
+# Use this if you have create other metrics before populated the pre-implented one.
+class AddMetrics < GenerateMetrics
+  def get_metric_list
+    response = self.class.get('/admin/api/services/' + @service_id + '/metrics.xml', @provider_key_query)
+    @data = response.parsed_response
+    @hits_metric_id = @data['metrics']['metric'][0]['id']
+    create_hits_method
+  end
+end

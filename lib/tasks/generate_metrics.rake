@@ -8,4 +8,12 @@ namespace :metrics do
     gen_metrics.get_metric_list
     gen_metrics.create_metrics
   end
+
+  desc "automatically populate methods metrics if some already exist"
+  task add_metrics: :environment do
+    add_metrics = AddMetrics.new
+    add_metrics.get_service_id
+    add_metrics.get_metric_list
+    add_metrics.create_metrics
+  end
 end

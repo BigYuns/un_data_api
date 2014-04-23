@@ -17,5 +17,6 @@
 
 ######[Get Started (Without 3scale)](https://github.com/3scale/un_data_api/wiki/Getting-Started-(Without-3scale))
 
+The MIT License (MIT)
 Copyright (c) 2014 3SCALE
 

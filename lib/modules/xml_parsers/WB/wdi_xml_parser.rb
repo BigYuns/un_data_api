@@ -30,32 +30,21 @@ class WdiXmlParser < XmlParser
       end
       set_record("measurement", @measurement)    
       new_record = Record.new(@record)
-      new_record.save
+      @country.records << new_record
     end
-  end
-
-  def un_abrev_country_name(country_name)
-    case country_name
-    when /Rep\./
-      country_name.gsub!(/(Rep\.)/, "Republic")
-    when /Dem\./
-      country_name.gsub!(/(Dem\.)/, "Democratic")
-    end
-    normalize_country_name(country_name)
   end
 
   def normalize_country_name(country_name)
 
-    case country_name
-    when /United States/
+    if country_name.include? 'United States'
       @country_name = "United States of America"
-    when /Bolivia/
+    elsif country_name.include? 'Bolivia'
       @country_name = "Bolivia (Plurinational State of)"
-    when /Libya/
+    elsif country_name.include? 'Libya'
       @country_name = "Libya"
-    when /Macedonia/
+    elsif country_name.include? 'Macedonia'
       @country_name = "The former Yugoslav Republic of Macedonia"
-    when /Korea/
+    elsif country_name.include? 'Korea'
       if country_name.include?("Democratic")
         @country_name = "Democratic People's Republic of Korea"
         set_country
@@ -63,47 +52,47 @@ class WdiXmlParser < XmlParser
         @country_name = "Republic of Korea"
         set_country
       end
-    when /Congo/
+    elsif country_name.include? 'Congo'
       if country_name.include?("Rep") && !country_name.include?("Dem")
         @country_name = "Congo"
       elsif country_name.include?("Dem")
         @country_name = "Democratic Republic of the Congo"
       end
-    when /Grenadines/
+    elsif country_name.include? 'Grenadines'
       @country_name = "Saint Vincent and the Grenadines"
-    when /d'Ivoire/
+    elsif country_name.include? 'd\'Ivoire'
       @country_name = "Côte d'Ivoire"
-    when /Venezuela/
+    elsif country_name.include? 'Venezuela'
       @country_name = "Venezuela (Bolivarian Republic of)"
-    when /Bahamas/
+    elsif country_name.include? 'Bahamas'
       @country_name = "Bahamas"
-    when /Egypt/
+    elsif country_name.include? 'Egypt'
       @country_name = "Egypt"
-    when /Iran/
+    elsif country_name.include? 'Iran'
       @country_name = "Iran (Islamic Republic of)"
-    when /Kyrgyz Republic/
+    elsif country_name.include? 'Kyrgyz Republic'
       @country_name = "Kyrgyzstan"
-    when /Lao/
+    elsif country_name.include? 'Lao'
       @country_name =  "Lao People's Democratic Republic"
-    when /Micronesia/
+    elsif country_name.include? 'Micronesia'
       if country_name =~ /Micronesia, Fed\. Sts\./ || country_name =~ /Micronesia, Fed\.States of/
         @country_name = "Micronesia (Federated States of)"
       end
-    when /Kitts/
+    elsif country_name.include? 'Kitts'
       @country_name = "Saint Kitts and Nevis"
-    when /Yemen, Rep\./
+    elsif country_name.include? 'Yemen, Rep\.'
       @country_name = "Yemen"
-    when /Vietnam/
+    elsif country_name.include? 'Vietnam'
       @country_name = "Viet Nam"
-    when /East Timor/
+    elsif country_name.include? 'East Timor'
       @country_name = "Timor-Leste"
-    when /Moldova/
+    elsif country_name.include? 'Moldova'
       @country_name = "Republic of Moldova"
-    when /St. Lucia/
+    elsif country_name.include? 'St. Lucia'
       @country_name = "Saint Lucia"
-    when /Tanzania/
+    elsif country_name.include? 'Tanzania'
       @country_name = "United Republic of Tanzania"
-    when /Gambia, The/
+    elsif country_name.include? 'Gambia, The'
       @country_name = "Gambia"
     end
     set_country

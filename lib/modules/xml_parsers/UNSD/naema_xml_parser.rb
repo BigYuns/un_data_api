@@ -4,11 +4,13 @@ require "#{Rails.root}/lib/modules/xml_parsers/xml_parser.rb"
 class NaemaXmlParser < XmlParser
 
   def xml_parser(directory_name, filename)
-    @doc = Document.new File.new(directory_name + filename)
+    file = File.new(directory_name + filename)
+    @doc = Document.new file
     get_dataset_name(filename)
     set_topics
     set_dataset_rel_and_attr
     record_attributes
+    @dataset.save
   end
 
   def get_file_names(directory_name)
@@ -36,28 +38,27 @@ class NaemaXmlParser < XmlParser
 
   def normalize_country_name(country_name)
 
-    case country_name
-    when /United States/
+    if country_name.include? 'United States'
       @country_name = "United States of America"
-    when /Bolivia/
+    elsif country_name.include? 'Bolivia'
       @country_name = "Bolivia (Plurinational State of)"
-    when /Libya/
+    elsif country_name.include? 'Libya'
       @country_name = "Libya"
-    when /Venezuela/
+    elsif country_name.include? 'Venezuela'
       @country_name = "Venezuela (Bolivarian Republic of)"
-    when /Iran/
+    elsif country_name.include? 'Iran'
       @country_name = "Iran (Islamic Republic of)"
-    when /Hong Kong SAR/
+    elsif country_name.include? 'Hong Kong SAR'
       @country_name = "Hong Kong SAR, China"
-    when /Macao SAR/
+    elsif country_name.include? 'Macao SAR'
       @country_name = "Macao SAR, China"
-    when /China, People's Republic of/
+    elsif country_name.include? 'China, People\'s Republic of'
       @country_name = "China"
-    when /United Kingdom/
+    elsif country_name.include? 'United Kingdom'
       @country_name = "United Kingdom"
-    when /Former Democratic Yemen/
+    elsif country_name.include? 'Former Democratic Yemen'
       @country_name = "Former Democratic Yemen"
-    when /Former Yemen Arab Republic/
+    elsif country_name.include? 'Former Yemen Arab Republic'
       @country_name = "Former Yemen Arab Republic"
     end
     set_country
@@ -66,6 +67,7 @@ class NaemaXmlParser < XmlParser
   def record_attributes
     @doc.elements.each("ROOT/data/record") do |record|
       record.elements.each do |element|
+
         element_name = element.attributes["name"]
 
         case element_name
@@ -86,7 +88,7 @@ class NaemaXmlParser < XmlParser
       end
       set_record("measurement", @measurement)    
       new_record = Record.new(@record)
-      new_record.save
+      @country.records << new_record
     end
   end
 

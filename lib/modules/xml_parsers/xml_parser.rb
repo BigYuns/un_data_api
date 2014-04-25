@@ -13,9 +13,12 @@ class XmlParser
   def initialize(organization_name, organization_full_name, database_name, footnote_id_name)
     @organization_name = organization_name
     @database_name = database_name
-    @organization = Organization.find_or_create_by_name_and_full_name(@organization_name, organization_full_name)
+    organization = Organization.find_or_create_by_name_and_full_name(@organization_name, organization_full_name)
+    @organization_id = organization.id
     @database = Database.find_or_create_by_name(@database_name)
-    @database.organization = @organization
+    @database.organization = organization
+    organization.save
+    organization = nil
     @footnote_id_name = footnote_id_name
     directory_name = "lib/un_data_xml_files/#{@organization_name}/#{@database_name}/"
     get_file_names(directory_name)
@@ -37,7 +40,7 @@ class XmlParser
       if path =~ /\.xml/
         unless full_directory_array[i-1] =~ /\.xml/
           file_dir = full_directory_array[i-1]
-          file_dir += "/"
+          file_dir += '/'
           file_name_array(file_dir)
           @topics = []
         end
@@ -59,14 +62,14 @@ class XmlParser
 
 # Iterates over the files in the directory and pushes them into the xml_parser
   def file_name_array(directory_name)
+    filenames_array = []
     Dir.foreach(directory_name) do |filename|
-      filenames_array = []
       unless filename == "." || filename == ".." || filename == ".DS_Store"
         filenames_array << filename
       end
-      parse_filenames(directory_name, filenames_array)
     end
-  end   
+    parse_filenames(directory_name, filenames_array)
+  end
 
   def parse_filenames(directory_name, filenames_array)
     filenames_array.each do |filename|
@@ -83,6 +86,7 @@ class XmlParser
     set_dataset_rel_and_attr
     get_footnotes
     record_attributes
+    @dataset.save
   end
 
 # Gets the dataset name from the xml filename
@@ -96,9 +100,9 @@ class XmlParser
   def set_dataset_rel_and_attr
     @dataset.database = @database
     @dataset_id = @dataset.id
-    @organization.datasets << @dataset
-    @dataset.organization = @organization
-    @dataset.save
+    organization = Organization.find_by_id(@organization_id)
+    organization.datasets << @dataset
+    @dataset.organization = organization
   end
 
 # Sets the topics for the dataset.  If the dataset has no topics specified it defaults to the database name.
@@ -159,118 +163,103 @@ class XmlParser
         end
       end
       new_record = Record.new(@record)
-      new_record.save
+      @country.records << new_record
     end
   end
 
   def un_abrev_country_name(country_name)
-    case country_name
-    when /Rep\./
+    if country_name.include? 'Rep.'
       country_name.gsub!(/(Rep\.)/, "Republic")
-    when /Dem\./
+    elsif country_name.include? 'Rep.'
       country_name.gsub!(/(Dem\.)/, "Democratic")
     end
     normalize_country_name(country_name)
   end
 
   def normalize_country_name(country_name)
-
-    case country_name
-    when /United States/
+    if country_name.include? 'United States'
       @country_name = "United States of America"
-    when /Bolivia/
+    elsif country_name.include? 'Bolivia'
       @country_name = "Bolivia (Plurinational State of)"
-    when /Libya/
+    elsif country_name.include? 'Libya'
       @country_name = "Libya"
-    when /Macedonia/
+    elsif country_name.include? 'Macedonia'
       @country_name = "The former Yugoslav Republic of Macedonia"
-    when /Korea/
-      if country_name.include?("Democratic")
-        @country_name = "Democratic People's Republic of Korea"
-        set_country
-      else
-        @country_name = "Republic of Korea"
-        set_country
-      end
-    when /Congo/
+    elsif country_name.include? 'Korea'
+      @country_name = "Republic of Korea"
+    elsif country_name.include? 'Congo'
       if country_name.include?("Rep") && !country_name.include?("Dem")
         @country_name = "Congo"
       elsif country_name.include?("Dem")
         @country_name = "Democratic Republic of the Congo"
       end
-    when /Grenadines/
+    elsif country_name.include? 'Grenadines'
       @country_name = "Saint Vincent and the Grenadines"
-    when /d'Ivoire/
+    elsif country_name.include? 'd\'Ivoire'
       @country_name = "Côte d'Ivoire"
-    when /Venezuela/
+    elsif country_name.include? 'Venezuela'
       @country_name = "Venezuela (Bolivarian Republic of)"
-    when /Bahamas/
+    elsif country_name.include? 'Bahamas'
       @country_name = "Bahamas"
-    when /Egypt/
+    elsif country_name.include? 'Egypt'
       @country_name = "Egypt"
-    when /Iran/
+    elsif country_name.include? 'Iran'
       @country_name = "Iran (Islamic Republic of)"
-    when /Kyrgyz Republic/
+    elsif country_name.include? 'Kyrgyz Republic'
       @country_name = "Kyrgyzstan"
-    when /Lao/
+    elsif country_name.include? 'Lao'
       @country_name =  "Lao People's Democratic Republic"
-    when /Micronesia/
-      if country_name =~ /Micronesia, Fed\. Sts\./ || country_name =~ /Micronesia, Fed\.States of/
-        @country_name = "Micronesia (Federated States of)"
-      elsif country_name =~ /Micronesia \(Fed\. States of\)/
-        @country_name = "Micronesia (Federated States of)"
-      end
-    when /Kitts/
+    elsif country_name.include? 'Kitts'
       @country_name = "Saint Kitts and Nevis"
-    when /Hong Kong SAR/
+    elsif country_name.include? 'Hong Kong SAR'
       @country_name = "Hong Kong SAR, China"
-    when /Hong Kong,/
+    elsif country_name.include? 'Hong Kong,'
       @country_name = "Hong Kong SAR, China"
-    when /Macau \(SAR\)/
+    elsif country_name.include? 'Macau (SAR)'
       @country_name = "Macao SAR, China"
-    when /Macao SAR/
+    elsif country_name.include? 'Macao SAR'
       @country_name = "Macao SAR, China"
-    when /Yemen, Rep\./
+    elsif country_name.include? 'Yemen, Rep.'
       @country_name = "Yemen"
-    when /Switzrld,Liechtenstein/
+    elsif country_name.include? 'Switzrld,Liechtenstein'
       @country_name = "Switzerland and Liechtenstein"
-    when /Christmas Is\.\(Aust\)/
+    elsif country_name.include? 'Christmas Is.(Aust)'
       @country_name = "Christmas Island"
-    when /Falkland Is\. \(Malvinas\)/
+    elsif country_name.include? 'Falkland Is. (Malvinas)'
       @country_name = "Falkland Islands"
-    when /St\. Helena and Depend\./
+    elsif country_name.include? 'St. Helena and Depend.'
       @country_name = "Saint Helena and Dependencies"
-    when /St\. Pierre-Miquelon/
+    elsif country_name.include? 'St. Pierre-Miquelon'
       @country_name = "Saint Pierre and Miquelon"
-    when /Wallis \& Futuna Isl/
+    elsif country_name.include? 'Wallis & Futuna Isl'
       @country_name = "Wallis and Futuna Island"
-    when /Vietnam/
+    elsif country_name.include? 'Vietnam'
       @country_name = "Viet Nam"
-    when /East Timor/
+    elsif country_name.include? 'East Timor'
       @country_name = "Timor-Leste"
-    when /Moldova/
+    elsif country_name.include? 'Moldova'
       @country_name = "Republic of Moldova"
-    when /St. Lucia/
+    elsif country_name.include? 'St. Lucia'
       @country_name = "Saint Lucia"
-    when /China, People's Republic of/
+    elsif country_name.include? 'China, People\'s Republic of'
       @country_name = "China"
-    when /Macao, China/
+    elsif country_name.include? 'Macao, China'
       @country_name = "Macao SAR, China"
-    when /Russia/
+    elsif country_name.include? 'Russia'
       @country_name = "Russian Federation"
-    when /Syria$/
+    elsif country_name =~ /Syria$/
       @country_name = "Syrian Arab Republic"
-    when /Former Democratic Yemen/
+    elsif country_name.include? 'Former Democratic Yemen'
       @country_name = "Former Democratic Yemen"
-    when /Former Yemen Arab Republic/
+    elsif country_name.include? 'Former Yemen Arab Republic'
       @country_name = "Former Yemen Arab Republic"
-    when /Yemen, Republic/
+    elsif country_name.include? 'Yemen, Republic'
       @country_name = "Yemen"
-    when /United Kingdom/
+    elsif country_name.include? 'United Kingdom'
       @country_name = "United Kingdom"
-    when /Tanzania/
+    elsif country_name.include? 'Tanzania'
       @country_name = "United Republic of Tanzania"
-    when /Gambia, The/
+    elsif country_name.include? 'Gambia, The'
       @country_name = "Gambia"
     end
     set_country
@@ -281,15 +270,13 @@ class XmlParser
       puts @country_name
     end
     @country = Country.find_or_create_by_name(@country_name)
-    @country.organizations << @organization
-    @organization.countries << @country
-    @organization.save
-
+    organization = Organization.find_by_id(@organization_id)
+    @country.organizations << organization
+    organization.countries << @country
     @country.datasets << @dataset
-    @country.save
-
     @dataset.countries << @country
-    @dataset.save
+    @country.save
+    organization.save
   end
 
   def set_year(year)

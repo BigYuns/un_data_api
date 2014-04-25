@@ -2,29 +2,17 @@ require "#{Rails.root}/lib/modules/xml_parsers/xml_parser.rb"
 
 # Industrial Commodity Statistics Database
 class IcsdXmlParser < XmlParser
-
-  def un_abrev_country_name(country_name)
-    case country_name
-    when /Rep\./
-      country_name.gsub!(/(Rep\.)/, "Republic")
-    when /Dem\./
-      country_name.gsub!(/(Dem\.)/, "Democratic")
-    end
-    normalize_country_name(country_name)
-  end
-
   def normalize_country_name(country_name)
 
-    case country_name
-    when /United States/
+    if country_name.include? 'United States'
       @country_name = "United States of America"
-    when /Bolivia/
+    elsif country_name.include? 'Bolivia'
       @country_name = "Bolivia (Plurinational State of)"
-    when /Libya/
+    elsif country_name.include? 'Libya'
       @country_name = "Libya"
-    when /Macedonia/
+    elsif country_name.include? 'Macedonia'
       @country_name = "The former Yugoslav Republic of Macedonia"
-    when /Korea/
+    elsif country_name.include? 'Korea'
       if country_name.include?("Democratic")
         @country_name = "Democratic People's Republic of Korea"
         set_country
@@ -32,49 +20,49 @@ class IcsdXmlParser < XmlParser
         @country_name = "Republic of Korea"
         set_country
       end
-    when /Congo/
+    elsif country_name.include? 'Congo'
       if country_name.include?("Rep") && !country_name.include?("Dem")
         @country_name = "Congo"
       elsif country_name.include?("Dem")
         @country_name = "Democratic Republic of the Congo"
       end
-    when /Grenadines/
+    elsif country_name.include? 'Grenadines'
       @country_name = "Saint Vincent and the Grenadines"
-    when /Venezuela/
+    elsif country_name.include? 'Venezuela'
       @country_name = "Venezuela (Bolivarian Republic of)"
-    when /Iran/
+    elsif country_name.include? 'Iran'
       @country_name = "Iran (Islamic Republic of)"
-    when /Lao/
+    elsif country_name.include? 'Lao'
       @country_name =  "Lao People's Democratic Republic"
-    when /Micronesia/
+    elsif country_name.include? 'Micronesia'
       if country_name =~ /Micronesia, Fed\. Sts\./ || country_name =~ /Micronesia, Fed\.States of/
         @country_name = "Micronesia (Federated States of)"
       end
-    when /Kitts/
+    elsif country_name.include? 'Kitts'
       @country_name = "Saint Kitts and Nevis"
-    when /Hong Kong SAR/
+    elsif country_name.include? 'Hong Kong SAR'
       @country_name = "Hong Kong SAR, China"
-    when /Macau \(SAR\)/
+    elsif country_name.include? 'Macau \(SAR\)'
       @country_name = "Macao SAR, China"
-    when /Switzrld,Liechtenstein/
+    elsif country_name.include? 'Switzrld,Liechtenstein'
       @country_name = "Switzerland and Liechtenstein"
-    when /Christmas Is\.\(Aust\)/
+    elsif country_name.include? 'Christmas Is\.\(Aust\)'
       @country_name = "Christmas Island"
-    when /Falkland Is\. \(Malvinas\)/
+    elsif country_name.include? 'Falkland Is\. \(Malvinas\)'
       @country_name = "Falkland Islands"
-    when /St\. Helena and Depend\./
+    elsif country_name.include? 'St\. Helena and Depend\.'
       @country_name = "Saint Helena and Dependencies"
-    when /St\. Pierre-Miquelon/
+    elsif country_name.include? 'St\. Pierre-Miquelon'
       @country_name = "Saint Pierre and Miquelon"
-    when /Wallis \& Futuna Isl/
+    elsif country_name.include? 'Wallis \& Futuna Isl'
       @country_name = "Wallis and Futuna Island"
-    when /East Timor/
+    elsif country_name.include? 'East Timor'
       @country_name = "Timor-Leste"
-    when /Moldova/
+    elsif country_name.include? 'Moldova'
       @country_name = "Republic of Moldova"
-    when /St. Lucia/
+    elsif country_name.include? 'St. Lucia'
       @country_name = "Saint Lucia"
-    when /Tanzania/
+    elsif country_name.include? 'Tanzania'
       @country_name = "United Republic of Tanzania"
     end
     set_country

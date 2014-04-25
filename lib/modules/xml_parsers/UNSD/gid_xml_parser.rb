@@ -59,7 +59,7 @@ class GidXmlParser < XmlParser
         end
       end
       new_record = Record.new(@record)
-      new_record.save
+      @country.records << new_record
     end
   end
 end

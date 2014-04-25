@@ -41,7 +41,7 @@ class WtiidXmlParser < XmlParser
       set_record("measurement", @measurement)
       p @record    
       new_record = Record.new(@record)
-      new_record.save
+      @country.records << new_record
     end
   end
 
@@ -67,40 +67,39 @@ class WtiidXmlParser < XmlParser
 
   def normalize_country_name(country_name)
 
-    case country_name
-    when /Bolivia/
+    if country_name.include? 'Bolivia'
       @country_name = "Bolivia (Plurinational State of)"
-    when /United States/
+    elsif country_name.include? 'United States'
       @country_name = "United States of America"
-    when /Congo \(Democratic Republic of the\)$/
+    elsif country_name.include? 'Congo \(Democratic Republic of the\)$'
       @country_name = "Democratic Republic of the Congo"
-    when /d'Ivoire/
+    elsif country_name.include? 'd\'Ivoire'
       @country_name = "Côte d'Ivoire"
-    when /Hong Kong,/
+    elsif country_name.include? 'Hong Kong,'
       @country_name = "Hong Kong SAR, China"
-    when /Korea \(Republic of\)$/
+    elsif country_name.include? 'Korea (Republic of)'
       @country_name = "Republic of Korea"
-    when /Lao/
+    elsif country_name.include? 'Lao'
       @country_name =  "Lao People's Democratic Republic"
-    when /Libya/
+    elsif country_name.include? 'Libya'
       @country_name = "Libya"
-    when /Macao, China/
+    elsif country_name.include? 'Macao, China'
       @country_name = "Macao SAR, China"
-    when /Micronesia \(Fed\. States of\)/
+    elsif country_name.include? 'Micronesia (Fed. States of)'
       @country_name = "Micronesia (Federated States of)"
-    when /Moldova/
+    elsif country_name.include? 'Moldova'
       @country_name = "Republic of Moldova"
-    when /Russia/
+    elsif country_name.include? 'Russia'
       @country_name = "Russian Federation"
-    when /Grenadines/
+    elsif country_name.include? 'Grenadines'
       @country_name = "Saint Vincent and the Grenadines"
-    when /Syria$/
+    elsif country_name.include? 'Syria$'
       @country_name = "Syrian Arab Republic"
-    when /Macedonia/
+    elsif country_name.include? 'Macedonia'
       @country_name = "The former Yugoslav Republic of Macedonia"
-    when /Venezuela/
+    elsif country_name.include? 'Venezuela'
       @country_name = "Venezuela (Bolivarian Republic of)"
-    when /Tanzania/
+    elsif country_name.include? 'Tanzania'
       @country_name = "United Republic of Tanzania"
     end
 

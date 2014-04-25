@@ -2,27 +2,15 @@ require "#{Rails.root}/lib/modules/xml_parsers/xml_parser.rb"
 
 # Environment Statistics Database
 class EsdXmlParser < XmlParser
-
-    def un_abrev_country_name(country_name)
-    case country_name
-    when /Rep\./
-      country_name.gsub!(/(Rep\.)/, "Republic")
-    when /Dem\./
-      country_name.gsub!(/(Dem\.)/, "Democratic")
-    end
-    normalize_country_name(country_name)
-  end
-
   def normalize_country_name(country_name)
 
-    case country_name
-    when /United States/
+    if country_name.include? 'United States'
       @country_name = "United States of America"
-    when /Bolivia/
+    elsif country_name.include? 'Bolivia'
       @country_name = "Bolivia (Plurinational State of)"
-    when /Macedonia/
+    elsif country_name.include? 'Macedonia'
       @country_name = "The former Yugoslav Republic of Macedonia"
-    when /Korea/
+    elsif country_name.include? 'Korea'
       if country_name.include?("Democratic")
         @country_name = "Democratic People's Republic of Korea"
         set_country
@@ -30,16 +18,15 @@ class EsdXmlParser < XmlParser
         @country_name = "Republic of Korea"
         set_country
       end
-    when /d'Ivoire/
+    elsif country_name.include? 'd\'Ivoire'
       @country_name = "Côte d'Ivoire"
-    when /Hong Kong SAR/
+    elsif country_name.include? 'Hong Kong SAR'
       @country_name = "Hong Kong SAR, China"
-    when /Macao SAR/
+    elsif country_name.include? 'Macao SAR'
       @country_name = "Macao SAR, China"
-    when /Grenadines/
+    elsif country_name.include? 'Grenadines'
       @country_name = "Saint Vincent and the Grenadines"
     end
     set_country
   end
-
 end

@@ -19,3 +19,5 @@
 .DS_STORE
 /config/local_env_keys.yml
 /config/mongo.yml
+
+.idea/*

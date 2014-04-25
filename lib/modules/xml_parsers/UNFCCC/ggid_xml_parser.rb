@@ -9,6 +9,7 @@ class GgidXmlParser < XmlParser
     set_topics
     set_dataset_rel_and_attr
     record_attributes
+    @dataset.save
   end
 
   def record_attributes
@@ -34,13 +35,12 @@ class GgidXmlParser < XmlParser
       end
       set_record("measurement", @measurement)    
       new_record = Record.new(@record)
-      new_record.save
+      @country.records << new_record
     end
   end
 
   def normalize_country_name(country_name)
-    case country_name
-    when /United States/
+    if country_name.include? 'United States'
       @country_name = "United States of America"
     end
     set_country

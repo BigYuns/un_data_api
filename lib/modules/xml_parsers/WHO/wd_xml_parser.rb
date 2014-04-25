@@ -33,7 +33,7 @@ class WdXmlParser < XmlParser
       end
       set_record("measurement", @measurement)    
       new_record = Record.new(@record)
-      new_record.save
+      @country.records << new_record
     end
   end
 
@@ -46,8 +46,7 @@ class WdXmlParser < XmlParser
   end
 
   def normalize_country_name(country_name)
-    case country_name
-    when /Libya/
+    if country_name.include? 'Libya'
       @country_name = "Libya"
     end
     set_country

@@ -42,19 +42,19 @@ class IcsdXmlParser < XmlParser
       @country_name = "Saint Kitts and Nevis"
     elsif country_name.include? 'Hong Kong SAR'
       @country_name = "Hong Kong SAR, China"
-    elsif country_name.include? 'Macau \(SAR\)'
+    elsif country_name.include? 'Macau (SAR)'
       @country_name = "Macao SAR, China"
     elsif country_name.include? 'Switzrld,Liechtenstein'
       @country_name = "Switzerland and Liechtenstein"
-    elsif country_name.include? 'Christmas Is\.\(Aust\)'
+    elsif country_name.include? 'Christmas Is.(Aust)'
       @country_name = "Christmas Island"
-    elsif country_name.include? 'Falkland Is\. \(Malvinas\)'
+    elsif country_name.include? 'Falkland Is. (Malvinas)'
       @country_name = "Falkland Islands"
-    elsif country_name.include? 'St\. Helena and Depend\.'
+    elsif country_name.include? 'St. Helena and Depend.'
       @country_name = "Saint Helena and Dependencies"
-    elsif country_name.include? 'St\. Pierre-Miquelon'
+    elsif country_name.include? 'St. Pierre-Miquelon'
       @country_name = "Saint Pierre and Miquelon"
-    elsif country_name.include? 'Wallis \& Futuna Isl'
+    elsif country_name.include? 'Wallis & Futuna Isl'
       @country_name = "Wallis and Futuna Island"
     elsif country_name.include? 'East Timor'
       @country_name = "Timor-Leste"

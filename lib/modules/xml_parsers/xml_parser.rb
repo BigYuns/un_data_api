@@ -261,6 +261,12 @@ class XmlParser
       @country_name = "United Republic of Tanzania"
     elsif country_name.include? 'Gambia, The'
       @country_name = "Gambia"
+    elsif country_name.include? 'Micronesia'
+      if country_name =~ /Micronesia, Fed\. Sts\./ || country_name =~ /Micronesia, Fed\.States of/
+        @country_name = "Micronesia (Federated States of)"
+      elsif country_name =~ /Micronesia \(Fed\. States of\)/
+        @country_name = "Micronesia (Federated States of)"
+      end
     end
     set_country
   end

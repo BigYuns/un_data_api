@@ -3,16 +3,6 @@ require "#{Rails.root}/lib/modules/xml_parsers/xml_parser.rb"
 # World Telecommunitcation and ICT Indicators Database
 class WtiidXmlParser < XmlParser
 
-  def un_abrev_country_name(country_name)
-    case country_name
-    when /Rep\./
-      country_name.gsub!(/(Rep\.)/, "Republic")
-    when /Dem\./
-      country_name.gsub!(/(Dem\.)/, "Democratic")
-    end
-    normalize_country_name(country_name)
-  end
-
   def record_attributes
     @doc.elements.each("ROOT/data/record") do |record|
       record.elements.each do |element|
@@ -71,7 +61,7 @@ class WtiidXmlParser < XmlParser
       @country_name = "Bolivia (Plurinational State of)"
     elsif country_name.include? 'United States'
       @country_name = "United States of America"
-    elsif country_name.include? 'Congo \(Democratic Republic of the\)$'
+    elsif country_name.include? 'Congo (Democratic Republic of the)'
       @country_name = "Democratic Republic of the Congo"
     elsif country_name.include? 'd\'Ivoire'
       @country_name = "Côte d'Ivoire"
@@ -93,7 +83,7 @@ class WtiidXmlParser < XmlParser
       @country_name = "Russian Federation"
     elsif country_name.include? 'Grenadines'
       @country_name = "Saint Vincent and the Grenadines"
-    elsif country_name.include? 'Syria$'
+    elsif country_name =~ /Syria$/
       @country_name = "Syrian Arab Republic"
     elsif country_name.include? 'Macedonia'
       @country_name = "The former Yugoslav Republic of Macedonia"
@@ -102,7 +92,6 @@ class WtiidXmlParser < XmlParser
     elsif country_name.include? 'Tanzania'
       @country_name = "United Republic of Tanzania"
     end
-
     set_country
   end
 

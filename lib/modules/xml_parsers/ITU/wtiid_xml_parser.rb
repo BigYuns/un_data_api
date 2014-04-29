@@ -29,7 +29,6 @@ class WtiidXmlParser < XmlParser
         end
       end
       set_record("measurement", @measurement)
-      p @record    
       new_record = Record.new(@record)
       @country.records << new_record
     end
@@ -69,6 +68,8 @@ class WtiidXmlParser < XmlParser
       @country_name = "Hong Kong SAR, China"
     elsif country_name.include? 'Korea (Republic of)'
       @country_name = "Republic of Korea"
+    elsif country_name.include? 'Dem. People\'s Republic of Korea'
+      @country_name = "Democratic People's Republic of Korea"
     elsif country_name.include? 'Lao'
       @country_name =  "Lao People's Democratic Republic"
     elsif country_name.include? 'Libya'

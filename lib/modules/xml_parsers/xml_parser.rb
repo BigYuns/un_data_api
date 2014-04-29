@@ -170,7 +170,7 @@ class XmlParser
   def un_abrev_country_name(country_name)
     if country_name.include? 'Rep.'
       country_name.gsub!(/(Rep\.)/, "Republic")
-    elsif country_name.include? 'Rep.'
+    elsif country_name.include? 'Dem.'
       country_name.gsub!(/(Dem\.)/, "Democratic")
     end
     normalize_country_name(country_name)
@@ -186,7 +186,11 @@ class XmlParser
     elsif country_name.include? 'Macedonia'
       @country_name = "The former Yugoslav Republic of Macedonia"
     elsif country_name.include? 'Korea'
-      @country_name = "Republic of Korea"
+      if @country_name.include? 'Democratic'
+        @country_name = "Democratic People's Republic of Korea"
+      else
+        @country_name = "Republic of Korea"
+      end 
     elsif country_name.include? 'Congo'
       if country_name.include?("Rep") && !country_name.include?("Dem")
         @country_name = "Congo"
